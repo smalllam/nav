@@ -707,7 +707,7 @@
       "url": "https://www.kooya.hk/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -728,7 +728,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "官网入口仅显示简短页面，尚未取得当前 VPS 产品、支付和地区的可核实公开说明。",
+        "note": "当前官网仅展示域名，未取得可核实的 VPS / NAT 产品目录；支付和地区继续待核。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -885,11 +885,25 @@
       "sourceName": "七牛云",
       "name": "七牛云",
       "url": "https://s.qiniu.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
-      "offeredRegions": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "支付宝",
+        "微信支付",
+        "银行转账"
+      ],
+      "offeredRegions": [
+        "中国大陆",
+        "中国香港",
+        "新加坡",
+        "马来西亚 · 吉隆坡",
+        "印度尼西亚 · 雅加达",
+        "日本 · 东京",
+        "阿联酋 · 迪拜",
+        "美国",
+        "德国 · 法兰克福"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -905,20 +919,19 @@
         "https://portal.qiniu.com/qvm/vm/instance/create?instance_type=ecs.t6-c1m1.large&eip=1&buymonth=1&region_id=cn-zhangjiakou&ui_mode=submit",
         "https://portal.qiniu.com/qvm/vm/instance/create?instance_type=ecs.c6.xlarge&eip=1&buymonth=1&region_id=cn-hangzhou&ui_mode=submit",
         "https://portal.qiniu.com/qvm/vm/instance/create?instance_type=ecs.c6.large&eip=1&buymonth=1&region_id=cn-hangzhou&ui_mode=submit",
-        "https://s.qiniu.com/"
+        "https://s.qiniu.com/",
+        "https://developer.qiniu.com/af/kb/3889/account-problem-faq",
+        "https://developer.qiniu.com/qvm/4190/region-zone"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "",
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "七牛官方 QVM 文档列出资源池一/三的地域；账户 FAQ 明确微信、支付宝在线充值及对公网银转账。所列为已公布地域，实例规格、资源池和库存可能限制选择；NAT 网关不是 NAT VPS。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -1045,10 +1058,12 @@
       "sourceName": "虚妄猫",
       "name": "虚妄猫",
       "url": "https://port.nomao.top/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 NAT / VPS 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "支付宝"
+      ],
       "offeredRegions": [
         "美国",
         "英国",
@@ -1065,19 +1080,18 @@
         "https://port.nomao.top/index.php/store/natjianz/zeng-song-mei-guo-gong-xiang-v4-nei-hua-da",
         "https://port.nomao.top/index.php/store/natjianz/yu-shou-nat-lxc-mei-guo-bqu-nian-fu-bu-xian-liu",
         "https://port.nomao.top/index.php/store/natjianz/ying-guo-xiao-chu-cun-lxc-ipv6",
-        "https://port.nomao.top/index.php/store/natjianz/yi-da-li-kvm-ipv6"
+        "https://port.nomao.top/index.php/store/natjianz/yi-da-li-kvm-ipv6",
+        "https://port.nomao.top/index.php/knowledgebase/4/%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE.html"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "NAT 与独立 IPv4 产品分列；本轮页面多个套餐显示 0 可用，不认定实时有货。",
+        "complete": true,
+        "pending": [],
+        "note": "官网服务协议付款条款明确提供支付宝支付。条款仍含旧模板品牌字样，付款以实际账单为准；保留原 NAT 产品和已确认地区。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -1699,7 +1713,7 @@
       "url": "https://asvm.net/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -1720,7 +1734,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前入口显示网站暂停页面；这只说明此入口状态，不推断商家所有业务已停止。",
+        "note": "当前官网显示管理员停止服务的提示，旧产品链接未取得有效套餐；不将搜索缓存视作在售证明。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -1967,9 +1981,9 @@
       "sourceName": "Blend Hosting",
       "name": "Blend Hosting",
       "url": "https://billing.blendhosting.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "Bitcoin",
         "Litecoin",
@@ -1977,7 +1991,7 @@
         "信用卡 / 借记卡"
       ],
       "offeredRegions": [],
-      "nat": false,
+      "nat": true,
       "checkedAt": "2026-11-06",
       "sources": [
         "https://www.blendhosting.com/forex-vps/",
@@ -1987,7 +2001,8 @@
         "https://www.blendhosting.com/",
         "https://www.blendhosting.com/vps/windows/",
         "https://www.blendhosting.com/vps/",
-        "https://billing.blendhosting.com/"
+        "https://billing.blendhosting.com/",
+        "https://billing.blendhosting.com/cart.php?gid=7"
       ],
       "review": {
         "outcome": "partial",
@@ -1999,7 +2014,7 @@
         "pending": [
           "售卖地区"
         ],
-        "note": "",
+        "note": "官网 ISP Linux VPS Economy/Basic/Pro 目录列出动态住宅 IP、3 个自定义端口映射、SSH 及 24–48 小时开通时间，计为 NAT 类 VPS；不是独享静态 IPv4。该目录未明确机房地区，地区继续待核。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -2847,9 +2862,9 @@
       "sourceName": "DediRock",
       "name": "DediRock",
       "url": "https://dedirock.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "信用卡 / 借记卡",
         "PayPal",
@@ -2858,7 +2873,10 @@
         "USDT",
         "加密货币"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "美国 · 洛杉矶",
+        "美国 · 纽约州布法罗"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -2871,16 +2889,14 @@
         "https://dedirock.com/kvm-vps-buffalo/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "现行付款条款确认银行卡及 PayPal；客户区公告明确新增支付宝和 BTC/USDT，售卖地区继续待核具体 VPS 套餐。",
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "洛杉矶 KVM VPS 专页提供具体套餐；官方计费门户公告另明确纽约州布法罗 VPS。只补入美国已确认地点，不将全部托管机房自动视为 VPS 可选地区。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -3027,11 +3043,20 @@
       "sourceName": "DigitalVM",
       "name": "DigitalVM",
       "url": "https://digital-vm.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "日本 · 东京",
+        "新加坡",
+        "美国 · 洛杉矶",
+        "荷兰 · 阿姆斯特丹",
+        "英国 · 伦敦",
+        "西班牙 · 马德里",
+        "挪威 · 奥斯陆",
+        "丹麦 · 哥本哈根"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -3048,13 +3073,12 @@
         "website": true,
         "product": true,
         "payments": false,
-        "regions": false,
+        "regions": true,
         "complete": false,
         "pending": [
-          "支付方式",
-          "售卖地区"
+          "支付方式"
         ],
-        "note": "",
+        "note": "官网当前 Locations 页面列出东京、新加坡、洛杉矶、阿姆斯特丹、伦敦、马德里、奥斯陆和哥本哈根的服务器机房及测试入口；具体 VPS 库存以配置页为准。页面含历史扩张说明，不将其未来计划计为新增地点。支付方式仍待核。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -3180,7 +3204,7 @@
       "url": "https://manager.enginyring.com/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [
         "银行转账",
         "信用卡 / 借记卡",
@@ -3190,7 +3214,11 @@
         "Google Pay",
         "加密货币（币种待核）"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "美国 · 盐湖城",
+        "加拿大 · Beauharnois",
+        "德国 · 法兰克福"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -3205,17 +3233,16 @@
         "https://manager.enginyring.com/knowledgebase/cart/dedicated-virtual-servers/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "blocked",
         "website": true,
         "product": false,
         "payments": true,
-        "regions": false,
+        "regions": true,
         "complete": false,
         "pending": [
-          "当前 VPS / NAT 产品",
-          "售卖地区"
+          "当前 VPS / NAT 产品"
         ],
-        "note": "官网已更名 ServerSpan，限定企业与专业客户，不接个人自用订单；罗马尼亚注册地未当作机房。",
+        "note": "当前 ENGINYRING 管理门户的虚拟专用服务器目录列有美国盐湖城、加拿大 Beauharnois、德国法兰克福分类，但公开入口尚未取得具体 SKU 和价格，当前 VPS 产品继续待核。网站声明仅服务注册企业和专业人士，不接受私人用途订单。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -3332,10 +3359,19 @@
       "sourceName": "FlokiNET",
       "name": "FlokiNET",
       "url": "https://billing.flokinet.is/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "银行转账",
+        "PayPal",
+        "Bitcoin",
+        "USDT",
+        "Ethereum",
+        "Monero",
+        "Litecoin",
+        "加密货币"
+      ],
       "offeredRegions": [
         "罗马尼亚",
         "荷兰"
@@ -3350,19 +3386,19 @@
         "https://billing.flokinet.is/index.php?rp=/store/colocation-finland",
         "https://billing.flokinet.is/cart.php?a=confproduct&i=0",
         "https://billing.flokinet.is/cart.php?a=confproduct&i=1",
-        "https://billing.flokinet.is/cart.php?a=confproduct&i=2"
+        "https://billing.flokinet.is/cart.php?a=confproduct&i=2",
+        "https://flokinet.is/payment-methods/",
+        "https://billing.flokinet.is/index.php?rp=/knowledgebase/9/Payment-methods.html"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "",
+        "complete": true,
+        "pending": [],
+        "note": "官方 Payment Methods 专页明确银行转账、PayPal 及多种加密货币，包括 Bitcoin、USDT、Ethereum、Monero、Litecoin；不同方式可能有手续费或充值要求，以账单为准。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -3510,10 +3546,15 @@
       "sourceName": "Friendhosting",
       "name": "Friendhosting",
       "url": "https://friendhosting.net/en",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "信用卡 / 借记卡",
+        "PayPal",
+        "支付宝",
+        "银联"
+      ],
       "offeredRegions": [
         "荷兰"
       ],
@@ -3525,16 +3566,14 @@
         "https://friendhosting.net/en"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "本轮明确地区依据为 High CPU VDS 荷兰 Serverius；不把保加利亚公司地址当作所有产品地区。",
+        "complete": true,
+        "pending": [],
+        "note": "官网英文首页当前展示 Visa、Mastercard、Maestro、PayPal、Alipay 和 UnionPay 支付方式；不从旧新闻推定其他渠道仍然可用。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -3588,31 +3627,31 @@
       "id": "lead-fxtransit-io",
       "sourceName": "FxTransit",
       "name": "FxTransit",
-      "url": "https://fxtransit.io/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "url": "https://fxtransit.io/store?region=us-lax&network=TIER1",
+      "category": "VPS 商家",
+      "status": "official",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "美国 · 洛杉矶"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
-        "https://fxtransit.io/"
+        "https://fxtransit.io/",
+        "https://fxtransit.io/store?region=us-lax&network=TIER1"
       ],
       "review": {
-        "outcome": "blocked",
-        "website": false,
-        "product": false,
+        "outcome": "partial",
+        "website": true,
+        "product": true,
         "payments": false,
-        "regions": false,
+        "regions": true,
         "complete": false,
         "pending": [
-          "官网身份",
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
+          "支付方式"
         ],
-        "note": "官网展示云平台及服务降级通知，尚未取得当前可新购 VPS 的完整产品资料。",
+        "note": "已在公开商店读取洛杉矶 Tier1 的 Nano 至 Enterprise VPS 套餐：Nano 为 1vCPU/1GB/10GB SSD、1 个 IPv4、1TB 流量，36 美元/年。首页存在服务降级通知，不能据目录证明运行质量；付款方式未公开确认。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -3703,10 +3742,16 @@
       "sourceName": "Gotmyhost",
       "name": "Gotmyhost",
       "url": "https://my.gotmyhost.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "信用卡 / 借记卡",
+        "bKash",
+        "Nagad",
+        "Rocket",
+        "银行转账"
+      ],
       "offeredRegions": [
         "加拿大",
         "美国"
@@ -3716,19 +3761,19 @@
       "sources": [
         "https://my.gotmyhost.com/store/canada-kvm-vps",
         "https://my.gotmyhost.com/store/linux-kvm-vps-nvme-ssd",
-        "https://my.gotmyhost.com/"
+        "https://my.gotmyhost.com/",
+        "https://gotmyhost.com/terms-condition",
+        "https://blog.gotmyhost.com/why-local-hosting-is-a-smart-choice-for-your-bangladeshi-business/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "当前官方 Canada KVM VPS 和 USA KVM VPS 购物目录均有 CPU/RAM/NVMe 套餐价格；支付仍待核，未照搬新加坡页面内的美国 FAQ 文案。",
+        "complete": true,
+        "pending": [],
+        "note": "官方服务条款明确使用信用卡支付账单；官方自有产品介绍另列 bKash、Nagad、Rocket 及本地银行转账。仅列已明确的支付渠道，不将推广佣金提现方式当成购机方式。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -3821,9 +3866,9 @@
       "sourceName": "HKGserver",
       "name": "HKGserver",
       "url": "https://www.hkgserver.com/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查官网公开资料，当前 VPS 产品仍待补充核实。",
+      "category": "VPS 商家",
+      "status": "official",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -3833,19 +3878,17 @@
         "https://www.hkgserver.com/"
       ],
       "review": {
-        "outcome": "blocked",
-        "website": false,
-        "product": false,
+        "outcome": "partial",
+        "website": true,
+        "product": true,
         "payments": false,
         "regions": false,
         "complete": false,
         "pending": [
-          "官网身份",
-          "当前 VPS / NAT 产品",
           "支付方式",
           "售卖地区"
         ],
-        "note": "浏览器可正常加载 HKGserver 官网，但官方“产品与服务”目录当前显示“暂无商品”；未据宣传横幅确认当前可买 VPS，付款及地区仍待核。",
+        "note": "公开动态产品目录已显示新用户海外服务器套餐：2–4 核、2–8GB 内存、30GB SSD、5–300Mbps，99 元/年，限购一台且称续费同价。具体机房仅写海外，不能按品牌名推定香港；付款与明确地区继续待核。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -3853,31 +3896,41 @@
       "id": "lead-host4fun-com",
       "sourceName": "Host4Fun",
       "name": "Host4Fun",
-      "url": "https://client.host4fun.com/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
-      "payments": [],
-      "offeredRegions": [],
+      "url": "https://www.host4fun.com/cheap-vps",
+      "category": "VPS 商家",
+      "status": "official",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "信用卡 / 借记卡",
+        "PayPal",
+        "Bitcoin",
+        "USDT",
+        "Ethereum"
+      ],
+      "offeredRegions": [
+        "美国",
+        "荷兰 · 阿姆斯特丹",
+        "芬兰"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
-        "https://client.host4fun.com/"
+        "https://client.host4fun.com/",
+        "https://host4fun.com/",
+        "https://www.host4fun.com/cheap-vps",
+        "https://www.host4fun.com/ashburn-vps",
+        "https://www.host4fun.com/finland-vps",
+        "https://www.host4fun.com/amsterdam-vps"
       ],
       "review": {
-        "outcome": "blocked",
-        "website": false,
-        "product": false,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "官网身份",
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "当前入口触发浏览器验证；未完成验证，产品、支付与地区仍待核实。",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官网当前可读取具体 KVM VPS 套餐与美国、荷兰、芬兰地区专页；低至 3 美元/月的宣传含年付条件，实际账期以产品页为准。付款说明明确信用/借记卡、PayPal、Bitcoin、USDT、Ethereum。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -4023,10 +4076,12 @@
       "sourceName": "HostHatch",
       "name": "HostHatch",
       "url": "https://hosthatch.com/products",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "信用卡 / 借记卡"
+      ],
       "offeredRegions": [
         "荷兰",
         "美国",
@@ -4044,19 +4099,18 @@
       "checkedAt": "2026-11-06",
       "sources": [
         "https://hosthatch.com/products",
-        "https://hosthatch.com/virtual-servers"
+        "https://hosthatch.com/virtual-servers",
+        "https://hosthatch.com/privacy-policy"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "",
+        "complete": true,
+        "pending": [],
+        "note": "官网当前隐私政策明确 HostHatch 与 Stripe 有信用卡支付处理协议，信用卡资料由 Stripe 处理；本次只确认信用卡，不从第三方推广资料追加其他方式。该政策标注更新于 2018 年，实际可用性以当前账单为准。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -4434,7 +4488,7 @@
       "url": "https://ihostart.com/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -4444,7 +4498,7 @@
         "https://panel.ihostart.com/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "blocked",
         "website": true,
         "product": false,
         "payments": false,
@@ -4455,7 +4509,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "官网可检索到 KVM / Storage VPS 分类；当前产品页受浏览器检查限制，未确认新购细节。",
+        "note": "官方入口要求浏览器验证，未读取到可核实的当前 VPS 产品、支付和地区；不绕过验证。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -4504,13 +4558,17 @@
       "sourceName": "IT-GARAGE",
       "name": "IT-GARAGE",
       "url": "https://it-garage.pro/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "信用卡 / 借记卡"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "德国",
+        "俄罗斯 · 莫斯科",
+        "芬兰"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -4518,16 +4576,14 @@
         "https://it-garage.pro/index"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "英国为公司注册地址，未作为服务器地区。",
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官网虚拟服务器目录的地区过滤器列有德国、俄罗斯莫斯科和芬兰，并列 Ryzen / Xeon 虚拟服务器系列。此为公开售卖目录声明，不等同实购物理机房审计。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -4536,16 +4592,21 @@
       "sourceName": "ITLDC",
       "name": "ITLDC",
       "url": "https://itldc.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "信用卡 / 借记卡",
         "PayPal",
         "银行转账",
         "加密货币"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "保加利亚 · 索非亚",
+        "捷克 · 布拉格",
+        "波兰 · 格但斯克",
+        "美国 · 迈阿密"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -4562,19 +4623,18 @@
         "https://itldc.com/en/datacenters/us1-lax/",
         "https://itldc.com/en/datacenters/ua2-iev/",
         "https://itldc.com/en/datacenters/ua1-kha/",
-        "https://itldc.com/"
+        "https://itldc.com/",
+        "https://itldc.com/en/hd-vds"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "官方支持 FAQ 明确银行卡、PayPal、SEPA/SWIFT 与加密货币，实际渠道随地区而异；未指定币种不推定 USDT。",
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方 HD-VDS 页面有具体价格和配置，套餐前缀对应 Sofia、Prague、Gdansk、Miami。只记录本次明确的四地，不把全部网络机房推为可买 VPS。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -4922,31 +4982,34 @@
       "id": "lead-lain-sh",
       "sourceName": "Lain.sh",
       "name": "Lain.sh",
-      "url": "https://dash.lain.sh/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
-      "payments": [],
-      "offeredRegions": [],
-      "nat": false,
+      "url": "https://dash.lain.sh/checkout/config/55",
+      "category": "VPS 商家",
+      "status": "official",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "USDT"
+      ],
+      "offeredRegions": [
+        "日本 · 东京"
+      ],
+      "nat": true,
       "checkedAt": "2026-11-06",
       "sources": [
         "https://dash.lain.sh/",
-        "https://dash.lain.sh"
+        "https://dash.lain.sh",
+        "https://dash.lain.sh/checkout/config/55",
+        "https://dash.lain.sh/Broadband",
+        "https://notification.lain.sh/search/%23%E9%80%9A%E7%9F%A5"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
-        "product": false,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "本轮未取得当前可新购 VPS / NAT 的完整公开依据，保留已核实字段，其他项目继续待核。",
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方公开配置页提供家のTokyo-NAT：1 核/1GB/10GB NVMe、2TB/500Mbps、10 美元/月。共享 IPv4、独立 /128 IPv6，仅 IPv6 入站；禁止软件 IPv4 隧道及嵌套 LXC，不承诺 IPv4 映射端口，标注不退款。官方通知确认 USDT TRC20 / Polygon 在线支付。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -5226,13 +5289,16 @@
       "sourceName": "Linveo",
       "name": "Linveo",
       "url": "https://billing.linveo.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "信用卡 / 借记卡"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "美国 · 俄亥俄州",
+        "美国 · 得克萨斯州"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -5247,16 +5313,14 @@
         "https://billing.linveo.com/order/main/index/vps"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "服务条款 Billing 明确可从客户银行卡扣款；其他支付方式及 VPS 机房仍待核。",
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方公开订单目录显示 Ohio 和 Texas 的 AMD VPS 具体配置及月付价格；据此补入美国俄亥俄州和得克萨斯州，库存以实际配置页为准。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -5393,7 +5457,7 @@
       "url": "https://account.megalayer.net/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -5414,7 +5478,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "原客户区 TLS 证书校验未通过，未绕过安全检查；当前产品与支付地区待核实。",
+        "note": "公开官网及客户入口发生 TLS 证书验证错误；未绕过验证，现有缺项继续待核。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -5462,10 +5526,13 @@
       "sourceName": "metweb",
       "name": "metweb",
       "url": "https://client.metweb.co/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "信用卡 / 借记卡",
+        "PayPal"
+      ],
       "offeredRegions": [
         "美国 · 犹他州"
       ],
@@ -5479,19 +5546,18 @@
         "https://client.metweb.co/cart.php?a=confproduct&i=0",
         "https://client.metweb.co/cart.php?a=confproduct&i=1",
         "https://client.metweb.co/cart.php?a=confproduct&i=2",
-        "https://client.metweb.co/"
+        "https://client.metweb.co/",
+        "https://metweb.co/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "",
+        "complete": true,
+        "pending": [],
+        "note": "官网购买步骤明确可用银行卡或 PayPal 付款；保留先前已确认的犹他州 VPS 产品依据。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -5756,28 +5822,31 @@
       "url": "https://mrvm.net/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
-      "payments": [],
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
+      "payments": [
+        "信用卡 / 借记卡",
+        "Bitcoin",
+        "Litecoin"
+      ],
       "offeredRegions": [],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
-        "https://mrvm.net/"
+        "https://mrvm.net/",
+        "https://clients.mrvm.net/plugin/support_manager/knowledgebase/view/198/payment-methods/"
       ],
       "review": {
         "outcome": "blocked",
-        "website": false,
+        "website": true,
         "product": false,
-        "payments": false,
+        "payments": true,
         "regions": false,
         "complete": false,
         "pending": [
-          "官网身份",
           "当前 VPS / NAT 产品",
-          "支付方式",
           "售卖地区"
         ],
-        "note": "官网当前为更新预告及旧客户入口，没有确认新购 VPS。",
+        "note": "当前官网展示 Updates Coming Soon，旧 LXC 产品页读取为 404，未取得当前可售套餐。官方知识库仍明确 MrVM / NatVPS 服务可用 Stripe 信用卡及 CoinPayments 的 Bitcoin / Litecoin；仅补支付，产品和地区继续待核。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -5828,13 +5897,15 @@
       "sourceName": "narhost",
       "name": "narhost",
       "url": "https://narhost.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "信用卡 / 借记卡"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "土耳其"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -5850,16 +5921,14 @@
         "https://narhost.com/destek/co-location/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "",
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方 VPS 专页列有 VPS-1 至 VPS-8 等具体配置和价格，并明确 Türkiye Lokasyon；补入土耳其，不从公司地址推定其他机房。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -6184,16 +6253,19 @@
       "sourceName": "OffshoreDedi",
       "name": "OffshoreDedi",
       "url": "https://my.offshorededi.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "信用卡 / 借记卡",
         "PayPal",
         "Perfect Money",
         "加密货币"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "乌克兰",
+        "保加利亚"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -6206,19 +6278,18 @@
         "https://my.offshorededi.com/cart.php?a=confproduct&i=0",
         "https://my.offshorededi.com/cart.php?a=confproduct&i=1",
         "https://my.offshorededi.com/cart.php?a=confproduct&i=2",
-        "https://my.offshorededi.com/cart.php?a=confproduct&i=3"
+        "https://my.offshorededi.com/cart.php?a=confproduct&i=3",
+        "https://offshorededi.com/vps-hosting/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "官网服务页明确支付渠道，并说明按发票及结账可用性而异；VPS 机房继续待核。",
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方 VPS Hosting 页面提供明确 KVM 套餐及乌克兰、保加利亚地点。新订单按容量分配，偏好地点应在开通前提出且受资源限制；不保证两地随时有货。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -6770,10 +6841,15 @@
       "sourceName": "radonet",
       "name": "radonet",
       "url": "https://radonet.co.uk/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "银行转账",
+        "信用卡 / 借记卡",
+        "支付宝",
+        "加密货币（币种待核）"
+      ],
       "offeredRegions": [
         "中国香港",
         "日本"
@@ -6784,16 +6860,14 @@
         "https://radonet.co.uk/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "官网列香港 VDS 与东京 VPS；部分访问遇到浏览器验证。",
+        "complete": true,
+        "pending": [],
+        "note": "官网当前页脚 Payment 区明确银行转账、银行卡、支付宝和 Crypto。未将条款中条件性举例的其他支付方式计入；加密货币币种尚未确认。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -6884,7 +6958,7 @@
       "url": "https://dedicated.redswitches.com/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查官网公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -6899,7 +6973,7 @@
         "https://dedicated.redswitches.com/index.php"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "blocked",
         "website": true,
         "product": false,
         "payments": false,
@@ -6910,7 +6984,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前官方页面及公开目录主要为裸金属/独立服务器；未据 KVM 远程管理接口或独服城市页确认 VPS / NAT 产品。",
+        "note": "当前公开页面主要为裸金属独立服务器及其虚拟化用途，尚无明确对外售卖的 VPS / NAT 套餐依据。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -7307,7 +7381,7 @@
       "url": "https://servps.com/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查官网公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -7316,7 +7390,7 @@
         "https://servps.com/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "blocked",
         "website": true,
         "product": false,
         "payments": false,
@@ -7327,7 +7401,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前官网介绍云平台工程和软件开发服务，未列公开可购买的 VPS / NAT 套餐；不把基础设施咨询等同 VPS 产品。",
+        "note": "当前官网主要为基础设施咨询和托管服务，未取得明确 VPS / NAT SKU。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -7411,10 +7485,15 @@
       "sourceName": "Sharktech",
       "name": "Sharktech",
       "url": "https://sharktech.net/smartvps/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "信用卡 / 借记卡",
+        "Bitcoin",
+        "USDT",
+        "加密货币"
+      ],
       "offeredRegions": [
         "美国 · 洛杉矶",
         "美国 · 拉斯维加斯",
@@ -7426,19 +7505,19 @@
       "checkedAt": "2026-11-06",
       "sources": [
         "https://sharktech.net/smartvps/",
-        "https://portal.sharktech.net/"
+        "https://portal.sharktech.net/",
+        "https://sharktech.net/terms-of-service/",
+        "https://portal.sharktech.net/index.php?rp=/knowledgebase/45/How-to-Pay-with-Crypto-Coinbase.html"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "官方 SmartVPS 页面明确资源池价格、CPU/RAM 和五个可部署城市；旧客户区登录入口未当作产品证据，支付继续待核。",
+        "complete": true,
+        "pending": [],
+        "note": "官网条款明确银行卡付款；官方 Coinbase 支付指南明确可以在新服务账单使用 Bitcoin / Pay with Crypto，并通过连接钱包支付，正文明确包括 USDT ERC20。旧支付宝新闻已标历史归档，不据此断言支付宝当前可用。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -7447,14 +7526,16 @@
       "sourceName": "ShiftHosting",
       "name": "ShiftHosting",
       "url": "https://billing.shifthosting.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "信用卡 / 借记卡",
         "PayPal"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "美国 · 亚特兰大"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -7467,19 +7548,18 @@
         "https://billing.shifthosting.com/store/budget-cloud",
         "https://billing.shifthosting.com/cart.php?a=confproduct&i=0",
         "https://billing.shifthosting.com/cart.php?a=confproduct&i=1",
-        "https://billing.shifthosting.com/index.php"
+        "https://billing.shifthosting.com/index.php",
+        "https://billing.shifthosting.com/store/9950-vds"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "官方付款 FAQ 和现行条款明确银行卡及 PayPal；未来可能增加的渠道未算当前支持。",
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官网虚拟专用服务器 AMD 9950x 目录明确为 Atlanta，并有具体独享 CPU/内存 VDS 套餐及价格；补入美国亚特兰大，不把托管机房列表全部映射为 VPS 地区。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -7597,33 +7677,37 @@
     {
       "id": "lead-snakecrafthosting-com",
       "sourceName": "Snakecraft Hosting",
-      "name": "Snakecraft Hosting",
-      "url": "https://my.snakecrafthosting.com/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
-      "payments": [],
-      "offeredRegions": [],
+      "name": "RackGenius（原 Snakecraft Hosting）",
+      "url": "https://rackgenius.com/vps",
+      "category": "VPS 商家",
+      "status": "official",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "PayPal",
+        "信用卡 / 借记卡"
+      ],
+      "offeredRegions": [
+        "美国 · 密歇根州"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
         "https://my.rackgenius.com/",
-        "https://my.snakecrafthosting.com/"
+        "https://my.snakecrafthosting.com/",
+        "https://rackgenius.com/vps",
+        "https://my.rackgenius.com/store/premium-kvm-vps",
+        "https://my.rackgenius.com/store/value-kvm-vps-michigan",
+        "https://my.rackgenius.com/knowledgebase/11/What-Payment-Methods-Do-you-Accept.html"
       ],
       "review": {
-        "outcome": "blocked",
-        "website": false,
-        "product": false,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "官网身份",
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "当前页面品牌为 RackGenius；与 Snakecraft 的关系未确认，暂不按原品牌新购依据。",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "原 SnakecraftHosting 入口已跳转 RackGenius；新官网 VPS 及客户目录列有密歇根州 AMD KVM 套餐。官方支付知识库明确 PayPal 和 Stripe，并解释信用/借记卡处理。以新品牌展示并保留旧名称检索。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -7676,29 +7760,38 @@
       "sourceName": "SparkedHost",
       "name": "SparkedHost",
       "url": "https://billing.sparkedhost.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "PayPal",
+        "Stripe",
+        "Plaid",
+        "PaymentWall",
+        "Paysafecard",
+        "加密货币（NowPayments，币种待核）",
+        "Cash App",
+        "Venmo"
+      ],
       "offeredRegions": [],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
         "https://billing.sparkedhost.com/",
-        "https://billing.sparkedhost.com/store/budget-kvm-vps-hosting"
+        "https://billing.sparkedhost.com/store/budget-kvm-vps-hosting",
+        "https://sparkedhost.com/payment-methods"
       ],
       "review": {
         "outcome": "partial",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": false,
         "complete": false,
         "pending": [
-          "支付方式",
           "售卖地区"
         ],
-        "note": "公开商城列 Budget / Premium KVM VPS，部分访问遇到浏览器验证；地区及支付尚待可核实依据。",
+        "note": "官方 Payment Methods 页面明确 PayPal、Stripe、Plaid、PaymentWall、Paysafecard、NowPayments、Cash App、Venmo。网关名不自动代表 USDT，VPS 售卖地区仍未确认，不能用游戏服务器或状态页地点代替。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -7798,10 +7891,15 @@
       "sourceName": "StormHost",
       "name": "StormHost",
       "url": "https://billing.stormhost.net/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "信用卡 / 借记卡",
+        "支付宝",
+        "微信支付",
+        "PayPal"
+      ],
       "offeredRegions": [
         "美国 · 西雅图 / 洛杉矶"
       ],
@@ -7815,19 +7913,19 @@
         "https://billing.stormhost.net/store/vps-resource-packs",
         "https://billing.stormhost.net/index.php",
         "https://billing.stormhost.net/cart.php?a=confproduct&i=0",
-        "https://billing.stormhost.net/cart.php?a=confproduct&i=1"
+        "https://billing.stormhost.net/cart.php?a=confproduct&i=1",
+        "https://billing.stormhost.net/knowledgebase/18/Terms-of-Service.html",
+        "https://billing.stormhost.net/knowledgebase/1/%E8%AE%A1%E8%B4%B9"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "",
+        "complete": true,
+        "pending": [],
+        "note": "官方计费知识库明确 Visa、Mastercard、Amex、Discover、支付宝和 PayPal；服务条款另明确 Stripe WeChat Pay 网关。所列以当前账单支持及地区限制为准。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -7876,7 +7974,7 @@
       "url": "https://cloud.sudatech.store/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -7885,7 +7983,7 @@
         "https://cloud.sudatech.store/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "blocked",
         "website": true,
         "product": false,
         "payments": false,
@@ -7896,7 +7994,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "官网最新公告称业务转为直播专用带宽服务；未将历史 VPS 宣传及 IPLC 通道算作当前通用 VPS。",
+        "note": "发现官方 Softbank NAT 产品线索，但当前产品页要求浏览器验证，未能确认有效套餐、支付与地区，继续待核。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -7905,16 +8003,18 @@
       "sourceName": "Swiss",
       "name": "Swiss",
       "url": "https://support.swisslayer.com/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
         "信用卡 / 借记卡",
         "Bitcoin",
         "Monero",
         "加密货币"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "瑞士"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -7929,19 +8029,18 @@
         "https://support.swisslayer.com/index.php?/knowledgebase/category/8/virtual-private-servers/",
         "https://support.swisslayer.com/index.php?/knowledgebase/article/6/l2tp-ipsec-vpn-setup--native-on-mobile--amp--more-/",
         "https://support.swisslayer.com/index.php?/cart/enterprise-windows-virtual-servers/&step=0",
-        "https://support.swisslayer.com/index.php?/cart/enterprise-linux-virtual-servers/&step=0"
+        "https://support.swisslayer.com/index.php?/cart/enterprise-linux-virtual-servers/&step=0",
+        "https://www.swisslayer.com/vps-switzerland"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "当前官网及 FAQ 确认 Stripe 卡付款和 BTCPay BTC/XMR；PayPal 文案互相冲突且 FAQ 要求工单人工安排，暂未列为自动可用。USDT 迁入 BTCPay 仍属预告。",
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "Swisslayer 官方瑞士 VPS 专页有具体虚拟服务器套餐，补入瑞士。品牌原目录名 Swiss 保留；不将单独人工受理的 PayPal 例外当作常规自动支付。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -7950,11 +8049,13 @@
       "sourceName": "SynexVM",
       "name": "SynexVM",
       "url": "https://www.synexvm.com/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "category": "VPS 商家",
+      "status": "official",
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "中国香港"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -7967,16 +8068,14 @@
       "review": {
         "outcome": "partial",
         "website": true,
-        "product": false,
+        "product": true,
         "payments": false,
-        "regions": false,
+        "regions": true,
         "complete": false,
         "pending": [
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
+          "支付方式"
         ],
-        "note": "DDoS 清洗 POP 不直接当作 VPS 售卖地区。",
+        "note": "官网 HongKong-VDS 目录有 HGC / HKT / HKBN 家宽动态 IPv4、AMD 7600X 和 NVMe 的明确 VDS 价格配置，读取时所列套餐均缺货。计为有产品依据并注明中国香港，不表示当前有库存；支付方式仍待核。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -8244,11 +8343,17 @@
       "sourceName": "UpNet",
       "name": "UpNet",
       "url": "https://upnet.vn/",
-      "category": "VPS",
+      "category": "VPS 商家",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
-      "offeredRegions": [],
+      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "payments": [
+        "银行转账",
+        "信用卡 / 借记卡",
+        "电子钱包（品牌待核）"
+      ],
+      "offeredRegions": [
+        "越南"
+      ],
       "nat": false,
       "checkedAt": "2026-11-06",
       "sources": [
@@ -8257,20 +8362,19 @@
         "https://upnet.vn/en/services/cloud-vps.html",
         "https://upnet.vn/en/services/cloud-vps-global.html",
         "https://upnet.vn/en/fixing-high-cpu-usage-on-windows-vps.html",
-        "https://upnet.vn/"
+        "https://upnet.vn/",
+        "https://customer.upnet.vn/cart/vps-ssd-vietnam-/",
+        "https://upnet.vn/en/privacy-policy.html"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "",
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方 VPS VIET NAM 公开目录列有 VIETNAM 2 起的具体配置与月付价格，确认越南 VPS。当前政策明确预付银行转账、银行卡或电子钱包；钱包未列具体品牌，不推定 MoMo / ZaloPay。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -8406,7 +8510,7 @@
       "url": "https://client.virtualine.net/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -8427,7 +8531,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前入口页面异常，未确认当前售卖状态，保留入口供后续核实。",
+        "note": "官网和客户入口当前显示查封提示页；未独立核验该声明，不能据此确认查封原因。未取得当前 VPS / NAT 产品和付款依据。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -8630,7 +8734,7 @@
       "url": "https://vps.cx/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -8651,7 +8755,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前入口 TLS 证书校验未通过，未绕过检查；搜索可见产品资料，当前新购及付款仍待核实。",
+        "note": "官网、市场及产品入口读取时 TLS 证书验证失败；未绕过证书校验，当前产品及缺失字段继续待核。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },
@@ -8662,7 +8766,7 @@
       "url": "https://vps.town/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查官网公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -8673,7 +8777,7 @@
         "https://vps.town/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "blocked",
         "website": true,
         "product": false,
         "payments": false,
@@ -8684,7 +8788,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "公开文档可读，当前官网实际跳转账户登录页，未登录；当前可下单套餐、支付与售卖地区仍待核，未用旧维护公告替代当前目录。",
+        "note": "公开文档有 NAT / PVE 操作教程，但教程不足以证明商家当前销售 NAT VPS；具体产品仍待核。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -9103,7 +9207,7 @@
       "url": "https://cloud.zhnet.co.uk/",
       "category": "商家线索",
       "status": "lead",
-      "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
+      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
       "payments": [],
       "offeredRegions": [],
       "nat": false,
@@ -9124,7 +9228,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前客户区显示数据库连接错误，未据此推断商家全部业务状态。",
+        "note": "客户站当前显示数据库连接错误，网络互联页面不是 VPS 套餐；缺失字段继续待核。",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
       }
     },

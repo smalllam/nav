@@ -38,9 +38,9 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 208)
-assert.equal(reviewed.filter(m => m.review.complete).length, 107)
-assert.equal(reviewed.filter(m => m.nat).length, 16)
+assert.equal(reviewed.filter(m => m.review.product).length, 214)
+assert.equal(reviewed.filter(m => m.review.complete).length, 129)
+assert.equal(reviewed.filter(m => m.nat).length, 18)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
 assert.equal(merchant('EDGENAT').nat, false) // A brand name is not a NAT product.
@@ -52,6 +52,12 @@ assert(!merchant('Datapasa').offeredRegions.some(r => /巴西/.test(r))) // Comi
 assert(!merchant('Nuyek').payments.includes('USDT')) // A gateway's supported coins do not prove merchant acceptance.
 assert(!merchant('Maple').review.product) // Dedicated servers are not VPS.
 assert(!merchant('Servps').review.product) // Infrastructure consultancy is not a public VPS plan.
+assert(merchant('Lain.sh').nat && merchant('Lain.sh').review.note.includes('仅 IPv6 入站'))
+assert(merchant('Blend Hosting').nat && merchant('Blend Hosting').review.note.includes('3 个自定义端口映射'))
+assert(merchant('SynexVM').review.product && merchant('SynexVM').review.note.includes('缺货'))
+assert(merchant('RackGenius').aliases.includes('Snakecraft Hosting'))
+assert(!merchant('MrVM').review.product && merchant('MrVM').review.payments) // Payment documentation does not prove a current VPS SKU.
+assert(merchant('Sharktech').payments.includes('USDT') && !merchant('Sharktech').payments.includes('支付宝')) // Current Coinbase guide vs archived Alipay news.
 assert(merchant('MoonVM').review.product && merchant('MoonVM').review.note.includes('缺货'))
 assert(merchant('雨云').review.note.includes('绑定微信/支付宝'))
 assert(!merchant('WAlcore').payments.includes('USDT')) // Generic crypto FAQ.
