@@ -19,9 +19,7 @@ jobs:
         with:
           node-version: 20.x
       - name: Install
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: install
+        run: npm ci
       # dist/404.html: gh-pages history mode
       - name: Build
         run: |
