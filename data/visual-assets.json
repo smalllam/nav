@@ -1,0 +1,2356 @@
+{
+  "checkedAt": "2026-11-06",
+  "merchants": {
+    "lead-99rdp-com": {
+      "path": "/assets/merchants/87fba7166b7cf95e.png",
+      "sourcePage": "https://portal.99rdp.com/",
+      "sourceUrl": "https://portal.99rdp.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "f45254a4dec426a05c60e50bb4460999e88b9db4cad8df5cbfb93db86edccc1d"
+    },
+    "aliyun": {
+      "path": "/assets/merchants/5a5c07672a4efaf6.png",
+      "sourcePage": "https://www.alibabacloud.com/en/product/swas",
+      "sourceUrl": "https://img.alicdn.com/tfs/TB1ugg7M9zqK1RjSZPxXXc4tVXa-32-32.png",
+      "kind": "official-site-icon",
+      "sha256": "8c48d7a8bea9ba2b13734166259712dbaccf4ca633223bbc03619921f2f2c405"
+    },
+    "lead-anmuyun-com": {
+      "path": "/assets/merchants/681bc643f4dee36c.png",
+      "sourcePage": "https://www.anmuyun.com/",
+      "sourceUrl": "https://www.anmuyun.com/themes/web/mfcloud/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "305ddf6cada673704fb4697df76fff7978838d084a6dd7e05b3de3fda29188db"
+    },
+    "lead-hmbcloud-com": {
+      "path": "/assets/merchants/5d2b3ba3f47548c3.png",
+      "sourcePage": "https://hmbcloud.com/",
+      "sourceUrl": "https://hmbcloud.com/assets/img/logo_white.png",
+      "kind": "official-site-logo",
+      "sha256": "ff0e12b4cf4c9de9d43592c642a45c594f984de5982f33672bb98547e90a2cf3",
+      "theme": "dark"
+    },
+    "lead-cb2-cn": {
+      "path": "/assets/merchants/6bdf503f00c904dd.png",
+      "sourcePage": "https://cb2.cn/",
+      "sourceUrl": "https://cb2.cn/themes/web/www/upload/local6811d2f8dfd53.png",
+      "kind": "official-site-icon",
+      "sha256": "40095949c57647d47041ea693bf019a3791ce59b40655db885eaaa251f4803ea"
+    },
+    "lead-chengyidc-cn": {
+      "path": "/assets/merchants/114bd6c06d54d0e8.svg",
+      "sourcePage": "https://www.chengyidc.cn/",
+      "sourceUrl": "https://www.chengyidc.cn/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "030cd335706c4c4955529b053315fa098e18c7f934ae829d7ff86361f61acfc9"
+    },
+    "lead-vps-mg": {
+      "path": "/assets/merchants/cd027fad2e674a00.ico",
+      "sourcePage": "https://vps.mg/",
+      "sourceUrl": "https://vps.mg/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "c24dbda5b4ac8ee74b88772a3e7d4c40e0edbf721df24966234ae74ce4ffadd6"
+    },
+    "lead-danyun-com": {
+      "path": "/assets/merchants/8beadfed762e2bf5.ico",
+      "sourcePage": "https://danyun.com/products.html",
+      "sourceUrl": "https://danyun.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "4cb376c33c57659c8a0fa5083d02dc09fa1aa89e51d590d1d3d5bbcc4b67f1e5"
+    },
+    "lead-vps-idcfx-net": {
+      "path": null,
+      "sourcePage": "https://vps.idcfx.net/"
+    },
+    "dogyun": {
+      "path": "/assets/merchants/06a1879a56a99a1c.png",
+      "sourcePage": "https://www.dogyun.com/",
+      "sourceUrl": "https://assets.dogyun.com/home/img/logo-128px.png",
+      "kind": "official-site-icon",
+      "sha256": "3c88b92428e390f153c49e0b386d3bfb3861d3a04bb968d57b05498e940d8dac"
+    },
+    "lead-guanxingyun-com": {
+      "path": "/assets/merchants/1e1e31aa110b994e.png",
+      "sourcePage": "https://www.guanxingyun.com/",
+      "sourceUrl": "https://s1.guanxingyun.com/guanxingcloud//www/images/logo-light.png?v=202610302038",
+      "kind": "official-site-logo",
+      "sha256": "85516aa70c780b9a58ddfcc2373fdfe866aa8444d3c668c9ce623256101e1c36",
+      "theme": "dark"
+    },
+    "lead-hgidc-cn": {
+      "path": "/assets/merchants/12866306e1c0b68c.png",
+      "sourcePage": "https://www.hgidc.cn/",
+      "sourceUrl": "https://www.hgidc.cn/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "8e4024b595aad6aab40988a31304a5529ed96486654d37c5b592702606c66c3c"
+    },
+    "lead-henghost-com": {
+      "path": null,
+      "sourcePage": "https://www.henghost.com/cloud-vps.shtml"
+    },
+    "lead-htstack-com": {
+      "path": "/assets/merchants/7b543496982d28ba.png",
+      "sourcePage": "https://www.htstack.com/",
+      "sourceUrl": "https://www.htstack.com/views/navHeader/images/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "795fb8a47b2ec89ebca6ffb17b5598a8d0364e89219d866f855582a09b53fa3a"
+    },
+    "lead-huahost-com": {
+      "path": null,
+      "sourcePage": "https://www.huahost.com/"
+    },
+    "lead-jdidc-cn": {
+      "path": null,
+      "sourcePage": "https://cloud.jdidc.cn/"
+    },
+    "lead-95vps-com": {
+      "path": "/assets/merchants/d2247b923e8c9d6a.ico",
+      "sourcePage": "https://www.95vps.com/",
+      "sourceUrl": "https://www.95vps.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "b095cd750c0fed01e6c03f552413f200ba91bdfdbc3042b5b54a1bc40c9b476c"
+    },
+    "lead-joyso-app": {
+      "path": "/assets/merchants/d29c062ef6317a37.png",
+      "sourcePage": "https://joyso.app/",
+      "sourceUrl": "https://joyso.app/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "e23949ee53c47a3bc95e9d6cb6bdd98dba6636ab4c735b117eb0062fb143b4d4"
+    },
+    "kanrays": {
+      "path": "/assets/merchants/458717f1fa5336a8.png",
+      "sourcePage": "https://kanrays.net/vps/pricing/",
+      "sourceUrl": "https://kanrays.net/apple-icon.png?apple-icon.3gw8h1pk0v2x9.png",
+      "kind": "official-site-icon",
+      "sha256": "012fe5be62ac8f44c8ecbfca9082ff4b02df09b538d587baf80b5e9ae8e35c46"
+    },
+    "lead-kooya-hk": {
+      "path": "/assets/merchants/f21c2dcb559986ce.png",
+      "sourcePage": "https://www.kooya.hk/",
+      "sourceUrl": "https://www.kooya.hk/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "959754f54bc36c17eeee06eaf878fb5b094eed4137fb2f9fba9105bb9b9a29ec"
+    },
+    "lead-laoxuehost-com": {
+      "path": "/assets/merchants/c6aa113ff436ed75.png",
+      "sourcePage": "https://my.laoxuehost.com/clientarea.php",
+      "sourceUrl": "https://www.laoxuehost.com/wp-content/uploads/2024/04/logo-white.png",
+      "kind": "official-site-logo",
+      "sha256": "e98a9826fc67769ab1ba260420ceea47d73daecc0d380adc166e51f13e3894e2",
+      "theme": "dark"
+    },
+    "lisahost": {
+      "path": "/assets/merchants/6755cb9e80722d07.ico",
+      "sourcePage": "https://lisahost.com/",
+      "sourceUrl": "https://lisahost.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "e8ed59c90f6d168d7260cf9858962af780647429724aa3b1ceda8c6874d5ad8a"
+    },
+    "lead-lbxu-com": {
+      "path": null,
+      "sourcePage": "https://lbxu.com/"
+    },
+    "lead-h0u-cn": {
+      "path": "/assets/merchants/8f5f08c1bda47272.png",
+      "sourcePage": "https://idc.3vps.cn/",
+      "sourceUrl": "https://idc.3vps.cn/themes/web/www/upload/local697f39ef74c8f.png",
+      "kind": "official-site-icon",
+      "sha256": "d58dcfaa2e076f18003dbbc85cfc1217532a368857080eb173a753e242329450"
+    },
+    "lead-miaoyun-link": {
+      "path": null,
+      "sourcePage": "https://miaoyun.link/"
+    },
+    "lead-iaclouds-com": {
+      "path": null,
+      "sourcePage": "https://brea.cloud/"
+    },
+    "lead-s-qiniu-com": {
+      "path": "/assets/merchants/6d667d28d2fe62a9.ico",
+      "sourcePage": "https://www.qiniu.com",
+      "sourceUrl": "https://static.qiniu.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "b99950fbb96a59f618dac867d7cb55e1551a21ca18103f8a51c466744a6f5c13"
+    },
+    "lead-qingyunl-com": {
+      "path": "/assets/merchants/6627c76da469ca6d.ico",
+      "sourcePage": "https://www.qingyunl.com/",
+      "sourceUrl": "https://www.qingyunl.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "c0723696e66944952a9e29ca41ad05849b8aeb10e33524806a18c0424ad063f2"
+    },
+    "lead-sukeyun-com": {
+      "path": null,
+      "sourcePage": "https://www.sukeyun.com/"
+    },
+    "tencent": {
+      "path": "/assets/merchants/9c8ae69b84f21a2e.ico",
+      "sourcePage": "https://www.tencentcloud.com/products/lighthouse",
+      "sourceUrl": "https://www.tencentcloud.com/favicon.ico?t=201902181234",
+      "kind": "official-site-icon",
+      "sha256": "5171df10b79863d76d591705e52b93b4c5295e64d874e41fca5ecac351f5f45e"
+    },
+    "lead-starshipcloud-net": {
+      "path": null,
+      "sourcePage": "https://www.starshipcloud.net/"
+    },
+    "lead-port-nomao-top": {
+      "path": "/assets/merchants/e58279cc3b586a86.jpg",
+      "sourcePage": "https://port.nomao.top/",
+      "sourceUrl": "https://port.nomao.top/assets/img/logo.jpg",
+      "kind": "official-site-logo",
+      "sha256": "8f3d3618173baf5ff05d6882c8077b1653da61da0310d8c4c4e5897229686ee9"
+    },
+    "lead-onetechcloud-com": {
+      "path": "/assets/merchants/34c6bb40a04c3b89.ico",
+      "sourcePage": "https://www.onetechcloud.com/",
+      "sourceUrl": "https://www.onetechcloud.com/favicon.ico",
+      "sha256": "a816d26bde466854fe7245390aff5e2c2812de6c25193de0bf57c50f81794a24",
+      "kind": "official-site-icon"
+    },
+    "宇尘网络": {
+      "path": "/assets/merchants/1e355362e16799ac.jpg",
+      "sourcePage": "https://www.yuchenw.com/",
+      "sourceUrl": "https://www.yuchenw.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "ca510f64a8b99d61c30a9c06eafa82a3e3f10813ed0e600abfcedef7a21be066"
+    },
+    "rainyun": {
+      "path": "/assets/merchants/0f120598a9d9a790.ico",
+      "sourcePage": "https://www.rainyun.com/",
+      "sourceUrl": "https://www.rainyun.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "6f6fd24ae52c518ea34ed6aef485c3a14b98a96813f3ef95a87da252eae6068f"
+    },
+    "lead-nekoyun-com": {
+      "path": "/assets/merchants/cb315db5ca3f1413.ico",
+      "sourcePage": "https://www.nekoyun.com/login",
+      "sourceUrl": "https://www.nekoyun.com/themes/clientarea/yunyoo/assets/images/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "9e3d6113a9a5ea49fffc9bcb0129b0aa38fd2852b1937dc9a386ef32fe8ba309"
+    },
+    "lead-aait-io": {
+      "path": null,
+      "sourcePage": "https://www.aaitr.com/store/rbn"
+    },
+    "lead-acclouds-com": {
+      "path": "/assets/merchants/588800e97003c24c.png",
+      "sourcePage": "https://www.acclouds.com/",
+      "sourceUrl": "https://www.acclouds.com/templates/lagom/assets/img/logo/logo_big.png",
+      "kind": "official-site-logo",
+      "sha256": "6a084c2e0e2783d366e30ba1de3c26ec04f10b1bacc993ac3c1ed501a59cfa18"
+    },
+    "acck": {
+      "path": null,
+      "sourcePage": "https://acck.io/"
+    },
+    "lead-acebgp-com": {
+      "path": "/assets/merchants/0f5d26eb586f7a72.png",
+      "sourcePage": "https://www.acebgp.com/",
+      "sourceUrl": "https://www.acebgp.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "769b89853eceda93b668bb731034fc343607d80414a2597b87108d333bbd0386"
+    },
+    "aethertech": {
+      "path": null,
+      "sourcePage": "https://idc.aethertech.tn/index.php?rp=/store/jp-nat"
+    },
+    "air-link-communications": {
+      "path": "/assets/merchants/90d36fab92d527cd.png",
+      "sourcePage": "https://airlinkdc.com/vps-hosting/",
+      "sourceUrl": "https://airlinkdc.com/wp-content/uploads/2022/09/cropped-Favicon-180x180.png",
+      "kind": "official-site-icon",
+      "sha256": "b6d8af4e8ca497b62bc065bddadeee0047825d1ecbaa6f3d2de4bd60e95648bd"
+    },
+    "lead-airnode-nl": {
+      "path": "/assets/merchants/66b1e15b79460cc5.ico",
+      "sourcePage": "https://www.airnode.nl/",
+      "sourceUrl": "https://www.airnode.nl/favicon.ico?favicon.21h2turuw01_j.ico",
+      "kind": "official-site-icon",
+      "sha256": "7172458991fdded8b743dacd9a0ca25bb2ce419ef848fed89f3ebb395f2765a7"
+    },
+    "akamai": {
+      "path": null,
+      "sourcePage": "https://www.akamai.com/products/cpu"
+    },
+    "akile": {
+      "path": "/assets/merchants/7345d5cd6b8fc3f5.png",
+      "sourcePage": "https://akile.ai/",
+      "sourceUrl": "https://akile.ai/logo-apple-512x512.png",
+      "kind": "official-site-icon",
+      "sha256": "09d013b503923cea255fb5463dabbf812ac611e3b65111b3349dc1cfd62ba5fb"
+    },
+    "akkocloud": {
+      "path": "/assets/merchants/4bcaf31185d59c55.ico",
+      "sourcePage": "https://www.akkocloud.com/",
+      "sourceUrl": "https://www.akkocloud.com/templates/akko/assets/img/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "934c28a2f5a7e8f1cab1a967a19e307c3dc54c4a41d4005824d7c5707c4d1ac0"
+    },
+    "lead-bill-alexhost-com": {
+      "path": "/assets/merchants/06ea2fc99f6a6495.ico",
+      "sourcePage": "https://bill.alexhost.com/",
+      "sourceUrl": "https://bill.alexhost.com/templates/2019/dist/images/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "92555c2cfdff0e2a2beedb3c7cd745dfe9fe2905f8ae0ff98152f2ce96d35d46"
+    },
+    "aws": {
+      "path": "/assets/merchants/7d1507284a5757ca.png",
+      "sourcePage": "https://aws.amazon.com/lightsail/",
+      "sourceUrl": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png",
+      "kind": "official-site-icon",
+      "sha256": "00c07620175369ea6cd90de865de38cc11901ce9f90293971999d4a478441b42"
+    },
+    "lead-anclouds-com": {
+      "path": "/assets/merchants/2602699bb6b73218.png",
+      "sourcePage": "https://www.anclouds.com/",
+      "sourceUrl": "https://www.anclouds.com/themes/web/newweb/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "4d1e8c9d292eac6d4fe2f7b8d3ca3abe8629e7379cb83719e618221c39c70f56"
+    },
+    "lead-aoyozhuji-com": {
+      "path": "/assets/merchants/9baaa3dc5206c7aa.png",
+      "sourcePage": "https://aoyoyun.com/",
+      "sourceUrl": "https://aoyoyun.com/images/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "ea3a01ff0807c0956a0e21e03dc5d06526d1eed82326c4df0a9aded9b291439b"
+    },
+    "lead-you-aquatis-host": {
+      "path": "/assets/merchants/e35bfbb25598c038.png",
+      "sourcePage": "https://you.aquatis.host/login",
+      "sourceUrl": "https://you.aquatis.host/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "87e5591f3f1fc8bd5b02bd3c9b0dcaef4f8a8c255b2705e5785d7dded55c4909"
+    },
+    "lead-arisystems-org": {
+      "path": "/assets/merchants/96aa110d96f97a1b.ico",
+      "sourcePage": "https://area.arisystems.org/index.php?rp=/login",
+      "sourceUrl": "https://area.arisystems.org/templates/twenty-x/images/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "799faf62f3a45e16e53e1210bc2cdcfad8a20e9744feca630d1e28669fd276df"
+    },
+    "lead-asirui-com": {
+      "path": "/assets/merchants/17e47ef2ed3755d9.png",
+      "sourcePage": "https://asirui.com/",
+      "sourceUrl": "https://asirui.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "cdaa28c27237735a8c9721dca7d684e3f4eabb81701e2e95fa7bab4f100bbb33"
+    },
+    "lead-aspirehosting-net": {
+      "path": "/assets/merchants/ad6578001591c95c.png",
+      "sourcePage": "https://billing.aspirehosting.net/",
+      "sourceUrl": "https://billing.aspirehosting.net/assets/img/logo.png?v=2",
+      "kind": "official-site-icon",
+      "sha256": "406a224f2294d77de6b5ddc23c34125a75e37d79792205a515fe6f7ec726d0d0"
+    },
+    "lead-asvm-net": {
+      "path": null,
+      "sourcePage": "https://asvm.net/"
+    },
+    "atp-hosting": {
+      "path": "/assets/merchants/78f1ff283e5c729c.webp",
+      "sourcePage": "https://atphosting24.com/",
+      "sourceUrl": "https://atphosting24.com/icon-96.webp",
+      "kind": "official-site-icon",
+      "sha256": "0742d3a02dad041014e9c6367cb9ee4011583b5b4cb39c190828272b0ed016bd"
+    },
+    "lead-attvps-com": {
+      "path": "/assets/merchants/1464f61a87ccaa11.png",
+      "sourcePage": "https://attvps.com/",
+      "sourceUrl": "https://attvps.com/templates/attvps-refined/assets/home/favicon.png?v=20260813",
+      "kind": "official-site-icon",
+      "sha256": "277fa139eadb753558aa474d458fae666632a0dc0974b024bea6bb3c0fe63eb3"
+    },
+    "lead-ava-hosting": {
+      "path": "/assets/merchants/0830cf4b4e05e253.png",
+      "sourcePage": "https://my.ava.hosting/",
+      "sourceUrl": "https://my.ava.hosting/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "6fa326260a4d81e85e8c94da42cb93ee2b0824ff574a3708ef2cc9229aa87b0f"
+    },
+    "avanetco": {
+      "path": "/assets/merchants/7e41d4e844b4d41f.png",
+      "sourcePage": "https://www.avanetco.com/uae-vps-hosting/",
+      "sourceUrl": "https://www.avanetco.com/wp-content/themes/avanetco/assets/img/favicon-180.png",
+      "kind": "official-site-icon",
+      "sha256": "f853db7bcef2cee067ffafa826b1bc616f26dea765f1a2c95c5799b95d83dc63"
+    },
+    "bandwagon": {
+      "path": "/assets/merchants/2b13af73adbcabc4.png",
+      "sourcePage": "https://bandwagonhost.com/order/ecommerce/Los%20Angeles/USCA_9",
+      "sourceUrl": "https://bandwagonhost.com/templates/organicbandwagon/images/logo4.png",
+      "kind": "official-site-logo",
+      "sha256": "323f981bf1062ec6188505289e0a2949d115eb798e4e6e022126b16c719359f4"
+    },
+    "lead-bbhost-com-br": {
+      "path": "/assets/merchants/c6ee1e452aa4ad58.ico",
+      "sourcePage": "https://www.bbhost.com.br/en",
+      "sourceUrl": "https://www.bbhost.com.br/web/image/website/2/favicon?unique=4c2854f",
+      "kind": "official-site-icon",
+      "sha256": "5d0986dc5187e6f38eac70a70ea676466604fd41f84f9ea1d8b94b2e871b0e0c"
+    },
+    "bitsflow": {
+      "path": "/assets/merchants/a6ce587ca5dc6612.svg",
+      "sourcePage": "https://bitsflow.cloud/",
+      "sourceUrl": "https://bitsflow.cloud/icon.svg",
+      "kind": "official-site-icon",
+      "sha256": "1680237caaa696af4337fe73e39232880850e86bffde9fe4e0b48a2a10b688ca"
+    },
+    "lead-blastvps-com": {
+      "path": "/assets/merchants/3cb9a72ecd02f719.png",
+      "sourcePage": "https://my.blastvps.com/login",
+      "sourceUrl": "https://my.blastvps.com/images/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "cfd54a3dc948ae833916cf84b4b54ed3ae8ffa977c682b25f31ee72076c70642"
+    },
+    "lead-blendhosting-com": {
+      "path": "/assets/merchants/5e1b26cce61d5f58.png",
+      "sourcePage": "https://billing.blendhosting.com/clientarea.php",
+      "sourceUrl": "https://billing.blendhosting.com/templates/theme/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "f8400edec5243df37c131c8dee0b9e986c7e9fa2950da180095958c812cae1e9"
+    },
+    "lead-boil-network": {
+      "path": "/assets/merchants/8577e223295d66a5.png",
+      "sourcePage": "https://cloud.boil.network/",
+      "sourceUrl": "https://cloud.boil.network/templates/hostlar/img/iosicon.png",
+      "kind": "official-site-icon",
+      "sha256": "0c8bc73937258b6473a908ecfdaef443526b6eb61050be917a37d583f6c070a6"
+    },
+    "bprdp": {
+      "path": "/assets/merchants/f36867b06f5bfe69.png",
+      "sourcePage": "https://www.bprdp.com/malta-vps",
+      "sourceUrl": "https://www.bprdp.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "a28a6276f63860dd0d722efc29e8d9302a558dd137aae3aec9c5bf5d2a64100f"
+    },
+    "lead-brainhost-ai": {
+      "path": "/assets/merchants/c34e7185dbbbb279.png",
+      "sourcePage": "https://account.brainhost.ai/",
+      "sourceUrl": "https://account.brainhost.ai/templates/2019/dist/favicons/apple-touch-icon-72x72.png",
+      "kind": "official-site-icon",
+      "sha256": "6f0af1edf997c3de336abfd4717328f7e50c928ad4e780dd8df6db4a9001d928"
+    },
+    "lead-brawhosting-com": {
+      "path": "/assets/merchants/50c079f7e4f95966.png",
+      "sourcePage": "https://billing.brawhosting.com/index.php?rp=/login",
+      "sourceUrl": "https://web-billing.brawhosting.com/wp-content/uploads/2024/09/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "ada594106491e596370cce1a20b58fded9b086f2139322a2732f45443cc4a197"
+    },
+    "buyvm": {
+      "path": "/assets/merchants/33ce4b6c0d61b0a3.png",
+      "sourcePage": "https://buyvm.net/kvm-dedicated-server-slices/",
+      "sourceUrl": "https://buyvm.net/assets/img/header_logo.png",
+      "kind": "official-site-logo",
+      "sha256": "5d8694567f6d6dfaf5384bd4c35cc1602d2cc8e15426babeea1bf5850ea47180"
+    },
+    "bytevirt": {
+      "path": "/assets/merchants/4a3b281ac6529a67.png",
+      "sourcePage": "https://bytevirt.com/store/nat-warp-kvm",
+      "sourceUrl": "https://bytevirt.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "db24b38499afd146fdcb10efa4933833ace9282d9087e21605793284a31ca1f9"
+    },
+    "lead-casbay-com": {
+      "path": "/assets/merchants/6b9b7229ab5482bb.png",
+      "sourcePage": "https://billing.casbay.com/index.php/login",
+      "sourceUrl": "https://web-billing.casbay.com/wp-content/uploads/2024/08/logofooter.png",
+      "kind": "official-site-logo",
+      "sha256": "84b9320e0404d26d6064b69323a7df56c0f536267554e091e2ca8d00a4807167",
+      "theme": "dark"
+    },
+    "lead-centrixnodes-net": {
+      "path": "/assets/merchants/30f531e60cd3e0ab.ico",
+      "sourcePage": "https://billing.centrixnodes.net/",
+      "sourceUrl": "https://billing.centrixnodes.net/modules/addons/easy_favicon/favicons/client.ico?d4afc210b8912d7e6f928e2f2f3ca316",
+      "kind": "official-site-icon",
+      "sha256": "c35253dbdb3b209fbd172ac627f396aa7bacf6a01efc336739f9476d710fea03"
+    },
+    "lead-ceravm-com": {
+      "path": "/assets/merchants/ca5f2ed431dcdee0.png",
+      "sourcePage": "https://ceravm.com/",
+      "sourceUrl": "https://ceravm.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "d0c99a34f9b40d457015e20bc2ec926261711820ec53e4db9d4c91ac78e27dbf"
+    },
+    "lead-charityhost-org": {
+      "path": "/assets/merchants/e6089cb479995971.png",
+      "sourcePage": "https://charityhost.org/",
+      "sourceUrl": "https://charityhost.org/wp-content/uploads/2023/08/cropped-ch-fav-180x180.png",
+      "kind": "official-site-icon",
+      "sha256": "ace4f4327d379351dd3424ece13182d2b19b29d2a89b2a8ce898b64dff5423c0"
+    },
+    "lead-chunkserve-com": {
+      "path": "/assets/merchants/12438323c0b0a2b2.png",
+      "sourcePage": "https://billing.chunkserve.com/",
+      "sourceUrl": "https://billing.chunkserve.com/templates/phox/img/logo-light.png",
+      "kind": "official-site-logo",
+      "sha256": "f84632e2ebef81f8fa04f315aa4ab0ed0cce09b6e8f065de4b0bb68f76644362",
+      "theme": "dark"
+    },
+    "lead-cloudafra-com": {
+      "path": "/assets/merchants/738ad7e6bad8b46f.png",
+      "sourcePage": "https://cloudafra.com/",
+      "sourceUrl": "https://cloudafra.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "15534e5b4d2ddd2ab51827713fd18395a78e8db30c150f33d90f9ac0d3f95851"
+    },
+    "lead-cloudblast-io": {
+      "path": "/assets/merchants/472f0487f416a832.png",
+      "sourcePage": "https://cloudblast.io/",
+      "sourceUrl": "https://cloudblast.io/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "9c3ffc8853303583bea645f1ecb938c7d43f4da2d907904f5225f35708a33e9e"
+    },
+    "cloudcone": {
+      "path": "/assets/merchants/743ee4e919eb2154.png",
+      "sourcePage": "https://cloudcone.com/vps/",
+      "sourceUrl": "https://cloudcone.com/wp-content/uploads/2017/06/cropped-logo-2-180x180.png",
+      "kind": "official-site-icon",
+      "sha256": "e73250e5e09bab8fc52f60c55372b5731d0f16f688527437eb9c142e6bb800ff"
+    },
+    "lead-cloudku-id": {
+      "path": "/assets/merchants/c39e8e342fb25281.gif",
+      "sourcePage": "https://portal.cloudku.com/store/artisan-vps",
+      "sourceUrl": "https://portal.cloudku.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "0f1c0a2d89ec9c5c4fc0c88d30eeb1e76640d7ec0b547fed729079536ae4d210"
+    },
+    "lead-cloudnium-net": {
+      "path": "/assets/merchants/1a3eaf6fab25a994.png",
+      "sourcePage": "https://portal.cloudnium.net/",
+      "sourceUrl": "https://portal.cloudnium.net/templates/2019/dist/favicons/favicon_apple_144.png",
+      "kind": "official-site-icon",
+      "sha256": "13e1bf297001093b8ca46150355e7d7253231748cac18e2a52b6313c445438f1"
+    },
+    "lead-cloudsilk-io": {
+      "path": null,
+      "sourcePage": "https://cloudsilk.io/"
+    },
+    "colocrossing": {
+      "path": null,
+      "sourcePage": "https://cloud.colocrossing.com/"
+    },
+    "contabo": {
+      "path": "/assets/merchants/645e3597571c5c8b.ico",
+      "sourcePage": "https://contabo.com/en/vps/",
+      "sourceUrl": "https://cdn.contabo.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "8638cabd0b3667f61689df2dc3ed061b3e0d28965d4690fa7488426b7f50ac14"
+    },
+    "crownvps": {
+      "path": "/assets/merchants/d493f64654e75acb.png",
+      "sourcePage": "https://crownvps.pk/sri-lanka-vps/",
+      "sourceUrl": "https://crownvps.pk/wp-content/themes/crownvps/assets/img/icon-180.png",
+      "kind": "official-site-icon",
+      "sha256": "e088f0b4752f05975c5fd3558fcc2dd7e81cc719c840b45a9b514d0914d6025b"
+    },
+    "lead-cstserver-com": {
+      "path": "/assets/merchants/23d9acdab0c70a33.svg",
+      "sourcePage": "https://cstserver.com/",
+      "sourceUrl": "https://cstserver.com/templates/cstserver/assets/image/logo.svg",
+      "kind": "official-site-logo",
+      "sha256": "350fb3a27722429bb60f00d2b7e50fca9abf4d867424d914f798fa9dbdac330d"
+    },
+    "cubecloud": {
+      "path": "/assets/merchants/6235efba7925f5d6.png",
+      "sourcePage": "https://www.cubecloud.net/",
+      "sourceUrl": "https://www.cubecloud.net/templates/hostino_20261105/images/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "b23f7e873f3ed9f1a17ab8f00b463a7c311a87a20c44e5c3b08f4beda3352db0"
+    },
+    "lead-dasabo-com": {
+      "path": "/assets/merchants/0420dc389c380d9a.png",
+      "sourcePage": "https://my.dasabo.com/login",
+      "sourceUrl": "https://my.dasabo.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "b5d8ddcc571c5a91b410991ba7655483f2c11fc8e1d639141d4464946ce78d78"
+    },
+    "lead-datalix-eu": {
+      "path": "/assets/merchants/f9517f6d2ac15fc6.ico",
+      "sourcePage": "https://datalix.eu/",
+      "sourceUrl": "https://cdn.datalix.de/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "190c1b9ef123bd2db300e208188a60dc1ffe40edbc68b31124240f224d10933c"
+    },
+    "lead-datapasa-com": {
+      "path": "/assets/merchants/0e6166c7f8e445e1.svg",
+      "sourcePage": "https://my.datapasa.com/index.php?rp=/login",
+      "sourceUrl": "https://datapasa.com/img/logo.svg",
+      "kind": "official-site-logo",
+      "sha256": "bc9c81f5fd61a2c7a82d8a84e25872b9eb0186452901ff28a9d7b3b812913c27"
+    },
+    "datasur": {
+      "path": "/assets/merchants/8a9d060b4de26c99.png",
+      "sourcePage": "https://datasur.sr/vps-hosting/",
+      "sourceUrl": "https://datasur.sr/wp-content/uploads/2019/11/cropped-Datasur-Favicon-180x180.png",
+      "kind": "official-site-icon",
+      "sha256": "aa3a620611c1cd862bb4ec39d293265327a14e25c1f64fd0434bf74241f00dac"
+    },
+    "lead-ddps-jp": {
+      "path": "/assets/merchants/b35da46d4dc910f0.png",
+      "sourcePage": "https://my.ddps.jp/",
+      "sourceUrl": "https://my.ddps.jp/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "09393fcd226e31e2b9e9f3bacb8a6358154e43e6d7be524050ad7489760be430"
+    },
+    "lead-dedione-com": {
+      "path": "/assets/merchants/bc2be6bfbb38bed3.png",
+      "sourcePage": "https://dedione.com/",
+      "sourceUrl": "https://dedione.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "f5c64d0e339b5211b396aba01e3038f20803811402ce0d250483ca787eab5ab2"
+    },
+    "dedirock": {
+      "path": "/assets/merchants/5494d98162aa1eb0.png",
+      "sourcePage": "https://dedirock.com/",
+      "sourceUrl": "https://dedirock.com/wp-content/uploads/2025/05/favicon-2.png",
+      "kind": "official-site-icon",
+      "sha256": "ffcabc978cf8241cecc8f108e3853b4f6329caba74e53138a31af62dfdc51102"
+    },
+    "deluxhost": {
+      "path": "/assets/merchants/620a9736182a325c.ico",
+      "sourcePage": "https://deluxhost.net/en",
+      "sourceUrl": "https://deluxhost.net/favicon.ico?favicon.37j9z5n46r08o.ico",
+      "kind": "official-site-icon",
+      "sha256": "323f1a3018a2fd65760384f6d771072692dec24b3d7ddba7c9ee60a9f31ddc3c"
+    },
+    "lead-digirdp-com": {
+      "path": "/assets/merchants/36a59213f4593928.png",
+      "sourcePage": "https://manage.digirdp.com/",
+      "sourceUrl": "https://manage.digirdp.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "c8796a167a28ed1999680addbdab5a2c6945894eafedd89dc60f3d9f5e5995f5"
+    },
+    "lead-digitalcloud-pro": {
+      "path": "/assets/merchants/1b05ff71c7d83086.png",
+      "sourcePage": "https://digitalcloud.pro/",
+      "sourceUrl": "https://digitalcloud.pro/assets/themes/digitalcloud/img/icons/icon-72.png",
+      "kind": "official-site-icon",
+      "sha256": "b11e61901b451355506a6bf3254048a27921a36d87b45440f99c193e42f4fd36"
+    },
+    "digitalocean": {
+      "path": "/assets/merchants/042e9398f2cc8902.png",
+      "sourcePage": "https://www.digitalocean.com/products/droplets",
+      "sourceUrl": "https://www.digitalocean.com/_do-www-marketing/c8a993a5/_next/static/media/apple-touch-icon.9537f22a.png",
+      "kind": "official-site-icon",
+      "sha256": "6cc0fbb307c7fa878642b68b5ebdd6babf55ed19d015bb33d98c6cf78381be29"
+    },
+    "lead-digital-vm-com": {
+      "path": "/assets/merchants/4fb42da97a35e4d0.ico",
+      "sourcePage": "https://digital-vm.com/",
+      "sourceUrl": "https://digital-vm.com/wp-content/uploads/2020/09/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "f7e01104e5cd1af6bfc25e15673147457e20d69fb0429747b3819220fa1229a0"
+    },
+    "dmit": {
+      "path": "/assets/merchants/cb1a89405b97da75.ico",
+      "sourcePage": "https://www.dmit.io/",
+      "sourceUrl": "https://www.dmit.io/favicon.ico",
+      "sha256": "8b3750cd9d6e15ccd9d7197eb6393bf3416558fe34feded99e1db1786219cc4f",
+      "kind": "official-site-icon"
+    },
+    "lead-easyheberg-fr": {
+      "path": "/assets/merchants/be5c63e4f42da731.png",
+      "sourcePage": "https://manager.easyheberg.fr/",
+      "sourceUrl": "https://manager.easyheberg.fr/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "01087bb785033af12d1016db6fdf57a091cf1ed38605937e397efd1534a2f9be"
+    },
+    "lead-edgenat-com": {
+      "path": "/assets/merchants/1a2c93f42d16c9f3.png",
+      "sourcePage": "https://www.edgenat.com/",
+      "sourceUrl": "https://www.edgenat.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "42edecd11a01ca7576e017a3b5bee008cdd2f71a54903a9a40d3fa53e74671cb"
+    },
+    "lead-elixior-cloud": {
+      "path": null,
+      "sourcePage": "https://client.elixior.cloud/"
+    },
+    "eserver": {
+      "path": "/assets/merchants/742c4d2af37fafc8.ico",
+      "sourcePage": "https://www.eserver.net/en/store/vps-hosting-me",
+      "sourceUrl": "https://www.eserver.net/t/e/assets/img/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "8485643d4cf9b7b6418a72688dadecd656cd2e9d419db6203a6b74b0384c4704"
+    },
+    "evoxt": {
+      "path": "/assets/merchants/0f06bce1c4f128b9.png",
+      "sourcePage": "https://evoxt.com/",
+      "sourceUrl": "https://evoxt.com/wp-content/uploads/2021/05/favicon-1.png",
+      "kind": "official-site-icon",
+      "sha256": "78909dd61b7a0b8c27f83f30e7b9d658d72b3eb71bd4713936b1c0d13429849a"
+    },
+    "exact": {
+      "path": "/assets/merchants/fa79d4746c21cd96.png",
+      "sourcePage": "https://exact.gg/vps-hosting",
+      "sourceUrl": "https://exact.gg/apple-icon",
+      "kind": "official-site-icon",
+      "sha256": "337b734f950b029f18fa32418421f7552b9aa51cbd78a360ade414d5cd661295"
+    },
+    "lead-f4-network": {
+      "path": "/assets/merchants/bfff83a02dff7120.png",
+      "sourcePage": "https://store.f4.network/",
+      "sourceUrl": "https://store.f4.network/app/views/client/ultrahost/images/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "1d2aa9bb1fef1f9881bbc6b9127b1b1d685d408825ff2ac3e122ee950278ae42"
+    },
+    "lead-fastmos-com": {
+      "path": "/assets/merchants/77dd4fa5b1998449.png",
+      "sourcePage": "https://www.fastmos.com/",
+      "sourceUrl": "https://www.fastmos.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "a0ef224d7a7c87c0bcfb127f332014a8ef6a866ce04ebdb55f1f6ce6ba15ac0e"
+    },
+    "lead-flapjacks-it": {
+      "path": null,
+      "sourcePage": "https://my.flapjacks.it/"
+    },
+    "lead-flokinet-is": {
+      "path": "/assets/merchants/4e7a1c21d99b5712.jpg",
+      "sourcePage": "https://billing.flokinet.is/",
+      "sourceUrl": "https://billing.flokinet.is/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "594b62a34d0276542a275f84d569ffcc7ef887af7c2a2cad07603fbef14e55dd"
+    },
+    "lead-flowvps-com": {
+      "path": "/assets/merchants/0a11dff074f98652.png",
+      "sourcePage": "https://billing.flowvps.com/index.php?rp=/login",
+      "sourceUrl": "https://billing.flowvps.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "23165aebfb12709b40b3774de0f55b3494054a8ed1379978a969b1a11b2c24a7"
+    },
+    "lead-formohost-com": {
+      "path": "/assets/merchants/495b5a82770cbc81.png",
+      "sourcePage": "https://www.formohost.com/",
+      "sourceUrl": "https://www.formohost.com/wp-content/uploads/2026/03/cropped-formohost-favicon-512-180x180.png",
+      "kind": "official-site-icon",
+      "sha256": "f3006108307811cbd2b8dd20b5b15f78ef28df887066c2e711e0e12f5d26befe"
+    },
+    "lead-freakhosting-com": {
+      "path": "/assets/merchants/2ea1681460bcc0dd.ico",
+      "sourcePage": "https://freakhosting.com/",
+      "sourceUrl": "https://freakhosting.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "32662d2b9e276eda8ac916ec7096eeb15725f92c2f7e1130a989db23a2457f36"
+    },
+    "lead-friendhosting-net": {
+      "path": "/assets/merchants/40661a2d20d15aed.png",
+      "sourcePage": "https://friendhosting.net/en",
+      "sourceUrl": "https://friendhosting.net/wp-content/themes/friendhosting/assets/favicon/apple-icon-76x76.png",
+      "kind": "official-site-icon",
+      "sha256": "ebf5a58973b8fa78933b81b4e2a63e7ddd583aa053b27d8e8184da604629a165"
+    },
+    "lead-fullvpsserver-com": {
+      "path": "/assets/merchants/29d9057cb937da32.png",
+      "sourcePage": "https://client.fullvpsserver.com/",
+      "sourceUrl": "https://client.fullvpsserver.com/assets/img/logo.png",
+      "sha256": "15fed202abfcd4038be969e0f7d438f74d623c5bc3130c4d80e4e5de758cd654",
+      "kind": "official-site-logo"
+    },
+    "lead-fxtransit-io": {
+      "path": "/assets/merchants/7fd8ed3f0ef3fe9b.png",
+      "sourcePage": "https://fxtransit.io/store?region=us-lax&network=TIER1",
+      "sourceUrl": "https://fxtransit.io/favicons/fxtransit-180.png",
+      "kind": "official-site-icon",
+      "sha256": "530bdd9c03de3037fb170ccc8c66eccb5a5fbbc51fb7cefc08715549baa4befe"
+    },
+    "getvps-africa": {
+      "path": null,
+      "sourcePage": "https://getvps.africa/locations/"
+    },
+    "lead-gigsgigscloud-com": {
+      "path": null,
+      "sourcePage": "https://www.gigsgigscloud.com/"
+    },
+    "globalvm": {
+      "path": "/assets/merchants/fcd9cd1acc754eef.png",
+      "sourcePage": "https://globalvm.top/index.php?rp=/store/asia-warp-nat",
+      "sourceUrl": "https://globalvm.top/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "c438390a687b1141dc51e46cb6891cb7341360200593d80e95b617c807870028"
+    },
+    "gomami": {
+      "path": "/assets/merchants/ac9be1628ace03fc.png",
+      "sourcePage": "https://gomami.io/store/hkg-turin",
+      "sourceUrl": "https://gomami.io/templates/webflow/images/webclip.png",
+      "kind": "official-site-icon",
+      "sha256": "6bae73d1ab01973ba5e70beb14309bdd50187f297233a0f108cb1c90e481efeb"
+    },
+    "lead-gotmyhost-com": {
+      "path": "/assets/merchants/6c7aa55c0b60f157.png",
+      "sourcePage": "https://my.gotmyhost.com/login",
+      "sourceUrl": "https://my.gotmyhost.com/templates/lagom2/assets/img/logo/logo_big.925874858.png",
+      "kind": "official-site-logo",
+      "sha256": "9a4c898e97b42901535a188ae83386c68ff777a120e6198bcc260d006cfb1a13"
+    },
+    "greencloud": {
+      "path": "/assets/merchants/efad6687125751a7.png",
+      "sourcePage": "https://greencloudvps.com/",
+      "sourceUrl": "https://greencloudvps.com/img/site/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "d592ef3e45033c187457d543bbf8a0d6602fec979daffee2a155e7e936ffbabb"
+    },
+    "lead-gthost-com": {
+      "path": "/assets/merchants/b91aa7b280359c7b.png",
+      "sourcePage": "https://gthost.com/vps",
+      "sourceUrl": "https://gthost.com/static/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "50ab78ecae3bff8155e9867bb330641bcfc0d57d23d930732a1bded05a7bf681"
+    },
+    "h2-nexus": {
+      "path": "/assets/merchants/a631d494be216af1.png",
+      "sourcePage": "https://h2.nexus/locations/monaco/",
+      "sourceUrl": "https://h2.nexus/source/favicon/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "24986c287ef1ef1de32524ceb8431d84e7d5f13569e6608bf6b5d389ebce6622"
+    },
+    "lead-hawkhost-com": {
+      "path": "/assets/merchants/2e3f874ec1fb9641.png",
+      "sourcePage": "https://my.hawkhost.com/",
+      "sourceUrl": "https://my.hawkhost.com/templates/hawkhostv2/images/icons/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "92ba699787b25b7b75cbe3bcc462ea0e0704958deb20cb89a3328178d9fa5502"
+    },
+    "hetzner": {
+      "path": "/assets/merchants/294aa8d75483b833.png",
+      "sourcePage": "https://www.hetzner.com/cloud/",
+      "sourceUrl": "https://www.hetzner.com/_resources/themes/hetzner/images/favicons/apple-icon-76x76.png",
+      "kind": "official-site-icon",
+      "sha256": "d9681c33d906aec406ee0f480920d7f944f86b28a67ea3d360c8c901115bea24"
+    },
+    "lead-hhost-com": {
+      "path": "/assets/merchants/34258e190ff22661.svg",
+      "sourcePage": "https://hhost.com/",
+      "sourceUrl": "https://hhost.com/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "ba3335f0c2fb238c04dee30e52f40b05c9b7e90e8c50899d3d7ada1faff8b125"
+    },
+    "hiddence": {
+      "path": "/assets/merchants/037b45e9f75edb14.png",
+      "sourcePage": "https://hiddence.net/",
+      "sourceUrl": "https://hiddence.net/apple-touch-icon-76x76.png",
+      "kind": "official-site-icon",
+      "sha256": "08442f3bdece1448174af77d526b56d2252cc2c25473df958a845815ab0e8d48"
+    },
+    "lead-hkgserver-com": {
+      "path": "/assets/merchants/7ed135ad93ed81f3.png",
+      "sourcePage": "https://www.hkgserver.com/",
+      "sourceUrl": "https://www.hkgserver.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "aca032f49ad1b7774037ff32cffa44a40c23e0d4dea50b5ccac0a62d90ed212f"
+    },
+    "lead-host4fun-com": {
+      "path": "/assets/merchants/1eab85d2e5856d94.png",
+      "sourcePage": "https://www.host4fun.com/cheap-vps",
+      "sourceUrl": "https://www.host4fun.com/h4f/images/elements/icon.png",
+      "kind": "official-site-icon",
+      "sha256": "2b70380057b94d6cd344def0305d19006d836316e17d9fc9e2e976a406848d30"
+    },
+    "lead-hostaddon-com": {
+      "path": "/assets/merchants/6df36b74a5f78f79.png",
+      "sourcePage": "https://www.hostaddon.com/",
+      "sourceUrl": "https://www.hostaddon.com/wp-content/uploads/2025/05/Favicon-hostaddon.png",
+      "kind": "official-site-icon",
+      "sha256": "d27e0341d7f0b450275d1aff92c9a623cb75ad0625c41cb4a1c591b1fbe32564"
+    },
+    "lead-hostcram-com": {
+      "path": "/assets/merchants/771e4e4bcfa1f7b9.png",
+      "sourcePage": "https://my.hostcram.com/login",
+      "sourceUrl": "https://my.hostcram.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "40373311925ced709633fd424d8246441fcbee9825d85fa58d509f5186b8ef50"
+    },
+    "hostdare": {
+      "path": "/assets/merchants/4fcb2edf54317ca8.png",
+      "sourcePage": "https://hostdare.com/",
+      "sourceUrl": "https://hostdare.com/img/favicon-32x32.png",
+      "kind": "official-site-icon",
+      "sha256": "333752b3d23800ada913e21edce0ab61462831a4db7294381cec8256b150ed3a"
+    },
+    "lead-hosteons-com": {
+      "path": "/assets/merchants/250bc748bc8fa8c0.png",
+      "sourcePage": "https://my.hosteons.com/",
+      "sourceUrl": "https://my.hosteons.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "1cf2144d800477595178d01516654f8c5e36c8f2bf4128e113ae96d81f0b2c9e"
+    },
+    "hostfirst": {
+      "path": "/assets/merchants/bed0cfeb9d55fb60.png",
+      "sourcePage": "https://www.hostfirst.com/laos-cloud-server-country",
+      "sourceUrl": "https://www.hostfirst.com/images/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "067b9887b1c06cb70097bee0d4069962f2a253f726f15fb81049745b55fb7c30"
+    },
+    "hosthatch": {
+      "path": "/assets/merchants/c2e9668ad70068aa.svg",
+      "sourcePage": "https://hosthatch.com/products",
+      "sourceUrl": "https://hosthatch.com/images/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "1f44e48a8e00ca266d4f418a34f4e6a38bc72868e54b32824e15031c376d240b"
+    },
+    "lead-hostiger-com": {
+      "path": "/assets/merchants/38122094c204c3ed.png",
+      "sourcePage": "https://customer.hostiger.com/",
+      "sourceUrl": "https://customer.hostiger.com/assets/brand/23/logo?v=1785844373",
+      "kind": "official-site-logo",
+      "sha256": "8a576967ff98b78d4c49f76f1d40cb0dd3aaa5a8348f43d75a3eadf066253d70"
+    },
+    "hosting-andorra": {
+      "path": "/assets/merchants/a0b4a2b44ff2a5f9.svg",
+      "sourcePage": "https://www.hostingandorra.com/vps.php",
+      "sourceUrl": "https://www.hostingandorra.com/templates/hostingandorra2/images/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "fba2ec9453b89ba7371b914e1dab01f6007f2e6c498a933c2e1b11eac9917725"
+    },
+    "hostinger": {
+      "path": "/assets/merchants/fefaa42da40ecf93.ico",
+      "sourcePage": "https://www.hostinger.com/",
+      "sourceUrl": "https://www.hostinger.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "bdd206c6a14948995d983a3a7cef47d4b6b7bf096c212b6169f8211c8b7f7db4"
+    },
+    "lead-hostinity-fr": {
+      "path": "/assets/merchants/673b2e2f38d44110.png",
+      "sourcePage": "https://www.corenix.fr/vps",
+      "sourceUrl": "https://www.corenix.fr/assets/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "277e2abf2e34513b8d3e5124e0db770945005d2157f10901a578d403af436352"
+    },
+    "hostkey": {
+      "path": "/assets/merchants/baed660720bbf006.svg",
+      "sourcePage": "https://hostkey.com/",
+      "sourceUrl": "https://hostkey.com/favicon.svg?v=2",
+      "kind": "official-site-icon",
+      "sha256": "9e8552cb8f2e23c2858eaebee7b6562d12749100a3e53d1602919162f4529837"
+    },
+    "lead-hostnamaste-com": {
+      "path": "/assets/merchants/c38ffc1742ce7894.png",
+      "sourcePage": "https://www.hostnamaste.com/",
+      "sourceUrl": "https://www.hostnamaste.com/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "397429a71c435de84130a0a40bf1b9991eab38ef81f7ac4b8ff8b94680a89cca"
+    },
+    "lead-hostpapa-com": {
+      "path": "/assets/merchants/0922c98314842e7e.svg",
+      "sourcePage": "https://www.hostpapa.com/",
+      "sourceUrl": "https://www.hostpapa.com/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "14d0c8124acac2a4a879fa7548458a81c2c542811c5af006cb7f6f09c7d1463d"
+    },
+    "hostraha": {
+      "path": "/assets/merchants/a58d85f0d10512c1.png",
+      "sourcePage": "https://portal.hostraha.com/store/vps",
+      "sourceUrl": "https://portal.hostraha.com/templates/hostim/img/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "811bce839c022e9a1585640f3f9ff1abeee4b741d911747a7651237ed83cf691"
+    },
+    "lead-hostshield-net": {
+      "path": "/assets/merchants/91c1d1412fae505b.ico",
+      "sourcePage": "https://hostshield.net/",
+      "sourceUrl": "https://hostshield.net/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "b2221a98584ff62595b9ec2ada5e3bfd2dd411d120c9eff5d9d53fb31117b3f7"
+    },
+    "lead-hostslick-com": {
+      "path": "/assets/merchants/a7a6fe8f4fcd9d8b.png",
+      "sourcePage": "https://hostslick.com/",
+      "sourceUrl": "https://hostslick.com/symbol.png",
+      "kind": "official-site-icon",
+      "sha256": "fea10110f0daecf280dc7d78161f7cb3e8bfa72725f9326033dbc0c19e41b17f"
+    },
+    "lead-hostslim-eu": {
+      "path": null,
+      "sourcePage": "https://clients.hostslim.eu/"
+    },
+    "hostwinds": {
+      "path": "/assets/merchants/18674ab91b79ef93.png",
+      "sourcePage": "https://www.hostwinds.com/vps/linux",
+      "sourceUrl": "https://www.hostwinds.com/images/apple-touch-icon-180x180.png",
+      "kind": "official-site-icon",
+      "sha256": "36a431b343b376f05f053df2696530421a871a87667ce273a5ae3160e70236f1"
+    },
+    "hostzealot": {
+      "path": "/assets/merchants/2110f38363c08c01.ico",
+      "sourcePage": "https://www.hostzealot.com/",
+      "sourceUrl": "https://www.hostzealot.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "340636739447b8ce72dd6a5810497d43d415170395b07f8d9ea8431788f0eaf7"
+    },
+    "lead-mhyidc-com": {
+      "path": "/assets/merchants/9d71d8fbd806e483.ico",
+      "sourcePage": "https://mhyidc.com/",
+      "sourceUrl": "https://mhyidc.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "9fcd7bb53edc423f75aed49c54aa8724aaf71d659d6595eddd65a7303fb5a87c"
+    },
+    "hytron": {
+      "path": "/assets/merchants/4d7e0e4883dbf15c.ico",
+      "sourcePage": "https://hytron.io/",
+      "sourceUrl": "https://hytron.io/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "75b9237a782b226636794ff2e98dcc39e4c2fd97e0e6d9fdec47924277b57aa1"
+    },
+    "lead-idc-care": {
+      "path": "/assets/merchants/638d5d89157f9f84.png",
+      "sourcePage": "https://portal.idc.care/store/singapore-singtel",
+      "sourceUrl": "https://portal.idc.care/templates/bestvm/img/brand/apple-touch-icon.png?v=20261008-2-idc.care",
+      "kind": "official-site-icon",
+      "sha256": "32ddd6c668ece95e3de4a4d64475c86996e8c59d14b2e34a7cdc20f0087ec687"
+    },
+    "lead-ihostart-com": {
+      "path": null,
+      "sourcePage": "https://panel.ihostart.com/index.php?rp=/store/vps-kvm-ssd"
+    },
+    "ika-cloud": {
+      "path": "/assets/merchants/989474ab0a442381.png",
+      "sourcePage": "https://www.ikacloud.bf/vps-server.php",
+      "sourceUrl": "https://www.ikacloud.bf/templates/ikacloud/img/logowhite.png",
+      "kind": "official-site-icon",
+      "sha256": "ea61f2ebfe9f9cbe4e5752c5fe872bc5a4acc74252e00234505cace47fc1dfd4"
+    },
+    "lead-inet-ws": {
+      "path": "/assets/merchants/357eaa218f596e8a.png",
+      "sourcePage": "https://inet.ws/",
+      "sourceUrl": "https://inet.ws/wp-content/uploads/2022/07/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "cd724da09eb2dd131e58e832f7737212f22ee30aed86fbc088b05069b3375ef1"
+    },
+    "lead-it-garage-pro": {
+      "path": "/assets/merchants/c875ac26e25fa43b.png",
+      "sourcePage": "https://it-garage.pro/",
+      "sourceUrl": "https://it-garage.pro/img/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "bc89f8327dde397aa196f590251e3157bb86f1e147b21e5edbbf1210bb1da0dc"
+    },
+    "lead-itldc-com": {
+      "path": null,
+      "sourcePage": "https://itldc.com/"
+    },
+    "jafari-it-solutions": {
+      "path": "/assets/merchants/4f9fe4f3658c0207.svg",
+      "sourcePage": "https://jafari.ly/services/cloud-servers",
+      "sourceUrl": "https://jafari.ly/assets/images/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "5b3cea566c671b095d013184ff3dd99c0815148c8a02e8950817110d5ce3f0aa"
+    },
+    "lead-jink-host": {
+      "path": "/assets/merchants/74f0f9faf605fbd6.png",
+      "sourcePage": "https://clients.jink.host/",
+      "sourceUrl": "https://clients.jink.host/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "937b6856b788754e2a446062f5a0870a0f25fc8a0e80136f5b4c9cfa3f3b9734"
+    },
+    "lead-jtti-cc": {
+      "path": "/assets/merchants/f218ec9ab08ebfd9.ico",
+      "sourcePage": "https://www.jtti.cc/",
+      "sourceUrl": "https://www.jtti.cc/static/images/common/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "cbae0ae4d0511203db0d2d8aa6b54377d4252930a429b7fc7465ce51b1338fe4"
+    },
+    "lead-juhost-com": {
+      "path": "/assets/merchants/1e9fcd56796ee242.ico",
+      "sourcePage": "https://members.juhost.com/store/hkntvm",
+      "sourceUrl": "https://members.juhost.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "22c9c42e98f26cce3c9311fe764a5ed035638f2d013f5057cb09515cbc6c8d95"
+    },
+    "justhost": {
+      "path": "/assets/merchants/6b743160aeb1922e.png",
+      "sourcePage": "https://justhost.ru/en/services/vps",
+      "sourceUrl": "https://justhost.ru/assets/themes/standart/img/icons/icon-72.png?v=2",
+      "kind": "official-site-icon",
+      "sha256": "3113089cd646d531f4f0eff2befddb06140fccf2dae13121a20adef71a89d077"
+    },
+    "lead-kdatacenter-com": {
+      "path": "/assets/merchants/73bb4f202220db22.ico",
+      "sourcePage": "https://www.kdatacenter.com/",
+      "sourceUrl": "https://www.kdatacenter.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "7acf6f88c387fbebc1e0d992dbdc67a95356c9fa695ad58a7dda182e17ddb062"
+    },
+    "lead-khanwebhost-com": {
+      "path": "/assets/merchants/a4a46c895b344f95.png",
+      "sourcePage": "https://khanwebhost.com/",
+      "sourceUrl": "https://khanwebhost.com/templates/cloudx/images/faviconnn.ico",
+      "kind": "official-site-icon",
+      "sha256": "2460e2922eae7be34d7a2282c9f1ee1b241a5b6a0f86171d0b68cafd70cc6637"
+    },
+    "lead-koddos-net": {
+      "path": "/assets/merchants/90d173a288f07342.png",
+      "sourcePage": "https://koddos.net/",
+      "sourceUrl": "https://koddos.net/images/favicon/apple-touch-icon-76x76.png",
+      "kind": "official-site-icon",
+      "sha256": "a454b01a0d1e93f5a690cc805d40deb05b809dbea6421458c03abe8b3161f2d6"
+    },
+    "kubana-cloud": {
+      "path": "/assets/merchants/ed2118f53b2af053.png",
+      "sourcePage": "https://kubana.cloud/burundi/vps",
+      "sourceUrl": "https://kubana.cloud/assets/images/px/blue%20transparent%20logo@2x.png",
+      "kind": "official-site-icon",
+      "sha256": "c5d34c15e7c11f73d95d3297000f4035414d403a60c8075e38e5a575e3dbe4c6"
+    },
+    "lead-kuroit-com": {
+      "path": "/assets/merchants/10b6bb86b0534a82.png",
+      "sourcePage": "https://www.kuroit.com/vps/",
+      "sourceUrl": "https://www.kuroit.com/wp-content/uploads/2021/06/kuroit-web-development-agency-in-london.png",
+      "kind": "official-site-icon",
+      "sha256": "d2f86c4f0bd4c35f12da337952ad40bd9d8289f868b56c75916f034b0f6600e4"
+    },
+    "lead-kvmla-pro": {
+      "path": "/assets/merchants/bdf4414761337de0.png",
+      "sourcePage": "https://www.kvmla.pro/",
+      "sourceUrl": "https://www.kvmla.pro/static/assets/img/logo-white.png",
+      "kind": "official-site-logo",
+      "sha256": "7fe9a875bf674148b669bbc043ff5896f95d0be9e632b7f04466a789e5f823c5",
+      "theme": "dark"
+    },
+    "laceibanetsociety": {
+      "path": "/assets/merchants/5dcbf25fb7f482ee.png",
+      "sourcePage": "https://laceibanetsociety.com/vps-services/openvz-vps/",
+      "sourceUrl": "http://laceibanetsociety.com/wp-content/uploads/2015/03/fav.png",
+      "kind": "official-site-icon",
+      "sha256": "4a9da976e6cbf28866fe5f59e9c1fb14dbe815c644f24c298b790af5e5e6d129"
+    },
+    "lead-lain-sh": {
+      "path": "/assets/merchants/06f070975ef7ae72.png",
+      "sourcePage": "https://dash.lain.sh/checkout/config/55",
+      "sourceUrl": "https://dash.lain.sh/img/favicon-32x32.png",
+      "kind": "official-site-icon",
+      "sha256": "221433e7e23ff6aadfff1272ef0542295ce7e9b566ae2bd5d79850ab0527dc8b"
+    },
+    "lead-lakenetworks-it": {
+      "path": "/assets/merchants/641807b3d7cc88ba.ico",
+      "sourcePage": "https://my.lakenetworks.it/",
+      "sourceUrl": "https://my.lakenetworks.it/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "641812304c100ffdb6a9d020392b97e0d3e37f4b8eedca87847e31f611e13aa2"
+    },
+    "lead-lala-gg": {
+      "path": null,
+      "sourcePage": "https://lala.gg/"
+    },
+    "lamhosting": {
+      "path": "/assets/merchants/5d547ac821f335ad.ico",
+      "sourcePage": "https://lamhosting.com/",
+      "sourceUrl": "https://lamhosting.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "c37e7e9b0144a039f98db5e00ea04784eda830aff4a233c76ce674c391dd7815"
+    },
+    "lead-login-layer7-net": {
+      "path": "/assets/merchants/cf4a6ea31f6ecdf9.png",
+      "sourcePage": "https://account.layer7.net/shop",
+      "sourceUrl": "https://account.layer7.net/assets/img/logo_1779648133_a3f2edd0.png",
+      "kind": "official-site-logo",
+      "sha256": "46aa9d005da3a7cd4c1494b6d2f9c6d16db04268ba671673c4ad7f597b2497b9"
+    },
+    "lead-leveloneservers-com": {
+      "path": "/assets/merchants/bb5663cf2e155752.png",
+      "sourcePage": "https://billing.leveloneservers.com/",
+      "sourceUrl": "https://billing.leveloneservers.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "f092670f9b5c652fc8384453bfdf36fb468b71a2d31db90013a3572bb5e4cac6"
+    },
+    "lead-ligahosting-com": {
+      "path": "/assets/merchants/ea3f36bbddb10148.svg",
+      "sourcePage": "https://ligahosting.com/",
+      "sourceUrl": "https://ligahosting.com/assets/img/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "9d60307d099472f5e92bb752f0b73d31ed491d2184ccb6171c5efe8d8b074e6d"
+    },
+    "lightnode": {
+      "path": "/assets/merchants/2c845b0d7c5d6fb8.png",
+      "sourcePage": "https://go.lightnode.com/bangladesh-vps",
+      "sourceUrl": "https://go.lightnode.com/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "55685050b35243da5c5ff8756578b0a15fe1141f4f15e505a017bb6d2dde0573"
+    },
+    "lead-linceris-com": {
+      "path": "/assets/merchants/f899bc43d7be8b76.png",
+      "sourcePage": "https://dashboard.linceris.com/index.php/login",
+      "sourceUrl": "https://www.linceris.com/assets/images/logo.png",
+      "kind": "official-site-icon",
+      "sha256": "3b1769e1aae7e9a9ced8a664abe4bc27684f8bc724b42006ffd2e5c5d52e3b43"
+    },
+    "lead-linveo-com": {
+      "path": "/assets/merchants/1307a0f6a63a32ab.ico",
+      "sourcePage": "https://billing.linveo.com/",
+      "sourceUrl": "https://billing.linveo.com/app/views/client/bootstrap/images/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "77abf7dd8e488e3bf2ca04f1f4cc738bcffc149482c8502b7fbeea4e7a0b6991"
+    },
+    "liteserver": {
+      "path": "/assets/merchants/3055dca70867b0a9.png",
+      "sourcePage": "https://liteserver.nl/",
+      "sourceUrl": "https://liteserver.nl/inhoud/uploads/2020/10/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "31c2491eb13a366e939d4e6cb5cc487c7dfaec683db6bc583de12ac54e1d09ba"
+    },
+    "littlecreek": {
+      "path": "/assets/merchants/a1bcca2c7c33e339.png",
+      "sourcePage": "https://littlecreekhosting.com/",
+      "sourceUrl": "https://littlecreekhosting.com/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "2f3f5ef01e6568275ab512506a8a87843249743a81e1b86a410bdb032714b480"
+    },
+    "lead-loyalserver-com": {
+      "path": "/assets/merchants/cd15112e7d727e41.png",
+      "sourcePage": "https://www.loyalserver.com/",
+      "sourceUrl": "https://www.loyalserver.com/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "73fe6841b52480e6d1c5018f4c47dc7f02a516fea2fd9ed8754a159cffae8ec9"
+    },
+    "lead-maple-hosting-com": {
+      "path": "/assets/merchants/41d87d4fbb3ed4e5.png",
+      "sourcePage": "https://clients.maple-hosting.com/",
+      "sourceUrl": "https://clients.maple-hosting.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "89e07e12390331e413ce56e4534b129552d1494074f45f9f556ddbc7b5f40a07"
+    },
+    "lead-massivegrid-com": {
+      "path": "/assets/merchants/20b61d419dabe80d.png",
+      "sourcePage": "https://massivegrid.com/vps/",
+      "sourceUrl": "https://massivegrid.com/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "c037cc645988ffa80a12deabad60f6668d2dd331520eb2d149bb0c00e574d9d7"
+    },
+    "lead-megalayer-net": {
+      "path": null,
+      "sourcePage": "https://account.megalayer.net/"
+    },
+    "lead-mejiro-io": {
+      "path": "/assets/merchants/bf026bbdfdd8e81f.png",
+      "sourcePage": "https://billing.mejiro.io/",
+      "sourceUrl": "https://billing.mejiro.io/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "71c5c66a594f53f980afe789d306cccb5e934c75803bad953f88fe339dfae628"
+    },
+    "lead-metweb-co": {
+      "path": "/assets/merchants/7de7ea7896c53d2c.ico",
+      "sourcePage": "https://client.metweb.co/login",
+      "sourceUrl": "https://client.metweb.co/templates/twenty-x/images/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "1d817ed078df13373ca7f44bb34ecd747fba014ad6ad210a384898710589423d"
+    },
+    "lead-mikucloud-co": {
+      "path": "/assets/merchants/ae278d73d3f540f3.png",
+      "sourcePage": "https://mikucloud.co/",
+      "sourceUrl": "https://mikucloud.co/miku-home/assets/logo.png?v=1790354093",
+      "kind": "official-site-icon",
+      "sha256": "2fad86fb24dde8f6bfdcee2f43ba12f883659efa0d064aa3d9a8805de6a5ec8b"
+    },
+    "lead-mikyhost-com": {
+      "path": "/assets/merchants/64d27e46aff6e529.png",
+      "sourcePage": "https://mikyhost.com/?currency=3",
+      "sourceUrl": "https://mikyhost.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "db9822290e5c03eb71d4eb6aee2019c667b6f4787dd509eb28ceec3a87d1a589"
+    },
+    "lead-mkcloud-net": {
+      "path": "/assets/merchants/50516693c6abf82c.png",
+      "sourcePage": "https://www.mkcloud.net/",
+      "sourceUrl": "https://www.mkcloud.net/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "05c37b09605875092f71de6961e5404da2513ae4c4cf82946857ad5e62037c88"
+    },
+    "lead-millenial-host": {
+      "path": "/assets/merchants/cbdf39a1a6a0f2b3.png",
+      "sourcePage": "https://www.mlnl.host/",
+      "sourceUrl": "https://www.mlnl.host/assets/img/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "10535b8e57203c9958f571a30b21ba4de240647e722190a8ecb9b4eb620e426d"
+    },
+    "monaco-cloud": {
+      "path": "/assets/merchants/9de4d351c4dee90e.png",
+      "sourcePage": "https://www.monacocloud.mc/compute",
+      "sourceUrl": "https://www.monacocloud.mc/build/images/logo-favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "739d7e33e1cd0542c351c9c7ad7d7f6972145f16e6b7367737683a680a903838"
+    },
+    "monaco-telecom": {
+      "path": "/assets/merchants/fcc6902c3b64c022.png",
+      "sourcePage": "https://monaco-telecom.mc/hebergement-cloud-cloud-infrastructure/",
+      "sourceUrl": "https://monaco-telecom.mc/wp-content/uploads/2025/07/cropped-mt-favicon-300x300.png",
+      "kind": "official-site-icon",
+      "sha256": "d32c2368e8832aeb5b3c8905dc30c8dc8a2645f87f671221234f71207f98a6d1"
+    },
+    "lead-mondoze-com": {
+      "path": "/assets/merchants/ebd6eeb6ad1e21a7.png",
+      "sourcePage": "https://billing.mondoze.com/index.php/login",
+      "sourceUrl": "https://billing.mondoze.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "edb3b07aeaf3efd8d7749942ecec4c6a6a9f7646ac5083b56537dfcba3758567"
+    },
+    "lead-moonvm-com": {
+      "path": "/assets/merchants/edb9a6b16f5b2e69.png",
+      "sourcePage": "https://store.moonvm.com/index.php?rp=/login",
+      "sourceUrl": "https://store.moonvm.com/templates/hostify/images/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "f6dd32b8bcf8f73562db22cd70cf8b8495a18e614ecdab0684e7df0b0e8c9a9f"
+    },
+    "mrvm": {
+      "path": "/assets/merchants/07465cfc123f7d76.png",
+      "sourcePage": "https://mrvm.net/",
+      "sourceUrl": "https://mrvm.net/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "4b4509f3a88100bf564d6c244c27ba5fb30235ffe1730051fdb556aa073c146a"
+    },
+    "myidc-莫涵云": {
+      "path": "/assets/merchants/73fae70941f8e8fe.svg",
+      "sourcePage": "https://www.myidc.de/goods/3501",
+      "sourceUrl": "https://www.myidc.de/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "c305337e1ede70dd1c6c269b89593ac510a5bc0dc51efd5f8bcf5db564933c65"
+    },
+    "lead-naiyun-net": {
+      "path": "/assets/merchants/1686815a6a54e171.png",
+      "sourcePage": "https://my.naiyun.net/",
+      "sourceUrl": "https://my.naiyun.net/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "8f3b3ee7484a8d79d4967f7aeacd9ec8b91d8e405390fbc82461b013451cd633"
+    },
+    "lead-narhost-com": {
+      "path": "/assets/merchants/24bdbb3bea0f71fe.png",
+      "sourcePage": "https://narhost.com/",
+      "sourceUrl": "https://narhost.com/templates/narhost/img/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "1944cd1ba8e8c6ee0af9e7f4f7d5c845704041d9d51aa2b29f41ec2b121c284a"
+    },
+    "narwhal-cloud-全球落地-hk": {
+      "path": "/assets/merchants/0fef1fa930e34f65.ico",
+      "sourcePage": "https://fuckip.me/",
+      "sourceUrl": "https://fuckip.me/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "ef7028a4d6ba7be0b54a08d6d192213737daca016c5f68615266a86821f37830"
+    },
+    "navicosoft": {
+      "path": "/assets/merchants/f1d9c2e18fb4e99e.png",
+      "sourcePage": "https://www.navicosoft.com/vps-hosting-in-armenia/",
+      "sourceUrl": "https://www.navicosoft.com/wp-content/uploads/2026/07/favicon-1.png",
+      "kind": "official-site-icon",
+      "sha256": "4d6564e810a75eef90d5f46b71f9e82bcde54068c0cd6ba99e6c8e3bdd0d18cc"
+    },
+    "lead-mgmt-nerdscave-hosting-de": {
+      "path": "/assets/merchants/8b9990dc55483fb2.ico",
+      "sourcePage": "https://mgmt.nerdscave-hosting.de/",
+      "sourceUrl": "https://mgmt.nerdscave-hosting.de/modules/addons/easy_favicon/favicons/client.ico?494718f15799da758f11cfc4938b90d1",
+      "kind": "official-site-icon",
+      "sha256": "531eaf28ddfcd7b9aa9347fee5968231faa9415476b0e4711d5df357b05e8a14"
+    },
+    "netcup": {
+      "path": "/assets/merchants/9b29d4791aab15a6.ico",
+      "sourcePage": "https://www.netcup.com/en/server/vps",
+      "sourceUrl": "https://www.netcup.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "67b2597d0bfe6c4dadbec1e967ef6d438bfe7877817e050a380e2a245110d6d9"
+    },
+    "lead-hosting-netfront-net": {
+      "path": "/assets/merchants/e8a6a4ccf4eb59e2.png",
+      "sourcePage": "https://hosting.netfront.net/",
+      "sourceUrl": "https://hosting.netfront.net/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "03cbcf7ed1cc12be00df5c0f226c0ea1f65a6c5e540cea64e7f906c0f4be727b"
+    },
+    "netshop-isp": {
+      "path": "/assets/merchants/81f1633ad78b3a48.svg",
+      "sourcePage": "https://netshop-isp.com.cy/virtual-servers/malta/",
+      "sourceUrl": "https://netshop-isp.com.cy/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "004ec02ee6511de475b9baa3bf3935e969bb7b4fa82e36ff79a3bea58b25a384"
+    },
+    "lead-nmcloud-cc": {
+      "path": "/assets/merchants/de422e59f91720b9.png",
+      "sourcePage": "https://nmcloud.cc/",
+      "sourceUrl": "https://nmcloud.cc/templates/lagom2/assets/img/logo/logo_big.221124806.png",
+      "kind": "official-site-logo",
+      "sha256": "1c55f4986372e103540e09e247461b09e59bf2ed262cd90172a71c12cd351ae4"
+    },
+    "lead-nnc-sh": {
+      "path": null,
+      "sourcePage": "https://nnc.sh/"
+    },
+    "lead-nodemach-com": {
+      "path": "/assets/merchants/19c9aad885e8db64.png",
+      "sourcePage": "https://www.nodemach.com/",
+      "sourceUrl": "https://www.nodemach.com/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "686340d6e0f77fd4787e429f0c51a982070d9878007b4481a2c0816db3242e15"
+    },
+    "lead-nolimithost-cc": {
+      "path": "/assets/merchants/7913c8bcbc0e5b4b.webp",
+      "sourcePage": "https://nolimit.host/cloud/vps-hosting",
+      "sourceUrl": "https://nolimit.host/static/img/512x512.webp",
+      "kind": "official-site-icon",
+      "sha256": "6e6e778bcaf30c07b4db52ef58f895c8699900f2a3eb11bcf0aa4c50924990ee"
+    },
+    "lead-shop-novacloud-hosting-com": {
+      "path": null,
+      "sourcePage": "https://shop.novacloud-hosting.com/"
+    },
+    "lead-nuyek-com": {
+      "path": "/assets/merchants/4ca446f42e28fd0b.png",
+      "sourcePage": "https://nuyek.com/",
+      "sourceUrl": "https://nuyek.com/images/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "3337b2b2232cad5ff7f55a2d62905eaa66e81dd9e63d460189ed20c82cd415ce"
+    },
+    "lead-ocent-net": {
+      "path": "/assets/merchants/3317de416ae20c32.ico",
+      "sourcePage": "https://ocent.net/",
+      "sourceUrl": "https://ocent.net/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "8b12b4b865630b7da007480668c7d83cacbc5f83f24da4fcbcfd6d508dc435df"
+    },
+    "lead-offshorededi-com": {
+      "path": "/assets/merchants/bab7bb896e7784d9.webp",
+      "sourcePage": "https://my.offshorededi.com/",
+      "sourceUrl": "https://my.offshorededi.com/templates/offshorededi/img/offshorededi-logo.webp",
+      "kind": "official-site-logo",
+      "sha256": "29476f46e6d9b101c536f03fd767fd8cdf5494554229e7532506d35f8009dc54"
+    },
+    "lead-offshoreracks-com": {
+      "path": "/assets/merchants/c384f7f49d576413.png",
+      "sourcePage": "https://www.offshoreracks.com/",
+      "sourceUrl": "https://www.offshoreracks.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "da96a5b705f6de1eece38152ee318dac4251b132722eccc0fcd11a8a27eeb08a"
+    },
+    "lead-onevps-cloud": {
+      "path": "/assets/merchants/6229b95358879cbf.ico",
+      "sourcePage": "https://www.onevps.cloud/",
+      "sourceUrl": "https://www.onevps.cloud/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "817affbd336e9c79d4b4ee84bede1eefffb09f86c48b6e2b126062e052a5ad6f"
+    },
+    "lead-otwa-cloud": {
+      "path": "/assets/merchants/6969f9a9ea772ae7.png",
+      "sourcePage": "https://otwa.cloud/",
+      "sourceUrl": "https://otwa.cloud/apple-touch-icon.png?v=3",
+      "kind": "official-site-icon",
+      "sha256": "6694ec3ee671256ed5440394f46aa1c54c3396e391597177e4720d3c0b43cd06"
+    },
+    "lead-yun-oulucloud-com": {
+      "path": "/assets/merchants/a5cbc8a34bb28802.png",
+      "sourcePage": "https://console.oulucloud.com/service",
+      "sourceUrl": "https://console.oulucloud.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "fab888913b4bb7f0436803c958e4058963a45ddba83cd7dc7eddec20919e0a1e"
+    },
+    "ovhcloud": {
+      "path": "/assets/merchants/68a5bbea9518e7e2.png",
+      "sourcePage": "https://www.ovhcloud.com/en/vps/",
+      "sourceUrl": "https://www.ovhcloud.com/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "3f1e74ea1e9df77e58e7797bc080a8046d46c989cd2dfa60a3d262015a719953"
+    },
+    "partvps": {
+      "path": "/assets/merchants/24065cd0c02afc9e.png",
+      "sourcePage": "https://partvps.com/vps/tel-aviv/crypto",
+      "sourceUrl": "https://partvps.com/icon-192.png",
+      "kind": "official-site-icon",
+      "sha256": "4fdf1f70c83e9f67b589e5220a2474a0269d1bd4df9ba5d9ebb9e1b09e11fa9e"
+    },
+    "lead-petrosky-io": {
+      "path": "/assets/merchants/dbd4a60fc912f22e.png",
+      "sourcePage": "https://client.petrosky.io/login",
+      "sourceUrl": "https://client.petrosky.io/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "643970a963fdae1fe0ce13c046c072d84b7f429a43c5acd2e16f7d56b5d80618"
+    },
+    "lead-phanes-cloud": {
+      "path": "/assets/merchants/9c9aeeea34596d35.png",
+      "sourcePage": "https://my.phanes.cloud/",
+      "sourceUrl": "https://my.phanes.cloud/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "b921a36c0ac3233895d81c562f68fae69a8bcc8068ede3f85173c5d34e59a71d"
+    },
+    "lead-piayun-com": {
+      "path": "/assets/merchants/bcaa03967ad7e88e.png",
+      "sourcePage": "https://www.piayun.com/",
+      "sourceUrl": "https://www.piayun.com/themes/web/LANHOME/assets/img/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "9066ceebde5398e9289ca0862739a22928137012089dedd42d6b991ea32d5675"
+    },
+    "platiniumhost": {
+      "path": "/assets/merchants/d510903c9958139b.png",
+      "sourcePage": "https://platiniumhost.com/en/hosting/vps",
+      "sourceUrl": "https://cdn.platiniumhost.com/assets/images/fav.png",
+      "kind": "official-site-icon",
+      "sha256": "7659daf0df351f60bc04d14dd68d6016b33eaa23346d9b5e1a29cddafa512537"
+    },
+    "lead-pokevm-com": {
+      "path": "/assets/merchants/62afef854fd5fe23.jpg",
+      "sourcePage": "https://t.me/pokevm",
+      "sourceUrl": "https://cdn5.telesco.pe/file/tX2PUT5-lMWshOpXKWb_DKjgQIMf8AWYXuIyK9Rm_2x4lcWuo2azEE0-fXpqx7B8KBDkFuQyLR07wBHwYSTYqzlYVgjcJIyapwaIda0NndjzbxWz-exyrDfR10dwF8GtZm9jbTwNWk3xMVyjZ7qxgNFKHVPk1OWAuMh0KKbwSmIb41PE_4DEbzx5BgXttSByiKYh3cvgip6FhkhRel9_G7t0MeW1Wt_QR1jYs-mV4oaQUIGyAY385GvJC4J6PhwgWbVZZ8yS8qOkMZQ5HbcxgTaUeZCduw7KCyp03RauTb3nwZU_wW7fVy8nrl4LBWwy_UwVc4bLoB9p83kJDwGRwQ.jpg",
+      "sha256": "1f1f0712f6d93bdf4e8be0ffa297210c1a556cf91dd1f82f40e07abf26079e3e",
+      "kind": "official-channel-avatar"
+    },
+    "lead-console-po0-com": {
+      "path": "/assets/merchants/d69c2c2cdc0511ed.png",
+      "sourcePage": "https://console.po0.io/store/tencentcloud-hongkong",
+      "sourceUrl": "https://console.po0.io/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "10f2db7f140c0f565f591d7c50f957113ca7ca35573d499655a13662e6744de8"
+    },
+    "lead-ppnetworks-it": {
+      "path": "/assets/merchants/be706a0f1c593dd8.png",
+      "sourcePage": "https://billing.ppnetworks.it/index.php?rp=/login",
+      "sourceUrl": "https://billing.ppnetworks.it/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "c2116ec02a5794f500fa9f950ca52249ddc55be6501548bdadb665d6f012869e"
+    },
+    "premium-rdp": {
+      "path": "/assets/merchants/f64aa75d86f47044.png",
+      "sourcePage": "https://www.premiumrdp.com/vps-in-minsk-belarus/",
+      "sourceUrl": "https://www.premiumrdp.com/wp-content/uploads/2018/06/cropped-premium_cheap_rdp-1-180x180.png",
+      "kind": "official-site-icon",
+      "sha256": "cf5cce9df14e950808ea7fa55e541d548cd0cfb646cd5f5f9d4f879d3e71955d"
+    },
+    "lead-prepaid-host-com": {
+      "path": "/assets/merchants/528ff3a104e270eb.png",
+      "sourcePage": "https://prepaid-host.com/de",
+      "sourceUrl": "https://prepaid-host.com/images/apple-icon-76x76.png",
+      "kind": "official-site-icon",
+      "sha256": "d1b0deea67864e1f984f14a1234e84c69c14f8b807df19bf7db6cb4f10b15885"
+    },
+    "prohost": {
+      "path": "/assets/merchants/a75ddb17d5e1d94c.ico",
+      "sourcePage": "https://en.prohost.kg/vps.php",
+      "sourceUrl": "https://en.prohost.kg/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "dac1195bf1d573fe51b74b173879d57c96572801cb267bfd3864872bc8028cba"
+    },
+    "lead-prowhost-com": {
+      "path": "/assets/merchants/38c33d18922cb7da.png",
+      "sourcePage": "https://my.prowhost.com/index.php?rp=/login",
+      "sourceUrl": "https://my.prowhost.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "b593d8126cf40b4f309464255d985ff8bd8021c7a2073293589e564ca8d26942"
+    },
+    "lead-qvps-top": {
+      "path": "/assets/merchants/7228be86becca190.png",
+      "sourcePage": "https://www.qvps.top/",
+      "sourceUrl": "https://www.qvps.top/assets/favicon-192.png?v=7d2eedfd",
+      "kind": "official-site-icon",
+      "sha256": "120625e6e73bc65cebfe9df2ca6ffa70bbdcc0ba90d7a6a0265ecebd7c8a583c"
+    },
+    "quicksrv": {
+      "path": "/assets/merchants/3c2ac7a463a9bd1e.png",
+      "sourcePage": "https://quicksrv.io/",
+      "sourceUrl": "https://quicksrv.io/apple-touch-icon.png?v=3",
+      "kind": "official-site-icon",
+      "sha256": "0cb914b633796bee75a930dfe9616635d4f0e411ae74ba0328e0dc809e069e44"
+    },
+    "lead-snakecrafthosting-com": {
+      "path": "/assets/merchants/b0e48018b2fe6098.png",
+      "sourcePage": "https://rackgenius.com/vps",
+      "sourceUrl": "https://rackgenius.com/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "13092e934544d11930a247f060e23a315642012400de8fcfc46dc15d6fb44793"
+    },
+    "racknerd": {
+      "path": "/assets/merchants/7baf6928e7868bef.png",
+      "sourcePage": "https://www.racknerd.com/kvm-vps",
+      "sourceUrl": "https://www.racknerd.com/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "1cb037a54748bfb5bf4b7948ab67c0b9e58ea139a60390da2ee46acd82472d41"
+    },
+    "lead-racknode-net": {
+      "path": "/assets/merchants/ac9b6d3cf938eb71.ico",
+      "sourcePage": "https://racknode.net/vps/",
+      "sourceUrl": "https://racknode.net/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "67f44f8b87ae05478f188a49842251d3f5394208e27a36e52b6d20b85758f244"
+    },
+    "lead-radonet-co-uk": {
+      "path": "/assets/merchants/c8403caa6c4b9328.png",
+      "sourcePage": "https://radonet.co.uk/",
+      "sourceUrl": "https://radonet.co.uk/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "20dd136cb6c597957723fb8bb1d3ce0bef1a8a3067c32fb3cf9d0eaab0f9e56c"
+    },
+    "ramnode": {
+      "path": "/assets/merchants/92b5966c169d0474.jpg",
+      "sourcePage": "https://ramnode.com/",
+      "sourceUrl": "https://ramnode.com/lovable-uploads/ramnode-favicon.jpeg",
+      "kind": "official-site-icon",
+      "sha256": "34d3bdc3c50c29c96fff02aac608a0788f978e0a4e437a5fb770171587f8adc3"
+    },
+    "lead-rayip-io": {
+      "path": "/assets/merchants/6fa31473a4f66982.png",
+      "sourcePage": "https://rayip.io/",
+      "sourceUrl": "https://rayip.io/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "6a494c6d0d5a1382d35b51d00ec9a531e64c351c5a07844cb1b3811715babac6"
+    },
+    "lead-oneprovide-net": {
+      "path": null,
+      "sourcePage": "https://oneprovide.net/"
+    },
+    "lead-dedicated-redswitches-com": {
+      "path": "/assets/merchants/647acf289e77ae86.svg",
+      "sourcePage": "https://dedicated.redswitches.com/",
+      "sourceUrl": "https://dedicated.redswitches.com/templates/redswitches-v4/img/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "00f5b45afdad2f9c827de880af85e5bcb5dbd8ebc60940091713558c62cc56cf"
+    },
+    "lead-renet-tw": {
+      "path": "/assets/merchants/568da2271dfd17ff.png",
+      "sourcePage": "https://renet.tw/",
+      "sourceUrl": "https://renet.tw/pic/LOGO1.png",
+      "kind": "official-site-icon",
+      "sha256": "73cc7feb00e5230ff6f998b97e0c5eb490ad5192bb2878c5c0ae931332e8c99e"
+    },
+    "lead-reprisehosting-com": {
+      "path": "/assets/merchants/115b5756d1f9b9df.png",
+      "sourcePage": "https://www.reprisehosting.com/",
+      "sourceUrl": "https://www.reprisehosting.com/images/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "34a6303e71cbd3666d299bd7f8c2dfb821d82027cd6a1eb13050738f5e6dfb12"
+    },
+    "lead-robovps-biz": {
+      "path": "/assets/merchants/1eb79b835bead6d0.png",
+      "sourcePage": "https://www.robovps.biz/",
+      "sourceUrl": "https://www.robovps.biz/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "440c26dc69ef0eeabc14cb7f2cea455ffc1a294c814e4d2099cf3b656c4e0dbb"
+    },
+    "scaleway": {
+      "path": null,
+      "sourcePage": "https://www.scaleway.com/en/virtual-instances/"
+    },
+    "secure-shore-cloud": {
+      "path": null,
+      "sourcePage": "https://secureshore.cloud/offshore-vps-bahamas.html"
+    },
+    "lead-servarica-com": {
+      "path": "/assets/merchants/139607dc23584f04.png",
+      "sourcePage": "https://clients.servarica.com/",
+      "sourceUrl": "https://clients.servarica.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "287bbd8a58f727e175ac09a1092bd4a94a536f019937285e21b03c6f6574cc0b"
+    },
+    "lead-server-tw": {
+      "path": "/assets/merchants/bb12dc2a75a6e074.ico",
+      "sourcePage": "http://www.server.tw/",
+      "sourceUrl": "http://www.server.tw/images/icon.ico",
+      "kind": "official-site-icon",
+      "sha256": "2a00f63d400e47072586188739fcb3dbf168a377f7932c41e554bd7fa46fcf34"
+    },
+    "lead-serverastra-com": {
+      "path": "/assets/merchants/460e39f51cf771d4.ico",
+      "sourcePage": "https://serverastra.com/",
+      "sourceUrl": "https://serverastra.com/img/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "330fc67decba95efe5e0e0dcdb6ca25604318a4f2efe95144ab7cab0a4c990e7"
+    },
+    "lead-serverfield-com-tw": {
+      "path": "/assets/merchants/3c34c791421d67c5.png",
+      "sourcePage": "https://serverfield.com.tw/",
+      "sourceUrl": "https://serverfield.com.tw/images/icons/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "3ee4da9fb4dfafb9b6dac07f79f1b766c3509a0e3f208fb21a827655c6e076b9"
+    },
+    "lead-servergigabit-com": {
+      "path": "/assets/merchants/ca3f384ec2326577.png",
+      "sourcePage": "https://billing.servergigabit.com/clientarea.php",
+      "sourceUrl": "https://billing.servergigabit.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "a2c37346aa08fcdff744f8fb73a6310765569463c9e01f5932756ea0735a72e4"
+    },
+    "serverscamp": {
+      "path": "/assets/merchants/eac2b2818a337114.png",
+      "sourcePage": "https://serverscamp.com/",
+      "sourceUrl": "https://serverscamp.com/static/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "1699325b97038ece5be9e512a719961c70c13e6a980a5b0c2fca715ddc29e157"
+    },
+    "lead-enginyring-com": {
+      "path": "/assets/merchants/5f119761423cc26e.webp",
+      "sourcePage": "https://manager.enginyring.com/",
+      "sourceUrl": "https://manager.enginyring.com/templates/serverspan/assets/images/favicon.webp",
+      "kind": "official-site-icon",
+      "sha256": "2362cbb33848025ce84680bb6caf272f3afd0355528d39b5f34d846abdbd96af"
+    },
+    "lead-servitro-com": {
+      "path": "/assets/merchants/ab377cb6c514ee43.png",
+      "sourcePage": "https://my.servitro.com/login",
+      "sourceUrl": "https://my.servitro.com/templates/swiftmodders/img/1-1736446902.png",
+      "kind": "official-site-logo",
+      "sha256": "23aab2cd342f41a1263a06fb649e542f19a00e8449a939d0c35999ba36fd44d2"
+    },
+    "lead-servps-com": {
+      "path": null,
+      "sourcePage": "https://servps.com/"
+    },
+    "lead-shandun-net": {
+      "path": "/assets/merchants/e032f8109480a680.ico",
+      "sourcePage": "https://www.shandun.net/",
+      "sourceUrl": "https://www.shandun.net/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "a119b0d93d06c4bf7a5b7a3e8c98b4d0b63f9ce21906c3fea0c3158106e5ef42"
+    },
+    "lead-sharedgrid-com": {
+      "path": "/assets/merchants/148d52062a6fdbf1.png",
+      "sourcePage": "https://my.sharedgrid.com/",
+      "sourceUrl": "https://my.sharedgrid.com/app/views/client/allure/customfavicon/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "e17bc7d10d44382993e1dd376ec7db4df7c7ed2c4e8442368aa748d201371751"
+    },
+    "lead-sharktech-net": {
+      "path": "/assets/merchants/5ef4f2909dab6f87.png",
+      "sourcePage": "https://sharktech.net/smartvps/",
+      "sourceUrl": "https://sharktech.net/assets/sharktech-fin-blue.png",
+      "kind": "official-site-icon",
+      "sha256": "34bc11849c52bb4ef36b8a8121d8ab01ad70d6596659e616f76875b9d5794fdf"
+    },
+    "lead-shifthosting-com": {
+      "path": "/assets/merchants/2ed34b485e65b165.png",
+      "sourcePage": "https://billing.shifthosting.com/",
+      "sourceUrl": "https://billing.shifthosting.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "78fdb33987ec6790af1cbbcfbabbcf30b409a8d464bc759368badc942a73efa5"
+    },
+    "sive-host": {
+      "path": "/assets/merchants/04df74d905edbdcf.png",
+      "sourcePage": "https://sive.co.ls/vps-server.php",
+      "sourceUrl": "https://sive.host/templates/SiveHost/custom/images/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "2bcc060a87cf03e02f8c89a8ebc3426eff2c995ba5a15c8f7536d8a259287679"
+    },
+    "lead-skhron-com-ua": {
+      "path": "/assets/merchants/e5414946d475cbab.png",
+      "sourcePage": "https://skhron.eu/",
+      "sourceUrl": "https://skhron.eu/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "0cb6f075e4492619ea14e0bda34be6b4912c750263a3db8a8bb9f965266bd20d"
+    },
+    "lead-skunkfactory-cloud": {
+      "path": "/assets/merchants/c11f643d74a0b7f1.png",
+      "sourcePage": "https://skunkfactory.cloud/index.php/store/ddos",
+      "sourceUrl": "https://www.skunkfactory.cloud/templates/logo-blue.png",
+      "kind": "official-site-logo",
+      "sha256": "f96e78614edf137096a66b8697e160d21d049702b4221b8255c9edbb2d77a527"
+    },
+    "skyline": {
+      "path": "/assets/merchants/6db67ddbf0c9afdc.svg",
+      "sourcePage": "https://skylineconnect.io/en",
+      "sourceUrl": "https://skylineconnect.io/images/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "c09a5904a930865955fd669897ad0ed2e20f6272c576a8c64af8c81d9ef2e3e4"
+    },
+    "lead-smokyhosts-com": {
+      "path": "/assets/merchants/f5b87d7eb17c8e25.jpg",
+      "sourcePage": "https://members.smokyhosts.com/login",
+      "sourceUrl": "https://members.smokyhosts.com/icon.jpg",
+      "kind": "official-site-icon",
+      "sha256": "ff940312bbe5a6abfeacbfc9567d41fb8788df01ccdd9e774c47aa683b0eda6b"
+    },
+    "lead-softshellweb-com": {
+      "path": null,
+      "sourcePage": "https://softshellweb.com/"
+    },
+    "lead-sparkedhost-com": {
+      "path": "/assets/merchants/1bd243dfac987e34.ico",
+      "sourcePage": "https://billing.sparkedhost.com/login",
+      "sourceUrl": "https://billing.sparkedhost.com/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "25ffc8a245b9d19a5699cc1efdd04435291d7a9f4ad097dad37a08b27af453b3"
+    },
+    "spartan": {
+      "path": "/assets/merchants/70cbe512b00274e9.png",
+      "sourcePage": "https://spartanhost.org/",
+      "sourceUrl": "https://spartanhost.org/images/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "be332602622066b01884807f0ffdf5bddbc5cf2c83a4cce0457deedbe1387a43"
+    },
+    "lead-speedypage-com": {
+      "path": "/assets/merchants/6e5afc0c762ba56c.png",
+      "sourcePage": "https://my.speedypage.com/login",
+      "sourceUrl": "https://my.speedypage.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "f8181cc6b7e9faa1815bbe936cc0c64052cb8937e0932ca91e5990a4cdee9263"
+    },
+    "lead-spinservers-com": {
+      "path": "/assets/merchants/24d2be3dfbc034ee.png",
+      "sourcePage": "https://www.spinservers.com/",
+      "sourceUrl": "https://www.spinservers.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "c664dac6cfe914cfd69867cacab536f548d46b0017f4561f8a35fd8f9c9154ff"
+    },
+    "sputnik-vps": {
+      "path": "/assets/merchants/2469314f389fd1ac.svg",
+      "sourcePage": "https://sputnikvps.com/vps-seyshely.html",
+      "sourceUrl": "https://sputnikvps.com/assets/img/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "f1e5f1fe92aa89f445e613ebd684a72737273c74c9bc40754031f4f731b788c6"
+    },
+    "lead-stormhost-net": {
+      "path": "/assets/merchants/2003eb11838ac34f.ico",
+      "sourcePage": "https://billing.stormhost.net/",
+      "sourceUrl": "https://billing.stormhost.net/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "6e378ba556223bb010232af52acc7fa220e7ded13aabcdf6118040b316c4744d"
+    },
+    "lead-strike-bz": {
+      "path": "/assets/merchants/50755a302193cc15.ico",
+      "sourcePage": "https://strike.bz/en/crypto-vps",
+      "sourceUrl": "https://strike.bz/favicon.ico?favicon.3zt5-rutlyaq7.ico",
+      "kind": "official-site-icon",
+      "sha256": "3c4753c2063750ec5dc1d9d09a57d592e99e3ad5548328236e2dce014ec8c09d"
+    },
+    "lead-sudatech-store": {
+      "path": null,
+      "sourcePage": "https://cloud.sudatech.store/index.php?rp=%2Fstore%2Fsoftbank-nat"
+    },
+    "lead-support-swisslayer-com": {
+      "path": "/assets/merchants/59c69bafe145c9ea.png",
+      "sourcePage": "https://support.swisslayer.com/",
+      "sourceUrl": "https://support.swisslayer.com/templates/2019/dist/favicons/favicon_apple_144.png",
+      "kind": "official-site-icon",
+      "sha256": "13e1bf297001093b8ca46150355e7d7253231748cac18e2a52b6313c445438f1"
+    },
+    "lead-synexvm-com": {
+      "path": null,
+      "sourcePage": "https://www.synexvm.com/"
+    },
+    "lead-synthohosting-net": {
+      "path": null,
+      "sourcePage": "https://my.synthohosting.net/"
+    },
+    "telecel-liberia": {
+      "path": "/assets/merchants/952c954edef598d5.png",
+      "sourcePage": "https://teleceliberia.com/vps-hosting/",
+      "sourceUrl": "https://teleceliberia.com/wp-content/uploads/2025/06/Telecel-Liberia-New-Logo-01-e1750857759965-300x300.png",
+      "kind": "official-site-icon",
+      "sha256": "e3b6b20f56a178d956f4484b22a704bba6e1dba700d8e984bbd70fb026bf43e6"
+    },
+    "lead-terabit-io": {
+      "path": "/assets/merchants/23cd2feead48ab51.png",
+      "sourcePage": "https://my.terabit.io/",
+      "sourceUrl": "https://my.terabit.io/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "6a905c23a3178d8cff6fa655c06aaef72692c559a260a1df0aff8b36f4b363f9"
+    },
+    "the-hosting": {
+      "path": "/assets/merchants/fec77ac69f7a8ba9.svg",
+      "sourcePage": "https://the.hosting/en/vps-vds-grenada-saint-georges",
+      "sourceUrl": "https://the.hosting/templates/the-new/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "c19261d8dd9eadd74d5e9948033254eb99512c39224cc046aa8de8d7dcb7f939"
+    },
+    "time4vps": {
+      "path": null,
+      "sourcePage": "https://www.time4vps.com/"
+    },
+    "lead-tmhhost-com": {
+      "path": null,
+      "sourcePage": "https://www.tmhhost.com/cart"
+    },
+    "torchbyte": {
+      "path": "/assets/merchants/58fe7420d6d03c02.png",
+      "sourcePage": "https://torchbyte.com/",
+      "sourceUrl": "https://torchbyte.com/torchbyte/torchbyte_icon.png",
+      "kind": "official-site-icon",
+      "sha256": "6647defe053a025488dc6b77b3a39d8afe0088ee2c3eaece8a50f3fc7f94c539"
+    },
+    "lead-app-tradingvps-io": {
+      "path": "/assets/merchants/43d266d0a6b692ad.png",
+      "sourcePage": "https://app.tradingvps.io/index.php/login",
+      "sourceUrl": "https://app.tradingvps.io/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "279503e07ecdc83888980ca36dc9939ac2b80cd22242756ef95821f6727f7b8f"
+    },
+    "lead-tripodcloud-com": {
+      "path": "/assets/merchants/51a8b3757de55545.png",
+      "sourcePage": "https://clients.tripodcloud.com/",
+      "sourceUrl": "https://clients.tripodcloud.com/templates/six/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "5dc8f32bfe72f327209cb6a82bad82abb14721a9a09f10a3a96635dbab3d9a6a"
+    },
+    "lead-tudcloud-com": {
+      "path": "/assets/merchants/855e74c5c4cc4f44.png",
+      "sourcePage": "https://billing.tudcloud.com/",
+      "sourceUrl": "https://billing.tudcloud.com/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "3c8a4bce92cce78f1d493de601c00afdbb7999889ca2a6634151ae505fb5c84d"
+    },
+    "lead-ufovps-com": {
+      "path": "/assets/merchants/b11e0aa3bac6faa4.png",
+      "sourcePage": "https://www.ufovps.com/",
+      "sourceUrl": "https://www.ufovps.com/templates/NeWorld-NEW/assets/img/logo_ufocloud_2025.png?v=0.39",
+      "kind": "official-site-logo",
+      "sha256": "e92c826b98cbee28008846d47d696152bd7626d754fc22473206beefe30996a9"
+    },
+    "ultahost": {
+      "path": "/assets/merchants/7c5b5ff66ebc21d4.png",
+      "sourcePage": "https://ultahost.com/grenada-vps",
+      "sourceUrl": "https://ultahost.com/themes/default/images/icons/apple-icon-76x76.png",
+      "kind": "official-site-icon",
+      "sha256": "175d4d2c6b6b4014e37bdaf09e2c783b38c6db1bf0b8f08156d70a5d2b74c9ff"
+    },
+    "upcloud": {
+      "path": "/assets/merchants/19eda5e2da7b4252.png",
+      "sourcePage": "https://upcloud.com/products/cloud-servers/",
+      "sourceUrl": "https://upcloud.com/media/android-chrome-512x512-2-300x300.png",
+      "kind": "official-site-icon",
+      "sha256": "f517585163d559607fa2ac45c50505500f4b0598c63f3949fa24fac40564801d"
+    },
+    "lead-upnet-vn": {
+      "path": "/assets/merchants/9c71b1ec05913e76.jpg",
+      "sourcePage": "https://upnet.vn/en/",
+      "sourceUrl": "https://upnet.vn/wp-content/uploads/2025/03/cropped-favicon-upnet-bg-3d-180x180.jpg",
+      "kind": "official-site-icon",
+      "sha256": "acbe1e21c47219ba1138158fff744dad383804ecfa5674c0cc0330fbb691f7f1"
+    },
+    "lead-uqidc-com": {
+      "path": "/assets/merchants/23ee27b14269c096.png",
+      "sourcePage": "https://www.uqidc.com/",
+      "sourceUrl": "https://www.uqidc.com/themes/web/Lolipa/assets/images/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "ac4dde8260f461e49df1b4143814aa1289bddd6780eb95e8c4091afe95e8f65e"
+    },
+    "uzumaru-uzuma": {
+      "path": "/assets/merchants/361d3d41de0b9bf4.jpg",
+      "sourcePage": "https://t.me/uzumaru_notify/869",
+      "sourceUrl": "https://cdn5.telesco.pe/file/LU9wm2_vq1GJmqEIJR30RUPesnjqZE2ZhUvk_jiBRcPgObyBLK0RzCjobBo5sPg2wi8QCp0v8iImhuynxh2KTjwwexwLWnTMNPj8gn1EMfk5CpS5z158QI7nVm8qvxrO0NlRBwlnBDRvgjnX4jqsOjNcvBSwxip5z2Babr0FxyniXs3m2E1RPZ5zw7TSt4Fsm5J5nDRaQnyt-eDTM3_Ebn1CRyZiOzF83yc0rjaR13aNC6BavzDZ6MYwTCUFN7k84WtM5qAID-9CZ1AJLXO1KJXRw7G8wP57X9L5_jGnkqgXPROQ0cLxJ0KB1OUoO19jsMYJ3QdJ9Ofybq7wr2F-ag.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "0b0458e973f553b751e607b9dea24ab3f8625b24891b365a9df8f5d98e6386f0"
+    },
+    "vps-x": {
+      "path": "/assets/merchants/add7d49b96a5a079.png",
+      "sourcePage": "https://v.ps/",
+      "sourceUrl": "https://v.ps/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "9669bda3ee6880d705d9e3b56362b7958444ca2b87f0105b3ba1bcfdcf7bcbd5"
+    },
+    "lead-viasky-co": {
+      "path": null,
+      "sourcePage": "https://www.viasky.co/vps"
+    },
+    "lead-virtono-com": {
+      "path": "/assets/merchants/aa1f74d966bc4ba5.ico",
+      "sourcePage": "https://www.virtono.com/",
+      "sourceUrl": "https://www.virtono.com/images/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "533f46b2a1dc459a5b711e4c9c4b0994452e6da97c27b12c759f51ae33d60dd4"
+    },
+    "lead-virtualine-net": {
+      "path": null,
+      "sourcePage": "https://client.virtualine.net/"
+    },
+    "lead-virtvps-com": {
+      "path": "/assets/merchants/3183c046ca51d258.png",
+      "sourcePage": "https://my.virtvps.com/index.php?rp=/login",
+      "sourceUrl": "https://my.virtvps.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "fad363890f4bc84292fad7318dbd8a75541472fffa2c86ddc0a0f4f3a8bcaed2"
+    },
+    "lead-ggvision-net": {
+      "path": null,
+      "sourcePage": "https://cloud.ggvision.net/"
+    },
+    "visual-web-vwt": {
+      "path": "/assets/merchants/4b6cefa15019ee95.gif",
+      "sourcePage": "https://www.serversinasia.com/serverspalestine.html",
+      "sourceUrl": "https://www.serversinasia.com/visualweblogo.gif",
+      "kind": "official-site-logo",
+      "sha256": "011341d60345967d28c1af4ee250eb4ccc194ce3b7135d33096d19ddf3da251a"
+    },
+    "lead-vm6-co-uk": {
+      "path": "/assets/merchants/a3c7249072f2d527.png",
+      "sourcePage": "https://www.vm6.co.uk/",
+      "sourceUrl": "https://www.vm6.co.uk/logo/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "acf2e68aff408608628ab5d4d64e3fd09173f3771c63204a44cd23d303617d89"
+    },
+    "vmiss": {
+      "path": "/assets/merchants/acd7150d72be82a5.ico",
+      "sourcePage": "https://www.vmiss.com/",
+      "sourceUrl": "https://www.vmiss.com/wp-content/uploads/2023/11/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "854c184bb0c2b883520a783c650c3aa5bceb0558761be6cb512d15bff3059ebb"
+    },
+    "volknode": {
+      "path": "/assets/merchants/813d0db6100de047.png",
+      "sourcePage": "https://volknode.com/",
+      "sourceUrl": "https://volknode.com/apple-icon?66239c80cd94d542",
+      "kind": "official-site-icon",
+      "sha256": "c51da0a3f2f5edb372c97ad27971402e3698aca6970b40f09ec3eb714349c50b"
+    },
+    "lead-voluri-net": {
+      "path": "/assets/merchants/5713f34a62e56fb0.png",
+      "sourcePage": "https://voluri.net/",
+      "sourceUrl": "https://voluri.net/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "a000f5e197e0a3410e862df3321bdfd15ca393a0949747667548e9fab9842de1"
+    },
+    "lead-vpc-kr": {
+      "path": "/assets/merchants/33f933650bf66fe9.png",
+      "sourcePage": "https://vpc.kr/",
+      "sourceUrl": "https://vpc.kr/assets/images/favicon/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "73ff3ee9bec48dfc08d214ec3659c2cffc0e8fa339a951d232be7b39ddfd4d6e"
+    },
+    "lead-vps-cx": {
+      "path": null,
+      "sourcePage": "https://vps.cx/"
+    },
+    "vps-for-life": {
+      "path": "/assets/merchants/75447e76e47df1b1.png",
+      "sourcePage": "https://vpsforlife.com/vps-hosting-in-iran",
+      "sourceUrl": "https://vpsforlife.com/assets/img/favicon/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "880f36bae0bd4cc0b951a6832bbbe6a7a3e1322bc88e9384acd18a56913e3f9c"
+    },
+    "lead-vpshostingservice-co": {
+      "path": "/assets/merchants/eb7d514764595821.png",
+      "sourcePage": "https://vpshostingservice.co/",
+      "sourceUrl": "https://vpshostingservice.co/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "ae72c28761e0682ba14d82ecba9cad095928658dcc108db64c420578f71e5b6f"
+    },
+    "vps-shell": {
+      "path": "/assets/merchants/554aaff91991be6c.png",
+      "sourcePage": "https://www.vpsshell.com/afghanistan-vps/",
+      "sourceUrl": "https://www.vpsshell.com/wp-content/themes/vpsshell/images/apple-touch-icon-180x180.png?v=1792138753",
+      "kind": "official-site-icon",
+      "sha256": "58c1e45e577b394eb1abeac38e5ad93f1b22fd111ad81850f28d178f0029a0c0"
+    },
+    "vps-sy-nobalaa": {
+      "path": "/assets/merchants/6057993ae481acbf.png",
+      "sourcePage": "https://vps.sy/en/pricing-faq/",
+      "sourceUrl": "https://vps.sy/wp-content/uploads/2025/07/cropped-Untitled-design-2-180x180.png",
+      "kind": "official-site-icon",
+      "sha256": "55d85f0826caa7cc0f32bd3029c72640c2e7dcc582ff9288db284f70b14d1a62"
+    },
+    "lead-vps-town": {
+      "path": "/assets/merchants/28c6ff275842abc2.png",
+      "sourcePage": "https://vps.town/",
+      "sourceUrl": "https://vps.town/logo.png",
+      "kind": "official-site-icon",
+      "sha256": "3deaa05da5789783c8c178bf163a82bcedcc11b5dcacf117df7284380ddd1bad"
+    },
+    "vpslayer": {
+      "path": "/assets/merchants/f1ca80752b69ed29.png",
+      "sourcePage": "https://www.vpslayer.net/",
+      "sourceUrl": "https://www.vpslayer.net/api/site-branding/favicon?v=1793552932000",
+      "kind": "official-site-icon",
+      "sha256": "21bae13c1ecdea131011ca72a5d1176912c11817e8f5ed976187fad8586db664"
+    },
+    "lead-vsys-host": {
+      "path": "/assets/merchants/befcf78f961c6c44.png",
+      "sourcePage": "https://vsys.host/",
+      "sourceUrl": "https://d2bu8e175fapp8.cloudfront.net/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "4008581c65ba67d71d6383accba8e26db10df93e8dc6ae5f71117864bc390502"
+    },
+    "vultr": {
+      "path": "/assets/merchants/439fc2dcdf5d69fa.png",
+      "sourcePage": "https://www.vultr.com/products/cloud-compute/",
+      "sourceUrl": "https://www.vultr.com/favicon.ico",
+      "sha256": "56a74651e8d84dfef8766a496c09fe20aaf1ce5f790732f3651460d4454a9f66",
+      "kind": "official-site-icon"
+    },
+    "lead-waicore-com": {
+      "path": "/assets/merchants/62bec025367fe4ad.png",
+      "sourcePage": "https://waicore.com/",
+      "sourceUrl": "https://waicore.com/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "dd1b726ce39ee173193185519a6781275d63f0ca1467083892e3e35fe12c9f26"
+    },
+    "wap": {
+      "path": "/assets/merchants/bf3b926909e23fe8.ico",
+      "sourcePage": "https://wap.ac/",
+      "sourceUrl": "https://wap.ac/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "dbf2dc74e1ea1a794ec3ff82f175ceadfdfda6fac0ade3f7fb4d794839d48c94"
+    },
+    "lead-wawanode-com": {
+      "path": "/assets/merchants/6784dc62f8be6ec1.png",
+      "sourcePage": "https://wawanode.com/zh-CN",
+      "sourceUrl": "https://wawanode.com/apple-icon?9917592461572f9c",
+      "kind": "official-site-icon",
+      "sha256": "5b849e6965ce5ef7e397891254f94d92c7e311172d2475bbff69bc27bd912b5e"
+    },
+    "wawo": {
+      "path": "/assets/merchants/d4350cc4e6537b1d.png",
+      "sourcePage": "https://wawo.wiki/",
+      "sourceUrl": "https://wawo.wiki/favicon.png?v=20261024c",
+      "kind": "official-site-icon",
+      "sha256": "89b171ce55eaa21fd7a67f38772fc48f3512fc7de09466f13b0a7d0974225f43"
+    },
+    "lead-webhorizon-net": {
+      "path": "/assets/merchants/d0d41175c514cb5c.png",
+      "sourcePage": "https://clients.webhorizon.net/",
+      "sourceUrl": "https://clients.webhorizon.net/templates/2019/dist/favicons/favicon_apple_144.png",
+      "kind": "official-site-icon",
+      "sha256": "13e1bf297001093b8ca46150355e7d7253231748cac18e2a52b6313c445438f1"
+    },
+    "lead-worldbus-ge": {
+      "path": "/assets/merchants/147d4fe184abb7fa.png",
+      "sourcePage": "https://portal.worldbus.ge/",
+      "sourceUrl": "https://portal.worldbus.ge/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "583b9684d4b114325b702173b2f7ccd8474f5876bb233e697c8e335896920697"
+    },
+    "wuyoucloud-无忧云": {
+      "path": "/assets/merchants/840147cc003932ce.png",
+      "sourcePage": "https://wuyoucloud.de/index.php?rp=/store/ip-nat-tg",
+      "sourceUrl": "https://wuyoucloud.de/templates/lagom2/assets/img/favicons/favicon-76.png",
+      "kind": "official-site-icon",
+      "sha256": "4c2921b1bdf893f2c70c463fd792b9e2f7c5259db37c5bde11482b29f49dc5a1"
+    },
+    "lead-clientcp-net": {
+      "path": "/assets/merchants/9adce5e6a5f9f85f.svg",
+      "sourcePage": "https://xhosts.uk/",
+      "sourceUrl": "https://xhosts.uk/assets/images/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "3e6f94075928c7104b392b6a6b92465b9d0a45fbdf6b3460ff6ac4d0f059c345"
+    },
+    "lead-xsx-net": {
+      "path": "/assets/merchants/bf509f4ef9bfab0f.svg",
+      "sourcePage": "https://www.xsx.net/",
+      "sourceUrl": "https://www.xsx.net/templates/Pzea/img/logo.svg",
+      "kind": "official-site-logo",
+      "sha256": "bd57f4d7d49890831907ce1f8736019e6f0c8df3126f39b3c8f96d9ff7966c94"
+    },
+    "lead-zhnet-co-uk": {
+      "path": null,
+      "sourcePage": "https://cloud.zhnet.co.uk/"
+    },
+    "lead-zlidc-net": {
+      "path": "/assets/merchants/30a71bafcc5eac1c.ico",
+      "sourcePage": "https://zlidc.net/",
+      "sourceUrl": "https://zlidc.net/favicon.ico",
+      "kind": "official-site-icon",
+      "sha256": "3ee89ab355532f85dc7cf336fa512d1741f8c73c2d06acd55589c72584ceb67f"
+    }
+  },
+  "resources": {
+    "digvps": {
+      "path": "/assets/resources/b5bafaaa8fc08021.png",
+      "sourcePage": "https://digvps.com/review",
+      "sourceUrl": "https://digvps.com/favicon.png",
+      "kind": "official-site-icon",
+      "sha256": "533a6dc61fecfa499cb9bcb828376ae39dcab7d2f2d24274b0ed217680373b96"
+    },
+    "nodeseek": {
+      "path": "/assets/resources/9486f72c3e21e9c5.png",
+      "sourcePage": "https://www.nodeseek.com/",
+      "sourceUrl": "https://www.nodeseek.com/static/image/favicon/apple-touch-icon.png",
+      "kind": "official-site-icon",
+      "sha256": "e47c356c98f532981736d87b8bb8127159d4658b6567c1edcdd0e87e5a2d92fd"
+    },
+    "vpslog": {
+      "path": "/assets/resources/e432e6cc982d2b4c.jpg",
+      "sourcePage": "https://t.me/vpslognet",
+      "sourceUrl": "https://cdn5.telesco.pe/file/d-3dW6VZLMOE9Q5xvhLulGXPUIsnDsYjaJM-V4V1juAi5vcjl6wiojZpPQOcAWnu71-5iE_8wzmhoYJCjrB9XXabF-gUv0OR02IuApwEnuEnClt-BW8tKRKIIaHiQQGElFGz3xcU4OinnL7gTE_LjBrYwgAlnE_VgRVCbtfBT7gwvYEBZ3ihjXhfmkxIHuENJsCadKXkeYGcJsWi8g2vK56zcuoiY6jSdzldymjshqg_0bm-kXrDFilhjemef6lWNOuCtqZFaN-PQybmFrLLhkSJBPGj38DvmcquUN1RN0ZqKANxU31WggwgEV-GSoiA90QAViy9tr1JmnqPGkt-_Q.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "5856078e63905163f3407b6c4684c2e9b645d86bcb7bb67059289d9a3c3fce69"
+    }
+  },
+  "flags": {
+    "AF": "/assets/flags/af.svg",
+    "AO": "/assets/flags/ao.svg",
+    "AL": "/assets/flags/al.svg",
+    "AD": "/assets/flags/ad.svg",
+    "AE": "/assets/flags/ae.svg",
+    "AR": "/assets/flags/ar.svg",
+    "AM": "/assets/flags/am.svg",
+    "AG": "/assets/flags/ag.svg",
+    "AU": "/assets/flags/au.svg",
+    "AT": "/assets/flags/at.svg",
+    "AZ": "/assets/flags/az.svg",
+    "BI": "/assets/flags/bi.svg",
+    "BE": "/assets/flags/be.svg",
+    "BJ": "/assets/flags/bj.svg",
+    "BF": "/assets/flags/bf.svg",
+    "BD": "/assets/flags/bd.svg",
+    "BG": "/assets/flags/bg.svg",
+    "BH": "/assets/flags/bh.svg",
+    "BS": "/assets/flags/bs.svg",
+    "BA": "/assets/flags/ba.svg",
+    "BY": "/assets/flags/by.svg",
+    "BZ": "/assets/flags/bz.svg",
+    "BO": "/assets/flags/bo.svg",
+    "BR": "/assets/flags/br.svg",
+    "BB": "/assets/flags/bb.svg",
+    "BN": "/assets/flags/bn.svg",
+    "BT": "/assets/flags/bt.svg",
+    "BW": "/assets/flags/bw.svg",
+    "CF": "/assets/flags/cf.svg",
+    "CA": "/assets/flags/ca.svg",
+    "CH": "/assets/flags/ch.svg",
+    "CL": "/assets/flags/cl.svg",
+    "CN": "/assets/flags/cn.svg",
+    "CI": "/assets/flags/ci.svg",
+    "CM": "/assets/flags/cm.svg",
+    "CD": "/assets/flags/cd.svg",
+    "CG": "/assets/flags/cg.svg",
+    "CO": "/assets/flags/co.svg",
+    "KM": "/assets/flags/km.svg",
+    "CV": "/assets/flags/cv.svg",
+    "CR": "/assets/flags/cr.svg",
+    "CU": "/assets/flags/cu.svg",
+    "CY": "/assets/flags/cy.svg",
+    "CZ": "/assets/flags/cz.svg",
+    "DE": "/assets/flags/de.svg",
+    "DJ": "/assets/flags/dj.svg",
+    "DM": "/assets/flags/dm.svg",
+    "DK": "/assets/flags/dk.svg",
+    "DO": "/assets/flags/do.svg",
+    "DZ": "/assets/flags/dz.svg",
+    "EC": "/assets/flags/ec.svg",
+    "EG": "/assets/flags/eg.svg",
+    "ER": "/assets/flags/er.svg",
+    "ES": "/assets/flags/es.svg",
+    "EE": "/assets/flags/ee.svg",
+    "ET": "/assets/flags/et.svg",
+    "FI": "/assets/flags/fi.svg",
+    "FJ": "/assets/flags/fj.svg",
+    "FR": "/assets/flags/fr.svg",
+    "FM": "/assets/flags/fm.svg",
+    "GA": "/assets/flags/ga.svg",
+    "GB": "/assets/flags/gb.svg",
+    "GE": "/assets/flags/ge.svg",
+    "GH": "/assets/flags/gh.svg",
+    "GN": "/assets/flags/gn.svg",
+    "GM": "/assets/flags/gm.svg",
+    "GW": "/assets/flags/gw.svg",
+    "GQ": "/assets/flags/gq.svg",
+    "GR": "/assets/flags/gr.svg",
+    "GD": "/assets/flags/gd.svg",
+    "GT": "/assets/flags/gt.svg",
+    "GY": "/assets/flags/gy.svg",
+    "HN": "/assets/flags/hn.svg",
+    "HR": "/assets/flags/hr.svg",
+    "HT": "/assets/flags/ht.svg",
+    "HU": "/assets/flags/hu.svg",
+    "ID": "/assets/flags/id.svg",
+    "IN": "/assets/flags/in.svg",
+    "IE": "/assets/flags/ie.svg",
+    "IR": "/assets/flags/ir.svg",
+    "IQ": "/assets/flags/iq.svg",
+    "IS": "/assets/flags/is.svg",
+    "IL": "/assets/flags/il.svg",
+    "IT": "/assets/flags/it.svg",
+    "JM": "/assets/flags/jm.svg",
+    "JO": "/assets/flags/jo.svg",
+    "JP": "/assets/flags/jp.svg",
+    "KZ": "/assets/flags/kz.svg",
+    "KE": "/assets/flags/ke.svg",
+    "KG": "/assets/flags/kg.svg",
+    "KH": "/assets/flags/kh.svg",
+    "KI": "/assets/flags/ki.svg",
+    "KN": "/assets/flags/kn.svg",
+    "KR": "/assets/flags/kr.svg",
+    "KW": "/assets/flags/kw.svg",
+    "LA": "/assets/flags/la.svg",
+    "LB": "/assets/flags/lb.svg",
+    "LR": "/assets/flags/lr.svg",
+    "LY": "/assets/flags/ly.svg",
+    "LC": "/assets/flags/lc.svg",
+    "LI": "/assets/flags/li.svg",
+    "LK": "/assets/flags/lk.svg",
+    "LS": "/assets/flags/ls.svg",
+    "LT": "/assets/flags/lt.svg",
+    "LU": "/assets/flags/lu.svg",
+    "LV": "/assets/flags/lv.svg",
+    "MA": "/assets/flags/ma.svg",
+    "MC": "/assets/flags/mc.svg",
+    "MD": "/assets/flags/md.svg",
+    "MG": "/assets/flags/mg.svg",
+    "MV": "/assets/flags/mv.svg",
+    "MX": "/assets/flags/mx.svg",
+    "MH": "/assets/flags/mh.svg",
+    "MK": "/assets/flags/mk.svg",
+    "ML": "/assets/flags/ml.svg",
+    "MT": "/assets/flags/mt.svg",
+    "MM": "/assets/flags/mm.svg",
+    "ME": "/assets/flags/me.svg",
+    "MN": "/assets/flags/mn.svg",
+    "MZ": "/assets/flags/mz.svg",
+    "MR": "/assets/flags/mr.svg",
+    "MU": "/assets/flags/mu.svg",
+    "MW": "/assets/flags/mw.svg",
+    "MY": "/assets/flags/my.svg",
+    "NA": "/assets/flags/na.svg",
+    "NE": "/assets/flags/ne.svg",
+    "NG": "/assets/flags/ng.svg",
+    "NI": "/assets/flags/ni.svg",
+    "NL": "/assets/flags/nl.svg",
+    "NO": "/assets/flags/no.svg",
+    "NP": "/assets/flags/np.svg",
+    "NR": "/assets/flags/nr.svg",
+    "NZ": "/assets/flags/nz.svg",
+    "OM": "/assets/flags/om.svg",
+    "PK": "/assets/flags/pk.svg",
+    "PA": "/assets/flags/pa.svg",
+    "PE": "/assets/flags/pe.svg",
+    "PH": "/assets/flags/ph.svg",
+    "PW": "/assets/flags/pw.svg",
+    "PG": "/assets/flags/pg.svg",
+    "PL": "/assets/flags/pl.svg",
+    "KP": "/assets/flags/kp.svg",
+    "PT": "/assets/flags/pt.svg",
+    "PY": "/assets/flags/py.svg",
+    "PS": "/assets/flags/ps.svg",
+    "QA": "/assets/flags/qa.svg",
+    "RO": "/assets/flags/ro.svg",
+    "RU": "/assets/flags/ru.svg",
+    "RW": "/assets/flags/rw.svg",
+    "SA": "/assets/flags/sa.svg",
+    "SD": "/assets/flags/sd.svg",
+    "SN": "/assets/flags/sn.svg",
+    "SG": "/assets/flags/sg.svg",
+    "SB": "/assets/flags/sb.svg",
+    "SL": "/assets/flags/sl.svg",
+    "SV": "/assets/flags/sv.svg",
+    "SM": "/assets/flags/sm.svg",
+    "SO": "/assets/flags/so.svg",
+    "RS": "/assets/flags/rs.svg",
+    "SS": "/assets/flags/ss.svg",
+    "ST": "/assets/flags/st.svg",
+    "SR": "/assets/flags/sr.svg",
+    "SK": "/assets/flags/sk.svg",
+    "SI": "/assets/flags/si.svg",
+    "SE": "/assets/flags/se.svg",
+    "SZ": "/assets/flags/sz.svg",
+    "SC": "/assets/flags/sc.svg",
+    "SY": "/assets/flags/sy.svg",
+    "TD": "/assets/flags/td.svg",
+    "TG": "/assets/flags/tg.svg",
+    "TH": "/assets/flags/th.svg",
+    "TJ": "/assets/flags/tj.svg",
+    "TM": "/assets/flags/tm.svg",
+    "TL": "/assets/flags/tl.svg",
+    "TO": "/assets/flags/to.svg",
+    "TT": "/assets/flags/tt.svg",
+    "TN": "/assets/flags/tn.svg",
+    "TR": "/assets/flags/tr.svg",
+    "TV": "/assets/flags/tv.svg",
+    "TZ": "/assets/flags/tz.svg",
+    "UG": "/assets/flags/ug.svg",
+    "UA": "/assets/flags/ua.svg",
+    "UY": "/assets/flags/uy.svg",
+    "US": "/assets/flags/us.svg",
+    "UZ": "/assets/flags/uz.svg",
+    "VA": "/assets/flags/va.svg",
+    "VC": "/assets/flags/vc.svg",
+    "VE": "/assets/flags/ve.svg",
+    "VN": "/assets/flags/vn.svg",
+    "VU": "/assets/flags/vu.svg",
+    "WS": "/assets/flags/ws.svg",
+    "YE": "/assets/flags/ye.svg",
+    "ZA": "/assets/flags/za.svg",
+    "ZM": "/assets/flags/zm.svg",
+    "ZW": "/assets/flags/zw.svg",
+    "HK": "/assets/flags/hk.svg",
+    "MO": "/assets/flags/mo.svg",
+    "EU": "/assets/flags/eu.svg"
+  },
+  "flagLicense": "/assets/flags/LICENSE"
+}

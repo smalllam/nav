@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms'
 import { websiteList } from 'src/store'
 import meta from '../../../data/vps-meta.json'
 import merchants from '../../../data/merchants.json'
+import visuals from '../../../data/visual-assets.json'
+
+type BrandAsset = {path: string | null; sourcePage?: string; sourceUrl?: string; kind?: string; theme?: string}
 
 @Component({
   standalone: true,
@@ -14,6 +17,9 @@ import merchants from '../../../data/merchants.json'
   styleUrls: ['./index.component.scss', './merchants.scss'],
 })
 export default class VpsDirectoryComponent {
+  visuals = visuals as {merchants: Record<string, BrandAsset>; resources: Record<string, BrandAsset>; flags: Record<string, string>}
+  failedImages = new Set<string>()
+  regionCodes: Record<string, string> = Object.fromEntries([...meta.countries.map(c => [c.zh, c.iso2]), ['中国大陆','CN'], ['中国香港','HK'], ['中国澳门','MO'], ['中国台湾','TW'], ['欧洲','EU'], ['欧洲联盟','EU'], ['阿联酋','AE']])
   meta = meta
   merchants: any[] = merchants.map(m => ({ ...m, key: 'merchant:' + m.id, domain: new URL(m.url).hostname }))
   saleRegions = [...new Set(this.merchants.flatMap(m => m.offeredRegions.map((r: string) => this.regionName(r))))].sort((a: any,b: any) => a.localeCompare(b, 'zh-CN'))
@@ -24,10 +30,10 @@ export default class VpsDirectoryComponent {
   merchantRegion = ''
   merchantStage = ''
   resources = [
-    {name: 'DigVPS · 商户测评', url: 'https://digvps.com/review', desc: '按商户浏览测评与收录目录，查看对应测试资料。'},
-    {name: 'DigVPS · 产品探查', url: 'https://digvps.com/insight', desc: '按配置、支付、IP 属性、线路与延迟查找产品；部分功能需订阅。'},
-    {name: 'NodeSeek', url: 'https://www.nodeseek.com/', desc: 'VPS 社区，浏览测评、商家推广及用户讨论。'},
-    {name: 'VPSLOG', url: 'https://t.me/vpslognet', desc: 'Telegram 服务器资讯频道，了解商家与产品活动线索。'},
+    {id: 'digvps', name: 'DigVPS · 商户测评', url: 'https://digvps.com/review', desc: '按商户浏览测评与收录目录，查看对应测试资料。'},
+    {id: 'digvps', name: 'DigVPS · 产品探查', url: 'https://digvps.com/insight', desc: '按配置、支付、IP 属性、线路与延迟查找产品；部分功能需订阅。'},
+    {id: 'nodeseek', name: 'NodeSeek', url: 'https://www.nodeseek.com/', desc: 'VPS 社区，浏览测评、商家推广及用户讨论。'},
+    {id: 'vpslog', name: 'VPSLOG', url: 'https://t.me/vpslognet', desc: 'Telegram 服务器资讯频道，了解商家与产品活动线索。'},
   ]
   countries = [...meta.countries].sort((a, b) => a.zh.localeCompare(b.zh, 'zh-CN'))
   regions = ['亚洲', '欧洲', '美洲', '非洲', '大洋洲']
@@ -46,7 +52,9 @@ export default class VpsDirectoryComponent {
     for (const r of websiteList) for (const c of r.nav) for (const group of c.nav) for (const item of group.nav) {
       if (!item['vps']) continue
       const place = meta.countries.find(p => p.iso2 === item['vps'].country)
-      this.items.push({ ...item, place, key: item['vps'].country + ':' + item.name + ':' + item.url })
+      const brandName = item.name.startsWith('Uzumaru / Uzuma') ? 'Uzumaru / Uzuma' : item.name.replace(/（.*?）/g, '').trim()
+      const brand = this.merchants.find(m => m.name === brandName || m.aliases.includes(brandName))
+      this.items.push({ ...item, place, merchantId: brand?.id, key: item['vps'].country + ':' + item.name + ':' + item.url })
     }
     try { this.favorites = new Set(JSON.parse(localStorage.getItem('cecil-vps-favorites') || '[]')) } catch {}
     let favoritesMigrated = false
@@ -100,12 +108,21 @@ export default class VpsDirectoryComponent {
     return methods.includes(p)
   }
   preview(values: string[]) { return values.slice(0, 5).join('、') + (values.length > 5 ? ` 等 ${values.length} 项` : '') }
+  previewRegions(values: string[]): string[] { return values.slice(0, 5) }
   toggleFavorite(item: any) {
     this.favorites.has(item.key) ? this.favorites.delete(item.key) : this.favorites.add(item.key)
     try { localStorage.setItem('cecil-vps-favorites', JSON.stringify([...this.favorites])) } catch {}
     if (this.favoritesOnly) this.filter()
   }
-  flag(iso: string) { return String.fromCodePoint(...[...iso].map(c => 127397 + c.charCodeAt(0))) }
+  logo(id: string, group: 'merchants' | 'resources' = 'merchants') {
+    const path = this.visuals[group][id]?.path
+    return path && !this.failedImages.has(path) ? path : null
+  }
+  logoDark(id: string) { return this.visuals.merchants[id]?.theme === 'dark' && !!this.logo(id) }
+  flag(iso: string) { const path = this.visuals.flags[iso]; return path && !this.failedImages.has(path) ? path : null }
+  regionFlag(region: string) { return this.flag(this.regionCodes[this.regionName(region)]) }
+  imageFailed(path: string) { this.failedImages.add(path) }
+  initials(name: string) { return name.replace(/（.*?）|\(.*?\)/g, '').replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g, '').slice(0, 2).toUpperCase() || '·' }
   get providerCount() { return this.merchants.length }
   get reviewedCount() { return this.merchants.filter(m => m.status !== 'lead').length }
   get leadCount() { return this.merchants.filter(m => m.status === 'lead').length }

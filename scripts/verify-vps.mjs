@@ -76,6 +76,10 @@ assert(merchant('EasyHeberg').payments.includes('PayPal') && merchant('EasyHeber
 assert.deepEqual(merchant('PP-Networks').offeredRegions, ['欧洲（型号区域，具体国家待核）']) // Do not infer Germany from the legacy product URL slug.
 assert(merchant('Sharktech').payments.includes('USDT') && !merchant('Sharktech').payments.includes('支付宝')) // Current Coinbase guide vs archived Alipay news.
 assert(merchant('MoonVM').review.product && merchant('MoonVM').review.note.includes('缺货'))
+assert(merchant('Phanes').payments.includes('支付宝') && merchant('Phanes').payments.includes('微信支付'))
+assert(!merchant('Phanes').payments.includes('USDT') && !merchant('Phanes').offeredRegions.length)
+assert(merchant('NMCloud（牛马云）').nat && merchant('NMCloud（牛马云）').review.note.includes('0 可用'))
+assert(merchant('POKEVM').review.note.includes('0 可用'))
 assert(merchant('雨云').review.note.includes('绑定微信/支付宝'))
 assert(!merchant('WAlcore').payments.includes('USDT')) // Generic crypto FAQ.
 assert(merchant('Hostinity').sources.includes('https://www.corenix.fr/vps'))
