@@ -23,7 +23,7 @@
             <label>本轮资料<select [(ngModel)]="merchantStage" (ngModelChange)="filter()"><option value="">全部资料状态</option><option value="complete">官网 / 支付 / 地区已核</option><option value="partial">仍有资料待补</option></select></label>
             <button class="reset" (click)="reset()">重置 ↺</button>
           </div>
-          <p class="catalog-note">{{ view === 'leads' ? '已逐项检查原目录入口；这些记录的当前 VPS / NAT 产品仍待确认。已取得的支付或地区资料照实展示，缺项保留待核。' : '官网产品、支付和售卖地区分别核实。所列支付与地区为已确认部分；地区按官网产品声明展示，不代表实测物理位置或实时有货。NAT 为商家级标签，各地区是否有 NAT 套餐需查看产品页。' }}</p>
+          <p class="catalog-note">{{ view === 'leads' ? '已逐项检查原目录入口；这些记录的当前 VPS / NAT 产品仍待确认。已取得的支付或地区资料照实展示，缺项保留待核。' : '官网产品、支付和售卖地区分别核实。所列支付与地区为已确认部分；依据及日期见每家来源说明，包含官方产品资料和原始测评，不代表实测物理位置或实时有货。NAT 为商家级标签，各地区是否有 NAT 套餐需查看产品页。' }}</p>
           <div class="resultline" aria-live="polite"><h2>{{ favoritesOnly ? '我的商家收藏' : view === 'leads' ? '产品待核' : '商家导航' }}</h2><span>{{ merchantResults.length }} 家结果</span></div>
           <div class="cards"><article class="card merchant" *ngFor="let m of merchantResults | slice:0:limit; trackBy: track">
             <div class="card-top"><span class="merchant-domain">{{ m.domain }}</span><button class="star" [class.saved]="favorites.has(m.key)" (click)="toggleFavorite(m)" [attr.aria-label]="(favorites.has(m.key) ? '取消收藏 ' : '收藏 ') + m.name" [attr.aria-pressed]="favorites.has(m.key)">{{ favorites.has(m.key) ? '★' : '☆' }}</button></div>
