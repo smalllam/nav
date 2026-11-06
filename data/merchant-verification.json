@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "checkedAt": "2026-11-07",
-  "batchSize": 222,
+  "batchSize": 220,
   "records": [
     {
       "id": "lead-99rdp-com",
@@ -6342,55 +6342,6 @@
       }
     },
     {
-      "id": "lead-phanes-cloud",
-      "sourceName": "Phanes",
-      "name": "Phanes",
-      "url": "https://my.phanes.cloud/",
-      "category": "VPS",
-      "status": "official",
-      "desc": "原 Phanes 云服务器目录可读；当前迁移后的新开地区尚待确认。",
-      "payments": [
-        "PayPal",
-        "信用卡 / 借记卡",
-        "加密货币",
-        "微信支付",
-        "支付宝",
-        "iDEAL"
-      ],
-      "offeredRegions": [],
-      "nat": false,
-      "checkedAt": "2026-11-07",
-      "sources": [
-        "https://my.phanes.cloud/",
-        "https://my.phanes.cloud/index.php?rp=/store/cloud-servers",
-        "https://my.phanes.cloud/index.php?rp=/knowledgebase",
-        "https://my.phanes.cloud/index.php?rp=/announcements/16/Important-Announcement-VPS-Control-Panel-Migration.html",
-        "https://my.phanes.cloud/index.php",
-        "https://my.phanes.cloud/cart.php?a=confproduct&i=0",
-        "https://my.phanes.cloud/cart.php?a=confproduct&i=1",
-        "https://my.phanes.cloud/index.php?rp=%2Fannouncements%2F5%2FPayPal-payments-accepted-again.html",
-        "https://my.phanes.cloud/index.php?rp=/store/cloud-servers/1gb",
-        "https://my.phanes.cloud/cart.php?a=checkout&e=false",
-        "https://lowendtalk.com/discussion/199297/has-anyone-tried-the-phanes-cloud-server",
-        "https://phanes.cloud/",
-        "https://secure.centrixpro.net/store/cloud-servers/compute-1gb",
-        "https://my.phanes.cloud/index.php?rp=/announcements/15/Phanes-Networks-B.V.-joins-SpectraIP-Group.html"
-      ],
-      "review": {
-        "outcome": "partial",
-        "website": true,
-        "product": true,
-        "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "2026-11-07 当前 B1 及 Cloud Servers 具体配置仍可读，但无部署国家选项；公开知识库的 location 搜索无有效机房说明，网络状态要求登录。官网主域当前提示将迁移至 CentrixPro，其公开 Compute 配置同样未列地区；2025-01-14 官方公告说明服务运营移交 SpectraIP，2025-02-28 公告说明云控制面板迁移。没有把企业地址、上游所有机房或迁移目标的其他产品地区套到旧 SKU。已有匿名结账付款依据保持；2024-11 一位荷兰 B1 用户文字仍属历史线索，不足以确认当前新开地区。",
-        "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
-      }
-    },
-    {
       "id": "lead-piayun-com",
       "sourceName": "pia云",
       "name": "pia云",
@@ -6462,48 +6413,6 @@
         "complete": true,
         "pending": [],
         "note": "2026-11-07 用户亲自填写临时服务器配置后，洛杉矶 MICRO 的匿名结账只列“支付宝”；未把账单国家或网关通用能力当作产品地区及支付。MICRO 当前显示 1 核、1GB、40GB NVMe、6TB 双向流量、300Mbps 峰值带宽、50 元/月。香港 3T 至 40T 分类读取时显示 0 可用，不概括全部地区停售。最终服务条款未勾选，没有注册、提交订单或付款；临时购物车已清空。",
-        "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
-      }
-    },
-    {
-      "id": "lead-ppnetworks-it",
-      "sourceName": "PP-Networks Solutions",
-      "name": "PP-Networks Solutions",
-      "url": "https://billing.ppnetworks.it/",
-      "category": "VPS",
-      "status": "official",
-      "desc": "欧洲 KVM / LXC VPS；匿名结账仅列 Link Payment，具体渠道待核。",
-      "payments": [],
-      "offeredRegions": [
-        "欧洲（型号区域，具体国家待核）"
-      ],
-      "nat": false,
-      "checkedAt": "2026-11-07",
-      "sources": [
-        "https://billing.ppnetworks.it/index.php?rp=/store/lxc-vps",
-        "https://billing.ppnetworks.it/index.php?rp=/store/kvm-vps",
-        "https://billing.ppnetworks.it/index.php?rp=/knowledgebase",
-        "https://billing.ppnetworks.it/index.php?rp=/store/shell-account",
-        "https://billing.ppnetworks.it/cart.php?a=confproduct&i=0",
-        "https://billing.ppnetworks.it/cart.php?a=confproduct&i=1",
-        "https://billing.ppnetworks.it/cart.php?a=confproduct&i=2",
-        "https://billing.ppnetworks.it/",
-        "https://billing.ppnetworks.it/index.php?rp=/store/kvm-vps/kvm-germany",
-        "https://ppnetworks.it/",
-        "https://billing.ppnetworks.it/index.php?rp=/store/lxc-vps/lxc-hungary-starter",
-        "https://billing.ppnetworks.it/cart.php?a=checkout&e=false"
-      ],
-      "review": {
-        "outcome": "partial",
-        "website": true,
-        "product": true,
-        "payments": false,
-        "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "2026-11-07 用户亲自填写 LXC EUROPE STARTER 临时配置后，实际匿名结账仍只列“Link Payment”，未明示银行卡、PayPal 或其他渠道，不按名称猜测支付品牌。LXC 当前月费 0.99 欧元、一次设置费 0.35 欧元，预览首期 1.34 欧元；产品只声明欧洲，不从 lxc-hungary 或旧 kvm-germany URL 推定国家。未填写个人账单资料、注册、提交订单或付款，临时购物车已清空。",
         "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
       }
     },

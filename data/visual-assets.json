@@ -1488,13 +1488,6 @@
       "kind": "official-site-icon",
       "sha256": "643970a963fdae1fe0ce13c046c072d84b7f429a43c5acd2e16f7d56b5d80618"
     },
-    "lead-phanes-cloud": {
-      "path": "/assets/merchants/9c9aeeea34596d35.png",
-      "sourcePage": "https://my.phanes.cloud/",
-      "sourceUrl": "https://my.phanes.cloud/assets/img/logo.png",
-      "kind": "official-site-logo",
-      "sha256": "b921a36c0ac3233895d81c562f68fae69a8bcc8068ede3f85173c5d34e59a71d"
-    },
     "lead-piayun-com": {
       "path": "/assets/merchants/bcaa03967ad7e88e.png",
       "sourcePage": "https://www.piayun.com/",
@@ -1515,13 +1508,6 @@
       "sourceUrl": "https://cdn5.telesco.pe/file/tX2PUT5-lMWshOpXKWb_DKjgQIMf8AWYXuIyK9Rm_2x4lcWuo2azEE0-fXpqx7B8KBDkFuQyLR07wBHwYSTYqzlYVgjcJIyapwaIda0NndjzbxWz-exyrDfR10dwF8GtZm9jbTwNWk3xMVyjZ7qxgNFKHVPk1OWAuMh0KKbwSmIb41PE_4DEbzx5BgXttSByiKYh3cvgip6FhkhRel9_G7t0MeW1Wt_QR1jYs-mV4oaQUIGyAY385GvJC4J6PhwgWbVZZ8yS8qOkMZQ5HbcxgTaUeZCduw7KCyp03RauTb3nwZU_wW7fVy8nrl4LBWwy_UwVc4bLoB9p83kJDwGRwQ.jpg",
       "sha256": "1f1f0712f6d93bdf4e8be0ffa297210c1a556cf91dd1f82f40e07abf26079e3e",
       "kind": "official-channel-avatar"
-    },
-    "lead-ppnetworks-it": {
-      "path": "/assets/merchants/be706a0f1c593dd8.png",
-      "sourcePage": "https://billing.ppnetworks.it/index.php?rp=/login",
-      "sourceUrl": "https://billing.ppnetworks.it/favicon.ico",
-      "kind": "official-site-icon",
-      "sha256": "c2116ec02a5794f500fa9f950ca52249ddc55be6501548bdadb665d6f012869e"
     },
     "premium-rdp": {
       "path": "/assets/merchants/f64aa75d86f47044.png",

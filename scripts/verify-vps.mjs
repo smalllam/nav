@@ -11,10 +11,10 @@ const extra = JSON.parse(fs.readFileSync('data/merchants-extra.json'))
 const discovery = JSON.parse(fs.readFileSync('data/merchant-discovery.json'))
 assert.deepEqual(merchants, buildMerchants(db, extra, discovery, verification))
 const originalLeads = buildMerchants(db, extra, discovery).filter(m => m.status === 'lead')
-assert.equal(originalLeads.length, 221)
+assert.equal(originalLeads.length, 219)
 assert.deepEqual(new Set(verification.records.filter(m => m.review?.origin !== 'country-catalog').map(m => m.id)), new Set(originalLeads.map(m => m.id)))
 assert.equal(verification.records.filter(m => m.mergedInto).length, 2)
-assert.equal(merchants.length, 305)
+assert.equal(merchants.length, 303)
 assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
 assert.equal(merchants.reduce((n,m) => n + m.plans, 0), items.length)
 assert.equal(merchants.filter(m => m.name.includes('Uzumaru')).length, 1)
@@ -40,7 +40,7 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 220)
+assert.equal(reviewed.filter(m => m.review.product).length, 218)
 assert.equal(reviewed.filter(m => m.review.complete).length, 218)
 assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
@@ -94,11 +94,10 @@ assert(merchant('Braw Hosting').nat && merchant('Braw Hosting').review.note.incl
 assert(merchant('Braw Hosting').offeredRegions.includes('马来西亚（住宅 IP 地区）')) // IP region is not independent physical-location verification.
 assert(merchant('cloudku').offeredRegions.includes('印度尼西亚') && merchant('cloudku').payments.includes('PayPal') && !merchant('cloudku').payments.includes('信用卡 / 借记卡')) // The official announcement explicitly disables cards.
 assert(merchant('EasyHeberg').payments.includes('PayPal') && merchant('EasyHeberg').payments.includes('信用卡 / 借记卡'))
-assert.deepEqual(merchant('PP-Networks').offeredRegions, ['欧洲（型号区域，具体国家待核）']) // Do not infer Germany from the legacy product URL slug.
+assert(!merchant('PP-Networks')) // Explicit user removal; history retained locally.
 assert(merchant('Sharktech').payments.includes('USDT') && !merchant('Sharktech').payments.includes('支付宝')) // Current Coinbase guide vs archived Alipay news.
 assert(merchant('MoonVM').review.product && merchant('MoonVM').review.note.includes('缺货'))
-assert(merchant('Phanes').payments.includes('支付宝') && merchant('Phanes').payments.includes('微信支付'))
-assert(!merchant('Phanes').payments.includes('USDT') && !merchant('Phanes').offeredRegions.length)
+assert(!merchant('Phanes')) // Explicit user removal; history retained locally.
 assert(merchant('NMCloud（牛马云）').nat && merchant('NMCloud（牛马云）').review.note.includes('0 可用'))
 assert(merchant('POKEVM').review.note.includes('0 可用'))
 assert(merchant('雨云').review.note.includes('绑定微信/支付宝'))
