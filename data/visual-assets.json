@@ -85,8 +85,11 @@
       "sha256": "8e4024b595aad6aab40988a31304a5529ed96486654d37c5b592702606c66c3c"
     },
     "lead-henghost-com": {
-      "path": null,
-      "sourcePage": "https://www.henghost.com/cloud-vps.shtml"
+      "path": "/assets/merchants/12e097a6c80570d6.gif",
+      "sourcePage": "https://www.henghost.com/cloud-vps.shtml",
+      "sourceUrl": "https://www.henghost.com/images/new-common/logo2026.gif",
+      "kind": "official-site-logo",
+      "sha256": "07650f2ba08153e03bc080e3642ca507cb9f01ddecdc3970fa9da47b71bbcaa8"
     },
     "lead-htstack-com": {
       "path": "/assets/merchants/7b543496982d28ba.png",
@@ -100,8 +103,11 @@
       "sourcePage": "https://www.huahost.com/"
     },
     "lead-jdidc-cn": {
-      "path": null,
-      "sourcePage": "https://cloud.jdidc.cn/"
+      "path": "/assets/merchants/8182ebd006fa122c.png",
+      "sourcePage": "https://www.jdidc.cn/",
+      "sourceUrl": "https://www.jdidc.cn/uploads/logo/logo_20260221224417_1724.png",
+      "kind": "official-site-logo",
+      "sha256": "0976be49d6a49a44732cafa596f6da0aa62d0b5bd448773f04442947c3ad9f68"
     },
     "lead-95vps-com": {
       "path": "/assets/merchants/d2247b923e8c9d6a.ico",
@@ -180,8 +186,11 @@
       "sha256": "c0723696e66944952a9e29ca41ad05849b8aeb10e33524806a18c0424ad063f2"
     },
     "lead-sukeyun-com": {
-      "path": null,
-      "sourcePage": "https://www.sukeyun.com/"
+      "path": "/assets/merchants/cf658745b11a68fe.png",
+      "sourcePage": "https://www.sukeyun.com/",
+      "sourceUrl": "https://www.sukeyun.com/themes/web/www/static/picture/remoteL17137802978430.png",
+      "kind": "official-site-logo",
+      "sha256": "c0becc97fb81efbab4726f5c29557dbb4ffacd0b0ed16dcb852a92b5410ee460"
     },
     "tencent": {
       "path": "/assets/merchants/9c8ae69b84f21a2e.ico",
@@ -270,8 +279,11 @@
       "sha256": "7172458991fdded8b743dacd9a0ca25bb2ce419ef848fed89f3ebb395f2765a7"
     },
     "akamai": {
-      "path": null,
-      "sourcePage": "https://www.akamai.com/products/cpu"
+      "path": "/assets/merchants/a3c4d61dbebabbaf.svg",
+      "sourcePage": "https://www.akamai.com/products/cpu",
+      "sourceUrl": "https://www.akamai.com/site/akamai-logo-v5.svg",
+      "kind": "official-site-logo",
+      "sha256": "01912de1cd17c3bf7dd0046ff996565ef56a9a79bcddcd000704d4629b1661c0"
     },
     "akile": {
       "path": "/assets/merchants/7345d5cd6b8fc3f5.png",
@@ -1001,8 +1013,11 @@
       "sha256": "32ddd6c668ece95e3de4a4d64475c86996e8c59d14b2e34a7cdc20f0087ec687"
     },
     "lead-ihostart-com": {
-      "path": null,
-      "sourcePage": "https://panel.ihostart.com/index.php?rp=/store/vps-kvm-ssd"
+      "path": "/assets/merchants/d23116fec47461c0.png",
+      "sourcePage": "https://panel.ihostart.com/index.php?rp=/store/vps-kvm-ssd",
+      "sourceUrl": "https://panel.ihostart.com/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "fc23bc0aa82349daf36bf45f3ff90344dcb6910173cf14095d9d5fc560da5d29"
     },
     "ika-cloud": {
       "path": "/assets/merchants/989474ab0a442381.png",
@@ -1618,8 +1633,12 @@
       "sha256": "440c26dc69ef0eeabc14cb7f2cea455ffc1a294c814e4d2099cf3b656c4e0dbb"
     },
     "scaleway": {
-      "path": null,
-      "sourcePage": "https://www.scaleway.com/en/virtual-instances/"
+      "path": "/assets/merchants/acbe5993eb7b1715.svg",
+      "sourcePage": "https://www.scaleway.com/en/virtual-instances/",
+      "sourceUrl": "https://www.scaleway.com/_next/static/media/logo.364z9575fph9v.svg",
+      "kind": "official-site-logo",
+      "sha256": "383c2d029a072e000f36f404c29f08924f6c58e161068d9cf115843b3c7af5bc",
+      "theme": "dark"
     },
     "secure-shore-cloud": {
       "path": null,
@@ -1846,8 +1865,11 @@
       "sourcePage": "https://www.time4vps.com/"
     },
     "lead-tmhhost-com": {
-      "path": null,
-      "sourcePage": "https://www.tmhhost.com/cart"
+      "path": "/assets/merchants/6a807b2df48bf523.png",
+      "sourcePage": "https://www.tmhhost.com/cart",
+      "sourceUrl": "https://www.tmhhost.com/themes/web/www/upload/local69e8a348c1f92.png",
+      "kind": "official-site-logo",
+      "sha256": "45ec92388e07730124d5e6bf049005a588d1b0000706f7104717cd44fc3eaebd"
     },
     "torchbyte": {
       "path": "/assets/merchants/58fe7420d6d03c02.png",
