@@ -38,15 +38,24 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 188)
-assert.equal(reviewed.filter(m => m.review.complete).length, 48)
-assert.equal(reviewed.filter(m => m.nat).length, 15)
+assert.equal(reviewed.filter(m => m.review.product).length, 208)
+assert.equal(reviewed.filter(m => m.review.complete).length, 107)
+assert.equal(reviewed.filter(m => m.nat).length, 16)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
 assert.equal(merchant('EDGENAT').nat, false) // A brand name is not a NAT product.
 assert.equal(merchant('七牛').nat, false) // NAT Gateway is not NAT VPS.
 assert.equal(merchant('TripodCloud').payments.length, 0) // Future-dated announcement.
-assert.equal(merchant('Nolimithost').offeredRegions.length, 0) // Registration country picker.
+assert.deepEqual(merchant('Nolimithost').offeredRegions, ['德国 · 法兰克福', '美国 · 芝加哥', '荷兰 · Eygelshoven']) // Actual VPS product rows, not a registration country picker.
+assert(merchant('Flapjacks').nat && merchant('Flapjacks').review.note.includes('IPv4 NAT 出站'))
+assert(!merchant('Datapasa').offeredRegions.some(r => /巴西/.test(r))) // Coming soon.
+assert(!merchant('Nuyek').payments.includes('USDT')) // A gateway's supported coins do not prove merchant acceptance.
+assert(!merchant('Maple').review.product) // Dedicated servers are not VPS.
+assert(!merchant('Servps').review.product) // Infrastructure consultancy is not a public VPS plan.
+assert(merchant('MoonVM').review.product && merchant('MoonVM').review.note.includes('缺货'))
+assert(merchant('雨云').review.note.includes('绑定微信/支付宝'))
+assert(!merchant('WAlcore').payments.includes('USDT')) // Generic crypto FAQ.
+assert(merchant('Hostinity').sources.includes('https://www.corenix.fr/vps'))
 assert.equal(merchant('Contabo').payments.includes('USDT'), false)
 assert.equal(merchant('Casbay').payments.includes('USDT'), false) // Generic crypto is insufficient.
 assert(merchant('WebHorizon').offeredRegions.includes('马来西亚（新加坡线路）'))
