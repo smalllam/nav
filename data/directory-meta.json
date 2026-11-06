@@ -1,0 +1,2438 @@
+{
+  "countries": [
+    {
+      "iso2": "AF",
+      "zh": "阿富汗",
+      "name": "Afghanistan",
+      "aliases": [
+        "AF",
+        "Afghanistan",
+        "Afġānistān",
+        "Islamic Republic of Afghanistan"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "AO",
+      "zh": "安哥拉",
+      "name": "Angola",
+      "aliases": [
+        "ʁɛpublika de an'ɡɔla",
+        "Angola",
+        "Republic of Angola",
+        "AO",
+        "República de Angola"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "AL",
+      "zh": "阿尔巴尼亚",
+      "name": "Albania",
+      "aliases": [
+        "Shqipëria",
+        "Republic of Albania",
+        "AL",
+        "Shqipnia",
+        "Albania",
+        "Shqipëri"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "AD",
+      "zh": "安道尔",
+      "name": "Andorra",
+      "aliases": [
+        "Andorra",
+        "AD",
+        "Principat d'Andorra",
+        "Principality of Andorra"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "AE",
+      "zh": "阿拉伯联合酋长国",
+      "name": "United Arab Emirates",
+      "aliases": [
+        "United Arab Emirates",
+        "Emirates",
+        "UAE",
+        "AE"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "AR",
+      "zh": "阿根廷",
+      "name": "Argentina",
+      "aliases": [
+        "República Argentina",
+        "Argentina",
+        "Argentine Republic",
+        "AR"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "AM",
+      "zh": "亚美尼亚",
+      "name": "Armenia",
+      "aliases": [
+        "Republic of Armenia",
+        "Հայաստանի Հանրապետություն",
+        "Hayastan",
+        "Armenia",
+        "AM"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "AG",
+      "zh": "安提瓜和巴布达",
+      "name": "Antigua and Barbuda",
+      "aliases": [
+        "Antigua and Barbuda",
+        "AG"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "AU",
+      "zh": "澳大利亚",
+      "name": "Australia",
+      "aliases": [
+        "Australia",
+        "AU",
+        "Commonwealth of Australia"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "AT",
+      "zh": "奥地利",
+      "name": "Austria",
+      "aliases": [
+        "AT",
+        "Osterreich",
+        "Oesterreich",
+        "Austria",
+        "Republic of Austria"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "AZ",
+      "zh": "阿塞拜疆",
+      "name": "Azerbaijan",
+      "aliases": [
+        "Azerbaijan",
+        "Republic of Azerbaijan",
+        "AZ",
+        "Azərbaycan Respublikası"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "BI",
+      "zh": "布隆迪",
+      "name": "Burundi",
+      "aliases": [
+        "République du Burundi",
+        "Republic of Burundi",
+        "BI",
+        "Republika y'Uburundi",
+        "Burundi"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "BE",
+      "zh": "比利时",
+      "name": "Belgium",
+      "aliases": [
+        "Belgie",
+        "België",
+        "Royaume de Belgique",
+        "Belgium",
+        "Königreich Belgien",
+        "BE",
+        "Kingdom of Belgium",
+        "Belgique",
+        "Koninkrijk België",
+        "Belgien"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "BJ",
+      "zh": "贝宁",
+      "name": "Benin",
+      "aliases": [
+        "BJ",
+        "Republic of Benin",
+        "République du Bénin",
+        "Benin"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "BF",
+      "zh": "布基纳法索",
+      "name": "Burkina Faso",
+      "aliases": [
+        "Burkina Faso",
+        "BF"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "BD",
+      "zh": "孟加拉国",
+      "name": "Bangladesh",
+      "aliases": [
+        "Bangladesh",
+        "BD",
+        "Gônôprôjatôntri Bangladesh",
+        "People's Republic of Bangladesh"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "BG",
+      "zh": "保加利亚",
+      "name": "Bulgaria",
+      "aliases": [
+        "Bulgaria",
+        "Република България",
+        "BG",
+        "Republic of Bulgaria"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "BH",
+      "zh": "巴林",
+      "name": "Bahrain",
+      "aliases": [
+        "BH",
+        "Mamlakat al-Baḥrayn",
+        "Kingdom of Bahrain",
+        "Bahrain"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "BS",
+      "zh": "巴哈马",
+      "name": "Bahamas",
+      "aliases": [
+        "Commonwealth of the Bahamas",
+        "BS",
+        "Bahamas"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "BA",
+      "zh": "波斯尼亚和黑塞哥维那",
+      "name": "Bosnia and Herzegovina",
+      "aliases": [
+        "BA",
+        "Босна и Херцеговина",
+        "Bosnia and Herzegovina",
+        "Bosnia-Herzegovina"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "BY",
+      "zh": "白俄罗斯",
+      "name": "Belarus",
+      "aliases": [
+        "Belarus",
+        "Bielaruś",
+        "Republic of Belarus",
+        "BY",
+        "Белоруссия",
+        "Республика Белоруссия"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "BZ",
+      "zh": "伯利兹",
+      "name": "Belize",
+      "aliases": [
+        "Belize",
+        "BZ"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "BO",
+      "zh": "玻利维亚",
+      "name": "Bolivia",
+      "aliases": [
+        "Plurinational State of Bolivia",
+        "Buliwya",
+        "BO",
+        "Wuliwya",
+        "Bolivia, Plurinational State of",
+        "Buliwya Mamallaqta",
+        "Wuliwya Suyu",
+        "Estado Plurinacional de Bolivia",
+        "Tetã Volívia",
+        "Bolivia"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "BR",
+      "zh": "巴西",
+      "name": "Brazil",
+      "aliases": [
+        "República Federativa do Brasil",
+        "Brazil",
+        "BR",
+        "Brasil",
+        "Federative Republic of Brazil"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "BB",
+      "zh": "巴巴多斯",
+      "name": "Barbados",
+      "aliases": [
+        "Barbados",
+        "BB"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "BN",
+      "zh": "文莱",
+      "name": "Brunei",
+      "aliases": [
+        "Nation of Brunei, Abode of Peace",
+        "Brunei",
+        "Nation of Brunei",
+        "BN",
+        "Brunei Darussalam",
+        "the Abode of Peace"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "BT",
+      "zh": "不丹",
+      "name": "Bhutan",
+      "aliases": [
+        "Bhutan",
+        "Kingdom of Bhutan",
+        "BT"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "BW",
+      "zh": "博茨瓦纳",
+      "name": "Botswana",
+      "aliases": [
+        "BW",
+        "Republic of Botswana",
+        "Botswana",
+        "Lefatshe la Botswana"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "CF",
+      "zh": "中非共和国",
+      "name": "Central African Republic",
+      "aliases": [
+        "République centrafricaine",
+        "Central African Republic",
+        "CF"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "CA",
+      "zh": "加拿大",
+      "name": "Canada",
+      "aliases": [
+        "Canada",
+        "CA"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "CH",
+      "zh": "瑞士",
+      "name": "Switzerland",
+      "aliases": [
+        "CH",
+        "Switzerland",
+        "Suisse",
+        "Svizra",
+        "Swiss Confederation",
+        "Schweiz",
+        "Svizzera"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "CL",
+      "zh": "智利",
+      "name": "Chile",
+      "aliases": [
+        "CL",
+        "República de Chile",
+        "Chile",
+        "Republic of Chile"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "CN",
+      "zh": "中国",
+      "name": "China",
+      "aliases": [
+        "Zhōnghuá Rénmín Gònghéguó",
+        "Zhonghua",
+        "People's Republic of China",
+        "CN",
+        "Zhōngguó",
+        "中华人民共和国",
+        "China",
+        "Zhongguo"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "CI",
+      "zh": "科特迪瓦",
+      "name": "Ivory Coast",
+      "aliases": [
+        "Republic of Côte d'Ivoire",
+        "Cote d'Ivoire",
+        "République de Côte d'Ivoire",
+        "Côte d'Ivoire",
+        "Ivory Coast",
+        "CI"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "CM",
+      "zh": "喀麦隆",
+      "name": "Cameroon",
+      "aliases": [
+        "CM",
+        "Cameroon",
+        "Republic of Cameroon",
+        "République du Cameroun"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "CD",
+      "zh": "民主刚果",
+      "name": "DR Congo",
+      "aliases": [
+        "DRC",
+        "Congo, the Democratic Republic of the",
+        "DR Congo",
+        "Congo-Kinshasa",
+        "Democratic Republic of Congo",
+        "CD",
+        "Democratic Republic of the Congo"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "CG",
+      "zh": "刚果",
+      "name": "Congo",
+      "aliases": [
+        "Congo",
+        "Congo-Brazzaville",
+        "CG",
+        "Republic of the Congo"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "CO",
+      "zh": "哥伦比亚",
+      "name": "Colombia",
+      "aliases": [
+        "Republic of Colombia",
+        "Colombia",
+        "República de Colombia",
+        "CO"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "KM",
+      "zh": "科摩罗",
+      "name": "Comoros",
+      "aliases": [
+        "Comoros",
+        "Union of the Comoros",
+        "Udzima wa Komori",
+        "Union des Comores",
+        "KM",
+        "al-Ittiḥād al-Qumurī"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "CV",
+      "zh": "佛得角",
+      "name": "Cape Verde",
+      "aliases": [
+        "CV",
+        "Cape Verde",
+        "Republic of Cabo Verde",
+        "República de Cabo Verde"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "CR",
+      "zh": "哥斯达黎加",
+      "name": "Costa Rica",
+      "aliases": [
+        "Republic of Costa Rica",
+        "Costa Rica",
+        "República de Costa Rica",
+        "CR"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "CU",
+      "zh": "古巴",
+      "name": "Cuba",
+      "aliases": [
+        "República de Cuba",
+        "Republic of Cuba",
+        "CU",
+        "Cuba"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "CY",
+      "zh": "塞浦路斯",
+      "name": "Cyprus",
+      "aliases": [
+        "Kıbrıs Cumhuriyeti",
+        "CY",
+        "Κυπριακή Δημοκρατία",
+        "Kýpros",
+        "Republic of Cyprus",
+        "Cyprus",
+        "Kıbrıs"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "CZ",
+      "zh": "捷克",
+      "name": "Czechia",
+      "aliases": [
+        "CZ",
+        "Česká republika",
+        "Czech Republic",
+        "Česko",
+        "Czechia"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "DE",
+      "zh": "德国",
+      "name": "Germany",
+      "aliases": [
+        "Bundesrepublik Deutschland",
+        "Germany",
+        "DE",
+        "Federal Republic of Germany"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "DJ",
+      "zh": "吉布提",
+      "name": "Djibouti",
+      "aliases": [
+        "République de Djibouti",
+        "Jamhuuriyadda Jabuuti",
+        "Djibouti",
+        "Gabuutih Ummuuno",
+        "DJ",
+        "Jabuuti",
+        "Gabuuti",
+        "Republic of Djibouti"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "DM",
+      "zh": "多米尼加",
+      "name": "Dominica",
+      "aliases": [
+        "Wai‘tu kubuli",
+        "Dominica",
+        "Dominique",
+        "Commonwealth of Dominica",
+        "DM"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "DK",
+      "zh": "丹麦",
+      "name": "Denmark",
+      "aliases": [
+        "Denmark",
+        "Kongeriget Danmark",
+        "Danmark",
+        "DK",
+        "Kingdom of Denmark"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "DO",
+      "zh": "多明尼加",
+      "name": "Dominican Republic",
+      "aliases": [
+        "Dominican Republic",
+        "DO"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "DZ",
+      "zh": "阿尔及利亚",
+      "name": "Algeria",
+      "aliases": [
+        "Algérie",
+        "Dzayer",
+        "DZ",
+        "Algeria",
+        "People's Democratic Republic of Algeria"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "EC",
+      "zh": "厄瓜多尔",
+      "name": "Ecuador",
+      "aliases": [
+        "Republic of Ecuador",
+        "República del Ecuador",
+        "EC",
+        "Ecuador"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "EG",
+      "zh": "埃及",
+      "name": "Egypt",
+      "aliases": [
+        "Egypt",
+        "EG",
+        "Arab Republic of Egypt"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "ER",
+      "zh": "厄立特里亚",
+      "name": "Eritrea",
+      "aliases": [
+        "ER",
+        "Dawlat Iritriyá",
+        "ሃገረ ኤርትራ",
+        "ʾErtrā",
+        "Iritriyā",
+        "Eritrea",
+        "State of Eritrea"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "ES",
+      "zh": "西班牙",
+      "name": "Spain",
+      "aliases": [
+        "Reino de España",
+        "Kingdom of Spain",
+        "ES",
+        "Spain"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "EE",
+      "zh": "爱沙尼亚",
+      "name": "Estonia",
+      "aliases": [
+        "Republic of Estonia",
+        "Eesti",
+        "Eesti Vabariik",
+        "Estonia",
+        "EE"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "ET",
+      "zh": "埃塞俄比亚",
+      "name": "Ethiopia",
+      "aliases": [
+        "Federal Democratic Republic of Ethiopia",
+        "ʾĪtyōṗṗyā",
+        "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+        "ET",
+        "Ethiopia"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "FI",
+      "zh": "芬兰",
+      "name": "Finland",
+      "aliases": [
+        "Suomen tasavalta",
+        "Republiken Finland",
+        "Finland",
+        "FI",
+        "Suomi",
+        "Republic of Finland"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "FJ",
+      "zh": "斐济",
+      "name": "Fiji",
+      "aliases": [
+        "FJ",
+        "Fiji",
+        "Matanitu ko Viti",
+        "Viti",
+        "Republic of Fiji",
+        "Fijī Gaṇarājya"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "FR",
+      "zh": "法国",
+      "name": "France",
+      "aliases": [
+        "FR",
+        "French Republic",
+        "France",
+        "République française"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "FM",
+      "zh": "密克罗尼西亚",
+      "name": "Micronesia",
+      "aliases": [
+        "Micronesia",
+        "FM",
+        "Micronesia, Federated States of",
+        "Federated States of Micronesia"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "GA",
+      "zh": "加蓬",
+      "name": "Gabon",
+      "aliases": [
+        "GA",
+        "Gabonese Republic",
+        "Gabon",
+        "République Gabonaise"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "GB",
+      "zh": "英国",
+      "name": "United Kingdom",
+      "aliases": [
+        "UK",
+        "United Kingdom of Great Britain and Northern Ireland",
+        "GB",
+        "Great Britain",
+        "United Kingdom"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "GE",
+      "zh": "格鲁吉亚",
+      "name": "Georgia",
+      "aliases": [
+        "GE",
+        "Sakartvelo",
+        "Georgia"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "GH",
+      "zh": "加纳",
+      "name": "Ghana",
+      "aliases": [
+        "GH",
+        "Ghana",
+        "Republic of Ghana"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "GN",
+      "zh": "几内亚",
+      "name": "Guinea",
+      "aliases": [
+        "Republic of Guinea",
+        "GN",
+        "République de Guinée",
+        "Guinea"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "GM",
+      "zh": "冈比亚",
+      "name": "Gambia",
+      "aliases": [
+        "Republic of the Gambia",
+        "Gambia",
+        "GM"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "GW",
+      "zh": "几内亚比绍",
+      "name": "Guinea-Bissau",
+      "aliases": [
+        "Republic of Guinea-Bissau",
+        "República da Guiné-Bissau",
+        "GW",
+        "Guinea-Bissau"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "GQ",
+      "zh": "赤道几内亚",
+      "name": "Equatorial Guinea",
+      "aliases": [
+        "República da Guiné Equatorial",
+        "GQ",
+        "República de Guinea Ecuatorial",
+        "Equatorial Guinea",
+        "République de Guinée équatoriale",
+        "Republic of Equatorial Guinea"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "GR",
+      "zh": "希腊",
+      "name": "Greece",
+      "aliases": [
+        "Hellenic Republic",
+        "Ελληνική Δημοκρατία",
+        "GR",
+        "Elláda",
+        "Greece"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "GD",
+      "zh": "格林纳达",
+      "name": "Grenada",
+      "aliases": [
+        "Grenada",
+        "GD"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "GT",
+      "zh": "危地马拉",
+      "name": "Guatemala",
+      "aliases": [
+        "Republic of Guatemala",
+        "Guatemala",
+        "GT"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "GY",
+      "zh": "圭亚那",
+      "name": "Guyana",
+      "aliases": [
+        "Co-operative Republic of Guyana",
+        "Guyana",
+        "GY"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "HN",
+      "zh": "洪都拉斯",
+      "name": "Honduras",
+      "aliases": [
+        "Honduras",
+        "Republic of Honduras",
+        "República de Honduras",
+        "HN"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "HR",
+      "zh": "克罗地亚",
+      "name": "Croatia",
+      "aliases": [
+        "Hrvatska",
+        "Republika Hrvatska",
+        "Republic of Croatia",
+        "Croatia",
+        "HR"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "HT",
+      "zh": "海地",
+      "name": "Haiti",
+      "aliases": [
+        "HT",
+        "République d'Haïti",
+        "Repiblik Ayiti",
+        "Haiti",
+        "Republic of Haiti"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "HU",
+      "zh": "匈牙利",
+      "name": "Hungary",
+      "aliases": [
+        "Hungary",
+        "HU"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "ID",
+      "zh": "印度尼西亚",
+      "name": "Indonesia",
+      "aliases": [
+        "Republic of Indonesia",
+        "ID",
+        "Republik Indonesia",
+        "Indonesia"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "IN",
+      "zh": "印度",
+      "name": "India",
+      "aliases": [
+        "Bhārat",
+        "IN",
+        "இந்தியா",
+        "India",
+        "Bharat Ganrajya",
+        "Republic of India"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "IE",
+      "zh": "爱尔兰",
+      "name": "Ireland",
+      "aliases": [
+        "Éire",
+        "Republic of Ireland",
+        "IE",
+        "Poblacht na hÉireann",
+        "Ireland"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "IR",
+      "zh": "伊朗",
+      "name": "Iran",
+      "aliases": [
+        "Jomhuri-ye Eslāmi-ye Irān",
+        "Iran, Islamic Republic of",
+        "Islamic Republic of Iran",
+        "IR",
+        "Iran"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "IQ",
+      "zh": "伊拉克",
+      "name": "Iraq",
+      "aliases": [
+        "Republic of Iraq",
+        "Iraq",
+        "IQ",
+        "Jumhūriyyat al-‘Irāq"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "IS",
+      "zh": "冰岛",
+      "name": "Iceland",
+      "aliases": [
+        "Republic of Iceland",
+        "Lýðveldið Ísland",
+        "Iceland",
+        "Island",
+        "IS"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "IL",
+      "zh": "以色列",
+      "name": "Israel",
+      "aliases": [
+        "Medīnat Yisrā'el",
+        "State of Israel",
+        "Israel",
+        "IL"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "IT",
+      "zh": "意大利",
+      "name": "Italy",
+      "aliases": [
+        "Italian Republic",
+        "Italy",
+        "IT",
+        "Repubblica italiana"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "JM",
+      "zh": "牙买加",
+      "name": "Jamaica",
+      "aliases": [
+        "JM",
+        "Jamaica"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "JO",
+      "zh": "约旦",
+      "name": "Jordan",
+      "aliases": [
+        "Hashemite Kingdom of Jordan",
+        "al-Mamlakah al-Urdunīyah al-Hāshimīyah",
+        "JO",
+        "Jordan"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "JP",
+      "zh": "日本",
+      "name": "Japan",
+      "aliases": [
+        "JP",
+        "Nihon",
+        "Nippon",
+        "Japan"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "KZ",
+      "zh": "哈萨克斯坦",
+      "name": "Kazakhstan",
+      "aliases": [
+        "Қазақстан Республикасы",
+        "Qazaqstan",
+        "Respublika Kazakhstan",
+        "KZ",
+        "Republic of Kazakhstan",
+        "Qazaqstan Respublïkası",
+        "Республика Казахстан",
+        "Kazakhstan",
+        "Казахстан"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "KE",
+      "zh": "肯尼亚",
+      "name": "Kenya",
+      "aliases": [
+        "Jamhuri ya Kenya",
+        "Republic of Kenya",
+        "KE",
+        "Kenya"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "KG",
+      "zh": "吉尔吉斯斯坦",
+      "name": "Kyrgyzstan",
+      "aliases": [
+        "KG",
+        "Кыргыз Республикасы",
+        "Киргизия",
+        "Kyrgyz Respublikasy",
+        "Kyrgyz Republic",
+        "Kyrgyzstan"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "KH",
+      "zh": "柬埔寨",
+      "name": "Cambodia",
+      "aliases": [
+        "KH",
+        "Kingdom of Cambodia",
+        "Cambodia"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "KI",
+      "zh": "基里巴斯",
+      "name": "Kiribati",
+      "aliases": [
+        "Ribaberiki Kiribati",
+        "Kiribati",
+        "Independent and Sovereign Republic of Kiribati",
+        "Republic of Kiribati",
+        "KI"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "KN",
+      "zh": "圣基茨和尼维斯",
+      "name": "Saint Kitts and Nevis",
+      "aliases": [
+        "KN",
+        "Federation of Saint Christopher and Nevis",
+        "Saint Kitts and Nevis"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "KR",
+      "zh": "韩国",
+      "name": "South Korea",
+      "aliases": [
+        "Republic of Korea",
+        "KR",
+        "South Korea",
+        "남조선",
+        "남한",
+        "Korea, Republic of"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "KW",
+      "zh": "科威特",
+      "name": "Kuwait",
+      "aliases": [
+        "KW",
+        "Kuwait",
+        "State of Kuwait",
+        "Dawlat al-Kuwait"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "LA",
+      "zh": "老挝",
+      "name": "Laos",
+      "aliases": [
+        "LA",
+        "Sathalanalat Paxathipatai Paxaxon Lao",
+        "Lao People's Democratic Republic",
+        "Lao",
+        "Laos"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "LB",
+      "zh": "黎巴嫩",
+      "name": "Lebanon",
+      "aliases": [
+        "Al-Jumhūrīyah Al-Libnānīyah",
+        "Lebanese Republic",
+        "Lebanon",
+        "LB"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "LR",
+      "zh": "利比里亚",
+      "name": "Liberia",
+      "aliases": [
+        "Republic of Liberia",
+        "LR",
+        "Liberia"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "LY",
+      "zh": "利比亚",
+      "name": "Libya",
+      "aliases": [
+        "LY",
+        "Dawlat Libya",
+        "Libya",
+        "State of Libya"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "LC",
+      "zh": "圣卢西亚",
+      "name": "Saint Lucia",
+      "aliases": [
+        "LC",
+        "Saint Lucia"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "LI",
+      "zh": "列支敦士登",
+      "name": "Liechtenstein",
+      "aliases": [
+        "Fürstentum Liechtenstein",
+        "Principality of Liechtenstein",
+        "LI",
+        "Liechtenstein"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "LK",
+      "zh": "斯里兰卡",
+      "name": "Sri Lanka",
+      "aliases": [
+        "ilaṅkai",
+        "Sri Lanka",
+        "Democratic Socialist Republic of Sri Lanka",
+        "LK"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "LS",
+      "zh": "莱索托",
+      "name": "Lesotho",
+      "aliases": [
+        "LS",
+        "Lesotho",
+        "Muso oa Lesotho",
+        "Kingdom of Lesotho"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "LT",
+      "zh": "立陶宛",
+      "name": "Lithuania",
+      "aliases": [
+        "LT",
+        "Lithuania",
+        "Republic of Lithuania",
+        "Lietuvos Respublika"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "LU",
+      "zh": "卢森堡",
+      "name": "Luxembourg",
+      "aliases": [
+        "LU",
+        "Grand-Duché de Luxembourg",
+        "Grand Duchy of Luxembourg",
+        "Großherzogtum Luxemburg",
+        "Luxembourg",
+        "Groussherzogtum Lëtzebuerg"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "LV",
+      "zh": "拉脱维亚",
+      "name": "Latvia",
+      "aliases": [
+        "Latvia",
+        "LV",
+        "Latvijas Republika",
+        "Republic of Latvia"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "MA",
+      "zh": "摩洛哥",
+      "name": "Morocco",
+      "aliases": [
+        "Morocco",
+        "MA",
+        "Kingdom of Morocco",
+        "Al-Mamlakah al-Maġribiyah"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "MC",
+      "zh": "摩纳哥",
+      "name": "Monaco",
+      "aliases": [
+        "MC",
+        "Principauté de Monaco",
+        "Principality of Monaco",
+        "Monaco"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "MD",
+      "zh": "摩尔多瓦",
+      "name": "Moldova",
+      "aliases": [
+        "Republic of Moldova",
+        "MD",
+        "Moldova",
+        "Republica Moldova",
+        "Moldova, Republic of"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "MG",
+      "zh": "马达加斯加",
+      "name": "Madagascar",
+      "aliases": [
+        "Republic of Madagascar",
+        "MG",
+        "Repoblikan'i Madagasikara",
+        "Madagascar",
+        "République de Madagascar"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "MV",
+      "zh": "马尔代夫",
+      "name": "Maldives",
+      "aliases": [
+        "Dhivehi Raajjeyge Jumhooriyya",
+        "Maldive Islands",
+        "Republic of the Maldives",
+        "Maldives",
+        "MV"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "MX",
+      "zh": "墨西哥",
+      "name": "Mexico",
+      "aliases": [
+        "United Mexican States",
+        "Mexico",
+        "Mexicanos",
+        "MX",
+        "Estados Unidos Mexicanos"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "MH",
+      "zh": "马绍尔群岛",
+      "name": "Marshall Islands",
+      "aliases": [
+        "Aolepān Aorōkin M̧ajeļ",
+        "Republic of the Marshall Islands",
+        "Marshall Islands",
+        "MH"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "MK",
+      "zh": "北馬其頓",
+      "name": "North Macedonia",
+      "aliases": [
+        "Republic of North Macedonia",
+        "North Macedonia",
+        "Macedonia, The Former Yugoslav Republic of",
+        "Macedonia",
+        "The former Yugoslav Republic of Macedonia",
+        "Република Северна Македонија",
+        "MK"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "ML",
+      "zh": "马里",
+      "name": "Mali",
+      "aliases": [
+        "Republic of Mali",
+        "République du Mali",
+        "Mali",
+        "ML"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "MT",
+      "zh": "马耳他",
+      "name": "Malta",
+      "aliases": [
+        "Repubblika ta' Malta",
+        "MT",
+        "Republic of Malta",
+        "Malta"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "MM",
+      "zh": "缅甸",
+      "name": "Myanmar",
+      "aliases": [
+        "Burma",
+        "Pyidaunzu Thanmăda Myăma Nainngandaw",
+        "Republic of the Union of Myanmar",
+        "MM",
+        "Myanmar"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "ME",
+      "zh": "黑山",
+      "name": "Montenegro",
+      "aliases": [
+        "Montenegro",
+        "ME",
+        "Crna Gora"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "MN",
+      "zh": "蒙古",
+      "name": "Mongolia",
+      "aliases": [
+        "Mongolia",
+        "MN"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "MZ",
+      "zh": "莫桑比克",
+      "name": "Mozambique",
+      "aliases": [
+        "Republic of Mozambique",
+        "República de Moçambique",
+        "Mozambique",
+        "MZ"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "MR",
+      "zh": "毛里塔尼亚",
+      "name": "Mauritania",
+      "aliases": [
+        "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah",
+        "MR",
+        "Mauritania",
+        "Islamic Republic of Mauritania"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "MU",
+      "zh": "毛里求斯",
+      "name": "Mauritius",
+      "aliases": [
+        "Republic of Mauritius",
+        "Mauritius",
+        "MU",
+        "République de Maurice"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "MW",
+      "zh": "马拉维",
+      "name": "Malawi",
+      "aliases": [
+        "MW",
+        "Malawi",
+        "Republic of Malawi"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "MY",
+      "zh": "马来西亚",
+      "name": "Malaysia",
+      "aliases": [
+        "Malaysia",
+        "MY"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "NA",
+      "zh": "纳米比亚",
+      "name": "Namibia",
+      "aliases": [
+        "Namibië",
+        "Republic of Namibia",
+        "Namibia",
+        "NA"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "NE",
+      "zh": "尼日尔",
+      "name": "Niger",
+      "aliases": [
+        "NE",
+        "Niger",
+        "Nijar",
+        "Republic of Niger"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "NG",
+      "zh": "尼日利亚",
+      "name": "Nigeria",
+      "aliases": [
+        "Nijeriya",
+        "NG",
+        "Federal Republic of Nigeria",
+        "Nigeria",
+        "Naíjíríà"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "NI",
+      "zh": "尼加拉瓜",
+      "name": "Nicaragua",
+      "aliases": [
+        "Nicaragua",
+        "República de Nicaragua",
+        "NI",
+        "Republic of Nicaragua"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "NL",
+      "zh": "荷兰",
+      "name": "Netherlands",
+      "aliases": [
+        "Nederland",
+        "NL",
+        "Kingdom of the Netherlands",
+        "The Netherlands",
+        "Holland",
+        "Netherlands"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "NO",
+      "zh": "挪威",
+      "name": "Norway",
+      "aliases": [
+        "Noreg",
+        "Norway",
+        "Norge",
+        "Kongeriket Noreg",
+        "NO",
+        "Kingdom of Norway",
+        "Kongeriket Norge"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "NP",
+      "zh": "尼泊尔",
+      "name": "Nepal",
+      "aliases": [
+        "Loktāntrik Ganatantra Nepāl",
+        "NP",
+        "Federal Democratic Republic of Nepal",
+        "Nepal"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "NR",
+      "zh": "瑙鲁",
+      "name": "Nauru",
+      "aliases": [
+        "Naoero",
+        "Pleasant Island",
+        "NR",
+        "Nauru",
+        "Ripublik Naoero",
+        "Republic of Nauru"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "NZ",
+      "zh": "新西兰",
+      "name": "New Zealand",
+      "aliases": [
+        "New Zealand",
+        "Aotearoa",
+        "NZ"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "OM",
+      "zh": "阿曼",
+      "name": "Oman",
+      "aliases": [
+        "OM",
+        "Oman",
+        "Sultanate of Oman",
+        "Salṭanat ʻUmān"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "PK",
+      "zh": "巴基斯坦",
+      "name": "Pakistan",
+      "aliases": [
+        "Pakistan",
+        "PK",
+        "Islamic Republic of Pakistan",
+        "Pākistān",
+        "Islāmī Jumhūriya'eh Pākistān"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "PA",
+      "zh": "巴拿马",
+      "name": "Panama",
+      "aliases": [
+        "PA",
+        "República de Panamá",
+        "Panama",
+        "Republic of Panama"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "PE",
+      "zh": "秘鲁",
+      "name": "Peru",
+      "aliases": [
+        "PE",
+        "Peru",
+        "República del Perú",
+        "Republic of Peru"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "PH",
+      "zh": "菲律宾",
+      "name": "Philippines",
+      "aliases": [
+        "Philippines",
+        "Republic of the Philippines",
+        "PH",
+        "Repúblika ng Pilipinas"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "PW",
+      "zh": "帕劳",
+      "name": "Palau",
+      "aliases": [
+        "Palau",
+        "PW",
+        "Republic of Palau",
+        "Beluu er a Belau"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "PG",
+      "zh": "巴布亚新几内亚",
+      "name": "Papua New Guinea",
+      "aliases": [
+        "PG",
+        "Independent State of Papua New Guinea",
+        "Independen Stet bilong Papua Niugini",
+        "Papua New Guinea"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "PL",
+      "zh": "波兰",
+      "name": "Poland",
+      "aliases": [
+        "Republic of Poland",
+        "PL",
+        "Poland",
+        "Rzeczpospolita Polska"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "KP",
+      "zh": "朝鲜",
+      "name": "North Korea",
+      "aliases": [
+        "DPRK",
+        "KP",
+        "Chosŏn Minjujuŭi Inmin Konghwaguk",
+        "북조선",
+        "North Korea",
+        "북한",
+        "조선민주주의인민공화국",
+        "Democratic People's Republic of Korea",
+        "Korea, Democratic People's Republic of"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "PT",
+      "zh": "葡萄牙",
+      "name": "Portugal",
+      "aliases": [
+        "Portuguese Republic",
+        "Portuguesa",
+        "PT",
+        "Portugal",
+        "República Portuguesa"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "PY",
+      "zh": "巴拉圭",
+      "name": "Paraguay",
+      "aliases": [
+        "República del Paraguay",
+        "Tetã Paraguái",
+        "Paraguay",
+        "PY",
+        "Republic of Paraguay"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "PS",
+      "zh": "巴勒斯坦",
+      "name": "Palestine",
+      "aliases": [
+        "Palestine",
+        "Dawlat Filasṭin",
+        "Palestine, State of",
+        "PS",
+        "State of Palestine"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "QA",
+      "zh": "卡塔尔",
+      "name": "Qatar",
+      "aliases": [
+        "QA",
+        "Qatar",
+        "State of Qatar",
+        "Dawlat Qaṭar"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "RO",
+      "zh": "罗马尼亚",
+      "name": "Romania",
+      "aliases": [
+        "Romania",
+        "România",
+        "RO",
+        "Rumania",
+        "Roumania"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "RU",
+      "zh": "俄罗斯",
+      "name": "Russia",
+      "aliases": [
+        "RU",
+        "Russia",
+        "Russian Federation",
+        "Российская Федерация"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "RW",
+      "zh": "卢旺达",
+      "name": "Rwanda",
+      "aliases": [
+        "Rwanda",
+        "Repubulika y'u Rwanda",
+        "Republic of Rwanda",
+        "République du Rwanda",
+        "RW"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "SA",
+      "zh": "沙特阿拉伯",
+      "name": "Saudi Arabia",
+      "aliases": [
+        "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah",
+        "Kingdom of Saudi Arabia",
+        "Saudi",
+        "SA",
+        "Saudi Arabia"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "SD",
+      "zh": "苏丹",
+      "name": "Sudan",
+      "aliases": [
+        "SD",
+        "Sudan",
+        "Jumhūrīyat as-Sūdān",
+        "Republic of the Sudan"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "SN",
+      "zh": "塞内加尔",
+      "name": "Senegal",
+      "aliases": [
+        "Republic of Senegal",
+        "Senegal",
+        "SN",
+        "République du Sénégal"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "SG",
+      "zh": "新加坡",
+      "name": "Singapore",
+      "aliases": [
+        "Republic of Singapore",
+        "Singapura",
+        "Singapore",
+        "SG",
+        "Republik Singapura",
+        "新加坡共和国"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "SB",
+      "zh": "所罗门群岛",
+      "name": "Solomon Islands",
+      "aliases": [
+        "Solomon Islands",
+        "SB"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "SL",
+      "zh": "塞拉利昂",
+      "name": "Sierra Leone",
+      "aliases": [
+        "Sierra Leone",
+        "SL",
+        "Republic of Sierra Leone"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "SV",
+      "zh": "萨尔瓦多",
+      "name": "El Salvador",
+      "aliases": [
+        "El Salvador",
+        "Republic of El Salvador",
+        "SV",
+        "República de El Salvador"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "SM",
+      "zh": "圣马力诺",
+      "name": "San Marino",
+      "aliases": [
+        "Republic of San Marino",
+        "San Marino",
+        "Most Serene Republic of San Marino",
+        "Repubblica di San Marino",
+        "SM"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "SO",
+      "zh": "索马里",
+      "name": "Somalia",
+      "aliases": [
+        "Federal Republic of Somalia",
+        "SO",
+        "Somalia",
+        "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya",
+        "Jamhuuriyadda Federaalka Soomaaliya",
+        "aṣ-Ṣūmāl"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "RS",
+      "zh": "塞尔维亚",
+      "name": "Serbia",
+      "aliases": [
+        "Serbia",
+        "RS",
+        "Republic of Serbia",
+        "Република Србија",
+        "Srbija",
+        "Србија",
+        "Republika Srbija"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "SS",
+      "zh": "南苏丹",
+      "name": "South Sudan",
+      "aliases": [
+        "Republic of South Sudan",
+        "SS",
+        "South Sudan"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "ST",
+      "zh": "圣多美和普林西比",
+      "name": "São Tomé and Príncipe",
+      "aliases": [
+        "São Tomé and Príncipe",
+        "Democratic Republic of São Tomé and Príncipe",
+        "Sao Tome and Principe",
+        "ST",
+        "República Democrática de São Tomé e Príncipe"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "SR",
+      "zh": "苏里南",
+      "name": "Suriname",
+      "aliases": [
+        "Sarnam",
+        "Sranangron",
+        "SR",
+        "Republic of Suriname",
+        "Republiek Suriname",
+        "Suriname"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "SK",
+      "zh": "斯洛伐克",
+      "name": "Slovakia",
+      "aliases": [
+        "Slovenská republika",
+        "Slovak Republic",
+        "SK",
+        "Slovakia"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "SI",
+      "zh": "斯洛文尼亚",
+      "name": "Slovenia",
+      "aliases": [
+        "Slovenia",
+        "Republic of Slovenia",
+        "SI",
+        "Republika Slovenija"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "SE",
+      "zh": "瑞典",
+      "name": "Sweden",
+      "aliases": [
+        "Sweden",
+        "SE",
+        "Konungariket Sverige",
+        "Kingdom of Sweden"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "SZ",
+      "zh": "斯威士兰",
+      "name": "Eswatini",
+      "aliases": [
+        "Kingdom of Eswatini",
+        "Swatini",
+        "weSwatini",
+        "Umbuso weSwatini",
+        "Eswatini",
+        "Ngwane",
+        "Swaziland",
+        "SZ"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "SC",
+      "zh": "塞舌尔",
+      "name": "Seychelles",
+      "aliases": [
+        "Repiblik Sesel",
+        "Republic of Seychelles",
+        "République des Seychelles",
+        "SC",
+        "Seychelles"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "SY",
+      "zh": "叙利亚",
+      "name": "Syria",
+      "aliases": [
+        "Syria",
+        "Syrian Arab Republic",
+        "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah",
+        "SY"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "TD",
+      "zh": "乍得",
+      "name": "Chad",
+      "aliases": [
+        "République du Tchad",
+        "TD",
+        "Chad",
+        "Tchad",
+        "Republic of Chad"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "TG",
+      "zh": "多哥",
+      "name": "Togo",
+      "aliases": [
+        "République Togolaise",
+        "TG",
+        "Togo",
+        "Togolese",
+        "Togolese Republic"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "TH",
+      "zh": "泰国",
+      "name": "Thailand",
+      "aliases": [
+        "ราชอาณาจักรไทย",
+        "Kingdom of Thailand",
+        "Ratcha Anachak Thai",
+        "Prathet",
+        "TH",
+        "Thai",
+        "Thailand"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "TJ",
+      "zh": "塔吉克斯坦",
+      "name": "Tajikistan",
+      "aliases": [
+        "Republic of Tajikistan",
+        "Toçikiston",
+        "Çumhuriyi Toçikiston",
+        "Tajikistan",
+        "Ҷумҳурии Тоҷикистон",
+        "TJ"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "TM",
+      "zh": "土库曼斯坦",
+      "name": "Turkmenistan",
+      "aliases": [
+        "Turkmenistan",
+        "TM"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "TL",
+      "zh": "东帝汶",
+      "name": "Timor-Leste",
+      "aliases": [
+        "Timor-Leste",
+        "Timor",
+        "Timor Lorosae",
+        "East Timor",
+        "República Democrática de Timor-Leste",
+        "Democratic Republic of Timor-Leste",
+        "TL",
+        "Repúblika Demokrátika Timór-Leste",
+        "Timór Lorosa'e"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "TO",
+      "zh": "汤加",
+      "name": "Tonga",
+      "aliases": [
+        "TO",
+        "Kingdom of Tonga",
+        "Tonga"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "TT",
+      "zh": "特立尼达和多巴哥",
+      "name": "Trinidad and Tobago",
+      "aliases": [
+        "Republic of Trinidad and Tobago",
+        "Trinidad and Tobago",
+        "TT"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "TN",
+      "zh": "突尼斯",
+      "name": "Tunisia",
+      "aliases": [
+        "Tunisia",
+        "Tunisian Republic",
+        "Republic of Tunisia",
+        "TN",
+        "al-Jumhūriyyah at-Tūnisiyyah"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "TR",
+      "zh": "土耳其",
+      "name": "Türkiye",
+      "aliases": [
+        "Türkiye Cumhuriyeti",
+        "Turkiye",
+        "TR",
+        "Türkiye",
+        "Republic of Turkey",
+        "Republic of Türkiye"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "TV",
+      "zh": "图瓦卢",
+      "name": "Tuvalu",
+      "aliases": [
+        "TV",
+        "Tuvalu"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "TZ",
+      "zh": "坦桑尼亚",
+      "name": "Tanzania",
+      "aliases": [
+        "Tanzania, United Republic of",
+        "United Republic of Tanzania",
+        "TZ",
+        "Jamhuri ya Muungano wa Tanzania",
+        "Tanzania"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "UG",
+      "zh": "乌干达",
+      "name": "Uganda",
+      "aliases": [
+        "UG",
+        "Uganda",
+        "Republic of Uganda",
+        "Jamhuri ya Uganda"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "UA",
+      "zh": "乌克兰",
+      "name": "Ukraine",
+      "aliases": [
+        "Ukraine",
+        "Ukrayina",
+        "UA"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "UY",
+      "zh": "乌拉圭",
+      "name": "Uruguay",
+      "aliases": [
+        "Uruguay",
+        "Oriental Republic of Uruguay",
+        "UY",
+        "República Oriental del Uruguay"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "US",
+      "zh": "美国",
+      "name": "United States",
+      "aliases": [
+        "United States of America",
+        "USA",
+        "US",
+        "United States"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "UZ",
+      "zh": "乌兹别克斯坦",
+      "name": "Uzbekistan",
+      "aliases": [
+        "Ўзбекистон Республикаси",
+        "UZ",
+        "O‘zbekiston Respublikasi",
+        "Republic of Uzbekistan",
+        "Uzbekistan"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "VA",
+      "zh": "梵蒂冈",
+      "name": "Vatican City",
+      "aliases": [
+        "VA",
+        "Stato della Città del Vaticano",
+        "Vatican",
+        "Vatican City",
+        "Holy See (Vatican City State)",
+        "Vatican City State"
+      ],
+      "region": "欧洲"
+    },
+    {
+      "iso2": "VC",
+      "zh": "圣文森特和格林纳丁斯",
+      "name": "Saint Vincent and the Grenadines",
+      "aliases": [
+        "Saint Vincent and the Grenadines",
+        "VC"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "VE",
+      "zh": "委内瑞拉",
+      "name": "Venezuela",
+      "aliases": [
+        "República Bolivariana de Venezuela",
+        "Venezuela, Bolivarian Republic of",
+        "Bolivarian Republic of Venezuela",
+        "VE",
+        "Venezuela"
+      ],
+      "region": "美洲"
+    },
+    {
+      "iso2": "VN",
+      "zh": "越南",
+      "name": "Vietnam",
+      "aliases": [
+        "Vietnam",
+        "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+        "VN",
+        "Socialist Republic of Vietnam",
+        "Viet Nam"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "VU",
+      "zh": "瓦努阿图",
+      "name": "Vanuatu",
+      "aliases": [
+        "VU",
+        "Vanuatu",
+        "République de Vanuatu",
+        "Republic of Vanuatu",
+        "Ripablik blong Vanuatu"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "WS",
+      "zh": "萨摩亚",
+      "name": "Samoa",
+      "aliases": [
+        "WS",
+        "Samoa",
+        "Independent State of Samoa",
+        "Malo Saʻoloto Tutoʻatasi o Sāmoa"
+      ],
+      "region": "大洋洲"
+    },
+    {
+      "iso2": "YE",
+      "zh": "也门",
+      "name": "Yemen",
+      "aliases": [
+        "YE",
+        "al-Jumhūriyyah al-Yamaniyyah",
+        "Yemen",
+        "Yemeni Republic",
+        "Republic of Yemen"
+      ],
+      "region": "亚洲"
+    },
+    {
+      "iso2": "ZA",
+      "zh": "南非",
+      "name": "South Africa",
+      "aliases": [
+        "South Africa",
+        "Suid-Afrika",
+        "ZA",
+        "Republic of South Africa",
+        "RSA"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "ZM",
+      "zh": "赞比亚",
+      "name": "Zambia",
+      "aliases": [
+        "Republic of Zambia",
+        "Zambia",
+        "ZM"
+      ],
+      "region": "非洲"
+    },
+    {
+      "iso2": "ZW",
+      "zh": "津巴布韦",
+      "name": "Zimbabwe",
+      "aliases": [
+        "ZW",
+        "Zimbabwe",
+        "Republic of Zimbabwe"
+      ],
+      "region": "非洲"
+    }
+  ]
+}
