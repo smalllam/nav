@@ -60,11 +60,6 @@
     "url": "https://billing.aspirehosting.net/"
   },
   {
-    "name": "ASVM",
-    "source": "https://digvps.com/review",
-    "url": "https://asvm.net/"
-  },
-  {
     "name": "ATTVPS",
     "source": "https://digvps.com/review",
     "url": "https://attvps.com/"
@@ -228,11 +223,6 @@
     "name": "Elixior",
     "source": "https://digvps.com/review",
     "url": "https://client.elixior.cloud/"
-  },
-  {
-    "name": "ENGINYRING",
-    "source": "https://digvps.com/review",
-    "url": "https://manager.enginyring.com/"
   },
   {
     "name": "F4",
@@ -765,11 +755,6 @@
     "url": "https://my.servitro.com/"
   },
   {
-    "name": "Servps",
-    "source": "https://digvps.com/review",
-    "url": "https://servps.com/"
-  },
-  {
     "name": "ShanDun",
     "source": "https://digvps.com/review",
     "url": "https://www.shandun.net/"
@@ -908,11 +893,6 @@
     "name": "Virtono",
     "source": "https://digvps.com/review",
     "url": "https://www.virtono.com/"
-  },
-  {
-    "name": "Virtualine",
-    "source": "https://digvps.com/review",
-    "url": "https://client.virtualine.net/"
   },
   {
     "name": "VirtVPS",

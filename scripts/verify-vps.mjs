@@ -11,10 +11,10 @@ const extra = JSON.parse(fs.readFileSync('data/merchants-extra.json'))
 const discovery = JSON.parse(fs.readFileSync('data/merchant-discovery.json'))
 assert.deepEqual(merchants, buildMerchants(db, extra, discovery, verification))
 const originalLeads = buildMerchants(db, extra, discovery).filter(m => m.status === 'lead')
-assert.equal(originalLeads.length, 236)
+assert.equal(originalLeads.length, 232)
 assert.deepEqual(new Set(verification.records.map(m => m.id)), new Set(originalLeads.map(m => m.id)))
 assert.equal(verification.records.filter(m => m.mergedInto).length, 2)
-assert.equal(merchants.length, 320)
+assert.equal(merchants.length, 316)
 assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
 assert.equal(merchants.reduce((n,m) => n + m.plans, 0), items.length)
 assert.equal(merchants.filter(m => m.name.includes('Uzumaru')).length, 1)
@@ -39,7 +39,7 @@ for (const m of merchants) {
 }
 const reviewed = merchants.filter(m => m.review)
 assert.equal(reviewed.filter(m => m.review.product).length, 218)
-assert.equal(reviewed.filter(m => m.review.complete).length, 207)
+assert.equal(reviewed.filter(m => m.review.complete).length, 211)
 assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
@@ -51,7 +51,7 @@ assert(merchant('Flapjacks').nat && merchant('Flapjacks').review.note.includes('
 assert(!merchant('Datapasa').offeredRegions.some(r => /巴西/.test(r))) // Coming soon.
 assert(!merchant('Nuyek').payments.includes('USDT')) // A gateway's supported coins do not prove merchant acceptance.
 assert(!merchant('Maple').review.product) // Dedicated servers are not VPS.
-assert(!merchant('Servps').review.product) // Infrastructure consultancy is not a public VPS plan.
+for (const name of ['ASVM', 'Virtualine', 'Servps', 'ServerSpan']) assert(!merchant(name)) // User requested removal; historical evidence stays in the local case.
 assert(merchant('Lain.sh').nat && merchant('Lain.sh').review.note.includes('仅 IPv6 入站'))
 assert(merchant('Blend Hosting').nat && merchant('Blend Hosting').review.note.includes('3 个自定义端口映射'))
 assert(merchant('SynexVM').review.product && merchant('SynexVM').review.note.includes('缺货'))
@@ -62,7 +62,10 @@ assert(!merchant('PortChannel Zero') && !merchants.some(m => [m.url, ...m.source
 assert(merchant('MoonVM').payments.includes('USDT') && merchant('MoonVM').payments.includes('支付宝') && !merchant('MoonVM').payments.includes('信用卡 / 借记卡')) // Actual anonymous preview, not footer logos.
 assert.deepEqual(merchant('HostPapa').offeredRegions, ['美国 · 西部', '美国 · 东部', '加拿大', '欧洲（配置页未细分国家）']) // VPS selector, not billing country options.
 assert(!merchant('Terabit').payments.includes('USDT')) // Bitcoin and Ethereum do not imply every supported coin.
-assert(!merchant('ServerSpan').review.product) // Empty product groups do not prove a current VPS product.
+assert.deepEqual(merchant('nerdscave').payments, ['PayPal']) // Original dated purchase review, not conditional payment clauses.
+assert.deepEqual(merchant('cloudafra').offeredRegions, ['日本 · 东京', '新加坡']) // Only the two locations in the original dated usage report.
+assert.deepEqual(merchant('AaITR').payments, ['支付宝'])
+assert.deepEqual(merchant('Voluri').payments, ['支付宝', '加密货币'])
 assert(merchant('Datalix').payments.includes('PayPal') && !merchant('Datalix').payments.includes('USDT')) // Explicit Storage KVM payment section, not the gateway's supported coins.
 assert(!merchant('MrVM').review.product && merchant('MrVM').review.payments) // Payment documentation does not prove a current VPS SKU.
 assert(merchant('SERVER.TW').review.product && merchant('SERVER.TW').offeredRegions.length === 4) // Concrete regional VPS rows.

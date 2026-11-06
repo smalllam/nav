@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "checkedAt": "2026-11-07",
-  "batchSize": 236,
+  "batchSize": 232,
   "records": [
     {
       "id": "lead-99rdp-com",
@@ -756,7 +756,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前原官网仅返回 WWW.KOOYA.HK 页面，未取得可核实的当前 VPS / NAT 套餐，产品、付款及地区缺项继续保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前原官网仅返回 WWW.KOOYA.HK 页面，未取得可核实的当前 VPS / NAT 套餐，产品、付款及地区缺项继续保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -911,8 +911,8 @@
         "pending": [
           "支付方式"
         ],
-        "note": "共享 IPv4 NAT 产品，页面列 30 个固定映射端口，并提示用户自行备份。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "note": "当前绍兴 NAT 产品资料保持：共享 IPv4、30 个固定映射端口。第十一轮公开官网及官方频道未取得明示付款渠道；购买配置要求接受条款，未接受或下单。未将同名机场的支付宝资料混入本商家。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -1245,7 +1245,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前原入口为 NeKoYun 登录页面，未登录；未取得可公开核实的当前 VPS / NAT 套餐，既有待核项保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前原入口为 NeKoYun 登录页面，未登录；未取得可公开核实的当前 VPS / NAT 套餐，既有待核项保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -1269,8 +1269,10 @@
       "url": "https://www.aaitr.com/store/rbn",
       "category": "VPS",
       "status": "official",
-      "desc": "官网列有 NAT / VPS 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网产品已核；所列支付与地区附有公开来源，历史实测的日期及适用范围见说明。",
+      "payments": [
+        "支付宝"
+      ],
       "offeredRegions": [
         "美国",
         "日本"
@@ -1281,20 +1283,19 @@
         "https://www.aaitr.com/store/rbn",
         "https://app.aait.io/cart",
         "https://www.aaitr.com/store/srv",
-        "https://www.aait.io/"
+        "https://www.aait.io/",
+        "https://www.gwvpsceping.com/10000.html"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "当前美国 Verizon / 日本 SoftBank 住宅 NAT 目录列 10 个免费转发端口、每日换 IP，并要求实名认证；产品声明仅限所在国使用，不保证跨国特别是中国大陆通信。购买前弹窗要求逐项接受不退款及自助配置条件，未勾选或继续，不据空购物车推定支付方式，付款继续待核。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "complete": true,
+        "pending": [],
+        "note": "当前美国 Verizon / 日本 SoftBank 住宅 NAT 目录列 10 个免费转发端口、每日换 IP，并要求实名认证；产品声明仅限所在国使用，不保证跨国特别是中国大陆通信。支付依据为 VPS测评 2026-02-21 对该商家美国 Frontier 静态家宽具体配置的实测文章，明确记录支付宝；这是历史型号的付款资料，当前是否仍提供须以结算页为准。本轮没有接受其购买条款、注册、实名或下单。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -1767,38 +1768,6 @@
         "pending": [],
         "note": "",
         "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
-      }
-    },
-    {
-      "id": "lead-asvm-net",
-      "sourceName": "ASVM",
-      "name": "ASVM",
-      "url": "https://asvm.net/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-      "payments": [],
-      "offeredRegions": [],
-      "nat": false,
-      "checkedAt": "2026-11-07",
-      "sources": [
-        "https://asvm.net/"
-      ],
-      "review": {
-        "outcome": "blocked",
-        "website": false,
-        "product": false,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "官网身份",
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "当前官网显示网站已停止（Sorry, the website has been stopped），未取得当前可售 VPS / NAT 套餐；不以旧目录确认在售。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
     {
@@ -2427,7 +2396,7 @@
       "url": "https://cloudafra.com/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "desc": "官网产品已核；所列支付与地区附有公开来源，历史实测的日期及适用范围见说明。",
       "payments": [
         "信用卡 / 借记卡",
         "PayPal",
@@ -2438,7 +2407,10 @@
         "Ethereum",
         "USDT"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "日本 · 东京",
+        "新加坡"
+      ],
       "nat": false,
       "checkedAt": "2026-11-07",
       "sources": [
@@ -2448,20 +2420,20 @@
         "https://cloudafra.com/windows-vps",
         "https://cloudafra.com/index.php?rp=/knowledgebase/4958/PayPal",
         "https://cloudafra.com/index.php?rp=/knowledgebase/4936/How-to-Set-a-Preferred-Payment-Method-in-PayPal.html",
-        "https://cloudafra.com/index.php?rp=%2Fannouncements%2Fpage%2F3"
+        "https://cloudafra.com/index.php?rp=%2Fannouncements%2Fpage%2F3",
+        "https://cloudafra.com/linux-vps",
+        "https://t.me/s/VPSDeck_Channel/342"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "官方公告明确 VPS / 云服务付款可用 Bitcoin、Tron、Ethereum、USDT ERC20 / TRC20，补入相应币种；未把第三方网关支持的币种自动扩展为商家支持。VPS 的具体售卖地区仍待核。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官网现有 Linux Plan 具体配置，但本轮点入的下单链接显示不可用。VPSDeck 2026-01-25 对 Linux Plan 1 的原始使用记录明确列东京、新加坡测试机器，按该具日期的资料仅补入这两处；未将同帖广告列出的其余地区一并认定，不代表本轮可立即开通。既有官方公告付款渠道保持。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -3313,57 +3285,6 @@
       }
     },
     {
-      "id": "lead-enginyring-com",
-      "sourceName": "ENGINYRING",
-      "name": "ServerSpan（原 ENGINYRING）",
-      "url": "https://manager.enginyring.com/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-      "payments": [
-        "银行转账",
-        "信用卡 / 借记卡",
-        "PayPal",
-        "支付宝",
-        "Revolut Pay",
-        "Google Pay",
-        "加密货币（币种待核）"
-      ],
-      "offeredRegions": [
-        "美国 · 盐湖城",
-        "加拿大 · Beauharnois",
-        "德国 · 法兰克福"
-      ],
-      "nat": false,
-      "checkedAt": "2026-11-07",
-      "sources": [
-        "https://manager.enginyring.com/",
-        "https://manager.enginyring.com/knowledgebase/",
-        "https://manager.enginyring.com/cart/shared-virtual-servers/",
-        "https://manager.enginyring.com/cart/dedicated-virtual-servers/",
-        "https://manager.enginyring.com/products/",
-        "https://manager.enginyring.com/products/cart/shared-virtual-servers/",
-        "https://manager.enginyring.com/products/cart/dedicated-virtual-servers/",
-        "https://manager.enginyring.com/knowledgebase/cart/shared-virtual-servers/",
-        "https://manager.enginyring.com/knowledgebase/cart/dedicated-virtual-servers/",
-        "https://manager.enginyring.com/cart/-ca--dedicated-virtual-servers/",
-        "https://manager.enginyring.com/cart/-us--dedicated-virtual-servers/"
-      ],
-      "review": {
-        "outcome": "blocked",
-        "website": true,
-        "product": false,
-        "payments": true,
-        "regions": true,
-        "complete": false,
-        "pending": [
-          "当前 VPS / NAT 产品"
-        ],
-        "note": "当前 ServerSpan 主要展示定制管理服务，旧 VPS 及 KVM 分类未取得当前明确套餐。既有支付及地区声明保留，当前产品仍待核，不据旧子目录推定实时在售。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
-      }
-    },
-    {
       "id": "lead-f4-network",
       "sourceName": "F4",
       "name": "F4",
@@ -3393,7 +3314,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前官网明确提供裸金属、托管和 IP Transit，尚未取得具体 VPS / NAT 套餐；仅有独立服务器不足以确认 VPS 产品。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前官网明确提供裸金属、托管和 IP Transit，尚未取得具体 VPS / NAT 套餐；仅有独立服务器不足以确认 VPS 产品。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -5578,7 +5499,7 @@
           "当前 VPS / NAT 产品",
           "售卖地区"
         ],
-        "note": "当前官网与客户区主要为独立服务器，旧 Linux VPS 教程不是当前售卖套餐依据；产品待核，已有支付及地区资料保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前官网与客户区主要为独立服务器，旧 Linux VPS 教程不是当前售卖套餐依据；产品待核，已有支付及地区资料保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 403），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -5651,7 +5572,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "本轮原客户区及官方 system / www 入口均未取得可读取的当前商品；原入口读取超时，先前另有证书到期校验失败记录。未关闭 TLS 验证或绕过安全提示，产品、付款及地区继续待核。 第十轮重读原入口：ConnectTimeout: _ssl.c:993: The handshake operation timed out；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "本轮原客户区及官方 system / www 入口均未取得可读取的当前商品；原入口读取超时，先前另有证书到期校验失败记录。未关闭 TLS 验证或绕过安全提示，产品、付款及地区继续待核。 第十轮重读原入口：ConnectTimeout: _ssl.c:993: The handshake operation timed out；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（ConnectTimeout: _ssl.c:993: The handshake operation timed out），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -6024,7 +5945,7 @@
           "当前 VPS / NAT 产品",
           "售卖地区"
         ],
-        "note": "当前主页显示 Updates Coming Soon / Legacy Client Portal，原 LXC 产品页返回 404；旧 NAT 端口知识库仍可读，但不能单凭历史端口说明确认当前在售 NAT 产品。支付资料保留，产品继续待核。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前主页显示 Updates Coming Soon / Legacy Client Portal，原 LXC 产品页返回 404；旧 NAT 端口知识库仍可读，但不能单凭历史端口说明确认当前在售 NAT 产品。支付资料保留，产品继续待核。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -6118,27 +6039,33 @@
       "url": "https://mgmt.nerdscave-hosting.de/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
-      "offeredRegions": [],
+      "desc": "官网产品已核；所列支付与地区附有公开来源，历史实测的日期及适用范围见说明。",
+      "payments": [
+        "PayPal"
+      ],
+      "offeredRegions": [
+        "德国"
+      ],
       "nat": false,
       "checkedAt": "2026-11-07",
       "sources": [
-        "https://mgmt.nerdscave-hosting.de/"
+        "https://mgmt.nerdscave-hosting.de/",
+        "https://nerdscave-hosting.de/ryzen-performance-kvm/",
+        "https://nerdscave-hosting.de/hochverfugbare-kvm-server/",
+        "https://nerdscave-hosting.de/rechenzentrum/",
+        "https://nerdscave-consulting.com/leistungen/hosting-betrieb",
+        "https://linux.do/t/topic/368272"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "公开商店列 Ryzen KVM / HA VPS，但本轮直接读取亦出现 502，支付与地区仍待补充。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "当前官网列 Ryzen KVM 与 HA KVM 具体配置；本轮尝试的 Ryzen 1GB 和共享主机款显示缺货，不推定全部商品库存。官方托管服务页明确德国数据中心及 Managed VPS；另有主机搜作者 2025-01-16 的 New Year 2025 VPS 4GB 原始实测，明确本人使用 PayPal，按该历史付款依据补入，不称本轮匿名结算成功。未从 Coming Soon 机房追加荷兰。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -6445,7 +6372,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前官网展示游戏云托管和独服，尚未取得明确的通用 VPS / NAT 套餐及对应开通条件；泛称云服务器或协议中的 VPS 字样不足以关闭产品待核项。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前官网展示游戏云托管和独服，尚未取得明确的通用 VPS / NAT 套餐及对应开通条件；泛称云服务器或协议中的 VPS 字样不足以关闭产品待核项。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -6614,8 +6541,8 @@
         "pending": [
           "售卖地区"
         ],
-        "note": "现行官网付款说明明确 USDT（TRON / Arbitrum）、银行卡、Google Pay、Apple Pay、Alipay，服务条款另明确 PayPal，补入明示渠道。未从通用网关能力或页脚图标扩大币种；隐私条款中的美国数据存储不是 VPS 部署地区，具体售卖地区继续待核。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "note": "当前付款说明保持。第十一轮官网产品、定价、关于与状态页未明确 VPS 部署国家；官方 regions API 文档要求账户权限和密钥，未尝试登录或无凭据调用。不从隐私数据存储国家、公司注册地址、ASN 或文档示例 IP 推定产品地区。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -6729,7 +6656,8 @@
         "https://my.phanes.cloud/cart.php?a=confproduct&i=1",
         "https://my.phanes.cloud/index.php?rp=%2Fannouncements%2F5%2FPayPal-payments-accepted-again.html",
         "https://my.phanes.cloud/index.php?rp=/store/cloud-servers/1gb",
-        "https://my.phanes.cloud/cart.php?a=checkout&e=false"
+        "https://my.phanes.cloud/cart.php?a=checkout&e=false",
+        "https://lowendtalk.com/discussion/199297/has-anyone-tried-the-phanes-cloud-server"
       ],
       "review": {
         "outcome": "partial",
@@ -6741,8 +6669,8 @@
         "pending": [
           "售卖地区"
         ],
-        "note": "当前 Compute - Cloud Servers 的 1GB 套餐可进入匿名结算预览，公开列 Credit Card、Cryptocurrency、PayPal、Wechatpay、Alipay、iDeal、Turkish Credit/Bank Card 及 PayPal Fallback；据此补入银行卡、加密货币、微信支付、支付宝和 iDEAL，不将泛称加密货币推定为 USDT。未填个人资料或付款信息、接受条款或提交订单；本轮临时购物车已清空。当前配置未明确部署国家，售卖地区继续待核，不从账单地址选项或注册公司地址推定机房。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "note": "已有匿名结算所列付款渠道保持，泛称加密货币不推定 USDT。当前 Compute Basic B1 型号仍列出；2024-11 LowEndTalk 一位用户曾称使用荷兰 B1，但单一旧用户文字不足以确认当前新开地区，历史线索附来源保留，地区继续待核。未从注册公司地址、账单国家或他人 IP 统计推定机房。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -6814,8 +6742,8 @@
         "pending": [
           "支付方式"
         ],
-        "note": "当前香港 VPS 分类的 HK-VPS 3T 至 40T 档位均显示 0 可用；这是该分类读取时库存，不能概括其他地区或全部产品。公开产品收录保留，未添加缺货商品或提交订单，支付方式仍待核。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "note": "当前香港 VPS 分类 HK-VPS 3T 至 40T 档位显示 0 可用，仅属该分类读取时库存。第十一轮美国配置可读但要求主机名、root 密码等字段才能继续；未填写凭据。官网与官方公告频道未取得明示付款渠道，继续待核。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -6853,8 +6781,8 @@
         "pending": [
           "支付方式"
         ],
-        "note": "当前 KVM-EUROPE 具体套餐列 1vCPU / 1GB / 25GB NVMe 与 EUROPE Network；按该型号补入欧洲产品区域，未从旧 kvm-germany URL 名称推定德国机房。当前配置没有更细国家选项，并要求主机名及 root 密码才能继续，未填写或提交订单；付款继续待核。首页同时提示可能影响服务的问题，不据公开目录认定质量。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "note": "当前 KVM-EUROPE 具体配置仅声明欧洲，未从旧 kvm-germany URL 推定德国。本轮此前的免费 GRE/SIT 匿名预览只显示自定义 Link Payment 名称，不能据此认定银行卡或 PayPal；临时购物车已清空。KVM 配置要求 root 密码，未填写凭据或下单，支付继续待核。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -7107,8 +7035,8 @@
         "pending": [
           "支付方式"
         ],
-        "note": "部分 VDS 产品组没有可见套餐；地区目录不保证实时库存。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "note": "第十一轮公开地区分类仍有空商品组，既有 VDS 产品依据保持；未取得明示支付方式。RayIP 企业站介绍支付 API 集成业务不是其 VPS 商店接受付款的证据，不据此填入支付渠道。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -7191,7 +7119,7 @@
           "当前 VPS / NAT 产品",
           "售卖地区"
         ],
-        "note": "当前公开产品以独立服务器为主，仍无明确 VPS / NAT 套餐。官方独服付款页接受 Bitcoin、Ethereum、USDT 等加密货币，保留这些付款依据，但不扩展为 VPS 产品或地区确认。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前公开产品以独立服务器为主，仍无明确 VPS / NAT 套餐。官方独服付款页接受 Bitcoin、Ethereum、USDT 等加密货币，保留这些付款依据，但不扩展为 VPS 产品或地区确认。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -7584,37 +7512,6 @@
         "pending": [],
         "note": "当前官网 EPYC/Ryzen VPS 套餐明确德国法兰克福；付款 FAQ 明确 Stripe 银行卡和 Heleket USDT/BTC。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
-      }
-    },
-    {
-      "id": "lead-servps-com",
-      "sourceName": "Servps",
-      "name": "Servps",
-      "url": "https://servps.com/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-      "payments": [],
-      "offeredRegions": [],
-      "nat": false,
-      "checkedAt": "2026-11-07",
-      "sources": [
-        "https://servps.com/"
-      ],
-      "review": {
-        "outcome": "blocked",
-        "website": true,
-        "product": false,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "当前官网为 Infrastructure & Software 咨询及基础设施服务，未取得具体 VPS / NAT 商品；旧 WHMCS 搜索结果不作为当前套餐，继续保留产品待核。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
     {
@@ -8218,8 +8115,8 @@
         "pending": [
           "支付方式"
         ],
-        "note": "当前日本 SoftBank NAT 合作款公开目录与配置页已可读取：共享 IPv4、20 个预设端口、每日 04:00 更换 IP、DDNS；基础配置可选 1 核 / 512MB / 3GB / 1TB，目录 35 元/月另 1 元设置费。页面声明无 SLA、无中国大陆路由保障及严格退款/使用限制，不能承诺其营销解锁效果。付款方式仍待核。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "note": "当前日本 SoftBank NAT 产品资料保持：共享 IPv4、20 个预设端口、每日 04:00 换 IP、DDNS。第十一轮原入口受浏览器验证限制，官方公开公告亦未明示付款渠道；公告中的支付网站禁止用途、二手卖家的支付宝交易均不作为本商家付款依据，继续待核。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -8754,38 +8651,6 @@
       }
     },
     {
-      "id": "lead-virtualine-net",
-      "sourceName": "Virtualine",
-      "name": "Virtualine",
-      "url": "https://client.virtualine.net/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-      "payments": [],
-      "offeredRegions": [],
-      "nat": false,
-      "checkedAt": "2026-11-07",
-      "sources": [
-        "https://client.virtualine.net/"
-      ],
-      "review": {
-        "outcome": "blocked",
-        "website": false,
-        "product": false,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "官网身份",
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "当前官网与原产品页均显示网站查封提示页，未取得当前 VPS / NAT 商品；这里仅记录页面所显示内容，不独立确认其法律事件。原产品仍待核。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
-      }
-    },
-    {
       "id": "lead-virtvps-com",
       "sourceName": "VirtVPS",
       "name": "VirtVPS",
@@ -8850,22 +8715,22 @@
       "nat": false,
       "checkedAt": "2026-11-07",
       "sources": [
-        "https://cloud.ggvision.net/"
+        "https://cloud.ggvision.net/",
+        "https://t.me/s/visioncloud_notification"
       ],
       "review": {
         "outcome": "blocked",
-        "website": false,
+        "website": true,
         "product": false,
         "payments": false,
         "regions": false,
         "complete": false,
         "pending": [
-          "官网身份",
           "当前 VPS / NAT 产品",
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前原客户区仍返回浏览器安全验证页面，未完成验证；未取得当前产品、付款及地区依据，不将旧搜索缓存计为当前在售。 第十轮重读原入口：HTTP 403；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前原客户区仍返回浏览器安全验证页面，未完成验证；未取得当前产品、付款及地区依据，不将旧搜索缓存计为当前在售。 第十轮重读原入口：HTTP 403；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 403），仍未取得新的当前公开具体 VPS / NAT 商品依据。 已据官方公告频道确认商家身份；2026 年 VM 维护公告证明既有业务仍有运维，2025 年日本旧优惠不等于当前可下单目录，产品缺项保持。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -8916,8 +8781,11 @@
       "url": "https://voluri.net/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网产品已核；所列支付与地区附有公开来源，历史实测的日期及适用范围见说明。",
+      "payments": [
+        "支付宝",
+        "加密货币"
+      ],
       "offeredRegions": [
         "美国"
       ],
@@ -8927,20 +8795,19 @@
         "https://voluri.net/",
         "https://voluri.net/index.php?rp=/store/ip-services",
         "https://voluri.net/index.php?rp=/store/comcast-xfinity",
-        "https://voluri.net/index.php?rp=/store/att-daily"
+        "https://voluri.net/index.php?rp=/store/att-daily",
+        "https://zhujitips.com/5113"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "complete": true,
+        "pending": [],
+        "note": "主机 Tips 2025-07-14 的 AT&T FlowRate 实测记录明确列支付宝和加密货币，补入该历史产品付款资料，不据泛称加密货币推定 USDT。当前产品目录保留；不将旧价格、历史库存或渠道可用性当成本轮结算结果。",
+        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
       }
     },
     {
@@ -9005,7 +8872,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前原入口严格 TLS 校验失败，证书已过期；未绕过安全提示，当前产品及缺项保留待核。 第十轮重读原入口：ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前原入口严格 TLS 校验失败，证书已过期；未绕过安全提示，当前产品及缺项保留待核。 第十轮重读原入口：ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -9039,7 +8906,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前官网进入账户登录页，未登录。官方文档链接的公开公告频道有历史配置并曾公告逐步停止新开通，仍未取得当前可售套餐；NAT / PVE 教程不等于当前 NAT 商品，支付及地区缺项保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前官网进入账户登录页，未登录。官方文档链接的公开公告频道有历史配置并曾公告逐步停止新开通，仍未取得当前可售套餐；NAT / PVE 教程不等于当前 NAT 商品，支付及地区缺项保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },
@@ -9487,7 +9354,7 @@
           "支付方式",
           "售卖地区"
         ],
-        "note": "当前原客户区显示 Critical Error / Could not connect to database，未取得可读取的当前 VPS / NAT 套餐及付款、地区依据，保留待核。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。",
+        "note": "当前原客户区显示 Critical Error / Could not connect to database，未取得可读取的当前 VPS / NAT 套餐及付款、地区依据，保留待核。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
         "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
       }
     },

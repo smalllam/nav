@@ -386,14 +386,6 @@
       "kind": "official-site-icon",
       "sha256": "406a224f2294d77de6b5ddc23c34125a75e37d79792205a515fe6f7ec726d0d0"
     },
-    "lead-asvm-net": {
-      "path": "/assets/merchants/baf8c21667b944b8.jpg",
-      "sourcePage": "https://t.me/ASVM_A",
-      "sourceUrl": "https://cdn1.telesco.pe/file/Kck0ELTNGGFXCQvexouLFAY6zIzc1Oi-C37bDMTendKqz5TNEpfLVSTTKkd9iNloZsosTxMQ9c4DAchvQsTkUxvKur6zud--aSyl0gbybQilfbiOtuDr98eLDAWYleRC4JHJNcNL2UekGbGpcXsEwzHghdPdUFR59nisf-Fv4U_ALJXWJfgNXGMbqo7BIqbMqwnIr_ZNR7dnMTE1YaKbEOJ1FTpg-u_akV2IF5Gmjd4qA-fTwal-QJawjM8CFgAL-OC2oM8m207E1z0xyrXwoNNWk1EyyaSFnI7OolUENXWTynQeShwyVPo6efgtpeinryU3TdGqrsdPJ3SCKuiBIw.jpg",
-      "kind": "official-channel-avatar",
-      "sha256": "481709fb48314ea621c512f08042d7f0c4ba29087045cb82de1945fb792359ed",
-      "note": "与原官网一致的 ASVM_News 官方频道当前使用的立方体头像；是频道身份图，不称为企业文字标志；官网停服状态保持。"
-    },
     "atp-hosting": {
       "path": "/assets/merchants/78f1ff283e5c729c.webp",
       "sourcePage": "https://atphosting24.com/",
@@ -1764,27 +1756,12 @@
       "kind": "official-site-icon",
       "sha256": "1699325b97038ece5be9e512a719961c70c13e6a980a5b0c2fca715ddc29e157"
     },
-    "lead-enginyring-com": {
-      "path": "/assets/merchants/5f119761423cc26e.webp",
-      "sourcePage": "https://manager.enginyring.com/",
-      "sourceUrl": "https://manager.enginyring.com/templates/serverspan/assets/images/favicon.webp",
-      "kind": "official-site-icon",
-      "sha256": "2362cbb33848025ce84680bb6caf272f3afd0355528d39b5f34d846abdbd96af"
-    },
     "lead-servitro-com": {
       "path": "/assets/merchants/ab377cb6c514ee43.png",
       "sourcePage": "https://my.servitro.com/login",
       "sourceUrl": "https://my.servitro.com/templates/swiftmodders/img/1-1736446902.png",
       "kind": "official-site-logo",
       "sha256": "23aab2cd342f41a1263a06fb649e542f19a00e8449a939d0c35999ba36fd44d2"
-    },
-    "lead-servps-com": {
-      "path": "/assets/merchants/a840199c507f97cd.png",
-      "sourcePage": "https://servps.com/",
-      "sourceUrl": "https://web.archive.org/web/20251127081718id_/https://servps.com/assets/img/logo.png",
-      "kind": "archived-official-site-logo",
-      "sha256": "0cfc5caa8870c4cc974b2d6bbb243039a2616138b544897f8fb293403ee41747",
-      "note": "Internet Archive 2025-11-27 保存的原官网 Servps 品牌原图。当前官网转为基础设施 / 软件服务，历史标志不证明旧 VPS 业务仍售。"
     },
     "lead-shandun-net": {
       "path": "/assets/merchants/e032f8109480a680.ico",
@@ -2062,14 +2039,6 @@
       "sourceUrl": "https://www.virtono.com/images/favicon.ico",
       "kind": "official-site-icon",
       "sha256": "533f46b2a1dc459a5b711e4c9c4b0994452e6da97c27b12c759f51ae33d60dd4"
-    },
-    "lead-virtualine-net": {
-      "path": "/assets/merchants/725865b2c05da1a0.png",
-      "sourcePage": "https://virtualine.net/assets/img/favicon.png",
-      "sourceUrl": "https://web.archive.org/web/20241002111032id_/https://virtualine.net/assets/img/favicon.png",
-      "kind": "archived-official-site-icon",
-      "sha256": "e2680b800aeb17408cd4e1e316c42efebf0b21e24fac74b8e98f0eaa1fee6b30",
-      "note": "Internet Archive 保存的原官网品牌图标，快照 20241002111032；历史身份图，不据此声称当前商品或经营恢复。"
     },
     "lead-virtvps-com": {
       "path": "/assets/merchants/3183c046ca51d258.png",
