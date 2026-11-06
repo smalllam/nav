@@ -12,7 +12,7 @@
 gitRepoUrl: https://github.com/smalllam/nav
 
 # Fork 部署分支
-branch: main
+branch: feat/cecil-vps-workers
 
 # 只有GitHub pages用户需要设置为true， 其他建议设置为 false
 hashMode: false

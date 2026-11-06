@@ -1,0 +1,2841 @@
+{
+  "checkedAt": "2026-11-06",
+  "sourceSHA256": "7267658e789986e3335866b3dc57ebeada3f10eb154753df54560d6e4a0f5293",
+  "coverage": {
+    "denominator": 195,
+    "required": 156,
+    "qualified": 149,
+    "publicProductCountries": 185,
+    "countriesWithLeads": 188,
+    "qualifiedPercent": 76.41,
+    "productPercent": 94.87,
+    "remainingToTarget": 7,
+    "completed": false
+  },
+  "countries": [
+    {
+      "iso2": "AF",
+      "name": "Afghanistan",
+      "zh": "阿富汗",
+      "region": "亚洲",
+      "aliases": [
+        "AF",
+        "Afghanistan",
+        "Afġānistān",
+        "Islamic Republic of Afghanistan"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AO",
+      "name": "Angola",
+      "zh": "安哥拉",
+      "region": "非洲",
+      "aliases": [
+        "ʁɛpublika de an'ɡɔla",
+        "Angola",
+        "Republic of Angola",
+        "AO",
+        "República de Angola"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AL",
+      "name": "Albania",
+      "zh": "阿尔巴尼亚",
+      "region": "欧洲",
+      "aliases": [
+        "Shqipëria",
+        "Republic of Albania",
+        "AL",
+        "Shqipnia",
+        "Albania",
+        "Shqipëri"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AD",
+      "name": "Andorra",
+      "zh": "安道尔",
+      "region": "欧洲",
+      "aliases": [
+        "Andorra",
+        "AD",
+        "Principat d'Andorra",
+        "Principality of Andorra"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "AE",
+      "name": "United Arab Emirates",
+      "zh": "阿拉伯联合酋长国",
+      "region": "亚洲",
+      "aliases": [
+        "United Arab Emirates",
+        "Emirates",
+        "UAE",
+        "AE"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AR",
+      "name": "Argentina",
+      "zh": "阿根廷",
+      "region": "美洲",
+      "aliases": [
+        "República Argentina",
+        "Argentina",
+        "Argentine Republic",
+        "AR"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AM",
+      "name": "Armenia",
+      "zh": "亚美尼亚",
+      "region": "亚洲",
+      "aliases": [
+        "Republic of Armenia",
+        "Հայաստանի Հանրապետություն",
+        "Hayastan",
+        "Armenia",
+        "AM"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AG",
+      "name": "Antigua and Barbuda",
+      "zh": "安提瓜和巴布达",
+      "region": "美洲",
+      "aliases": [
+        "Antigua and Barbuda",
+        "AG"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AU",
+      "name": "Australia",
+      "zh": "澳大利亚",
+      "region": "大洋洲",
+      "aliases": [
+        "Australia",
+        "AU",
+        "Commonwealth of Australia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AT",
+      "name": "Austria",
+      "zh": "奥地利",
+      "region": "欧洲",
+      "aliases": [
+        "AT",
+        "Osterreich",
+        "Oesterreich",
+        "Austria",
+        "Republic of Austria"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "AZ",
+      "name": "Azerbaijan",
+      "zh": "阿塞拜疆",
+      "region": "亚洲",
+      "aliases": [
+        "Azerbaijan",
+        "Republic of Azerbaijan",
+        "AZ",
+        "Azərbaycan Respublikası"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BI",
+      "name": "Burundi",
+      "zh": "布隆迪",
+      "region": "非洲",
+      "aliases": [
+        "République du Burundi",
+        "Republic of Burundi",
+        "BI",
+        "Republika y'Uburundi",
+        "Burundi"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BE",
+      "name": "Belgium",
+      "zh": "比利时",
+      "region": "欧洲",
+      "aliases": [
+        "Belgie",
+        "België",
+        "Royaume de Belgique",
+        "Belgium",
+        "Königreich Belgien",
+        "BE",
+        "Kingdom of Belgium",
+        "Belgique",
+        "Koninkrijk België",
+        "Belgien"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BJ",
+      "name": "Benin",
+      "zh": "贝宁",
+      "region": "非洲",
+      "aliases": [
+        "BJ",
+        "Republic of Benin",
+        "République du Bénin",
+        "Benin"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BF",
+      "name": "Burkina Faso",
+      "zh": "布基纳法索",
+      "region": "非洲",
+      "aliases": [
+        "Burkina Faso",
+        "BF"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "BD",
+      "name": "Bangladesh",
+      "zh": "孟加拉国",
+      "region": "亚洲",
+      "aliases": [
+        "Bangladesh",
+        "BD",
+        "Gônôprôjatôntri Bangladesh",
+        "People's Republic of Bangladesh"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BG",
+      "name": "Bulgaria",
+      "zh": "保加利亚",
+      "region": "欧洲",
+      "aliases": [
+        "Bulgaria",
+        "Република България",
+        "BG",
+        "Republic of Bulgaria"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BH",
+      "name": "Bahrain",
+      "zh": "巴林",
+      "region": "亚洲",
+      "aliases": [
+        "BH",
+        "Mamlakat al-Baḥrayn",
+        "Kingdom of Bahrain",
+        "Bahrain"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BS",
+      "name": "Bahamas",
+      "zh": "巴哈马",
+      "region": "美洲",
+      "aliases": [
+        "Commonwealth of the Bahamas",
+        "BS",
+        "Bahamas"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "BA",
+      "name": "Bosnia and Herzegovina",
+      "zh": "波斯尼亚和黑塞哥维那",
+      "region": "欧洲",
+      "aliases": [
+        "BA",
+        "Босна и Херцеговина",
+        "Bosnia and Herzegovina",
+        "Bosnia-Herzegovina"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BY",
+      "name": "Belarus",
+      "zh": "白俄罗斯",
+      "region": "欧洲",
+      "aliases": [
+        "Belarus",
+        "Bielaruś",
+        "Republic of Belarus",
+        "BY",
+        "Белоруссия",
+        "Республика Белоруссия"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BZ",
+      "name": "Belize",
+      "zh": "伯利兹",
+      "region": "美洲",
+      "aliases": [
+        "Belize",
+        "BZ"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BO",
+      "name": "Bolivia",
+      "zh": "玻利维亚",
+      "region": "美洲",
+      "aliases": [
+        "Plurinational State of Bolivia",
+        "Buliwya",
+        "BO",
+        "Wuliwya",
+        "Bolivia, Plurinational State of",
+        "Buliwya Mamallaqta",
+        "Wuliwya Suyu",
+        "Estado Plurinacional de Bolivia",
+        "Tetã Volívia",
+        "Bolivia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BR",
+      "name": "Brazil",
+      "zh": "巴西",
+      "region": "美洲",
+      "aliases": [
+        "República Federativa do Brasil",
+        "Brazil",
+        "BR",
+        "Brasil",
+        "Federative Republic of Brazil"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BB",
+      "name": "Barbados",
+      "zh": "巴巴多斯",
+      "region": "美洲",
+      "aliases": [
+        "Barbados",
+        "BB"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BN",
+      "name": "Brunei",
+      "zh": "文莱",
+      "region": "亚洲",
+      "aliases": [
+        "Nation of Brunei, Abode of Peace",
+        "Brunei",
+        "Nation of Brunei",
+        "BN",
+        "Brunei Darussalam",
+        "the Abode of Peace"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BT",
+      "name": "Bhutan",
+      "zh": "不丹",
+      "region": "亚洲",
+      "aliases": [
+        "Bhutan",
+        "Kingdom of Bhutan",
+        "BT"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "BW",
+      "name": "Botswana",
+      "zh": "博茨瓦纳",
+      "region": "非洲",
+      "aliases": [
+        "BW",
+        "Republic of Botswana",
+        "Botswana",
+        "Lefatshe la Botswana"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CF",
+      "name": "Central African Republic",
+      "zh": "中非共和国",
+      "region": "非洲",
+      "aliases": [
+        "République centrafricaine",
+        "Central African Republic",
+        "CF"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "CA",
+      "name": "Canada",
+      "zh": "加拿大",
+      "region": "美洲",
+      "aliases": [
+        "Canada",
+        "CA"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CH",
+      "name": "Switzerland",
+      "zh": "瑞士",
+      "region": "欧洲",
+      "aliases": [
+        "CH",
+        "Switzerland",
+        "Suisse",
+        "Svizra",
+        "Swiss Confederation",
+        "Schweiz",
+        "Svizzera"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CL",
+      "name": "Chile",
+      "zh": "智利",
+      "region": "美洲",
+      "aliases": [
+        "CL",
+        "República de Chile",
+        "Chile",
+        "Republic of Chile"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CN",
+      "name": "China",
+      "zh": "中国",
+      "region": "亚洲",
+      "aliases": [
+        "Zhōnghuá Rénmín Gònghéguó",
+        "Zhonghua",
+        "People's Republic of China",
+        "CN",
+        "Zhōngguó",
+        "中华人民共和国",
+        "China",
+        "Zhongguo"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CI",
+      "name": "Ivory Coast",
+      "zh": "科特迪瓦",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Côte d'Ivoire",
+        "Cote d'Ivoire",
+        "République de Côte d'Ivoire",
+        "Côte d'Ivoire",
+        "Ivory Coast",
+        "CI"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CM",
+      "name": "Cameroon",
+      "zh": "喀麦隆",
+      "region": "非洲",
+      "aliases": [
+        "CM",
+        "Cameroon",
+        "Republic of Cameroon",
+        "République du Cameroun"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CD",
+      "name": "DR Congo",
+      "zh": "民主刚果",
+      "region": "非洲",
+      "aliases": [
+        "DRC",
+        "Congo, the Democratic Republic of the",
+        "DR Congo",
+        "Congo-Kinshasa",
+        "Democratic Republic of Congo",
+        "CD",
+        "Democratic Republic of the Congo"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CG",
+      "name": "Congo",
+      "zh": "刚果",
+      "region": "非洲",
+      "aliases": [
+        "Congo",
+        "Congo-Brazzaville",
+        "CG",
+        "Republic of the Congo"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CO",
+      "name": "Colombia",
+      "zh": "哥伦比亚",
+      "region": "美洲",
+      "aliases": [
+        "Republic of Colombia",
+        "Colombia",
+        "República de Colombia",
+        "CO"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "KM",
+      "name": "Comoros",
+      "zh": "科摩罗",
+      "region": "非洲",
+      "aliases": [
+        "Comoros",
+        "Union of the Comoros",
+        "Udzima wa Komori",
+        "Union des Comores",
+        "KM",
+        "al-Ittiḥād al-Qumurī"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "CV",
+      "name": "Cape Verde",
+      "zh": "佛得角",
+      "region": "非洲",
+      "aliases": [
+        "CV",
+        "Cape Verde",
+        "Republic of Cabo Verde",
+        "República de Cabo Verde"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CR",
+      "name": "Costa Rica",
+      "zh": "哥斯达黎加",
+      "region": "美洲",
+      "aliases": [
+        "Republic of Costa Rica",
+        "Costa Rica",
+        "República de Costa Rica",
+        "CR"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CU",
+      "name": "Cuba",
+      "zh": "古巴",
+      "region": "美洲",
+      "aliases": [
+        "República de Cuba",
+        "Republic of Cuba",
+        "CU",
+        "Cuba"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CY",
+      "name": "Cyprus",
+      "zh": "塞浦路斯",
+      "region": "欧洲",
+      "aliases": [
+        "Kıbrıs Cumhuriyeti",
+        "CY",
+        "Κυπριακή Δημοκρατία",
+        "Kýpros",
+        "Republic of Cyprus",
+        "Cyprus",
+        "Kıbrıs"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "CZ",
+      "name": "Czechia",
+      "zh": "捷克",
+      "region": "欧洲",
+      "aliases": [
+        "CZ",
+        "Česká republika",
+        "Czech Republic",
+        "Česko",
+        "Czechia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "DE",
+      "name": "Germany",
+      "zh": "德国",
+      "region": "欧洲",
+      "aliases": [
+        "Bundesrepublik Deutschland",
+        "Germany",
+        "DE",
+        "Federal Republic of Germany"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "DJ",
+      "name": "Djibouti",
+      "zh": "吉布提",
+      "region": "非洲",
+      "aliases": [
+        "République de Djibouti",
+        "Jamhuuriyadda Jabuuti",
+        "Djibouti",
+        "Gabuutih Ummuuno",
+        "DJ",
+        "Jabuuti",
+        "Gabuuti",
+        "Republic of Djibouti"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "DM",
+      "name": "Dominica",
+      "zh": "多米尼加",
+      "region": "美洲",
+      "aliases": [
+        "Wai‘tu kubuli",
+        "Dominica",
+        "Dominique",
+        "Commonwealth of Dominica",
+        "DM"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "DK",
+      "name": "Denmark",
+      "zh": "丹麦",
+      "region": "欧洲",
+      "aliases": [
+        "Denmark",
+        "Kongeriget Danmark",
+        "Danmark",
+        "DK",
+        "Kingdom of Denmark"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "DO",
+      "name": "Dominican Republic",
+      "zh": "多明尼加",
+      "region": "美洲",
+      "aliases": [
+        "Dominican Republic",
+        "DO"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "DZ",
+      "name": "Algeria",
+      "zh": "阿尔及利亚",
+      "region": "非洲",
+      "aliases": [
+        "Algérie",
+        "Dzayer",
+        "DZ",
+        "Algeria",
+        "People's Democratic Republic of Algeria"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "EC",
+      "name": "Ecuador",
+      "zh": "厄瓜多尔",
+      "region": "美洲",
+      "aliases": [
+        "Republic of Ecuador",
+        "República del Ecuador",
+        "EC",
+        "Ecuador"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "EG",
+      "name": "Egypt",
+      "zh": "埃及",
+      "region": "非洲",
+      "aliases": [
+        "Egypt",
+        "EG",
+        "Arab Republic of Egypt"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "ER",
+      "name": "Eritrea",
+      "zh": "厄立特里亚",
+      "region": "非洲",
+      "aliases": [
+        "ER",
+        "Dawlat Iritriyá",
+        "ሃገረ ኤርትራ",
+        "ʾErtrā",
+        "Iritriyā",
+        "Eritrea",
+        "State of Eritrea"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "ES",
+      "name": "Spain",
+      "zh": "西班牙",
+      "region": "欧洲",
+      "aliases": [
+        "Reino de España",
+        "Kingdom of Spain",
+        "ES",
+        "Spain"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "EE",
+      "name": "Estonia",
+      "zh": "爱沙尼亚",
+      "region": "欧洲",
+      "aliases": [
+        "Republic of Estonia",
+        "Eesti",
+        "Eesti Vabariik",
+        "Estonia",
+        "EE"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "ET",
+      "name": "Ethiopia",
+      "zh": "埃塞俄比亚",
+      "region": "非洲",
+      "aliases": [
+        "Federal Democratic Republic of Ethiopia",
+        "ʾĪtyōṗṗyā",
+        "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+        "ET",
+        "Ethiopia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "FI",
+      "name": "Finland",
+      "zh": "芬兰",
+      "region": "欧洲",
+      "aliases": [
+        "Suomen tasavalta",
+        "Republiken Finland",
+        "Finland",
+        "FI",
+        "Suomi",
+        "Republic of Finland"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "FJ",
+      "name": "Fiji",
+      "zh": "斐济",
+      "region": "大洋洲",
+      "aliases": [
+        "FJ",
+        "Fiji",
+        "Matanitu ko Viti",
+        "Viti",
+        "Republic of Fiji",
+        "Fijī Gaṇarājya"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "FR",
+      "name": "France",
+      "zh": "法国",
+      "region": "欧洲",
+      "aliases": [
+        "FR",
+        "French Republic",
+        "France",
+        "République française"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "FM",
+      "name": "Micronesia",
+      "zh": "密克罗尼西亚",
+      "region": "大洋洲",
+      "aliases": [
+        "Micronesia",
+        "FM",
+        "Micronesia, Federated States of",
+        "Federated States of Micronesia"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "GA",
+      "name": "Gabon",
+      "zh": "加蓬",
+      "region": "非洲",
+      "aliases": [
+        "GA",
+        "Gabonese Republic",
+        "Gabon",
+        "République Gabonaise"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "GB",
+      "name": "United Kingdom",
+      "zh": "英国",
+      "region": "欧洲",
+      "aliases": [
+        "UK",
+        "United Kingdom of Great Britain and Northern Ireland",
+        "GB",
+        "Great Britain",
+        "United Kingdom"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "GE",
+      "name": "Georgia",
+      "zh": "格鲁吉亚",
+      "region": "亚洲",
+      "aliases": [
+        "GE",
+        "Sakartvelo",
+        "Georgia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "GH",
+      "name": "Ghana",
+      "zh": "加纳",
+      "region": "非洲",
+      "aliases": [
+        "GH",
+        "Ghana",
+        "Republic of Ghana"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "GN",
+      "name": "Guinea",
+      "zh": "几内亚",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Guinea",
+        "GN",
+        "République de Guinée",
+        "Guinea"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "GM",
+      "name": "Gambia",
+      "zh": "冈比亚",
+      "region": "非洲",
+      "aliases": [
+        "Republic of the Gambia",
+        "Gambia",
+        "GM"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "GW",
+      "name": "Guinea-Bissau",
+      "zh": "几内亚比绍",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Guinea-Bissau",
+        "República da Guiné-Bissau",
+        "GW",
+        "Guinea-Bissau"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "GQ",
+      "name": "Equatorial Guinea",
+      "zh": "赤道几内亚",
+      "region": "非洲",
+      "aliases": [
+        "República da Guiné Equatorial",
+        "GQ",
+        "República de Guinea Ecuatorial",
+        "Equatorial Guinea",
+        "République de Guinée équatoriale",
+        "Republic of Equatorial Guinea"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "GR",
+      "name": "Greece",
+      "zh": "希腊",
+      "region": "欧洲",
+      "aliases": [
+        "Hellenic Republic",
+        "Ελληνική Δημοκρατία",
+        "GR",
+        "Elláda",
+        "Greece"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "GD",
+      "name": "Grenada",
+      "zh": "格林纳达",
+      "region": "美洲",
+      "aliases": [
+        "Grenada",
+        "GD"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "GT",
+      "name": "Guatemala",
+      "zh": "危地马拉",
+      "region": "美洲",
+      "aliases": [
+        "Republic of Guatemala",
+        "Guatemala",
+        "GT"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "GY",
+      "name": "Guyana",
+      "zh": "圭亚那",
+      "region": "美洲",
+      "aliases": [
+        "Co-operative Republic of Guyana",
+        "Guyana",
+        "GY"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "HN",
+      "name": "Honduras",
+      "zh": "洪都拉斯",
+      "region": "美洲",
+      "aliases": [
+        "Honduras",
+        "Republic of Honduras",
+        "República de Honduras",
+        "HN"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "HR",
+      "name": "Croatia",
+      "zh": "克罗地亚",
+      "region": "欧洲",
+      "aliases": [
+        "Hrvatska",
+        "Republika Hrvatska",
+        "Republic of Croatia",
+        "Croatia",
+        "HR"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "HT",
+      "name": "Haiti",
+      "zh": "海地",
+      "region": "美洲",
+      "aliases": [
+        "HT",
+        "République d'Haïti",
+        "Repiblik Ayiti",
+        "Haiti",
+        "Republic of Haiti"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "HU",
+      "name": "Hungary",
+      "zh": "匈牙利",
+      "region": "欧洲",
+      "aliases": [
+        "Hungary",
+        "HU"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "ID",
+      "name": "Indonesia",
+      "zh": "印度尼西亚",
+      "region": "亚洲",
+      "aliases": [
+        "Republic of Indonesia",
+        "ID",
+        "Republik Indonesia",
+        "Indonesia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "IN",
+      "name": "India",
+      "zh": "印度",
+      "region": "亚洲",
+      "aliases": [
+        "Bhārat",
+        "IN",
+        "இந்தியா",
+        "India",
+        "Bharat Ganrajya",
+        "Republic of India"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "IE",
+      "name": "Ireland",
+      "zh": "爱尔兰",
+      "region": "欧洲",
+      "aliases": [
+        "Éire",
+        "Republic of Ireland",
+        "IE",
+        "Poblacht na hÉireann",
+        "Ireland"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "IR",
+      "name": "Iran",
+      "zh": "伊朗",
+      "region": "亚洲",
+      "aliases": [
+        "Jomhuri-ye Eslāmi-ye Irān",
+        "Iran, Islamic Republic of",
+        "Islamic Republic of Iran",
+        "IR",
+        "Iran"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "IQ",
+      "name": "Iraq",
+      "zh": "伊拉克",
+      "region": "亚洲",
+      "aliases": [
+        "Republic of Iraq",
+        "Iraq",
+        "IQ",
+        "Jumhūriyyat al-‘Irāq"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "IS",
+      "name": "Iceland",
+      "zh": "冰岛",
+      "region": "欧洲",
+      "aliases": [
+        "Republic of Iceland",
+        "Lýðveldið Ísland",
+        "Iceland",
+        "Island",
+        "IS"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "IL",
+      "name": "Israel",
+      "zh": "以色列",
+      "region": "亚洲",
+      "aliases": [
+        "Medīnat Yisrā'el",
+        "State of Israel",
+        "Israel",
+        "IL"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "IT",
+      "name": "Italy",
+      "zh": "意大利",
+      "region": "欧洲",
+      "aliases": [
+        "Italian Republic",
+        "Italy",
+        "IT",
+        "Repubblica italiana"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "JM",
+      "name": "Jamaica",
+      "zh": "牙买加",
+      "region": "美洲",
+      "aliases": [
+        "JM",
+        "Jamaica"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "JO",
+      "name": "Jordan",
+      "zh": "约旦",
+      "region": "亚洲",
+      "aliases": [
+        "Hashemite Kingdom of Jordan",
+        "al-Mamlakah al-Urdunīyah al-Hāshimīyah",
+        "JO",
+        "Jordan"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "JP",
+      "name": "Japan",
+      "zh": "日本",
+      "region": "亚洲",
+      "aliases": [
+        "JP",
+        "Nihon",
+        "Nippon",
+        "Japan"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "KZ",
+      "name": "Kazakhstan",
+      "zh": "哈萨克斯坦",
+      "region": "亚洲",
+      "aliases": [
+        "Қазақстан Республикасы",
+        "Qazaqstan",
+        "Respublika Kazakhstan",
+        "KZ",
+        "Republic of Kazakhstan",
+        "Qazaqstan Respublïkası",
+        "Республика Казахстан",
+        "Kazakhstan",
+        "Казахстан"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "KE",
+      "name": "Kenya",
+      "zh": "肯尼亚",
+      "region": "非洲",
+      "aliases": [
+        "Jamhuri ya Kenya",
+        "Republic of Kenya",
+        "KE",
+        "Kenya"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "KG",
+      "name": "Kyrgyzstan",
+      "zh": "吉尔吉斯斯坦",
+      "region": "亚洲",
+      "aliases": [
+        "KG",
+        "Кыргыз Республикасы",
+        "Киргизия",
+        "Kyrgyz Respublikasy",
+        "Kyrgyz Republic",
+        "Kyrgyzstan"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "KH",
+      "name": "Cambodia",
+      "zh": "柬埔寨",
+      "region": "亚洲",
+      "aliases": [
+        "KH",
+        "Kingdom of Cambodia",
+        "Cambodia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "KI",
+      "name": "Kiribati",
+      "zh": "基里巴斯",
+      "region": "大洋洲",
+      "aliases": [
+        "Ribaberiki Kiribati",
+        "Kiribati",
+        "Independent and Sovereign Republic of Kiribati",
+        "Republic of Kiribati",
+        "KI"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "zh": "圣基茨和尼维斯",
+      "region": "美洲",
+      "aliases": [
+        "KN",
+        "Federation of Saint Christopher and Nevis",
+        "Saint Kitts and Nevis"
+      ],
+      "qualified": false,
+      "status": "尚未找到合格采购入口"
+    },
+    {
+      "iso2": "KR",
+      "name": "South Korea",
+      "zh": "韩国",
+      "region": "亚洲",
+      "aliases": [
+        "Republic of Korea",
+        "KR",
+        "South Korea",
+        "남조선",
+        "남한",
+        "Korea, Republic of"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "KW",
+      "name": "Kuwait",
+      "zh": "科威特",
+      "region": "亚洲",
+      "aliases": [
+        "KW",
+        "Kuwait",
+        "State of Kuwait",
+        "Dawlat al-Kuwait"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "LA",
+      "name": "Laos",
+      "zh": "老挝",
+      "region": "亚洲",
+      "aliases": [
+        "LA",
+        "Sathalanalat Paxathipatai Paxaxon Lao",
+        "Lao People's Democratic Republic",
+        "Lao",
+        "Laos"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "LB",
+      "name": "Lebanon",
+      "zh": "黎巴嫩",
+      "region": "亚洲",
+      "aliases": [
+        "Al-Jumhūrīyah Al-Libnānīyah",
+        "Lebanese Republic",
+        "Lebanon",
+        "LB"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "LR",
+      "name": "Liberia",
+      "zh": "利比里亚",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Liberia",
+        "LR",
+        "Liberia"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "LY",
+      "name": "Libya",
+      "zh": "利比亚",
+      "region": "非洲",
+      "aliases": [
+        "LY",
+        "Dawlat Libya",
+        "Libya",
+        "State of Libya"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "LC",
+      "name": "Saint Lucia",
+      "zh": "圣卢西亚",
+      "region": "美洲",
+      "aliases": [
+        "LC",
+        "Saint Lucia"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "LI",
+      "name": "Liechtenstein",
+      "zh": "列支敦士登",
+      "region": "欧洲",
+      "aliases": [
+        "Fürstentum Liechtenstein",
+        "Principality of Liechtenstein",
+        "LI",
+        "Liechtenstein"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "LK",
+      "name": "Sri Lanka",
+      "zh": "斯里兰卡",
+      "region": "亚洲",
+      "aliases": [
+        "ilaṅkai",
+        "Sri Lanka",
+        "Democratic Socialist Republic of Sri Lanka",
+        "LK"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "LS",
+      "name": "Lesotho",
+      "zh": "莱索托",
+      "region": "非洲",
+      "aliases": [
+        "LS",
+        "Lesotho",
+        "Muso oa Lesotho",
+        "Kingdom of Lesotho"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "LT",
+      "name": "Lithuania",
+      "zh": "立陶宛",
+      "region": "欧洲",
+      "aliases": [
+        "LT",
+        "Lithuania",
+        "Republic of Lithuania",
+        "Lietuvos Respublika"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "LU",
+      "name": "Luxembourg",
+      "zh": "卢森堡",
+      "region": "欧洲",
+      "aliases": [
+        "LU",
+        "Grand-Duché de Luxembourg",
+        "Grand Duchy of Luxembourg",
+        "Großherzogtum Luxemburg",
+        "Luxembourg",
+        "Groussherzogtum Lëtzebuerg"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "LV",
+      "name": "Latvia",
+      "zh": "拉脱维亚",
+      "region": "欧洲",
+      "aliases": [
+        "Latvia",
+        "LV",
+        "Latvijas Republika",
+        "Republic of Latvia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MA",
+      "name": "Morocco",
+      "zh": "摩洛哥",
+      "region": "非洲",
+      "aliases": [
+        "Morocco",
+        "MA",
+        "Kingdom of Morocco",
+        "Al-Mamlakah al-Maġribiyah"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MC",
+      "name": "Monaco",
+      "zh": "摩纳哥",
+      "region": "欧洲",
+      "aliases": [
+        "MC",
+        "Principauté de Monaco",
+        "Principality of Monaco",
+        "Monaco"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "MD",
+      "name": "Moldova",
+      "zh": "摩尔多瓦",
+      "region": "欧洲",
+      "aliases": [
+        "Republic of Moldova",
+        "MD",
+        "Moldova",
+        "Republica Moldova",
+        "Moldova, Republic of"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MG",
+      "name": "Madagascar",
+      "zh": "马达加斯加",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Madagascar",
+        "MG",
+        "Repoblikan'i Madagasikara",
+        "Madagascar",
+        "République de Madagascar"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MV",
+      "name": "Maldives",
+      "zh": "马尔代夫",
+      "region": "亚洲",
+      "aliases": [
+        "Dhivehi Raajjeyge Jumhooriyya",
+        "Maldive Islands",
+        "Republic of the Maldives",
+        "Maldives",
+        "MV"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "MX",
+      "name": "Mexico",
+      "zh": "墨西哥",
+      "region": "美洲",
+      "aliases": [
+        "United Mexican States",
+        "Mexico",
+        "Mexicanos",
+        "MX",
+        "Estados Unidos Mexicanos"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MH",
+      "name": "Marshall Islands",
+      "zh": "马绍尔群岛",
+      "region": "大洋洲",
+      "aliases": [
+        "Aolepān Aorōkin M̧ajeļ",
+        "Republic of the Marshall Islands",
+        "Marshall Islands",
+        "MH"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "MK",
+      "name": "North Macedonia",
+      "zh": "北馬其頓",
+      "region": "欧洲",
+      "aliases": [
+        "Republic of North Macedonia",
+        "North Macedonia",
+        "Macedonia, The Former Yugoslav Republic of",
+        "Macedonia",
+        "The former Yugoslav Republic of Macedonia",
+        "Република Северна Македонија",
+        "MK"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "ML",
+      "name": "Mali",
+      "zh": "马里",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Mali",
+        "République du Mali",
+        "Mali",
+        "ML"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MT",
+      "name": "Malta",
+      "zh": "马耳他",
+      "region": "欧洲",
+      "aliases": [
+        "Repubblika ta' Malta",
+        "MT",
+        "Republic of Malta",
+        "Malta"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MM",
+      "name": "Myanmar",
+      "zh": "缅甸",
+      "region": "亚洲",
+      "aliases": [
+        "Burma",
+        "Pyidaunzu Thanmăda Myăma Nainngandaw",
+        "Republic of the Union of Myanmar",
+        "MM",
+        "Myanmar"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "ME",
+      "name": "Montenegro",
+      "zh": "黑山",
+      "region": "欧洲",
+      "aliases": [
+        "Montenegro",
+        "ME",
+        "Crna Gora"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MN",
+      "name": "Mongolia",
+      "zh": "蒙古",
+      "region": "亚洲",
+      "aliases": [
+        "Mongolia",
+        "MN"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MZ",
+      "name": "Mozambique",
+      "zh": "莫桑比克",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Mozambique",
+        "República de Moçambique",
+        "Mozambique",
+        "MZ"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MR",
+      "name": "Mauritania",
+      "zh": "毛里塔尼亚",
+      "region": "非洲",
+      "aliases": [
+        "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah",
+        "MR",
+        "Mauritania",
+        "Islamic Republic of Mauritania"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "MU",
+      "name": "Mauritius",
+      "zh": "毛里求斯",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Mauritius",
+        "Mauritius",
+        "MU",
+        "République de Maurice"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MW",
+      "name": "Malawi",
+      "zh": "马拉维",
+      "region": "非洲",
+      "aliases": [
+        "MW",
+        "Malawi",
+        "Republic of Malawi"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "MY",
+      "name": "Malaysia",
+      "zh": "马来西亚",
+      "region": "亚洲",
+      "aliases": [
+        "Malaysia",
+        "MY"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "NA",
+      "name": "Namibia",
+      "zh": "纳米比亚",
+      "region": "非洲",
+      "aliases": [
+        "Namibië",
+        "Republic of Namibia",
+        "Namibia",
+        "NA"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "NE",
+      "name": "Niger",
+      "zh": "尼日尔",
+      "region": "非洲",
+      "aliases": [
+        "NE",
+        "Niger",
+        "Nijar",
+        "Republic of Niger"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "NG",
+      "name": "Nigeria",
+      "zh": "尼日利亚",
+      "region": "非洲",
+      "aliases": [
+        "Nijeriya",
+        "NG",
+        "Federal Republic of Nigeria",
+        "Nigeria",
+        "Naíjíríà"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "NI",
+      "name": "Nicaragua",
+      "zh": "尼加拉瓜",
+      "region": "美洲",
+      "aliases": [
+        "Nicaragua",
+        "República de Nicaragua",
+        "NI",
+        "Republic of Nicaragua"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "NL",
+      "name": "Netherlands",
+      "zh": "荷兰",
+      "region": "欧洲",
+      "aliases": [
+        "Nederland",
+        "NL",
+        "Kingdom of the Netherlands",
+        "The Netherlands",
+        "Holland",
+        "Netherlands"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "NO",
+      "name": "Norway",
+      "zh": "挪威",
+      "region": "欧洲",
+      "aliases": [
+        "Noreg",
+        "Norway",
+        "Norge",
+        "Kongeriket Noreg",
+        "NO",
+        "Kingdom of Norway",
+        "Kongeriket Norge"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "NP",
+      "name": "Nepal",
+      "zh": "尼泊尔",
+      "region": "亚洲",
+      "aliases": [
+        "Loktāntrik Ganatantra Nepāl",
+        "NP",
+        "Federal Democratic Republic of Nepal",
+        "Nepal"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "NR",
+      "name": "Nauru",
+      "zh": "瑙鲁",
+      "region": "大洋洲",
+      "aliases": [
+        "Naoero",
+        "Pleasant Island",
+        "NR",
+        "Nauru",
+        "Ripublik Naoero",
+        "Republic of Nauru"
+      ],
+      "qualified": false,
+      "status": "尚未找到合格采购入口"
+    },
+    {
+      "iso2": "NZ",
+      "name": "New Zealand",
+      "zh": "新西兰",
+      "region": "大洋洲",
+      "aliases": [
+        "New Zealand",
+        "Aotearoa",
+        "NZ"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "OM",
+      "name": "Oman",
+      "zh": "阿曼",
+      "region": "亚洲",
+      "aliases": [
+        "OM",
+        "Oman",
+        "Sultanate of Oman",
+        "Salṭanat ʻUmān"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "PK",
+      "name": "Pakistan",
+      "zh": "巴基斯坦",
+      "region": "亚洲",
+      "aliases": [
+        "Pakistan",
+        "PK",
+        "Islamic Republic of Pakistan",
+        "Pākistān",
+        "Islāmī Jumhūriya'eh Pākistān"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "PA",
+      "name": "Panama",
+      "zh": "巴拿马",
+      "region": "美洲",
+      "aliases": [
+        "PA",
+        "República de Panamá",
+        "Panama",
+        "Republic of Panama"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "PE",
+      "name": "Peru",
+      "zh": "秘鲁",
+      "region": "美洲",
+      "aliases": [
+        "PE",
+        "Peru",
+        "República del Perú",
+        "Republic of Peru"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "PH",
+      "name": "Philippines",
+      "zh": "菲律宾",
+      "region": "亚洲",
+      "aliases": [
+        "Philippines",
+        "Republic of the Philippines",
+        "PH",
+        "Repúblika ng Pilipinas"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "PW",
+      "name": "Palau",
+      "zh": "帕劳",
+      "region": "大洋洲",
+      "aliases": [
+        "Palau",
+        "PW",
+        "Republic of Palau",
+        "Beluu er a Belau"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "PG",
+      "name": "Papua New Guinea",
+      "zh": "巴布亚新几内亚",
+      "region": "大洋洲",
+      "aliases": [
+        "PG",
+        "Independent State of Papua New Guinea",
+        "Independen Stet bilong Papua Niugini",
+        "Papua New Guinea"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "PL",
+      "name": "Poland",
+      "zh": "波兰",
+      "region": "欧洲",
+      "aliases": [
+        "Republic of Poland",
+        "PL",
+        "Poland",
+        "Rzeczpospolita Polska"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "KP",
+      "name": "North Korea",
+      "zh": "朝鲜",
+      "region": "亚洲",
+      "aliases": [
+        "DPRK",
+        "KP",
+        "Chosŏn Minjujuŭi Inmin Konghwaguk",
+        "북조선",
+        "North Korea",
+        "북한",
+        "조선민주주의인민공화국",
+        "Democratic People's Republic of Korea",
+        "Korea, Democratic People's Republic of"
+      ],
+      "qualified": false,
+      "status": "仅有宣传 / 询价线索"
+    },
+    {
+      "iso2": "PT",
+      "name": "Portugal",
+      "zh": "葡萄牙",
+      "region": "欧洲",
+      "aliases": [
+        "Portuguese Republic",
+        "Portuguesa",
+        "PT",
+        "Portugal",
+        "República Portuguesa"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "PY",
+      "name": "Paraguay",
+      "zh": "巴拉圭",
+      "region": "美洲",
+      "aliases": [
+        "República del Paraguay",
+        "Tetã Paraguái",
+        "Paraguay",
+        "PY",
+        "Republic of Paraguay"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "PS",
+      "name": "Palestine",
+      "zh": "巴勒斯坦",
+      "region": "亚洲",
+      "aliases": [
+        "Palestine",
+        "Dawlat Filasṭin",
+        "Palestine, State of",
+        "PS",
+        "State of Palestine"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "QA",
+      "name": "Qatar",
+      "zh": "卡塔尔",
+      "region": "亚洲",
+      "aliases": [
+        "QA",
+        "Qatar",
+        "State of Qatar",
+        "Dawlat Qaṭar"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "RO",
+      "name": "Romania",
+      "zh": "罗马尼亚",
+      "region": "欧洲",
+      "aliases": [
+        "Romania",
+        "România",
+        "RO",
+        "Rumania",
+        "Roumania"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "RU",
+      "name": "Russia",
+      "zh": "俄罗斯",
+      "region": "欧洲",
+      "aliases": [
+        "RU",
+        "Russia",
+        "Russian Federation",
+        "Российская Федерация"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "RW",
+      "name": "Rwanda",
+      "zh": "卢旺达",
+      "region": "非洲",
+      "aliases": [
+        "Rwanda",
+        "Repubulika y'u Rwanda",
+        "Republic of Rwanda",
+        "République du Rwanda",
+        "RW"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SA",
+      "name": "Saudi Arabia",
+      "zh": "沙特阿拉伯",
+      "region": "亚洲",
+      "aliases": [
+        "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah",
+        "Kingdom of Saudi Arabia",
+        "Saudi",
+        "SA",
+        "Saudi Arabia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SD",
+      "name": "Sudan",
+      "zh": "苏丹",
+      "region": "非洲",
+      "aliases": [
+        "SD",
+        "Sudan",
+        "Jumhūrīyat as-Sūdān",
+        "Republic of the Sudan"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SN",
+      "name": "Senegal",
+      "zh": "塞内加尔",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Senegal",
+        "Senegal",
+        "SN",
+        "République du Sénégal"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SG",
+      "name": "Singapore",
+      "zh": "新加坡",
+      "region": "亚洲",
+      "aliases": [
+        "Republic of Singapore",
+        "Singapura",
+        "Singapore",
+        "SG",
+        "Republik Singapura",
+        "新加坡共和国"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SB",
+      "name": "Solomon Islands",
+      "zh": "所罗门群岛",
+      "region": "大洋洲",
+      "aliases": [
+        "Solomon Islands",
+        "SB"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SL",
+      "name": "Sierra Leone",
+      "zh": "塞拉利昂",
+      "region": "非洲",
+      "aliases": [
+        "Sierra Leone",
+        "SL",
+        "Republic of Sierra Leone"
+      ],
+      "qualified": false,
+      "status": "尚未找到合格采购入口"
+    },
+    {
+      "iso2": "SV",
+      "name": "El Salvador",
+      "zh": "萨尔瓦多",
+      "region": "美洲",
+      "aliases": [
+        "El Salvador",
+        "Republic of El Salvador",
+        "SV",
+        "República de El Salvador"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SM",
+      "name": "San Marino",
+      "zh": "圣马力诺",
+      "region": "欧洲",
+      "aliases": [
+        "Republic of San Marino",
+        "San Marino",
+        "Most Serene Republic of San Marino",
+        "Repubblica di San Marino",
+        "SM"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SO",
+      "name": "Somalia",
+      "zh": "索马里",
+      "region": "非洲",
+      "aliases": [
+        "Federal Republic of Somalia",
+        "SO",
+        "Somalia",
+        "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya",
+        "Jamhuuriyadda Federaalka Soomaaliya",
+        "aṣ-Ṣūmāl"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "RS",
+      "name": "Serbia",
+      "zh": "塞尔维亚",
+      "region": "欧洲",
+      "aliases": [
+        "Serbia",
+        "RS",
+        "Republic of Serbia",
+        "Република Србија",
+        "Srbija",
+        "Србија",
+        "Republika Srbija"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SS",
+      "name": "South Sudan",
+      "zh": "南苏丹",
+      "region": "非洲",
+      "aliases": [
+        "Republic of South Sudan",
+        "SS",
+        "South Sudan"
+      ],
+      "qualified": false,
+      "status": "仅有宣传 / 询价线索"
+    },
+    {
+      "iso2": "ST",
+      "name": "São Tomé and Príncipe",
+      "zh": "圣多美和普林西比",
+      "region": "非洲",
+      "aliases": [
+        "São Tomé and Príncipe",
+        "Democratic Republic of São Tomé and Príncipe",
+        "Sao Tome and Principe",
+        "ST",
+        "República Democrática de São Tomé e Príncipe"
+      ],
+      "qualified": false,
+      "status": "尚未找到合格采购入口"
+    },
+    {
+      "iso2": "SR",
+      "name": "Suriname",
+      "zh": "苏里南",
+      "region": "美洲",
+      "aliases": [
+        "Sarnam",
+        "Sranangron",
+        "SR",
+        "Republic of Suriname",
+        "Republiek Suriname",
+        "Suriname"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "SK",
+      "name": "Slovakia",
+      "zh": "斯洛伐克",
+      "region": "欧洲",
+      "aliases": [
+        "Slovenská republika",
+        "Slovak Republic",
+        "SK",
+        "Slovakia"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SI",
+      "name": "Slovenia",
+      "zh": "斯洛文尼亚",
+      "region": "欧洲",
+      "aliases": [
+        "Slovenia",
+        "Republic of Slovenia",
+        "SI",
+        "Republika Slovenija"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SE",
+      "name": "Sweden",
+      "zh": "瑞典",
+      "region": "欧洲",
+      "aliases": [
+        "Sweden",
+        "SE",
+        "Konungariket Sverige",
+        "Kingdom of Sweden"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SZ",
+      "name": "Eswatini",
+      "zh": "斯威士兰",
+      "region": "非洲",
+      "aliases": [
+        "Kingdom of Eswatini",
+        "Swatini",
+        "weSwatini",
+        "Umbuso weSwatini",
+        "Eswatini",
+        "Ngwane",
+        "Swaziland",
+        "SZ"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "SC",
+      "name": "Seychelles",
+      "zh": "塞舌尔",
+      "region": "非洲",
+      "aliases": [
+        "Repiblik Sesel",
+        "Republic of Seychelles",
+        "République des Seychelles",
+        "SC",
+        "Seychelles"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "SY",
+      "name": "Syria",
+      "zh": "叙利亚",
+      "region": "亚洲",
+      "aliases": [
+        "Syria",
+        "Syrian Arab Republic",
+        "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah",
+        "SY"
+      ],
+      "qualified": false,
+      "status": "仅有宣传 / 询价线索"
+    },
+    {
+      "iso2": "TD",
+      "name": "Chad",
+      "zh": "乍得",
+      "region": "非洲",
+      "aliases": [
+        "République du Tchad",
+        "TD",
+        "Chad",
+        "Tchad",
+        "Republic of Chad"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "TG",
+      "name": "Togo",
+      "zh": "多哥",
+      "region": "非洲",
+      "aliases": [
+        "République Togolaise",
+        "TG",
+        "Togo",
+        "Togolese",
+        "Togolese Republic"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "TH",
+      "name": "Thailand",
+      "zh": "泰国",
+      "region": "亚洲",
+      "aliases": [
+        "ราชอาณาจักรไทย",
+        "Kingdom of Thailand",
+        "Ratcha Anachak Thai",
+        "Prathet",
+        "TH",
+        "Thai",
+        "Thailand"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "TJ",
+      "name": "Tajikistan",
+      "zh": "塔吉克斯坦",
+      "region": "亚洲",
+      "aliases": [
+        "Republic of Tajikistan",
+        "Toçikiston",
+        "Çumhuriyi Toçikiston",
+        "Tajikistan",
+        "Ҷумҳурии Тоҷикистон",
+        "TJ"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "TM",
+      "name": "Turkmenistan",
+      "zh": "土库曼斯坦",
+      "region": "亚洲",
+      "aliases": [
+        "Turkmenistan",
+        "TM"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "TL",
+      "name": "Timor-Leste",
+      "zh": "东帝汶",
+      "region": "亚洲",
+      "aliases": [
+        "Timor-Leste",
+        "Timor",
+        "Timor Lorosae",
+        "East Timor",
+        "República Democrática de Timor-Leste",
+        "Democratic Republic of Timor-Leste",
+        "TL",
+        "Repúblika Demokrátika Timór-Leste",
+        "Timór Lorosa'e"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "TO",
+      "name": "Tonga",
+      "zh": "汤加",
+      "region": "大洋洲",
+      "aliases": [
+        "TO",
+        "Kingdom of Tonga",
+        "Tonga"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "TT",
+      "name": "Trinidad and Tobago",
+      "zh": "特立尼达和多巴哥",
+      "region": "美洲",
+      "aliases": [
+        "Republic of Trinidad and Tobago",
+        "Trinidad and Tobago",
+        "TT"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "TN",
+      "name": "Tunisia",
+      "zh": "突尼斯",
+      "region": "非洲",
+      "aliases": [
+        "Tunisia",
+        "Tunisian Republic",
+        "Republic of Tunisia",
+        "TN",
+        "al-Jumhūriyyah at-Tūnisiyyah"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "TR",
+      "name": "Türkiye",
+      "zh": "土耳其",
+      "region": "亚洲",
+      "aliases": [
+        "Türkiye Cumhuriyeti",
+        "Turkiye",
+        "TR",
+        "Türkiye",
+        "Republic of Turkey",
+        "Republic of Türkiye"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "TV",
+      "name": "Tuvalu",
+      "zh": "图瓦卢",
+      "region": "大洋洲",
+      "aliases": [
+        "TV",
+        "Tuvalu"
+      ],
+      "qualified": false,
+      "status": "尚未找到合格采购入口"
+    },
+    {
+      "iso2": "TZ",
+      "name": "Tanzania",
+      "zh": "坦桑尼亚",
+      "region": "非洲",
+      "aliases": [
+        "Tanzania, United Republic of",
+        "United Republic of Tanzania",
+        "TZ",
+        "Jamhuri ya Muungano wa Tanzania",
+        "Tanzania"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "UG",
+      "name": "Uganda",
+      "zh": "乌干达",
+      "region": "非洲",
+      "aliases": [
+        "UG",
+        "Uganda",
+        "Republic of Uganda",
+        "Jamhuri ya Uganda"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "UA",
+      "name": "Ukraine",
+      "zh": "乌克兰",
+      "region": "欧洲",
+      "aliases": [
+        "Ukraine",
+        "Ukrayina",
+        "UA"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "UY",
+      "name": "Uruguay",
+      "zh": "乌拉圭",
+      "region": "美洲",
+      "aliases": [
+        "Uruguay",
+        "Oriental Republic of Uruguay",
+        "UY",
+        "República Oriental del Uruguay"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "US",
+      "name": "United States",
+      "zh": "美国",
+      "region": "美洲",
+      "aliases": [
+        "United States of America",
+        "USA",
+        "US",
+        "United States"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "UZ",
+      "name": "Uzbekistan",
+      "zh": "乌兹别克斯坦",
+      "region": "亚洲",
+      "aliases": [
+        "Ўзбекистон Республикаси",
+        "UZ",
+        "O‘zbekiston Respublikasi",
+        "Republic of Uzbekistan",
+        "Uzbekistan"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "VA",
+      "name": "Vatican City",
+      "zh": "梵蒂冈",
+      "region": "欧洲",
+      "aliases": [
+        "VA",
+        "Stato della Città del Vaticano",
+        "Vatican",
+        "Vatican City",
+        "Holy See (Vatican City State)",
+        "Vatican City State"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "zh": "圣文森特和格林纳丁斯",
+      "region": "美洲",
+      "aliases": [
+        "Saint Vincent and the Grenadines",
+        "VC"
+      ],
+      "qualified": false,
+      "status": "尚未找到合格采购入口"
+    },
+    {
+      "iso2": "VE",
+      "name": "Venezuela",
+      "zh": "委内瑞拉",
+      "region": "美洲",
+      "aliases": [
+        "República Bolivariana de Venezuela",
+        "Venezuela, Bolivarian Republic of",
+        "Bolivarian Republic of Venezuela",
+        "VE",
+        "Venezuela"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "VN",
+      "name": "Vietnam",
+      "zh": "越南",
+      "region": "亚洲",
+      "aliases": [
+        "Vietnam",
+        "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+        "VN",
+        "Socialist Republic of Vietnam",
+        "Viet Nam"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "VU",
+      "name": "Vanuatu",
+      "zh": "瓦努阿图",
+      "region": "大洋洲",
+      "aliases": [
+        "VU",
+        "Vanuatu",
+        "République de Vanuatu",
+        "Republic of Vanuatu",
+        "Ripablik blong Vanuatu"
+      ],
+      "qualified": false,
+      "status": "尚未找到合格采购入口"
+    },
+    {
+      "iso2": "WS",
+      "name": "Samoa",
+      "zh": "萨摩亚",
+      "region": "大洋洲",
+      "aliases": [
+        "WS",
+        "Samoa",
+        "Independent State of Samoa",
+        "Malo Saʻoloto Tutoʻatasi o Sāmoa"
+      ],
+      "qualified": false,
+      "status": "采购入口存在，地点或付款证据待补"
+    },
+    {
+      "iso2": "YE",
+      "name": "Yemen",
+      "zh": "也门",
+      "region": "亚洲",
+      "aliases": [
+        "YE",
+        "al-Jumhūriyyah al-Yamaniyyah",
+        "Yemen",
+        "Yemeni Republic",
+        "Republic of Yemen"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "ZA",
+      "name": "South Africa",
+      "zh": "南非",
+      "region": "非洲",
+      "aliases": [
+        "South Africa",
+        "Suid-Afrika",
+        "ZA",
+        "Republic of South Africa",
+        "RSA"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "ZM",
+      "name": "Zambia",
+      "zh": "赞比亚",
+      "region": "非洲",
+      "aliases": [
+        "Republic of Zambia",
+        "Zambia",
+        "ZM"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    },
+    {
+      "iso2": "ZW",
+      "name": "Zimbabwe",
+      "zh": "津巴布韦",
+      "region": "非洲",
+      "aliases": [
+        "ZW",
+        "Zimbabwe",
+        "Republic of Zimbabwe"
+      ],
+      "qualified": true,
+      "status": "地点声明、付款及采购入口齐备（未实购）"
+    }
+  ]
+}

@@ -10,6 +10,10 @@ import { getDefaultTheme } from 'src/utils'
 
 export const routes: Routes = [
   {
+    path: 'vps',
+    loadComponent: () => import('src/view/vps/index.component'),
+  },
+  {
     path: 'sim',
     component: SimComponent,
     data: {},

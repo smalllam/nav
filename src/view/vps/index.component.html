@@ -1,0 +1,42 @@
+<div class="atlas">
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="Cecil VPS 导航首页"><span class="mark">◎</span><span>CECIL <b>VPS 导航</b></span></a>
+    <nav aria-label="页面导航"><a href="#directory">浏览目录</a><a href="#about">收录说明</a><button (click)="favoritesOnly = !favoritesOnly; filter()" [class.active]="favoritesOnly" [attr.aria-pressed]="favoritesOnly">☆ 收藏 <span>{{ favorites.size }}</span></button></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <div><p class="eyebrow">VPS FIELD GUIDE / 全球服务器采购索引</p><h1 id="title">寻找下一站<span>服务器。</span></h1><p class="lede">从当地机房到 NAT 与 GeoIP 出口，按国家和支付方式找到合适的商家。</p><p class="dateline"><span class="dot"></span>资料核验于 {{ meta.checkedAt }}<span class="divider">/</span>价格与库存以商家当前页面为准</p></div>
+      <div class="index-note"><span class="tiny">目录快照</span><div class="coverage"><strong>{{ meta.coverage.qualified }}</strong><span>/ 195<br>国家有符合条件的条目</span></div><div class="rule"></div><p><b>{{ providerCount }}</b> 家商家 · <b>{{ items.length }}</b> 条国家套餐</p><small>符合条件：地点声明、支付宝或 USDT 依据及公开采购入口齐备；尚未实购。</small></div>
+    </section>
+    <section id="directory" class="directory" aria-label="筛选服务器目录">
+      <aside class="rail"><p class="tiny">按大洲浏览</p><button [class.selected]="!region" (click)="selectRegion('')">全球目录 <span>↗</span></button><button *ngFor="let r of regions" [class.selected]="region === r" (click)="selectRegion(r)">{{ r }} <span>→</span></button><div class="rail-note"><span>◎</span><p>机房位置与 IP 归属是两件事。每个条目均单独标注。</p></div></aside>
+      <div class="content">
+        <div class="searchbox"><span aria-hidden="true">⌕</span><input type="search" aria-label="搜索国家、商家或关键词" placeholder="搜索国家、商家或关键词，例如：摩纳哥、NAT…" [(ngModel)]="q" (ngModelChange)="filter()"><kbd>/ INDEX</kbd></div>
+        <div class="filters">
+          <label>国家<select [(ngModel)]="country" (ngModelChange)="filter()"><option value="">全部国家</option><ng-container *ngFor="let c of countries"><option *ngIf="!region || c.region === region" [value]="c.iso2">{{ c.zh }} · {{ c.iso2 }}</option></ng-container></select></label>
+          <label>支付<select [(ngModel)]="payment" (ngModelChange)="filter()"><option value="">全部支付方式</option><option>支付宝</option><option>USDT</option></select></label>
+          <label>类型<select [(ngModel)]="type" (ngModelChange)="filter()"><option value="">全部类型</option><option>当地部署声明</option><option>GeoIP</option><option>NAT</option><option>地点待核</option></select></label>
+          <label>核验<select [(ngModel)]="status" (ngModelChange)="filter()"><option value="all">全部条目</option><option value="verified">公开依据齐备</option><option value="pending">待补充核验</option></select></label>
+          <button class="reset" (click)="reset()">重置 ↺</button>
+        </div>
+        <div class="resultline" aria-live="polite"><h2>{{ favoritesOnly ? '我的收藏' : region || '全球目录' }}</h2><span>{{ results.length }} 条结果 · {{ resultCountries }} 个国家</span></div>
+        <div class="cards">
+          <article *ngFor="let item of results | slice:0:limit; trackBy: track" class="card">
+            <div class="card-top"><span class="country"><span class="flag">{{ flag(item.place.iso2) }}</span>{{ item.place.zh }} <small>{{ item.place.iso2 }}</small></span><button class="star" [class.saved]="favorites.has(item.key)" (click)="toggleFavorite(item)" [attr.aria-label]="(favorites.has(item.key) ? '取消收藏 ' : '收藏 ') + item.name + ' ' + item.place.zh" [attr.aria-pressed]="favorites.has(item.key)">{{ favorites.has(item.key) ? '★' : '☆' }}</button></div>
+            <h3><a [href]="item.url" target="_blank" rel="noopener noreferrer">{{ item.name }} <span>↗</span></a></h3>
+            <div class="badges"><span [class.verified]="item.vps.qualified" [class.pending]="!item.vps.qualified">{{ item.vps.qualified ? '公开依据齐备' : '待补充核验' }}</span><span>{{ item.vps.kind }}</span><span *ngIf="item.vps.nat">NAT / 共享出口</span><span *ngIf="item.vps.unavailable" class="pending">暂不可购</span></div>
+            <p class="location">{{ item.vps.location }}</p>
+            <dl><div><dt>价格 / 配置</dt><dd>{{ item.vps.price }}</dd></div><div><dt>支付方式</dt><dd>{{ item.vps.payment }}</dd></div></dl>
+            <details><summary>库存、限制与核验来源 <span>＋</span></summary><p>{{ item.vps.stock }}</p><p class="checked">资料日期：{{ item.vps.checkedAt | slice:0:10 }}</p><a [href]="item.url" target="_blank" rel="noopener noreferrer">商家产品页 ↗</a><a *ngFor="let source of item.vps.sources; index as n" [href]="source" target="_blank" rel="noopener noreferrer">核验来源 {{ n + 1 }} ↗</a></details>
+            <div class="card-bottom"><span>{{ item.place.name }}</span><a [href]="item.vps.buyUrl || item.url" target="_blank" rel="noopener noreferrer">{{ item.vps.qualified ? '查看套餐' : '查看商家' }} <b>↗</b></a></div>
+          </article>
+        </div>
+        <div *ngIf="!results.length" class="empty"><span>◎</span><h3>没有找到匹配条目</h3><p>试试其他关键词，或放宽国家与核验条件。部分国家尚无可核实的采购入口。</p><button (click)="reset()">查看全球目录 →</button></div>
+        <div class="more" *ngIf="results.length > limit"><p>已显示 {{ limit }} / {{ results.length }} 条</p><button (click)="limit = limit + 24">继续浏览 ↓</button></div>
+      </div>
+    </section>
+    <section id="about" class="about"><p class="eyebrow">ABOUT THE INDEX</p><h2>保留信息的边界，才方便作出选择。</h2><div><p><b>位置按供应商声明标注。</b>“当地机房”表示存在对应公开声明；GeoIP 或远程出口不代表硬件在当地。NAT 可能需要 IPv6 入站或指定映射端口。</p><p><b>核验的是公开依据。</b>支付方式、产品入口和地点信息齐备的条目标为“公开依据齐备”。这不等同于实购验收、实时有货或服务质量保证；待核条目同时保留。</p><p><b>价格保留原始计费说明。</b>月付、年付、手续费及最低充值条件按来源展示。点击前往商家后，请确认最新费用、使用条款和库存。</p></div></section>
+  </main>
+  <footer><span>CECIL VPS 导航 <small>资料快照 · {{ meta.checkedAt }}</small></span><a href="https://github.com/smalllam/nav/tree/feat/cecil-vps-workers" target="_blank" rel="noopener noreferrer">基于 nav · 开源代码 ↗</a></footer>
+</div>
+

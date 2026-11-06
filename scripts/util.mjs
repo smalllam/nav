@@ -198,7 +198,7 @@ export function writeSEO(webs, payload) {
   const { settings } = payload
   const nowDate = dayjs.tz().format('YYYY-MM-DD HH:mm:ss')
   let seoTemplate = `
-<div data-url="https://github.com/xjh22222228/nav" data-server-time="${Date.now()}" data-a="x.i.e-jiahe" data-date="${nowDate}" id="META-NAV" style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
+<div aria-hidden="true" data-url="https://github.com/xjh22222228/nav" data-server-time="${Date.now()}" data-a="x.i.e-jiahe" data-date="${nowDate}" id="META-NAV" style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
 `
 
   function r(navList) {
@@ -207,8 +207,9 @@ export function writeSEO(webs, payload) {
         r(value.nav)
       }
       if (value.name) {
-        seoTemplate += `<div>${value.name}</div>${
-          value.desc ? `<p>${value.desc}</p>` : ''
+        const escape = text => String(text).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;')
+        seoTemplate += `<div>${escape(value.name)}</div>${
+          value.desc ? `<p>${escape(value.desc)}</p>` : ''
         }`
       }
     }
@@ -257,7 +258,7 @@ export function writeTemplate({ html, settings, seoTemplate }) {
 
   t = t.replace(
     /(<!-- nav.seo-start -->)(.|\s)*?(<!-- nav.seo-end -->)/i,
-    `$1${seoTemplate}$3`
+    (_match, start, _body, end) => start + seoTemplate + end
   )
 
   const loadingCode = settings.loadingCode.trim()
