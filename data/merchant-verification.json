@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "checkedAt": "2026-11-07",
-  "batchSize": 220,
+  "batchSize": 231,
   "records": [
     {
       "id": "lead-99rdp-com",
@@ -1355,7 +1355,7 @@
       "id": "akile",
       "sourceName": "AkileCloud",
       "name": "AkileCloud",
-      "url": "https://akile.ai/",
+      "url": "https://akile.io/",
       "category": "VPS",
       "status": "official",
       "desc": "官网列有 VPS / 云服务器 产品。官网、支付与所列地区均有公开依据。",
@@ -1367,7 +1367,7 @@
       "offeredRegions": [
         "中国香港",
         "中国台湾",
-        "中国澳门",
+        "中国澳门（MOLite 广播 IP，物理机器在香港）",
         "新加坡",
         "日本",
         "韩国",
@@ -1378,11 +1378,14 @@
         "荷兰",
         "越南"
       ],
-      "nat": false,
-      "checkedAt": "2026-11-06",
+      "nat": true,
+      "checkedAt": "2026-11-07",
       "sources": [
         "https://wiki.akile.io/zh/faq",
-        "https://akile.ai/"
+        "https://akile.ai/",
+        "https://akile.io/shop/server?areaId=5",
+        "https://akile.ai/about",
+        "https://akile.ai/shop/server?areaId=16"
       ],
       "review": {
         "outcome": "complete",
@@ -1392,9 +1395,13 @@
         "regions": true,
         "complete": true,
         "pending": [],
-        "note": "官网链接的知识库 FAQ 支付章节明确银行卡、支付宝及加密货币；该 FAQ 最后编辑于 2023 年，具体渠道仍以当前结账为准，未推定 USDT。",
+        "note": "官网链接的知识库 FAQ 支付章节明确银行卡、支付宝及加密货币；该 FAQ 最后编辑于 2023 年，具体渠道仍以当前结账为准，未推定 USDT。 2026-11-07：.io 与 .ai 两站均有当前产品页；.ai 官网链接 wiki/ping/uptime.akile.io，且相同 AKILE LTD 与支持邮箱，合并为同一品牌入口，不声称单向重定向。越南 VNPT-NAT 实际说明为 10 个共享 NAT 端口及动态 IPv6，已计 NAT。MOLite 明示澳门广播 IP、机器在香港，地区标签已区分。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
-      }
+      },
+      "aliases": [
+        "akile.io",
+        "akile.ai"
+      ]
     },
     {
       "id": "lead-bill-alexhost-com",
@@ -2918,6 +2925,7 @@
       "status": "official",
       "desc": "官网列有 VPS / 云服务器 产品。官网、支付与所列地区均有公开依据。",
       "payments": [
+        "支付宝",
         "信用卡 / 借记卡",
         "PayPal",
         "USDT",
@@ -2935,7 +2943,7 @@
         "法国"
       ],
       "nat": false,
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-07",
       "sources": [
         "https://digirdp.com/faqs",
         "https://manage.digirdp.com/",
@@ -2952,7 +2960,7 @@
         "regions": true,
         "complete": true,
         "pending": [],
-        "note": "官方付款 FAQ 明确支持的渠道；UPI/银行转账等有地区可用性限制，USDT 网络以结账页面为准。",
+        "note": "官方付款 FAQ 明确支持的渠道；UPI/银行转账等有地区可用性限制，USDT 网络以结账页面为准。 支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。",
         "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
       }
     },
@@ -8994,6 +9002,528 @@
         "note": "本轮读取香港 HKT-KVM-① 具体商品：MINI 为 1 核 Ryzen 7950X、512MB、5GB、1TB 双向流量、2.5Gbps 标称带宽，月付 13.99 元并列 2 元初装费；含计算型端口映射，动态 IP 每日 04:00 刷新。供应商不提供 SLA 或中国大陆路由保证，退款受限；网络、住宅属性与流媒体未实测。付款依据沿用 2026-11-06 已完成的多哥 NAT 匿名结账：支付宝/微信当时标 6% 附加费，并实际列 USDT；币链及具体订单费率仍须核对。本轮香港商品未下单付款，不把历史多哥结账视为香港 SKU 实购。其他国家仅有分类名称的未追加到已核地区。",
         "sourceScope": "2026-11-07 当前香港 HKT 商品页及 2026-11-06 已留存的多哥产品、GeoIP 与付款核查。商家级资料补充到既有同名商家；原 TG 国家套餐及其资格、价格与位置边界保留，香港地区仅加入商家售卖地区。所列渠道与地区不保证任意组合都可购买。"
       }
+    },
+    {
+      "id": "digitalvirt",
+      "sourceName": "DigitalVirt",
+      "name": "DigitalVirt",
+      "url": "https://digitalvirt.com/",
+      "category": "VPS",
+      "status": "official",
+      "desc": "提供洛杉矶、香港、东京及欧洲 VPS；9929、CMIN2、CN2 GIA 等线路可按商品选择。",
+      "payments": [
+        "支付宝"
+      ],
+      "offeredRegions": [
+        "美国 · 洛杉矶",
+        "中国香港",
+        "日本 · 东京",
+        "德国 · 法兰克福",
+        "英国 · 伦敦"
+      ],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://digitalvirt.com/",
+        "https://digitalvirt.com/stores/la-vps",
+        "https://digitalvirt.com/stores/hk-plus-vps",
+        "https://digitalvirt.com/stores/jp-vps-lite",
+        "https://digitalvirt.com/stores/germany-vps",
+        "https://digitalvirt.com/stores/uk-9929"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "xihuancloud",
+      "sourceName": "XihuanCloud",
+      "name": "XihuanCloud",
+      "url": "https://xihuancloud.com/index.php",
+      "category": "VPS",
+      "status": "official",
+      "desc": "稀有地区 NAT VPS 目录，含澳门 CTM 与亚、欧、非、美洲商品。",
+      "payments": [
+        "支付宝"
+      ],
+      "offeredRegions": [
+        "中国澳门",
+        "泰国",
+        "阿联酋",
+        "以色列",
+        "菲律宾",
+        "马来西亚",
+        "越南",
+        "哈萨克斯坦",
+        "蒙古",
+        "尼泊尔",
+        "印度尼西亚",
+        "荷兰",
+        "土耳其",
+        "保加利亚",
+        "冰岛",
+        "法国",
+        "芬兰",
+        "波兰",
+        "匈牙利",
+        "乌克兰",
+        "奥地利",
+        "马恩岛",
+        "立陶宛",
+        "斯洛伐克",
+        "拉脫維亞",
+        "塞浦路斯",
+        "北马其顿",
+        "白俄罗斯",
+        "阿尔巴尼亚",
+        "斯洛文尼亚",
+        "多哥",
+        "西班牙",
+        "尼日利亚",
+        "墨西哥",
+        "乌拉圭"
+      ],
+      "nat": true,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://xihuancloud.com/index.php/store/ctm-mo",
+        "https://xihuancloud.com/index.php/store/ya-zhou-nat",
+        "https://xihuancloud.com/index.php/store/ou-zhou-nat",
+        "https://xihuancloud.com/index.php/store/fei-zhou-nat",
+        "https://xihuancloud.com/index.php/store/bei-mei-zhou-nat",
+        "https://xihuancloud.com/index.php/store/nan-mei-zhou-nat"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "目录地区按具体商品名称整理，未按洲分类推断国家；例如西班牙商品虽然放在非洲分类，仍标西班牙。多项商品显示 0 可用，不代表当前均有库存；NAT 常见 1 SSH + 10 TCP 端口，澳门动态 IP 需 DDNS。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "churros",
+      "sourceName": "Churros",
+      "name": "Churros",
+      "url": "https://churros.cloud/",
+      "category": "VPS",
+      "status": "official",
+      "desc": "提供 HKBGP、USBGP、TWBGP、JPBGP 与新加坡 PVE 云服务器。",
+      "payments": [
+        "支付宝"
+      ],
+      "offeredRegions": [
+        "中国香港",
+        "美国",
+        "中国台湾",
+        "日本",
+        "新加坡"
+      ],
+      "nat": true,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://churros.cloud/store/hkbgp",
+        "https://churros.cloud/store/usbgp",
+        "https://churros.cloud/store/twbgp",
+        "https://churros.cloud/store/jpbgp",
+        "https://churros.cloud/store/sg-pve"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "USBGP 等有 IPv6 入站、IPv4 仅出站的商品；此处 NAT 标记指 IPv4 共享出站，不声称具备 IPv4 入站端口映射。普通套餐与 IPv6 套餐库存不同。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "ipraft",
+      "sourceName": "IPRaft",
+      "name": "IPRaft",
+      "url": "https://ipraft.com/server/purchase",
+      "category": "VPS",
+      "status": "official",
+      "desc": "提供全球 BGP 云服务器，支持按资源与流量配置的双 ISP 商品。",
+      "payments": [
+        "支付宝"
+      ],
+      "offeredRegions": [
+        "法国",
+        "西班牙",
+        "德国 · 法兰克福",
+        "印度尼西亚 · 雅加达",
+        "越南 · 胡志明市",
+        "马来西亚 · 吉隆坡",
+        "中国香港",
+        "中国台湾 · 台北",
+        "日本 · 东京",
+        "韩国",
+        "印度",
+        "阿联酋",
+        "美国",
+        "新加坡",
+        "泰国"
+      ],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://ipraft.com/",
+        "https://ipraft.com/server/purchase"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "法国与东南亚具体线路已读取规格与价格；其他地区结合首页与购买页列示。双 ISP/IP 归属描述不等于独立验证物理位置；土耳其和澳大利亚分类显示售罄，未计入本轮地区。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "alice-networks",
+      "sourceName": "Alice Networks",
+      "name": "Alice Networks",
+      "url": "https://alice.ws/products/",
+      "category": "VPS",
+      "status": "official",
+      "desc": "提供共享/独享 CPU 云服务器，当前新开地区待控制台进一步确认。",
+      "payments": [
+        "支付宝"
+      ],
+      "offeredRegions": [],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://alice.ws/",
+        "https://alice.ws/products/",
+        "https://console.alice.ws/"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "partial",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": false,
+        "complete": false,
+        "pending": [
+          "当前新开地区待用户控制台核实"
+        ],
+        "note": "官网地区目录列香港、盐湖城、东京，但产品区返回 No products available，浏览器产品页出现连接中断；旧 app.alice.ws 公共入口转到新控制台登录。目录标签未当作当前可新开库存证明，地区仍待核。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "tothost",
+      "sourceName": "TOTHOST",
+      "name": "TOTHOST",
+      "url": "https://billing.tothost.vn/",
+      "category": "VPS",
+      "status": "official",
+      "desc": "越南 KVM / 双 ISP VPS 与全球 TOT W 云服务器。",
+      "payments": [
+        "支付宝",
+        "信用卡 / 借记卡",
+        "PayPal",
+        "USDT",
+        "银行转账"
+      ],
+      "offeredRegions": [
+        "越南 · 河内",
+        "越南 · 胡志明市",
+        "英国",
+        "瑞典",
+        "西班牙",
+        "印度",
+        "日本",
+        "意大利",
+        "美国",
+        "印度尼西亚",
+        "荷兰",
+        "澳大利亚",
+        "德国",
+        "新加坡",
+        "法国",
+        "巴西",
+        "加拿大"
+      ],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://billing.tothost.vn/",
+        "https://billing.tothost.vn/vps-perf/tothost",
+        "https://billing.tothost.vn/store/vps-tot-w/linode-s1",
+        "https://billing.tothost.vn/knowledgebase/5/Payment-methods-and-Currency-units.html"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "越南产品与 TOT W 分开核对；TOT W 的 Linode S1 配置页实际 Region 选项包含所列全球国家。USDT TRC20、银行转账为官方列示的人工确认渠道；币种/支付网关限制以官方说明为准。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "starrydns",
+      "sourceName": "StarryDNS 星光网络",
+      "name": "StarryDNS 星光网络",
+      "url": "https://www.starrydns.com/sc/virtual-private-servers",
+      "category": "VPS",
+      "status": "official",
+      "desc": "提供亚洲、美国与荷兰 KVM VPS，按地区选择套餐。",
+      "payments": [
+        "支付宝",
+        "PayPal",
+        "信用卡 / 借记卡",
+        "银行转账"
+      ],
+      "offeredRegions": [
+        "中国香港",
+        "日本 · 东京",
+        "日本 · 大阪",
+        "韩国 · 首尔",
+        "新加坡",
+        "美国 · 洛杉矶",
+        "荷兰 · Steenbergen"
+      ],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://www.starrydns.com/sc/virtual-private-servers",
+        "https://www.starrydns.com/en/payment-method",
+        "https://my.starrydns.com/index.php?rp=/store/hong-kong-vps"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "付款说明明列 Alipay、PayPal、经 PayPal/Stripe 的信用卡及银行转账；银行手续费由客户承担。地区按 VPS 服务目录，具体 SKU 库存需另看商店。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "digitalocean",
+      "sourceName": "DigitalOcean",
+      "name": "DigitalOcean",
+      "url": "https://www.digitalocean.com/products/droplets",
+      "category": "VPS",
+      "status": "official",
+      "desc": "Droplets 云虚拟机；按官方 Droplet 产品可用性表整理地区。",
+      "payments": [
+        "支付宝",
+        "信用卡 / 借记卡",
+        "PayPal",
+        "Google Pay",
+        "Apple Pay",
+        "Link",
+        "加密货币（稳定币钱包，有限开放）",
+        "银行转账（美国 ACH，限符合条件客户）"
+      ],
+      "offeredRegions": [
+        "美国 · 纽约",
+        "美国 · 旧金山",
+        "美国 · 亚特兰大",
+        "美国 · 里士满",
+        "美国 · 堪萨斯城",
+        "荷兰 · 阿姆斯特丹",
+        "新加坡",
+        "英国 · 伦敦",
+        "德国 · 法兰克福",
+        "加拿大 · 多伦多",
+        "印度 · 班加罗尔",
+        "澳大利亚 · 悉尼"
+      ],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://www.digitalocean.com/products/droplets",
+        "https://docs.digitalocean.com/platform/billing/manage-payment-methods/",
+        "https://docs.digitalocean.com/platform/regional-availability/"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方付款文档明列支付宝；稳定币钱包仅有限开放，未推定 USDT。地区以 Droplets 行为准，排除 Memphis（MEM1 当前 Droplet 行为空）及限制新用户的旧 AMS2/SFO1；部分新机房仅支持特定 Premium CPU，具体型号以创建页为准。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "greencloud",
+      "sourceName": "GreenCloud 绿云",
+      "name": "GreenCloud 绿云",
+      "url": "https://greencloudvps.com/",
+      "category": "VPS",
+      "status": "official",
+      "desc": "提供 Budget / Ryzen KVM VPS，所列地区取自具体套餐地点选项。",
+      "payments": [
+        "支付宝",
+        "PayPal",
+        "信用卡 / 借记卡",
+        "银联",
+        "Bitcoin",
+        "Ethereum",
+        "BNB",
+        "USDT",
+        "银行转账"
+      ],
+      "offeredRegions": [
+        "美国 · 洛杉矶",
+        "美国 · 圣何塞",
+        "美国 · 达拉斯",
+        "美国 · 芝加哥",
+        "美国 · 阿什本",
+        "美国 · 杰克逊维尔",
+        "美国 · 堪萨斯城",
+        "美国 · 奥格登",
+        "美国 · 布法罗",
+        "美国 · 史泰登岛",
+        "美国 · 凤凰城",
+        "加拿大 · 多伦多",
+        "荷兰 · 阿姆斯特丹",
+        "德国 · 法兰克福",
+        "英国 · 考文垂",
+        "中国香港",
+        "日本 · 东京",
+        "新加坡",
+        "越南 · 河内"
+      ],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://greencloudvps.com/budget-kvm-vps.php",
+        "https://greencloudvps.com/ryzen-kvm-vps.php"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "地区来自 Budget KVM 的 SSDKVM 套餐选择框，未将全部基础设施机房视为每款 VPS 的可售地点。Ryzen VPS FAQ 明列付款方式；银行转账分美国、英国、越南与欧洲渠道。不同商品库存、CPU 与线路不同。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "cloudcone",
+      "sourceName": "CloudCone",
+      "name": "CloudCone",
+      "url": "https://cloudcone.com/vps/",
+      "category": "VPS",
+      "status": "official",
+      "desc": "CloudCone VPS / SC2 云服务器，美国洛杉矶机房。",
+      "payments": [
+        "支付宝",
+        "PayPal",
+        "信用卡 / 借记卡"
+      ],
+      "offeredRegions": [
+        "美国 · 洛杉矶"
+      ],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://cloudcone.com/vps/",
+        "https://help.cloudcone.com/en-us/article/how-to-add-funds-to-your-account-1n6vknv/"
+      ],
+      "review": {
+        "origin": "official-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方帮助中心明列 PayPal、Alipay 与已绑定银行卡充值 Cloud Credits；促销码不是付款通道。当前 VPS 产品页明确洛杉矶，未把 CDN 节点当作 VPS 售卖地区。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      }
+    },
+    {
+      "id": "justhost",
+      "sourceName": "JustHost",
+      "name": "JustHost",
+      "url": "https://justhost.asia/en",
+      "category": "VPS",
+      "status": "official",
+      "desc": "JustHost 国际入口与原 .ru 入口合并为同一商家，提供全球 KVM VPS。",
+      "payments": [
+        "支付宝"
+      ],
+      "offeredRegions": [
+        "英国 · 伦敦",
+        "德国 · 法兰克福",
+        "中国香港",
+        "日本 · 东京",
+        "新加坡",
+        "美国",
+        "荷兰 · 阿姆斯特丹"
+      ],
+      "nat": false,
+      "checkedAt": "2026-11-07",
+      "sources": [
+        "https://justhost.asia/en",
+        "https://justhost.ru/en/services/vps",
+        "https://support.justhost.asia/en/support/solutions/articles/151000211327-affiliate-program",
+        "https://support.justhost.asia/en/support/solutions/articles/151000175931-how-do-i-connect-to-a-vps-that-doesn-t-have-an-ipv4-address-"
+      ],
+      "review": {
+        "origin": "country-catalog",
+        "outcome": "complete",
+        "website": true,
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "官方 .asia 帮助中心直接引用 justhost.ru 推广地址及 4to6.justhost.ru 服务，确认品牌/服务关联；本轮两站独立可访问，未称为强制域名迁移或承诺账号跨域互通。地区为当前 VPS 页面已列部分，原国家套餐映射保持。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。",
+        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+      },
+      "aliases": [
+        "justhost.asia",
+        "justhost.ru"
+      ]
     }
   ]
 }

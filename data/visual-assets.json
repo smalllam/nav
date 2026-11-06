@@ -2145,6 +2145,63 @@
       "sourceUrl": "https://zlidc.net/favicon.ico",
       "kind": "official-site-icon",
       "sha256": "3ee89ab355532f85dc7cf336fa512d1741f8c73c2d06acd55589c72584ceb67f"
+    },
+    "digitalvirt": {
+      "path": "/assets/merchants/24e53983891138f69075.svg",
+      "sha256": "24e53983891138f690750e520756b30e023250aefcae52494cd1cb1ca0b7f601",
+      "sourcePage": "https://digitalvirt.com/",
+      "sourceUrl": "https://digitalvirt.com/static/img/logo-dark.svg",
+      "kind": "official-original",
+      "checkedAt": "2026-11-07"
+    },
+    "xihuancloud": {
+      "path": "/assets/merchants/16aebe114c8efe43ff9f.png",
+      "sha256": "16aebe114c8efe43ff9fbf4bbc683546e6f32c73dff6b4ebdad22612e14a778b",
+      "sourcePage": "https://xihuancloud.com/",
+      "sourceUrl": "https://xihuancloud.com/templates/lagom2/assets/img/logo/logo_big.467188635.png",
+      "kind": "official-original",
+      "checkedAt": "2026-11-07"
+    },
+    "churros": {
+      "path": "/assets/merchants/e0fa388f928f26ac970b.png",
+      "sha256": "e0fa388f928f26ac970ba85d2bb760a20f10939748ee169f5d792ab10f3d6d27",
+      "sourcePage": "https://churros.cloud/store/hkbgp",
+      "sourceUrl": "https://churros.cloud/store/hkbgp",
+      "kind": "official-wordmark-screenshot",
+      "checkedAt": "2026-11-07",
+      "note": "官网仅显示文字品牌；原样截取官网字样，未制作图案。"
+    },
+    "ipraft": {
+      "path": "/assets/merchants/25c879dcac3cd443e701.png",
+      "sha256": "25c879dcac3cd443e701d2bb6b546dcd85e2e2c3f1a276621a800b58c77d7b79",
+      "sourcePage": "https://ipraft.com/",
+      "sourceUrl": "https://ipraft.com/skin/ipraft/img/logo.png",
+      "kind": "official-original",
+      "checkedAt": "2026-11-07"
+    },
+    "alice-networks": {
+      "path": "/assets/merchants/689722510fab59abe2e9.svg",
+      "sha256": "689722510fab59abe2e9fe6fc64f9ec203bf506497e9f24b0afaab936b79c8fd",
+      "sourcePage": "https://alice.ws/products/",
+      "sourceUrl": "https://alice.ws/assets/images/logo-yellow.svg",
+      "kind": "official-original",
+      "checkedAt": "2026-11-07"
+    },
+    "tothost": {
+      "path": "/assets/merchants/f7317f3a2ace3142ccde.png",
+      "sha256": "f7317f3a2ace3142ccde05b630a9925ffd552ffc706ae97cea7b5812964ee546",
+      "sourcePage": "https://billing.tothost.vn/",
+      "sourceUrl": "https://billing.tothost.vn/assets/img/logo.png",
+      "kind": "official-original",
+      "checkedAt": "2026-11-07"
+    },
+    "starrydns": {
+      "path": "/assets/merchants/b9ee1a945628b13df323.png",
+      "sha256": "b9ee1a945628b13df323cb830524515eb7c83e433f8382c8527ff55bba73ec95",
+      "sourcePage": "https://www.starrydns.com/sc/virtual-private-servers",
+      "sourceUrl": "https://www.starrydns.com/theme/images/logo.png",
+      "kind": "official-original",
+      "checkedAt": "2026-11-07"
     }
   },
   "resources": {

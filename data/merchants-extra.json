@@ -626,5 +626,111 @@
     "sources": [
       "https://spartanhost.org/"
     ]
+  },
+  {
+    "id": "digitalvirt",
+    "name": "DigitalVirt",
+    "url": "https://digitalvirt.com/",
+    "category": "VPS",
+    "status": "official",
+    "desc": "提供洛杉矶、香港、东京及欧洲 VPS；9929、CMIN2、CN2 GIA 等线路可按商品选择。",
+    "nat": false,
+    "sources": [
+      "https://digitalvirt.com/",
+      "https://digitalvirt.com/stores/la-vps",
+      "https://digitalvirt.com/stores/hk-plus-vps",
+      "https://digitalvirt.com/stores/jp-vps-lite",
+      "https://digitalvirt.com/stores/germany-vps",
+      "https://digitalvirt.com/stores/uk-9929"
+    ]
+  },
+  {
+    "id": "xihuancloud",
+    "name": "XihuanCloud",
+    "url": "https://xihuancloud.com/index.php",
+    "category": "VPS",
+    "status": "official",
+    "desc": "稀有地区 NAT VPS 目录，含澳门 CTM 与亚、欧、非、美洲商品。",
+    "nat": true,
+    "sources": [
+      "https://xihuancloud.com/index.php/store/ctm-mo",
+      "https://xihuancloud.com/index.php/store/ya-zhou-nat",
+      "https://xihuancloud.com/index.php/store/ou-zhou-nat",
+      "https://xihuancloud.com/index.php/store/fei-zhou-nat",
+      "https://xihuancloud.com/index.php/store/bei-mei-zhou-nat",
+      "https://xihuancloud.com/index.php/store/nan-mei-zhou-nat"
+    ]
+  },
+  {
+    "id": "churros",
+    "name": "Churros",
+    "url": "https://churros.cloud/",
+    "category": "VPS",
+    "status": "official",
+    "desc": "提供 HKBGP、USBGP、TWBGP、JPBGP 与新加坡 PVE 云服务器。",
+    "nat": true,
+    "sources": [
+      "https://churros.cloud/store/hkbgp",
+      "https://churros.cloud/store/usbgp",
+      "https://churros.cloud/store/twbgp",
+      "https://churros.cloud/store/jpbgp",
+      "https://churros.cloud/store/sg-pve"
+    ]
+  },
+  {
+    "id": "ipraft",
+    "name": "IPRaft",
+    "url": "https://ipraft.com/server/purchase",
+    "category": "VPS",
+    "status": "official",
+    "desc": "提供全球 BGP 云服务器，支持按资源与流量配置的双 ISP 商品。",
+    "nat": false,
+    "sources": [
+      "https://ipraft.com/",
+      "https://ipraft.com/server/purchase"
+    ]
+  },
+  {
+    "id": "alice-networks",
+    "name": "Alice Networks",
+    "url": "https://alice.ws/products/",
+    "category": "VPS",
+    "status": "official",
+    "desc": "提供共享/独享 CPU 云服务器，当前新开地区待控制台进一步确认。",
+    "nat": false,
+    "sources": [
+      "https://alice.ws/",
+      "https://alice.ws/products/",
+      "https://console.alice.ws/"
+    ]
+  },
+  {
+    "id": "tothost",
+    "name": "TOTHOST",
+    "url": "https://billing.tothost.vn/",
+    "category": "VPS",
+    "status": "official",
+    "desc": "越南 KVM / 双 ISP VPS 与全球 TOT W 云服务器。",
+    "nat": false,
+    "sources": [
+      "https://billing.tothost.vn/",
+      "https://billing.tothost.vn/vps-perf/tothost",
+      "https://billing.tothost.vn/store/vps-tot-w/linode-s1",
+      "https://billing.tothost.vn/knowledgebase/5/Payment-methods-and-Currency-units.html"
+    ]
+  },
+  {
+    "id": "starrydns",
+    "name": "StarryDNS 星光网络",
+    "url": "https://www.starrydns.com/sc/virtual-private-servers",
+    "category": "VPS",
+    "status": "official",
+    "desc": "提供亚洲、美国与荷兰 KVM VPS，按地区选择套餐。",
+    "nat": false,
+    "sources": [
+      "https://www.starrydns.com/sc/virtual-private-servers",
+      "https://www.starrydns.com/en/payment-method",
+      "https://my.starrydns.com/index.php?rp=/store/hong-kong-vps"
+    ]
   }
 ]

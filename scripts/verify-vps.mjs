@@ -12,9 +12,10 @@ const discovery = JSON.parse(fs.readFileSync('data/merchant-discovery.json'))
 assert.deepEqual(merchants, buildMerchants(db, extra, discovery, verification))
 const originalLeads = buildMerchants(db, extra, discovery).filter(m => m.status === 'lead')
 assert.equal(originalLeads.length, 219)
-assert.deepEqual(new Set(verification.records.filter(m => m.review?.origin !== 'country-catalog').map(m => m.id)), new Set(originalLeads.map(m => m.id)))
+assert.deepEqual(new Set(verification.records.filter(m => !['country-catalog', 'official-catalog'].includes(m.review?.origin)).map(m => m.id)), new Set(originalLeads.map(m => m.id)))
+assert.deepEqual(new Set(verification.records.filter(m => m.review?.origin === 'official-catalog').map(m => m.id)), new Set(['digitalvirt', 'xihuancloud', 'churros', 'ipraft', 'alice-networks', 'tothost', 'starrydns', 'digitalocean', 'cloudcone', 'greencloud']))
 assert.equal(verification.records.filter(m => m.mergedInto).length, 2)
-assert.equal(merchants.length, 303)
+assert.equal(merchants.length, 310)
 assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
 assert.equal(merchants.reduce((n,m) => n + m.plans, 0), items.length)
 assert.equal(merchants.filter(m => m.name.includes('Uzumaru')).length, 1)
@@ -40,10 +41,23 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 218)
-assert.equal(reviewed.filter(m => m.review.complete).length, 218)
-assert.equal(reviewed.filter(m => m.nat).length, 21)
+assert.equal(reviewed.filter(m => m.review.product).length, 229)
+assert.equal(reviewed.filter(m => m.review.complete).length, 228)
+assert.equal(reviewed.filter(m => m.nat).length, 24)
 const merchant = text => merchants.find(m => m.name.includes(text))
+for (const id of ['digitalvirt', 'xihuancloud', 'churros', 'ipraft', 'alice-networks', 'tothost', 'starrydns', 'digitalocean', 'cloudcone', 'greencloud', 'justhost', 'akile', 'lead-digirdp-com', 'lightnode', 'lead-hosteons-com']) assert(merchants.find(m => m.id === id).payments.includes('支付宝'))
+assert(merchant('XihuanCloud').nat && merchant('XihuanCloud').offeredRegions.includes('西班牙')) // Product titles take priority over continent categories.
+assert(merchant('Churros').nat && merchant('Churros').review.note.includes('IPv4 仅出站'))
+assert(merchant('AkileCloud').nat && merchant('AkileCloud').aliases.includes('akile.ai'))
+assert(merchant('AkileCloud').offeredRegions.some(r => r.includes('机器在香港')))
+assert(merchant('JustHost').aliases.includes('justhost.ru') && merchant('JustHost').url === 'https://justhost.asia/en')
+assert.equal(merchant('JustHost').plans, 28)
+assert(!merchant('DigitalOcean').offeredRegions.some(r => /孟菲斯|Memphis/.test(r))) // MEM1 is listed globally but has no current Droplet availability.
+assert(!merchant('DigitalOcean').payments.includes('USDT')) // Limited stablecoin wallets do not prove a specific token.
+assert.deepEqual(merchant('CloudCone').offeredRegions, ['美国 · 洛杉矶'])
+assert(merchant('GreenCloud').payments.includes('USDT') && merchant('GreenCloud').offeredRegions.includes('加拿大 · 多伦多'))
+assert(merchant('TOTHOST').offeredRegions.includes('瑞典') && merchant('TOTHOST').offeredRegions.includes('越南 · 河内'))
+assert(merchant('Alice Networks').review.product && !merchant('Alice Networks').review.complete && !merchant('Alice Networks').offeredRegions.length) // Public region tabs with no products do not establish new-deployment availability.
 assert.deepEqual(merchant('Suda速达云').payments, ['支付宝', '微信支付', '加密货币'])
 assert(!merchant('Suda速达云').payments.includes('USDT')) // Generic Cryptomus label alone is insufficient.
 assert(merchant('WuYouCloud').review.complete && merchant('WuYouCloud').nat)

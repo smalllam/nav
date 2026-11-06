@@ -34,7 +34,7 @@ export function buildMerchants(db, extra, discovery = [], verification = { recor
     const m = groups.get(v.id)
     if (!m) throw new Error(`Unknown verification target: ${v.id}`)
     const { sourceName, ...fields } = v
-    groups.set(v.id, { ...m, ...fields, aliases: sourceName === v.name ? [] : [sourceName] })
+    groups.set(v.id, { ...m, ...fields, aliases: [...new Set([...(m.aliases || []), ...(fields.aliases || []), ...(sourceName && sourceName !== v.name ? [sourceName] : [])])] })
   }
   for (const v of verification.records.filter(v => v.mergedInto)) {
     const alias = groups.get(v.id), target = groups.get(v.mergedInto)
