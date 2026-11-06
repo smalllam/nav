@@ -38,8 +38,8 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 218)
-assert.equal(reviewed.filter(m => m.review.complete).length, 144)
+assert.equal(reviewed.filter(m => m.review.product).length, 219)
+assert.equal(reviewed.filter(m => m.review.complete).length, 153)
 assert.equal(reviewed.filter(m => m.nat).length, 19)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
@@ -64,6 +64,11 @@ assert.deepEqual(merchant('HostPapa').offeredRegions, ['美国 · 西部', '美�
 assert(!merchant('Terabit').payments.includes('USDT')) // Bitcoin and Ethereum do not imply every supported coin.
 assert(!merchant('ServerSpan').review.product && !merchant('Datalix').review.payments) // Empty product groups and a payment processor policy do not close these gaps.
 assert(!merchant('MrVM').review.product && merchant('MrVM').review.payments) // Payment documentation does not prove a current VPS SKU.
+assert(merchant('SERVER.TW').review.product && merchant('SERVER.TW').offeredRegions.length === 4) // Concrete regional VPS rows.
+for (const name of ['Kvmla', 'LaLa Net', 'UQIDC']) assert(merchant(name).payments.includes('USDT'))
+assert(!merchant('UQIDC').payments.includes('PayPal') && !merchant('UQIDC').payments.includes('信用卡 / 借记卡')) // Actual preview takes priority over generic footer logos.
+assert(merchant('LevelOneServers').review.note.includes('0 Available') && merchant('LevelOneServers').offeredRegions.length === 1)
+assert(!merchant('Q云').review.payments) // Selling a payment gateway does not establish purchase payment methods.
 assert(merchant('Sharktech').payments.includes('USDT') && !merchant('Sharktech').payments.includes('支付宝')) // Current Coinbase guide vs archived Alipay news.
 assert(merchant('MoonVM').review.product && merchant('MoonVM').review.note.includes('缺货'))
 assert(merchant('雨云').review.note.includes('绑定微信/支付宝'))
