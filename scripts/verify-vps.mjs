@@ -11,10 +11,10 @@ const extra = JSON.parse(fs.readFileSync('data/merchants-extra.json'))
 const discovery = JSON.parse(fs.readFileSync('data/merchant-discovery.json'))
 assert.deepEqual(merchants, buildMerchants(db, extra, discovery, verification))
 const originalLeads = buildMerchants(db, extra, discovery).filter(m => m.status === 'lead')
-assert.equal(originalLeads.length, 222)
+assert.equal(originalLeads.length, 221)
 assert.deepEqual(new Set(verification.records.filter(m => m.review?.origin !== 'country-catalog').map(m => m.id)), new Set(originalLeads.map(m => m.id)))
 assert.equal(verification.records.filter(m => m.mergedInto).length, 2)
-assert.equal(merchants.length, 306)
+assert.equal(merchants.length, 305)
 assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
 assert.equal(merchants.reduce((n,m) => n + m.plans, 0), items.length)
 assert.equal(merchants.filter(m => m.name.includes('Uzumaru')).length, 1)
@@ -40,9 +40,9 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 221)
+assert.equal(reviewed.filter(m => m.review.product).length, 220)
 assert.equal(reviewed.filter(m => m.review.complete).length, 218)
-assert.equal(reviewed.filter(m => m.nat).length, 22)
+assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert.deepEqual(merchant('Suda速达云').payments, ['支付宝', '微信支付', '加密货币'])
 assert(!merchant('Suda速达云').payments.includes('USDT')) // Generic Cryptomus label alone is insufficient.
@@ -55,7 +55,8 @@ assert(merchant('Vision Cloud').review.complete)
 assert.deepEqual(merchant('Vision Cloud').payments, ['支付宝', '微信支付', 'USDT']) // Actual anonymous checkout radio options.
 assert.deepEqual(merchant('Vision Cloud').offeredRegions, ['中国香港', '新加坡', '日本 · 东京', '美国 · 洛杉矶', '美国 · 盐湖城', '中国台湾 · 台北']) // Concrete VPS titles; the legacy us-lax-performance slug now means Salt Lake City, not LAX.
 assert(!merchant('Vision Cloud').payments.includes('PayPal'))
-assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
+assert(merchant('AaITR').nat && merchant('雨云').nat)
+assert(!merchant('喵云')) // Removed at the user's explicit request; history retained locally.
 assert.equal(merchant('EDGENAT').nat, false) // A brand name is not a NAT product.
 assert.equal(merchant('七牛').nat, false) // NAT Gateway is not NAT VPS.
 assert.deepEqual(merchant('TripodCloud').payments, ['PayPal', '支付宝', '微信支付']) // Current VPS payment clauses; the future-dated announcement remains excluded.

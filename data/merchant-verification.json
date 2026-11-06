@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "checkedAt": "2026-11-07",
-  "batchSize": 223,
+  "batchSize": 222,
   "records": [
     {
       "id": "lead-99rdp-com",
@@ -842,48 +842,6 @@
         "pending": [],
         "note": "2025-05-19 的梦云互联具体香港 VPS 报价刊于《国外 VPS 测评》的商家投稿栏目，明确列支付宝及微信，官网链接与现用 idc.h0u.cn 一致；按该有日期的投稿资料补入。此为公开投稿声明，不是本轮匿名结账实测，当前可用渠道仍以商家结算为准。",
         "sourceScope": "2026-11-06 至 11-07 第九轮：官网商品、配置、条款、帮助、匿名结算预览、可核对身份的商家声明，以及注明日期与出处的投稿 / 原创实测资料。历史年份、来源类型和适用范围详见说明；公开资料齐备不代表实购、实时库存或支付成功。"
-      }
-    },
-    {
-      "id": "lead-miaoyun-link",
-      "sourceName": "喵云",
-      "name": "喵云",
-      "url": "https://miaoyun.link/",
-      "category": "VPS",
-      "status": "official",
-      "desc": "绍兴 NAT 云主机；匿名结账的自定义网关尚未明示具体支付渠道。",
-      "payments": [],
-      "offeredRegions": [
-        "中国大陆 · 浙江绍兴"
-      ],
-      "nat": true,
-      "checkedAt": "2026-11-07",
-      "sources": [
-        "https://miaoyun.link/",
-        "https://miaoyun.link/store/zhe-jiang-shao-xing-natyun-zhu-ji",
-        "https://miaoyun.link/store/zhe-jiang-shao-xing-bgp-natyun-zhu-ji",
-        "https://miaoyun.link/knowledgebase",
-        "https://miaoyun.link/store/zhe-jiang-shao-xing-gua-ji-bao-yi-qi",
-        "https://miaoyun.link/cart.php?a=confproduct&i=0",
-        "https://miaoyun.link/cart.php?a=confproduct&i=1",
-        "https://miaoyun.link/cart.php?a=confproduct&i=2",
-        "https://miaoyun.link/cart.php?a=confproduct&i=3",
-        "https://miaoyun.link/store/zhe-jiang-shao-xing-natyun-zhu-ji/tao-can-yi-6",
-        "https://miaoyun.link/cart.php?a=checkout&e=false",
-        "https://miaoyun.link/announcements/2/服务使用条款TOS.html"
-      ],
-      "review": {
-        "outcome": "partial",
-        "website": true,
-        "product": true,
-        "payments": false,
-        "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "当前绍兴 NAT 产品为共享 IPv4、30 个固定映射端口。2026-11-07 经用户当次许可，仅为匿名付款预览勾选配置 TOS，结账实际只列“喵云互联(NAT云主机)”及“圈云支付(测试专用)”，未明示支付宝、微信或银行卡，因此具体支付方式继续待核，测试网关不作为可用渠道。最终服务条款未勾选，未填写个人资料、注册、提交订单或付款，临时购物车已清空。TOS 列退款限制及部分产品可能需实名审核，开通要求以具体产品为准。",
-        "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
       }
     },
     {
