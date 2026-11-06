@@ -1,9 +1,28 @@
 import fs from 'node:fs'
 import assert from 'node:assert/strict'
 import { writeSEO, writeTemplate } from './util.mjs'
+import { buildMerchants } from './build-merchants.mjs'
 const db = JSON.parse(fs.readFileSync('data/db.json'))
 const meta = JSON.parse(fs.readFileSync('data/vps-meta.json'))
 const items = db.flatMap(r => r.nav.flatMap(c => c.nav.flatMap(g => g.nav)))
+const merchants = JSON.parse(fs.readFileSync('data/merchants.json'))
+assert.deepEqual(merchants, buildMerchants(db, JSON.parse(fs.readFileSync('data/merchants-extra.json')), JSON.parse(fs.readFileSync('data/merchant-discovery.json'))))
+assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
+assert.equal(merchants.reduce((n,m) => n + m.plans, 0), items.length)
+assert.equal(merchants.filter(m => m.name.includes('Uzumaru')).length, 1)
+assert(merchants.some(m => m.name === 'AVA') && merchants.some(m => m.name === 'AVANETCO'))
+assert.equal(merchants.filter(m => m.name.includes('BuyVM')).length, 1)
+for (const m of merchants) {
+  for (const link of [m.url, ...m.sources]) {
+    const url = new URL(link)
+    assert(['http:', 'https:'].includes(url.protocol) && !url.username && !url.password)
+    assert(!/[?&](aff|ref|invite|affid|aff_code)=/i.test(link), `Referral link in new merchant index: ${link}`)
+    assert(!link.includes('web.telegram.org') && !link.includes('t.me/c/'))
+  }
+  if (m.status === 'lead') assert(!m.payments.length && !m.countries.length && !m.plans && !m.nat)
+  if (m.status === 'official') assert(m.sources.length > 0)
+}
+assert.equal(merchants.find(m => m.id === 'aethertech').nat, true)
 assert.equal(meta.countries.length, 195)
 assert.equal(new Set(meta.countries.map(c => c.iso2)).size, 195)
 assert.equal(new Set(items.filter(i => i.vps.qualified).map(i => i.vps.country)).size, meta.coverage.qualified)

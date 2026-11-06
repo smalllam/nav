@@ -4,7 +4,7 @@
   "author": "xiejiahe",
   "homepage": "https://github.com/xjh22222228/nav",
   "scripts": {
-    "check:vps": "node scripts/verify-vps.mjs",
+    "check:vps": "node scripts/build-merchants.mjs && node scripts/verify-vps.mjs",
     "preview:workers": "wrangler dev --port 8787 --local",
     "deploy:workers": "npm run check:vps && npm run build && wrangler deploy",
     "start": "npm run build-start && ng serve --port=7001",

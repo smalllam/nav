@@ -1,0 +1,641 @@
+[
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean",
+    "url": "https://www.digitalocean.com/products/droplets",
+    "category": "云平台",
+    "desc": "Droplets 虚拟机，提供共享与专用 CPU 方案。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.digitalocean.com/products/droplets"
+    ]
+  },
+  {
+    "id": "hetzner",
+    "name": "Hetzner",
+    "url": "https://www.hetzner.com/cloud/",
+    "category": "云平台",
+    "desc": "Cloud 云服务器，提供共享与专用 vCPU 类型。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.hetzner.com/cloud/"
+    ]
+  },
+  {
+    "id": "akamai",
+    "name": "Akamai Cloud / Linode",
+    "url": "https://www.akamai.com/products/cpu",
+    "category": "云平台",
+    "desc": "原 Linode 云计算平台，提供多种 CPU 实例类型。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.akamai.com/products/cpu"
+    ]
+  },
+  {
+    "id": "ovhcloud",
+    "name": "OVHcloud",
+    "url": "https://www.ovhcloud.com/en/vps/",
+    "category": "VPS",
+    "desc": "VPS 产品入口，可按配置选择虚拟服务器。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.ovhcloud.com/en/vps/"
+    ]
+  },
+  {
+    "id": "vultr",
+    "name": "Vultr",
+    "url": "https://www.vultr.com/products/cloud-compute/",
+    "category": "云平台",
+    "desc": "Cloud Compute 云计算产品；产品信息可参阅官方文档。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://docs.vultr.com/product-overviews/cloud-compute?section=documentation"
+    ]
+  },
+  {
+    "id": "dmit",
+    "name": "DMIT",
+    "url": "https://www.dmit.io/",
+    "category": "VPS",
+    "desc": "提供 KVM Cloud Instance，另有物理服务器和网络服务。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.dmit.io/"
+    ]
+  },
+  {
+    "id": "racknerd",
+    "name": "RackNerd",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "category": "VPS",
+    "desc": "KVM VPS 产品页，另有 Ryzen 与 Windows 系列入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.racknerd.com/kvm-vps"
+    ]
+  },
+  {
+    "id": "netcup",
+    "name": "netcup",
+    "url": "https://www.netcup.com/en/server/vps",
+    "category": "VPS",
+    "desc": "提供 x86 与 ARM64 虚拟服务器及 Root Server。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.netcup.com/en/server/vps"
+    ]
+  },
+  {
+    "id": "littlecreek",
+    "name": "Little Creek Hosting",
+    "url": "https://littlecreekhosting.com/",
+    "category": "VPS",
+    "desc": "提供 VPS Hosting，官网有独立产品和客户中心入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://littlecreekhosting.com/"
+    ]
+  },
+  {
+    "id": "greencloud",
+    "name": "GreenCloud 绿云",
+    "url": "https://greencloudvps.com/",
+    "category": "VPS",
+    "desc": "KVM、存储型与 Windows VPS 产品导航。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://greencloudvps.com/"
+    ]
+  },
+  {
+    "id": "cloudcone",
+    "name": "CloudCone",
+    "url": "https://cloudcone.com/vps/",
+    "category": "VPS",
+    "desc": "提供 VPS 和弹性云计算，另有备份及快照产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://cloudcone.com/vps/"
+    ]
+  },
+  {
+    "id": "vmiss",
+    "name": "VMISS",
+    "url": "https://www.vmiss.com/",
+    "category": "VPS",
+    "desc": "云服务器商家，官网提供产品控制台入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.vmiss.com/"
+    ]
+  },
+  {
+    "id": "lisahost",
+    "name": "丽萨主机 LisaHost",
+    "url": "https://lisahost.com/",
+    "category": "VPS",
+    "desc": "提供多地区 VPS，具体线路与 IP 类型按套餐查看。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://lisahost.com/"
+    ]
+  },
+  {
+    "id": "hytron",
+    "name": "Hytron / HYVPS",
+    "url": "https://hytron.io/",
+    "category": "VPS",
+    "desc": "Hytron 网络服务及 HYVPS 云主机入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://hytron.io/"
+    ]
+  },
+  {
+    "id": "aethertech",
+    "name": "AetherTech Cloud",
+    "url": "https://idc.aethertech.tn/index.php?rp=/store/jp-nat",
+    "category": "NAT",
+    "desc": "日本住宅 NAT 产品页：LXC、NATv4/NATv6 和指定映射端口；使用限制以条款为准。",
+    "status": "official",
+    "nat": true,
+    "sources": [
+      "https://idc.aethertech.tn/index.php?rp=/store/jp-nat"
+    ]
+  },
+  {
+    "id": "scaleway",
+    "name": "Scaleway",
+    "url": "https://www.scaleway.com/en/virtual-instances/",
+    "category": "云平台",
+    "desc": "Virtual Instances 云计算实例产品入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.scaleway.com/en/virtual-instances/"
+    ]
+  },
+  {
+    "id": "upcloud",
+    "name": "UpCloud",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "category": "云平台",
+    "desc": "Cloud Servers 提供 Linux 与 Windows 云服务器。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://upcloud.com/products/cloud-servers/"
+    ]
+  },
+  {
+    "id": "aws",
+    "name": "Amazon Lightsail",
+    "url": "https://aws.amazon.com/lightsail/",
+    "category": "云平台",
+    "desc": "AWS 的虚拟服务器与应用托管产品 Lightsail。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://aws.amazon.com/lightsail/"
+    ]
+  },
+  {
+    "id": "tencent",
+    "name": "腾讯云 Tencent Cloud",
+    "url": "https://www.tencentcloud.com/products/lighthouse",
+    "category": "云平台",
+    "desc": "Lighthouse 轻量应用服务器，提供应用镜像部署。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.tencentcloud.com/products/lighthouse"
+    ]
+  },
+  {
+    "id": "hostinger",
+    "name": "Hostinger",
+    "url": "https://www.hostinger.com/vps-hosting",
+    "category": "VPS",
+    "desc": "KVM VPS 产品入口，配置及续费价格按官网查看。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.hostinger.com/vps-hosting"
+    ]
+  },
+  {
+    "id": "buyvm",
+    "name": "BuyVM / Frantech",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "category": "VPS",
+    "desc": "KVM Slices，另有存储 VPS 与块存储产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://buyvm.net/kvm-dedicated-server-slices/"
+    ]
+  },
+  {
+    "id": "time4vps",
+    "name": "Time4VPS",
+    "url": "https://www.time4vps.com/",
+    "category": "VPS",
+    "desc": "提供 Linux、Windows、容器和存储 VPS。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.time4vps.com/"
+    ]
+  },
+  {
+    "id": "ramnode",
+    "name": "RamNode",
+    "url": "https://ramnode.com/",
+    "category": "云平台",
+    "desc": "基于 OpenStack 的 Cloud VPS 产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://ramnode.com/"
+    ]
+  },
+  {
+    "id": "liteserver",
+    "name": "LiteServer",
+    "url": "https://liteserver.nl/",
+    "category": "VPS",
+    "desc": "提供 NVMe VPS、HDD 存储 VPS 和 VDS。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://liteserver.nl/"
+    ]
+  },
+  {
+    "id": "hostwinds",
+    "name": "Hostwinds",
+    "url": "https://www.hostwinds.com/vps/linux",
+    "category": "VPS",
+    "desc": "提供托管与非托管 Linux / Windows VPS。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.hostwinds.com/vps/linux"
+    ]
+  },
+  {
+    "id": "quicksrv",
+    "name": "quicksrv",
+    "url": "https://quicksrv.io/",
+    "category": "VPS",
+    "desc": "官网列出荷兰与英国 KVM VPS 产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://quicksrv.io/"
+    ]
+  },
+  {
+    "id": "serverscamp",
+    "name": "ServersCamp",
+    "url": "https://serverscamp.com/",
+    "category": "云平台",
+    "desc": "提供 Cloud VMs 和固定月付 Simple VPS。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://serverscamp.com/"
+    ]
+  },
+  {
+    "id": "exact",
+    "name": "exact.gg",
+    "url": "https://exact.gg/vps-hosting",
+    "category": "VPS",
+    "desc": "提供 AMD EPYC VPS，官网列出配置和套餐。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://exact.gg/vps-hosting"
+    ]
+  },
+  {
+    "id": "kanrays",
+    "name": "侃瑞科技 Kanrays",
+    "url": "https://kanrays.net/vps/pricing/",
+    "category": "VPS",
+    "desc": "提供 VPS；付款后仍需通过 KYC / KYB、用途及人工订单审核。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://kanrays.net/vps/pricing/"
+    ]
+  },
+  {
+    "id": "gomami",
+    "name": "GoMami",
+    "url": "https://gomami.io/store/hkg-turin",
+    "category": "VPS",
+    "desc": "官网商店提供香港、日本、新加坡和美国系列入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://gomami.io/store/hkg-turin"
+    ]
+  },
+  {
+    "id": "skyline",
+    "name": "Skyline Connect",
+    "url": "https://skylineconnect.io/en",
+    "category": "VPS",
+    "desc": "官网列出新加坡与东京 Cloud VPS 产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://skylineconnect.io/en"
+    ]
+  },
+  {
+    "id": "akkocloud",
+    "name": "AkkoCloud",
+    "url": "https://www.akkocloud.com/",
+    "category": "VPS",
+    "desc": "官网列出美国圣何塞与英国伦敦服务器套餐。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.akkocloud.com/"
+    ]
+  },
+  {
+    "id": "dogyun",
+    "name": "狗云 DogYun",
+    "url": "https://www.dogyun.com/",
+    "category": "云平台",
+    "desc": "提供弹性云和经典云服务器，另有独立物理服务器。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.dogyun.com/"
+    ]
+  },
+  {
+    "id": "akile",
+    "name": "AkileCloud",
+    "url": "https://akile.ai/",
+    "category": "VPS",
+    "desc": "官网为动态页面，套餐、支付及库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1722"
+    ]
+  },
+  {
+    "id": "acck",
+    "name": "ACCK",
+    "url": "https://acck.io/",
+    "category": "VPS",
+    "desc": "官网为动态页面，套餐、支付及库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1722"
+    ]
+  },
+  {
+    "id": "dedirock",
+    "name": "DediRock",
+    "url": "https://dedirock.com/",
+    "category": "VPS",
+    "desc": "本次官网读取超时；保留商家线索，当前产品待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1724"
+    ]
+  },
+  {
+    "id": "deluxhost",
+    "name": "DeluxHost",
+    "url": "https://deluxhost.net/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1729"
+    ]
+  },
+  {
+    "id": "bitsflow",
+    "name": "BitsFlow Cloud",
+    "url": "https://bitsflow.cloud/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1730"
+    ]
+  },
+  {
+    "id": "wap",
+    "name": "WAP",
+    "url": "https://wap.ac/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1733"
+    ]
+  },
+  {
+    "id": "wawo",
+    "name": "Wawo",
+    "url": "https://wawo.wiki/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1735"
+    ]
+  },
+  {
+    "id": "lamhosting",
+    "name": "Lamhosting",
+    "url": "https://lamhosting.com/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1737"
+    ]
+  },
+  {
+    "id": "colocrossing",
+    "name": "ColoCrossing",
+    "url": "https://cloud.colocrossing.com/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/s/vpslognet"
+    ]
+  },
+  {
+    "id": "vpslayer",
+    "name": "VpsLayer",
+    "url": "https://www.vpslayer.net/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/s/vpslognet"
+    ]
+  },
+  {
+    "id": "bandwagon",
+    "name": "BandwagonHost 搬瓦工",
+    "url": "https://bandwagonhost.com/kvm-vps-hosting.php",
+    "category": "VPS",
+    "desc": "本次官网读取受限；产品及支付待补充核验。",
+    "status": "lead",
+    "sources": [
+      "https://bandwagonhost.com/kvm-vps-hosting.php"
+    ]
+  },
+  {
+    "id": "contabo",
+    "name": "Contabo",
+    "url": "https://contabo.com/en/vps/",
+    "category": "VPS",
+    "desc": "本次官网返回访问限制；产品及支付待补充核验。",
+    "status": "lead",
+    "sources": [
+      "https://contabo.com/en/vps/"
+    ]
+  },
+  {
+    "id": "hosthatch",
+    "name": "HostHatch",
+    "url": "https://hosthatch.com/virtual-servers",
+    "category": "VPS",
+    "desc": "本次产品页未取得可读正文；套餐详情待核。",
+    "status": "lead",
+    "sources": [
+      "https://hosthatch.com/virtual-servers"
+    ]
+  },
+  {
+    "id": "aliyun",
+    "name": "阿里云 Alibaba Cloud",
+    "url": "https://www.alibabacloud.com/product/simple-application-server",
+    "category": "VPS",
+    "desc": "本次轻量服务器产品页读取超时，当前套餐待核。",
+    "status": "lead",
+    "sources": [
+      "https://www.alibabacloud.com/product/simple-application-server"
+    ]
+  },
+  {
+    "id": "rainyun",
+    "name": "雨云 RainYun",
+    "url": "https://www.rainyun.com/",
+    "category": "VPS",
+    "desc": "官网需要 JavaScript；当前产品和支付待补充核验。",
+    "status": "lead",
+    "sources": [
+      "https://www.rainyun.com/"
+    ]
+  },
+  {
+    "id": "mrvm",
+    "name": "MrVM",
+    "url": "https://mrvm.net/",
+    "category": "VPS",
+    "desc": "官网当前显示即将更新及旧客户入口，未核实新购 VPS。",
+    "status": "lead",
+    "sources": [
+      "https://mrvm.net/"
+    ]
+  },
+  {
+    "id": "torchbyte",
+    "name": "Torchbyte",
+    "url": "https://torchbyte.com/",
+    "desc": "提供游戏 VPS 与 Enterprise VPS，官网列出罗马尼亚产品。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://torchbyte.com/",
+      "https://www.nodeseek.com/post-1034613-1"
+    ]
+  },
+  {
+    "id": "hostdare",
+    "name": "HostDare",
+    "url": "https://hostdare.com/",
+    "desc": "提供 China Optimized、Japan 和 Cheap VPS 产品系列。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://hostdare.com/"
+    ]
+  },
+  {
+    "id": "cubecloud",
+    "name": "CubeCloud 魔方云",
+    "url": "https://www.cubecloud.net/",
+    "desc": "官网列出香港与洛杉矶云服务器套餐。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://www.cubecloud.net/"
+    ]
+  },
+  {
+    "id": "evoxt",
+    "name": "Evoxt 益沃斯",
+    "url": "https://evoxt.com/",
+    "desc": "提供 Cloud Virtual Machines，另有独立服务器入口。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://evoxt.com/"
+    ]
+  },
+  {
+    "id": "vps-x",
+    "name": "V.PS 小秘书",
+    "url": "https://v.ps/",
+    "desc": "提供 KVM VPS，可从官网按城市选择产品。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://v.ps/"
+    ]
+  },
+  {
+    "id": "spartan",
+    "name": "Spartan Host 斯巴达",
+    "url": "https://spartanhost.org/",
+    "desc": "提供 VPS、独立服务器及托管产品。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://spartanhost.org/"
+    ]
+  }
+]

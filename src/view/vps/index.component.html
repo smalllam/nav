@@ -5,13 +5,32 @@
   </header>
   <main>
     <section class="intro" aria-labelledby="title">
-      <div><p class="eyebrow">VPS FIELD GUIDE / 全球服务器采购索引</p><h1 id="title">寻找下一站<span>服务器。</span></h1><p class="lede">从当地机房到 NAT 与 GeoIP 出口，按国家和支付方式找到合适的商家。</p><p class="dateline"><span class="dot"></span>资料核验于 {{ meta.checkedAt }}<span class="divider">/</span>价格与库存以商家当前页面为准</p></div>
-      <div class="index-note"><span class="tiny">目录快照</span><div class="coverage"><strong>{{ meta.coverage.qualified }}</strong><span>/ 195<br>国家有符合条件的条目</span></div><div class="rule"></div><p><b>{{ providerCount }}</b> 家商家 · <b>{{ items.length }}</b> 条国家套餐</p><small>符合条件：地点声明、支付宝或 USDT 依据及公开采购入口齐备；尚未实购。</small></div>
+      <div><p class="eyebrow">VPS FIELD GUIDE / 全球服务器采购索引</p><h1 id="title">寻找下一站<span>服务器。</span></h1><p class="lede">先找商家，再挑地点。云平台、小众 VPS、NAT 与测评社区，一站浏览。</p><p class="dateline"><span class="dot"></span>资料整理于 {{ meta.checkedAt }}<span class="divider">/</span>价格与库存以商家当前页面为准</p></div>
+      <div class="index-note"><span class="tiny">商家目录</span><div class="coverage"><strong>{{ providerCount }}</strong><span>家商家与线索<br>{{ reviewedCount }} 家已整理 · {{ leadCount }} 家待核</span></div><div class="rule"></div><p><b>{{ items.length }}</b> 条国家套餐 · <b>{{ meta.coverage.qualified }}</b> 国公开依据齐备</p><small>商家按品牌去重；商家线索数量与国家覆盖分别统计。</small></div>
     </section>
-    <section id="directory" class="directory" aria-label="筛选服务器目录">
-      <aside class="rail"><p class="tiny">按大洲浏览</p><button [class.selected]="!region" (click)="selectRegion('')">全球目录 <span>↗</span></button><button *ngFor="let r of regions" [class.selected]="region === r" (click)="selectRegion(r)">{{ r }} <span>→</span></button><div class="rail-note"><span>◎</span><p>机房位置与 IP 归属是两件事。每个条目均单独标注。</p></div></aside>
+    <nav class="view-tabs" aria-label="目录类型"><button [class.selected]="view === 'merchants'" (click)="switchView('merchants')" [attr.aria-pressed]="view === 'merchants'">商家导航 <span>{{ reviewedCount }}</span></button><button [class.selected]="view === 'leads'" (click)="switchView('leads')" [attr.aria-pressed]="view === 'leads'">待核商家 <span>{{ leadCount }}</span></button><button [class.selected]="view === 'countries'" (click)="switchView('countries')" [attr.aria-pressed]="view === 'countries'">按国家找 <span>{{ items.length }}</span></button><button [class.selected]="view === 'resources'" (click)="switchView('resources')" [attr.aria-pressed]="view === 'resources'">测评与社区 <span>{{ resources.length }}</span></button></nav>
+    <section id="directory" class="directory" [class.wide]="view !== 'countries'" aria-label="筛选服务器目录">
+      <aside *ngIf="view === 'countries'" class="rail"><p class="tiny">按大洲浏览</p><button [class.selected]="!region" (click)="selectRegion('')">全球目录 <span>↗</span></button><button *ngFor="let r of regions" [class.selected]="region === r" (click)="selectRegion(r)">{{ r }} <span>→</span></button><div class="rail-note"><span>◎</span><p>机房位置与 IP 归属是两件事。每个条目均单独标注。</p></div></aside>
       <div class="content">
-        <div class="searchbox"><span aria-hidden="true">⌕</span><input type="search" aria-label="搜索国家、商家或关键词" placeholder="搜索国家、商家或关键词，例如：摩纳哥、NAT…" [(ngModel)]="q" (ngModelChange)="filter()"><kbd>/ INDEX</kbd></div>
+        <ng-container *ngIf="view === 'resources'; else directoryView"><div class="resultline"><h2>测评与社区</h2><span>发现商家 · 对比产品</span></div><div class="cards"><article *ngFor="let resource of resources" class="card resource"><h3><a [href]="resource.url" target="_blank" rel="noopener noreferrer">{{ resource.name }} ↗</a></h3><p class="location">{{ resource.desc }}</p><div class="card-bottom"><span>外部资料</span><a [href]="resource.url" target="_blank" rel="noopener noreferrer">前往查看 ↗</a></div></article></div></ng-container>
+        <ng-template #directoryView>
+        <div class="searchbox"><span aria-hidden="true">⌕</span><input type="search" aria-label="搜索国家、商家或关键词" [placeholder]="view === 'countries' ? '搜索国家、商家或关键词，例如：摩纳哥、NAT…' : '搜索商家名称、域名或关键词，例如：DMIT、NAT…'" [(ngModel)]="q" (ngModelChange)="filter()"><kbd>/ INDEX</kbd></div>
+        <ng-container *ngIf="view !== 'countries'; else countryView">
+          <div class="merchant-tools"><label>产品类型<select [(ngModel)]="merchantType" (ngModelChange)="filter()"><option value="">全部类型</option><option>VPS</option><option>云平台</option><option>NAT</option></select></label><label *ngIf="view === 'merchants'">公开支付依据<select [(ngModel)]="payment" (ngModelChange)="filter()"><option value="">全部支付方式</option><option>支付宝</option><option>USDT</option></select></label><button class="reset" (click)="reset()">重置 ↺</button></div>
+          <p class="catalog-note">{{ view === 'leads' ? '这些入口来自公开目录和社区，当前产品、支付、库存仍待核实。收录不代表购买推荐。' : '每家商家只展示一次。官网产品已核与国家套餐资料分别标注；支付标签仅表示已有部分套餐的公开依据。' }}</p>
+          <div class="resultline" aria-live="polite"><h2>{{ favoritesOnly ? '我的商家收藏' : view === 'leads' ? '待核商家' : '商家导航' }}</h2><span>{{ merchantResults.length }} 家结果</span></div>
+          <div class="cards"><article class="card merchant" *ngFor="let m of merchantResults | slice:0:limit; trackBy: track">
+            <div class="card-top"><span class="merchant-domain">{{ m.domain }}</span><button class="star" [class.saved]="favorites.has(m.key)" (click)="toggleFavorite(m)" [attr.aria-label]="(favorites.has(m.key) ? '取消收藏 ' : '收藏 ') + m.name" [attr.aria-pressed]="favorites.has(m.key)">{{ favorites.has(m.key) ? '★' : '☆' }}</button></div>
+            <h3><a [href]="m.url" target="_blank" rel="noopener noreferrer">{{ m.name }} <span>↗</span></a></h3>
+            <div class="badges"><span [class.verified]="m.status !== 'lead'" [class.pending]="m.status === 'lead'">{{ m.status === 'official' ? '官网产品已核' : m.status === 'research' ? '国家资料已整理' : '待核线索' }}</span><span>{{ m.category }}</span><span *ngIf="m.nat">NAT 产品</span><span *ngFor="let p of m.payments">{{ p }} · 部分套餐</span></div>
+            <p class="location">{{ m.desc }}</p><p *ngIf="m.plans" class="merchant-summary">{{ m.countries.length }} 个国家索引 · {{ m.plans }} 条套餐资料</p>
+            <details><summary>资料来源与日期 <span>＋</span></summary><p class="checked">整理日期：{{ m.checkedAt }}</p><a *ngFor="let source of m.sources; index as n" [href]="source" target="_blank" rel="noopener noreferrer">参考来源 {{ n + 1 }} ↗</a></details>
+            <div class="card-bottom"><button *ngIf="m.plans; else pendingPlans" (click)="showPlans(m)">查看国家套餐 →</button><ng-template #pendingPlans><span>{{ m.status === 'lead' ? '产品待核实' : '产品以官网为准' }}</span></ng-template><a [href]="m.url" target="_blank" rel="noopener noreferrer">{{ m.status === 'lead' ? '查看入口' : '前往商家' }} ↗</a></div>
+          </article></div>
+          <div class="empty" *ngIf="!merchantResults.length"><h3>没有找到匹配商家</h3><p>试试商家英文名或域名，也可以切换“待核商家”查看更多线索。</p><button (click)="reset()">清除筛选 →</button></div>
+          <div class="more" *ngIf="merchantResults.length > limit"><p>已显示 {{ limit }} / {{ merchantResults.length }} 家</p><button (click)="limit = limit + 24">继续浏览 ↓</button></div>
+        </ng-container>
+        <ng-template #countryView>
         <div class="filters">
           <label>国家<select [(ngModel)]="country" (ngModelChange)="filter()"><option value="">全部国家</option><ng-container *ngFor="let c of countries"><option *ngIf="!region || c.region === region" [value]="c.iso2">{{ c.zh }} · {{ c.iso2 }}</option></ng-container></select></label>
           <label>支付<select [(ngModel)]="payment" (ngModelChange)="filter()"><option value="">全部支付方式</option><option>支付宝</option><option>USDT</option></select></label>
@@ -33,9 +52,11 @@
         </div>
         <div *ngIf="!results.length" class="empty"><span>◎</span><h3>没有找到匹配条目</h3><p>试试其他关键词，或放宽国家与核验条件。部分国家尚无可核实的采购入口。</p><button (click)="reset()">查看全球目录 →</button></div>
         <div class="more" *ngIf="results.length > limit"><p>已显示 {{ limit }} / {{ results.length }} 条</p><button (click)="limit = limit + 24">继续浏览 ↓</button></div>
+        </ng-template>
+        </ng-template>
       </div>
     </section>
-    <section id="about" class="about"><p class="eyebrow">ABOUT THE INDEX</p><h2>保留信息的边界，才方便作出选择。</h2><div><p><b>位置按供应商声明标注。</b>“当地机房”表示存在对应公开声明；GeoIP 或远程出口不代表硬件在当地。NAT 可能需要 IPv6 入站或指定映射端口。</p><p><b>核验的是公开依据。</b>支付方式、产品入口和地点信息齐备的条目标为“公开依据齐备”。这不等同于实购验收、实时有货或服务质量保证；待核条目同时保留。</p><p><b>价格保留原始计费说明。</b>月付、年付、手续费及最低充值条件按来源展示。点击前往商家后，请确认最新费用、使用条款和库存。</p></div></section>
+    <section id="about" class="about"><p class="eyebrow">ABOUT THE INDEX</p><h2>保留信息的边界，才方便作出选择。</h2><div><p><b>位置按供应商声明标注。</b>“当地机房”表示存在对应公开声明；GeoIP 或远程出口不代表硬件在当地。NAT 可能需要 IPv6 入站或指定映射端口。</p><p><b>收录状态分别标注。</b>商家卡片区分官网产品已核、国家资料已整理和待核线索。国家套餐的“公开依据齐备”另要求地点、支付和采购依据齐备；均不等同于实购或质量验收。</p><p><b>价格保留原始计费说明。</b>月付、年付、手续费及最低充值条件按来源展示。点击前往商家后，请确认最新费用、使用条款和库存。</p></div></section>
   </main>
   <footer><span>CECIL VPS 导航 <small>资料快照 · {{ meta.checkedAt }}</small></span><a href="https://github.com/smalllam/nav/tree/feat/cecil-vps-workers" target="_blank" rel="noopener noreferrer">基于 nav · 开源代码 ↗</a></footer>
 </div>

@@ -1,0 +1,5858 @@
+[
+  {
+    "id": "lead-99rdp-com",
+    "name": "99RDP",
+    "url": "https://portal.99rdp.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "aliyun",
+    "name": "阿里云 Alibaba Cloud",
+    "url": "https://www.alibabacloud.com/product/simple-application-server",
+    "category": "VPS",
+    "desc": "本次轻量服务器产品页读取超时，当前套餐待核。",
+    "status": "lead",
+    "sources": [
+      "https://www.alibabacloud.com/product/simple-application-server"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-iaclouds-com",
+    "name": "艾云",
+    "url": "https://iaclouds.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-anmuyun-com",
+    "name": "桉木云",
+    "url": "https://www.anmuyun.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hmbcloud-com",
+    "name": "半月湾",
+    "url": "https://hmbcloud.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-cb2-cn",
+    "name": "不二云",
+    "url": "https://cb2.cn/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-chengyidc-cn",
+    "name": "橙易云",
+    "url": "https://www.chengyidc.cn/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-vps-mg",
+    "name": "赤鱼网络",
+    "url": "https://vps.mg/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-danyun-com",
+    "name": "蛋云",
+    "url": "https://my.danyun.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-vps-idcfx-net",
+    "name": "佛系云计算",
+    "url": "https://vps.idcfx.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "dogyun",
+    "name": "狗云 DogYun",
+    "url": "https://www.dogyun.com/",
+    "category": "云平台",
+    "desc": "提供弹性云和经典云服务器，另有独立物理服务器。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.dogyun.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-guanxingyun-com",
+    "name": "观星云",
+    "url": "https://www.guanxingyun.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hgidc-cn",
+    "name": "黑果云",
+    "url": "https://www.hgidc.cn/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-henghost-com",
+    "name": "恒创科技",
+    "url": "http://my.henghost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-htstack-com",
+    "name": "衡天云",
+    "url": "https://my.htstack.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-huahost-com",
+    "name": "华逸云",
+    "url": "https://www.huahost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-jdidc-cn",
+    "name": "极点云计算",
+    "url": "https://cloud.jdidc.cn/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-95vps-com",
+    "name": "桔子数据",
+    "url": "https://www.95vps.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-joyso-app",
+    "name": "就速台北",
+    "url": "https://joyso.app/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "kanrays",
+    "name": "侃瑞科技 Kanrays",
+    "url": "https://kanrays.net/vps/pricing/",
+    "category": "VPS",
+    "desc": "提供 VPS；付款后仍需通过 KYC / KYB、用途及人工订单审核。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://kanrays.net/vps/pricing/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-kooya-hk",
+    "name": "酷鸭数据",
+    "url": "https://www.kooya.hk/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-laoxuehost-com",
+    "name": "老蔡主机",
+    "url": "https://my.laoxuehost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lisahost",
+    "name": "丽萨主机 LisaHost",
+    "url": "https://lisahost.com/",
+    "category": "VPS",
+    "desc": "提供多地区 VPS，具体线路与 IP 类型按套餐查看。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://lisahost.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-lbxu-com",
+    "name": "萝卜數據",
+    "url": "https://lbxu.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-h0u-cn",
+    "name": "梦云互联",
+    "url": "https://idc.h0u.cn/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-miaoyun-link",
+    "name": "喵云",
+    "url": "https://miaoyun.link/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-s-qiniu-com",
+    "name": "七牛云",
+    "url": "https://s.qiniu.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-qingyunl-com",
+    "name": "轻云互联",
+    "url": "https://www.qingyunl.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-sukeyun-com",
+    "name": "速科云",
+    "url": "https://www.sukeyun.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "tencent",
+    "name": "腾讯云 Tencent Cloud",
+    "url": "https://www.tencentcloud.com/products/lighthouse",
+    "category": "云平台",
+    "desc": "Lighthouse 轻量应用服务器，提供应用镜像部署。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.tencentcloud.com/products/lighthouse"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-starshipcloud-net",
+    "name": "星舰云",
+    "url": "https://www.starshipcloud.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-port-nomao-top",
+    "name": "虚妄猫",
+    "url": "https://port.nomao.top/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-onetechcloud-com",
+    "name": "易科云（OneTechCloud）",
+    "url": "https://www.onetechcloud.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "宇尘网络",
+    "name": "宇尘网络",
+    "url": "https://www.yuchenw.com/vps/Bangladesh.html",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.yuchenw.com/vps/Bangladesh.html"
+    ],
+    "countries": [
+      "TO"
+    ],
+    "payments": [
+      "支付宝"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "rainyun",
+    "name": "雨云 RainYun",
+    "url": "https://www.rainyun.com/",
+    "category": "VPS",
+    "desc": "官网需要 JavaScript；当前产品和支付待补充核验。",
+    "status": "lead",
+    "sources": [
+      "https://www.rainyun.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-nekoyun-com",
+    "name": "招财猫",
+    "url": "https://nekoyun.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-console-pigyun-com",
+    "name": "猪云（PIGYUN）",
+    "url": "https://console.pigyun.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-aait-io",
+    "name": "AaIT",
+    "url": "https://www.aait.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-acclouds-com",
+    "name": "AC Cloud",
+    "url": "https://www.acclouds.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "acck",
+    "name": "ACCK",
+    "url": "https://acck.io/",
+    "category": "VPS",
+    "desc": "官网为动态页面，套餐、支付及库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1722"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-acebgp-com",
+    "name": "ACEBGP",
+    "url": "https://www.acebgp.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "aethertech",
+    "name": "AetherTech Cloud",
+    "url": "https://idc.aethertech.tn/index.php?rp=/store/jp-nat",
+    "category": "NAT",
+    "desc": "日本住宅 NAT 产品页：LXC、NATv4/NATv6 和指定映射端口；使用限制以条款为准。",
+    "status": "official",
+    "nat": true,
+    "sources": [
+      "https://idc.aethertech.tn/index.php?rp=/store/jp-nat"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "air-link-communications",
+    "name": "Air Link Communications",
+    "url": "https://airlinkdc.com/vps-hosting/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://airlinkdc.com/vps-hosting/"
+    ],
+    "countries": [
+      "TT"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-airnode-nl",
+    "name": "Airnode",
+    "url": "https://airnode.nl/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "akamai",
+    "name": "Akamai Cloud / Linode",
+    "url": "https://www.akamai.com/products/cpu",
+    "category": "云平台",
+    "desc": "原 Linode 云计算平台，提供多种 CPU 实例类型。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.akamai.com/products/cpu"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "akile",
+    "name": "AkileCloud",
+    "url": "https://akile.ai/",
+    "category": "VPS",
+    "desc": "官网为动态页面，套餐、支付及库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1722"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "akkocloud",
+    "name": "AkkoCloud",
+    "url": "https://www.akkocloud.com/",
+    "category": "VPS",
+    "desc": "官网列出美国圣何塞与英国伦敦服务器套餐。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.akkocloud.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-bill-alexhost-com",
+    "name": "AlexHost",
+    "url": "https://bill.alexhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "aws",
+    "name": "Amazon Lightsail",
+    "url": "https://aws.amazon.com/lightsail/",
+    "category": "云平台",
+    "desc": "AWS 的虚拟服务器与应用托管产品 Lightsail。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://aws.amazon.com/lightsail/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-anclouds-com",
+    "name": "AnClouds",
+    "url": "https://www.anclouds.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-aoyozhuji-com",
+    "name": "AoyoHost",
+    "url": "https://my.aoyozhuji.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-you-aquatis-host",
+    "name": "Aquatis",
+    "url": "https://you.aquatis.host/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-arisystems-org",
+    "name": "ARi Systems",
+    "url": "https://area.arisystems.org/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-asirui-com",
+    "name": "Asirui",
+    "url": "https://asirui.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-aspirehosting-net",
+    "name": "Aspire Hosting",
+    "url": "https://billing.aspirehosting.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-asvm-net",
+    "name": "ASVM",
+    "url": "https://asvm.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "atp-hosting",
+    "name": "ATP Hosting",
+    "url": "https://atphosting24.com/clientarea/store/vpskvm-ip-located-in-laos",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://atphosting24.com/clientarea/store/vpskvm-ip-located-in-laos"
+    ],
+    "countries": [
+      "LA"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-attvps-com",
+    "name": "ATTVPS",
+    "url": "https://attvps.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ava-hosting",
+    "name": "AVA",
+    "url": "https://my.ava.hosting/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "avanetco",
+    "name": "AVANETCO",
+    "url": "https://www.avanetco.com/uae-vps-hosting/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.avanetco.com/uae-vps-hosting/",
+      "https://www.avanetco.com/armenia-vps-hosting/",
+      "https://www.avanetco.com/azerbaijan-vps-hosting/",
+      "https://www.avanetco.com/bangladesh-vps-hosting/"
+    ],
+    "countries": [
+      "AE",
+      "AM",
+      "AZ",
+      "BD",
+      "BH",
+      "CN",
+      "GE",
+      "ID",
+      "IN",
+      "IQ",
+      "JO",
+      "JP",
+      "KZ",
+      "KG",
+      "KH",
+      "KR",
+      "KW",
+      "LA",
+      "LB",
+      "MM",
+      "MN",
+      "MY",
+      "NP",
+      "OM",
+      "PK",
+      "PH",
+      "QA",
+      "SA",
+      "SG",
+      "TH",
+      "TJ",
+      "TR",
+      "UZ",
+      "VN",
+      "DZ",
+      "EG",
+      "GH",
+      "KE",
+      "MA",
+      "NG",
+      "ZA",
+      "AL",
+      "AT",
+      "BE",
+      "BG",
+      "BA",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "MD",
+      "MK",
+      "MT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "RU",
+      "RS",
+      "SK",
+      "SI",
+      "SE",
+      "UA",
+      "AR",
+      "BO",
+      "BR",
+      "CA",
+      "CL",
+      "CO",
+      "CR",
+      "EC",
+      "GT",
+      "MX",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "UY",
+      "US",
+      "AU",
+      "NZ"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 98,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "bandwagon",
+    "name": "BandwagonHost 搬瓦工",
+    "url": "https://bandwagonhost.com/kvm-vps-hosting.php",
+    "category": "VPS",
+    "desc": "本次官网读取受限；产品及支付待补充核验。",
+    "status": "lead",
+    "sources": [
+      "https://bandwagonhost.com/kvm-vps-hosting.php"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-bbhost-com-br",
+    "name": "BBHost",
+    "url": "https://financeiro.bbhost.com.br/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "bitsflow",
+    "name": "BitsFlow Cloud",
+    "url": "https://bitsflow.cloud/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1730"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-blastvps-com",
+    "name": "BlastVPS",
+    "url": "https://my.blastvps.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-blendhosting-com",
+    "name": "Blend Hosting",
+    "url": "https://billing.blendhosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-boil-network",
+    "name": "BOILCLOUD",
+    "url": "https://cloud.boil.network/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "bprdp",
+    "name": "BPRDP",
+    "url": "https://www.bprdp.com/malta-vps",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.bprdp.com/malta-vps"
+    ],
+    "countries": [
+      "MT"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-brainhost-ai",
+    "name": "BrainHost",
+    "url": "https://account.brainhost.ai/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-brawhosting-com",
+    "name": "Braw Hosting",
+    "url": "https://billing.brawhosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "buyvm",
+    "name": "BuyVM / Frantech",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "category": "VPS",
+    "desc": "KVM Slices，另有存储 VPS 与块存储产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://buyvm.net/kvm-dedicated-server-slices/",
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "bytevirt",
+    "name": "ByteVirt",
+    "url": "https://bytevirt.com/store/nat-warp-kvm",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://bytevirt.com/store/nat-warp-kvm"
+    ],
+    "countries": [
+      "KP",
+      "PS",
+      "SS"
+    ],
+    "payments": [
+      "支付宝",
+      "USDT"
+    ],
+    "plans": 3,
+    "nat": true,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-casbay-com",
+    "name": "Casbay",
+    "url": "https://billing.casbay.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-centrixnodes-net",
+    "name": "CentriXNodes",
+    "url": "https://billing.centrixnodes.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ceravm-com",
+    "name": "CeraVM",
+    "url": "https://ceravm.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-charityhost-org",
+    "name": "CharityHost",
+    "url": "https://charityhost.org/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-chunkserve-com",
+    "name": "Chunkserve",
+    "url": "https://billing.chunkserve.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-cloudafra-com",
+    "name": "cloudafra",
+    "url": "https://cloudafra.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-cloudblast-io",
+    "name": "Cloudblast",
+    "url": "https://cloudblast.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "cloudcone",
+    "name": "CloudCone",
+    "url": "https://cloudcone.com/vps/",
+    "category": "VPS",
+    "desc": "提供 VPS 和弹性云计算，另有备份及快照产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://cloudcone.com/vps/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-cloudku-id",
+    "name": "cloudku",
+    "url": "https://portals.cloudku.id/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-cloudnium-net",
+    "name": "Cloudnium",
+    "url": "https://portal.cloudnium.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-cloudsilk-io",
+    "name": "CloudSilk（白丝云）",
+    "url": "https://cloudsilk.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-cnfaster-com",
+    "name": "CNFaster",
+    "url": "https://cnfaster.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "colocrossing",
+    "name": "ColoCrossing",
+    "url": "https://cloud.colocrossing.com/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/s/vpslognet"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "contabo",
+    "name": "Contabo",
+    "url": "https://contabo.com/en/vps/",
+    "category": "VPS",
+    "desc": "本次官网返回访问限制；产品及支付待补充核验。",
+    "status": "lead",
+    "sources": [
+      "https://contabo.com/en/vps/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "crownvps",
+    "name": "CrownVPS",
+    "url": "https://crownvps.pk/sri-lanka-vps/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://crownvps.pk/sri-lanka-vps/"
+    ],
+    "countries": [
+      "LK"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-cstserver-com",
+    "name": "CSTServer",
+    "url": "https://cstserver.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "cubecloud",
+    "name": "CubeCloud 魔方云",
+    "url": "https://www.cubecloud.net/",
+    "desc": "官网列出香港与洛杉矶云服务器套餐。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://www.cubecloud.net/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-dasabo-com",
+    "name": "Dasabo",
+    "url": "https://my.dasabo.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-datalix-eu",
+    "name": "Datalix",
+    "url": "https://datalix.eu/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-datapasa-com",
+    "name": "Datapasa",
+    "url": "https://my.datapasa.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "datasur",
+    "name": "Datasur",
+    "url": "https://datasur.sr/vps-hosting/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://datasur.sr/vps-hosting/"
+    ],
+    "countries": [
+      "SR"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ddps-jp",
+    "name": "DDPS",
+    "url": "https://my.ddps.jp/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-dedione-com",
+    "name": "DediOne",
+    "url": "https://dedione.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "dedirock",
+    "name": "DediRock",
+    "url": "https://dedirock.com/",
+    "category": "VPS",
+    "desc": "本次官网读取超时；保留商家线索，当前产品待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1724",
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "deluxhost",
+    "name": "DeluxHost",
+    "url": "https://deluxhost.net/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1729",
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-digirdp-com",
+    "name": "DIGIRDP",
+    "url": "https://manage.digirdp.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-digitalcloud-pro",
+    "name": "DigitalCloud",
+    "url": "https://digitalcloud.pro/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean",
+    "url": "https://www.digitalocean.com/products/droplets",
+    "category": "云平台",
+    "desc": "Droplets 虚拟机，提供共享与专用 CPU 方案。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.digitalocean.com/products/droplets"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-digital-vm-com",
+    "name": "DigitalVM",
+    "url": "https://digital-vm.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "dmit",
+    "name": "DMIT",
+    "url": "https://www.dmit.io/",
+    "category": "VPS",
+    "desc": "提供 KVM Cloud Instance，另有物理服务器和网络服务。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.dmit.io/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-easyheberg-fr",
+    "name": "EasyHeberg",
+    "url": "https://manager.easyheberg.fr/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-edgenat-com",
+    "name": "EDGENAT",
+    "url": "https://www.edgenat.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-elixior-cloud",
+    "name": "Elixior",
+    "url": "https://client.elixior.cloud/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-enginyring-com",
+    "name": "ENGINYRING",
+    "url": "https://manager.enginyring.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "eserver",
+    "name": "eServer",
+    "url": "https://www.eserver.net/en/store/vps-hosting-me",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.eserver.net/en/store/vps-hosting-me"
+    ],
+    "countries": [
+      "ME"
+    ],
+    "payments": [
+      "支付宝",
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "evoxt",
+    "name": "Evoxt 益沃斯",
+    "url": "https://evoxt.com/",
+    "desc": "提供 Cloud Virtual Machines，另有独立服务器入口。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://evoxt.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "exact",
+    "name": "exact.gg",
+    "url": "https://exact.gg/vps-hosting",
+    "category": "VPS",
+    "desc": "提供 AMD EPYC VPS，官网列出配置和套餐。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://exact.gg/vps-hosting"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-f4-network",
+    "name": "F4",
+    "url": "https://store.f4.network/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-fastmos-com",
+    "name": "FastMOS",
+    "url": "https://www.fastmos.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-flapjacks-it",
+    "name": "Flapjacks",
+    "url": "https://my.flapjacks.it/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-flokinet-is",
+    "name": "FlokiNET",
+    "url": "https://billing.flokinet.is/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-flowvps-com",
+    "name": "FlowVPS",
+    "url": "https://billing.flowvps.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-formohost-com",
+    "name": "FormoHost",
+    "url": "https://www.formohost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-freakhosting-com",
+    "name": "freakhosting",
+    "url": "https://freakhosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-friendhosting-net",
+    "name": "Friendhosting",
+    "url": "https://my.friendhosting.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-fullvpsserver-com",
+    "name": "FullVPSServer",
+    "url": "https://client.fullvpsserver.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-fxtransit-io",
+    "name": "FxTransit",
+    "url": "https://fxtransit.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "getvps-africa",
+    "name": "GetVPS Africa",
+    "url": "https://getvps.africa/locations/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://getvps.africa/locations/"
+    ],
+    "countries": [
+      "CD"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-gthost-com",
+    "name": "Ghost",
+    "url": "https://cp.gthost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-gigsgigscloud-com",
+    "name": "GigsGigs",
+    "url": "https://clientarea.gigsgigscloud.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "globalvm",
+    "name": "GlobalVM",
+    "url": "https://globalvm.top/index.php?rp=/store/asia-warp-nat",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://globalvm.top/index.php?rp=/store/asia-warp-nat",
+      "https://globalvm.top/index.php?rp=/store/africa-warp-nat",
+      "https://globalvm.top/index.php?rp=/store/europe-warp-nat",
+      "https://globalvm.top/index.php?rp=/store/americas-warp-nat"
+    ],
+    "countries": [
+      "AF",
+      "AZ",
+      "BH",
+      "BN",
+      "BT",
+      "ID",
+      "KH",
+      "LA",
+      "MM",
+      "MN",
+      "NP",
+      "PK",
+      "PH",
+      "QA",
+      "TH",
+      "TM",
+      "TL",
+      "UZ",
+      "VN",
+      "YE",
+      "AO",
+      "EG",
+      "GQ",
+      "ML",
+      "SD",
+      "SO",
+      "TN",
+      "ZW",
+      "ME",
+      "SM",
+      "RS",
+      "UA",
+      "VA",
+      "AR",
+      "AG",
+      "BB",
+      "CU",
+      "FJ",
+      "SB"
+    ],
+    "payments": [
+      "支付宝",
+      "USDT"
+    ],
+    "plans": 39,
+    "nat": true,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "gomami",
+    "name": "GoMami",
+    "url": "https://gomami.io/store/hkg-turin",
+    "category": "VPS",
+    "desc": "官网商店提供香港、日本、新加坡和美国系列入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://gomami.io/store/hkg-turin"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-gotmyhost-com",
+    "name": "Gotmyhost",
+    "url": "https://my.gotmyhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "greencloud",
+    "name": "GreenCloud 绿云",
+    "url": "https://greencloudvps.com/",
+    "category": "VPS",
+    "desc": "KVM、存储型与 Windows VPS 产品导航。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://greencloudvps.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "h2-nexus",
+    "name": "h2.nexus",
+    "url": "https://h2.nexus/locations/monaco/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://h2.nexus/locations/monaco/"
+    ],
+    "countries": [
+      "MC"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hawkhost-com",
+    "name": "HawkHost",
+    "url": "https://my.hawkhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hetzner",
+    "name": "Hetzner",
+    "url": "https://www.hetzner.com/cloud/",
+    "category": "云平台",
+    "desc": "Cloud 云服务器，提供共享与专用 vCPU 类型。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.hetzner.com/cloud/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hhost-com",
+    "name": "HHost",
+    "url": "https://members.hhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hiddence",
+    "name": "Hiddence",
+    "url": "https://hiddence.net/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://hiddence.net/"
+    ],
+    "countries": [
+      "BZ"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hkgserver-com",
+    "name": "HKGserver",
+    "url": "https://www.hkgserver.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-host4fun-com",
+    "name": "Host4Fun",
+    "url": "https://client.host4fun.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostaddon-com",
+    "name": "hostaddon",
+    "url": "https://www.hostaddon.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostcram-com",
+    "name": "HostCram",
+    "url": "https://my.hostcram.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hostdare",
+    "name": "HostDare",
+    "url": "https://hostdare.com/",
+    "desc": "提供 China Optimized、Japan 和 Cheap VPS 产品系列。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://hostdare.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hosteons-com",
+    "name": "hostEONS",
+    "url": "https://my.hosteons.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hostfirst",
+    "name": "HostFirst",
+    "url": "https://www.hostfirst.com/laos-cloud-server-country",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.hostfirst.com/laos-cloud-server-country",
+      "https://www.hostfirst.com/mongolia-cloud-server-country",
+      "https://www.hostfirst.com/republic-of-the-congo-cloud-server-country",
+      "https://www.hostfirst.com/malta-cloud-server-country"
+    ],
+    "countries": [
+      "LA",
+      "MN",
+      "CG",
+      "MT"
+    ],
+    "payments": [
+      "支付宝",
+      "USDT"
+    ],
+    "plans": 4,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hosthatch",
+    "name": "HostHatch",
+    "url": "https://hosthatch.com/virtual-servers",
+    "category": "VPS",
+    "desc": "本次产品页未取得可读正文；套餐详情待核。",
+    "status": "lead",
+    "sources": [
+      "https://hosthatch.com/virtual-servers"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostiger-com",
+    "name": "Hostiger",
+    "url": "https://clients.hostiger.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hosting-andorra",
+    "name": "Hosting Andorra",
+    "url": "https://www.hostingandorra.com/vps.php",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.hostingandorra.com/vps.php"
+    ],
+    "countries": [
+      "AD"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hostinger",
+    "name": "Hostinger",
+    "url": "https://www.hostinger.com/vps-hosting",
+    "category": "VPS",
+    "desc": "KVM VPS 产品入口，配置及续费价格按官网查看。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.hostinger.com/vps-hosting"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostinity-fr",
+    "name": "Hostinity",
+    "url": "https://clients.hostinity.fr/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hostkey",
+    "name": "HOSTKEY",
+    "url": "https://hostkey.com/vps/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://hostkey.com/vps/"
+    ],
+    "countries": [
+      "TR",
+      "CH",
+      "DE",
+      "ES",
+      "FI",
+      "FR",
+      "IS",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "payments": [],
+    "plans": 10,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostnamaste-com",
+    "name": "HostNamaste",
+    "url": "https://www.hostnamaste.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostpapa-com",
+    "name": "HostPapa",
+    "url": "https://www.hostpapa.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hostraha",
+    "name": "Hostraha",
+    "url": "https://portal.hostraha.com/store/vps",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://portal.hostraha.com/store/vps"
+    ],
+    "countries": [
+      "TZ"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostshield-net",
+    "name": "HostShield",
+    "url": "https://hostshield.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostslick-com",
+    "name": "HostSlick",
+    "url": "https://hostslick.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hostslim-eu",
+    "name": "HostSlim",
+    "url": "https://clients.hostslim.eu/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hostwinds",
+    "name": "Hostwinds",
+    "url": "https://www.hostwinds.com/vps/linux",
+    "category": "VPS",
+    "desc": "提供托管与非托管 Linux / Windows VPS。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.hostwinds.com/vps/linux"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hostzealot",
+    "name": "HostZealot",
+    "url": "https://www.hostzealot.com/vps/location-bahrain",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.hostzealot.com/vps/location-bahrain",
+      "https://www.hostzealot.com/vps/location-georgia",
+      "https://www.hostzealot.com/vps/location-israel",
+      "https://www.hostzealot.com/vps/location-saudi-arabia"
+    ],
+    "countries": [
+      "BH",
+      "GE",
+      "IL",
+      "SA",
+      "BE",
+      "CY",
+      "DE",
+      "EE",
+      "FR",
+      "NL",
+      "PL",
+      "SE",
+      "CA",
+      "US"
+    ],
+    "payments": [
+      "支付宝",
+      "USDT"
+    ],
+    "plans": 14,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-mhyidc-com",
+    "name": "Hoyoverse(mhyidc)",
+    "url": "https://mhyidc.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "hytron",
+    "name": "Hytron / HYVPS",
+    "url": "https://hytron.io/",
+    "category": "VPS",
+    "desc": "Hytron 网络服务及 HYVPS 云主机入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://hytron.io/",
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-idc-care",
+    "name": "IDC Care",
+    "url": "https://portal.idc.care/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ihostart-com",
+    "name": "iHostART",
+    "url": "https://panel.ihostart.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "ika-cloud",
+    "name": "IKA CLOUD",
+    "url": "https://www.ikacloud.bf/vps-server.php",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.ikacloud.bf/vps-server.php"
+    ],
+    "countries": [
+      "BF"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-inet-ws",
+    "name": "INET.WS",
+    "url": "https://cloud.inet.ws/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-it-garage-pro",
+    "name": "IT-GARAGE",
+    "url": "https://it-garage.pro/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-itldc-com",
+    "name": "ITLDC",
+    "url": "https://itldc.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "jafari-it-solutions",
+    "name": "Jafari IT Solutions",
+    "url": "https://jafari.ly/services/cloud-servers",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://jafari.ly/services/cloud-servers"
+    ],
+    "countries": [
+      "LY"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-jink-host",
+    "name": "JINK HOST",
+    "url": "https://clients.jink.host/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-jtti-cc",
+    "name": "Jtti",
+    "url": "https://www.jtti.cc/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-juhost-com",
+    "name": "JuHost",
+    "url": "https://members.juhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "justhost",
+    "name": "JustHost",
+    "url": "https://justhost.ru/en/services/vps",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://justhost.ru/en/services/vps",
+      "https://digvps.com/review"
+    ],
+    "countries": [
+      "IN",
+      "JP",
+      "SG",
+      "TR",
+      "AL",
+      "AT",
+      "BE",
+      "BG",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "IE",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "RU",
+      "SE",
+      "CA",
+      "US"
+    ],
+    "payments": [],
+    "plans": 28,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-kdatacenter-com",
+    "name": "KDATACENTER",
+    "url": "https://www.kdatacenter.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-khanwebhost-com",
+    "name": "KhanWebHost",
+    "url": "https://khanwebhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-koddos-net",
+    "name": "KoDDoS",
+    "url": "https://koddos.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "kubana-cloud",
+    "name": "Kubana Cloud",
+    "url": "https://kubana.cloud/burundi/vps",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://kubana.cloud/burundi/vps"
+    ],
+    "countries": [
+      "BI"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-kuroit-com",
+    "name": "Kuroit",
+    "url": "https://my.kuroit.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-kvmla-pro",
+    "name": "Kvmla",
+    "url": "https://www.kvmla.pro/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "laceibanetsociety",
+    "name": "LaceibaNetSociety",
+    "url": "https://laceibanetsociety.com/vps-services/openvz-vps/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://laceibanetsociety.com/vps-services/openvz-vps/"
+    ],
+    "countries": [
+      "HN"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-lain-sh",
+    "name": "Lain.sh",
+    "url": "https://dash.lain.sh/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-lakenetworks-it",
+    "name": "LakeNetworks",
+    "url": "https://my.lakenetworks.it/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-lala-gg",
+    "name": "LaLa Net",
+    "url": "https://lala.gg/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lamhosting",
+    "name": "Lamhosting",
+    "url": "https://lamhosting.com/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1737",
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-login-layer7-net",
+    "name": "LAYER7",
+    "url": "https://login.layer7.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-leveloneservers-com",
+    "name": "LevelOneServers",
+    "url": "https://billing.leveloneservers.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ligahosting-com",
+    "name": "LIGA HOSTING",
+    "url": "https://ligahosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lightnode",
+    "name": "LightNode",
+    "url": "https://go.lightnode.com/bangladesh-vps",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://go.lightnode.com/bangladesh-vps",
+      "https://go.lightnode.com/bahrain-vps",
+      "https://go.lightnode.com/indonesia-vps",
+      "https://go.lightnode.com/iraq-vps"
+    ],
+    "countries": [
+      "BD",
+      "BH",
+      "ID",
+      "IQ",
+      "JP",
+      "KH",
+      "KW",
+      "MM",
+      "MY",
+      "OM",
+      "PK",
+      "PH",
+      "QA",
+      "SA",
+      "SG",
+      "TH",
+      "TR",
+      "VN",
+      "EG",
+      "ZA",
+      "BG",
+      "DE",
+      "FR",
+      "GR",
+      "RU",
+      "AR",
+      "BR",
+      "CL",
+      "CO",
+      "MX",
+      "PE",
+      "US"
+    ],
+    "payments": [
+      "支付宝"
+    ],
+    "plans": 33,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-linceris-com",
+    "name": "linceris",
+    "url": "https://dashboard.linceris.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-linveo-com",
+    "name": "Linveo",
+    "url": "https://billing.linveo.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "liteserver",
+    "name": "LiteServer",
+    "url": "https://liteserver.nl/",
+    "category": "VPS",
+    "desc": "提供 NVMe VPS、HDD 存储 VPS 和 VDS。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://liteserver.nl/",
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "littlecreek",
+    "name": "Little Creek Hosting",
+    "url": "https://littlecreekhosting.com/",
+    "category": "VPS",
+    "desc": "提供 VPS Hosting，官网有独立产品和客户中心入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://littlecreekhosting.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-loyalserver-com",
+    "name": "LoyalServer",
+    "url": "https://www.loyalserver.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-maple-hosting-com",
+    "name": "Maple",
+    "url": "https://clients.maple-hosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-massivegrid-com",
+    "name": "MassiveGRID",
+    "url": "https://portal.massivegrid.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-megalayer-net",
+    "name": "MEGALAYER",
+    "url": "https://account.megalayer.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-mejiro-io",
+    "name": "Mejiro",
+    "url": "https://billing.mejiro.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-metweb-co",
+    "name": "metweb",
+    "url": "https://client.metweb.co/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-mikucloud-co",
+    "name": "Miku Network",
+    "url": "https://mikucloud.co/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-mikyhost-com",
+    "name": "Mikyhost",
+    "url": "https://mikyhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-mkcloud-net",
+    "name": "Mkcloud",
+    "url": "https://www.mkcloud.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-millenial-host",
+    "name": "MLNL",
+    "url": "https://www.millenial.host/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "monaco-cloud",
+    "name": "Monaco Cloud",
+    "url": "https://www.monacocloud.mc/compute",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.monacocloud.mc/compute"
+    ],
+    "countries": [
+      "MC"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "monaco-telecom",
+    "name": "Monaco Telecom",
+    "url": "https://monaco-telecom.mc/hebergement-cloud-cloud-infrastructure/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://monaco-telecom.mc/hebergement-cloud-cloud-infrastructure/"
+    ],
+    "countries": [
+      "MC"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-mondoze-com",
+    "name": "Mondoze",
+    "url": "https://billing.mondoze.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-moonvm-com",
+    "name": "MoonVM",
+    "url": "https://store.moonvm.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "mrvm",
+    "name": "MrVM",
+    "url": "https://mrvm.net/",
+    "category": "VPS",
+    "desc": "官网当前显示即将更新及旧客户入口，未核实新购 VPS。",
+    "status": "lead",
+    "sources": [
+      "https://mrvm.net/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "myidc-莫涵云",
+    "name": "MyIDC 莫涵云",
+    "url": "https://www.myidc.de/goods/3501",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.myidc.de/goods/3501",
+      "https://www.myidc.de/goods/3596",
+      "https://www.myidc.de/goods/3013",
+      "https://www.myidc.de/goods/2754"
+    ],
+    "countries": [
+      "LA",
+      "MN",
+      "CG",
+      "AD",
+      "MT"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 5,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-naiyun-net",
+    "name": "NAIYUN",
+    "url": "https://my.naiyun.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-narhost-com",
+    "name": "narhost",
+    "url": "https://narhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "narwhal-cloud-全球落地-hk",
+    "name": "Narwhal Cloud / 全球落地 HK",
+    "url": "https://fuckip.me/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://fuckip.me/"
+    ],
+    "countries": [
+      "AD",
+      "MC",
+      "BS"
+    ],
+    "payments": [
+      "支付宝"
+    ],
+    "plans": 3,
+    "nat": true,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "navicosoft",
+    "name": "Navicosoft",
+    "url": "https://www.navicosoft.com/vps-hosting-in-armenia/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.navicosoft.com/vps-hosting-in-armenia/",
+      "https://www.navicosoft.com/vps-hosting-in-bahrain/",
+      "https://www.navicosoft.com/vps-hosting-in-china/",
+      "https://www.navicosoft.com/vps-hosting-in-georgia/"
+    ],
+    "countries": [
+      "AM",
+      "BH",
+      "CN",
+      "GE",
+      "ID",
+      "IN",
+      "IR",
+      "IL",
+      "JP",
+      "KZ",
+      "KG",
+      "KH",
+      "KW",
+      "LB",
+      "MY",
+      "OM",
+      "PK",
+      "PH",
+      "QA",
+      "SA",
+      "SG",
+      "TH",
+      "TR",
+      "VN",
+      "DZ",
+      "EG",
+      "GH",
+      "KE",
+      "MA",
+      "NG",
+      "ZA",
+      "AL",
+      "AD",
+      "AT",
+      "BE",
+      "BG",
+      "BY",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "EE",
+      "FI",
+      "FR",
+      "GR",
+      "HU",
+      "IE",
+      "IS",
+      "LT",
+      "LU",
+      "MD",
+      "MK",
+      "MT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "RU",
+      "RS",
+      "SK",
+      "SI",
+      "SE",
+      "UA",
+      "AR",
+      "BR",
+      "BB",
+      "CA",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DO",
+      "GT",
+      "MX",
+      "PE",
+      "PY",
+      "UY",
+      "US",
+      "VE",
+      "AU",
+      "TO"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 84,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-mgmt-nerdscave-hosting-de",
+    "name": "nerdscave",
+    "url": "https://mgmt.nerdscave-hosting.de/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "netcup",
+    "name": "netcup",
+    "url": "https://www.netcup.com/en/server/vps",
+    "category": "VPS",
+    "desc": "提供 x86 与 ARM64 虚拟服务器及 Root Server。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.netcup.com/en/server/vps"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-hosting-netfront-net",
+    "name": "NETfront",
+    "url": "https://hosting.netfront.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "netshop-isp",
+    "name": "NetShop ISP",
+    "url": "https://netshop-isp.com.cy/virtual-servers/malta/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://netshop-isp.com.cy/virtual-servers/malta/"
+    ],
+    "countries": [
+      "MT"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-nmcloud-cc",
+    "name": "NMCloud（牛马云）",
+    "url": "https://nmcloud.cc/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-nnc-sh",
+    "name": "NNC",
+    "url": "https://nnc.sh/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-nodemach-com",
+    "name": "NodeMach",
+    "url": "https://www.nodemach.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-nolimithost-cc",
+    "name": "Nolimithost",
+    "url": "https://billing.nolimithost.cc/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-shop-novacloud-hosting-com",
+    "name": "NovaCloud-Hosting",
+    "url": "https://shop.novacloud-hosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-nuyek-com",
+    "name": "Nuyek",
+    "url": "https://nuyek.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ocent-net",
+    "name": "Ocent",
+    "url": "https://ocent.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-offshorededi-com",
+    "name": "OffshoreDedi",
+    "url": "https://my.offshorededi.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-offshoreracks-com",
+    "name": "OffshoreRacks",
+    "url": "https://www.offshoreracks.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-onevps-cloud",
+    "name": "onevps",
+    "url": "https://www.onevps.cloud/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-otwa-cloud",
+    "name": "Otwa Cloud",
+    "url": "https://otwa.cloud/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-yun-oulucloud-com",
+    "name": "OuluCloud（欧路云）",
+    "url": "https://yun.oulucloud.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "ovhcloud",
+    "name": "OVHcloud",
+    "url": "https://www.ovhcloud.com/en/vps/",
+    "category": "VPS",
+    "desc": "VPS 产品入口，可按配置选择虚拟服务器。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.ovhcloud.com/en/vps/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "partvps",
+    "name": "PartVPS",
+    "url": "https://partvps.com/vps/tel-aviv/crypto",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://partvps.com/vps/tel-aviv/crypto"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-petrosky-io",
+    "name": "PetroSky",
+    "url": "https://client.petrosky.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-phanes-cloud",
+    "name": "Phanes",
+    "url": "https://my.phanes.cloud/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-piayun-com",
+    "name": "pia云",
+    "url": "https://www.piayun.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "platiniumhost",
+    "name": "PlatiniumHost",
+    "url": "https://platiniumhost.com/en/hosting/vps",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://platiniumhost.com/en/hosting/vps"
+    ],
+    "countries": [
+      "VE"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-pokevm-com",
+    "name": "POKEVM",
+    "url": "https://pokevm.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-console-po0-com",
+    "name": "PortChannel Zero(po0)",
+    "url": "https://console.po0.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ppnetworks-it",
+    "name": "PP-Networks Solutions",
+    "url": "https://billing.ppnetworks.it/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "premium-rdp",
+    "name": "Premium RDP",
+    "url": "https://www.premiumrdp.com/vps-in-minsk-belarus/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.premiumrdp.com/vps-in-minsk-belarus/"
+    ],
+    "countries": [
+      "BY"
+    ],
+    "payments": [
+      "支付宝"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-prepaid-host-com",
+    "name": "Prepaid-Hoster",
+    "url": "https://prepaid-host.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "prohost",
+    "name": "ProHost",
+    "url": "https://en.prohost.kg/vps.php",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://en.prohost.kg/vps.php"
+    ],
+    "countries": [
+      "KG"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-prowhost-com",
+    "name": "ProwHost",
+    "url": "https://my.prowhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-qvps-top",
+    "name": "Q云",
+    "url": "https://www.qvps.top/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "quicksrv",
+    "name": "quicksrv",
+    "url": "https://quicksrv.io/",
+    "category": "VPS",
+    "desc": "官网列出荷兰与英国 KVM VPS 产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://quicksrv.io/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "racknerd",
+    "name": "RackNerd",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "category": "VPS",
+    "desc": "KVM VPS 产品页，另有 Ryzen 与 Windows 系列入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.racknerd.com/kvm-vps"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-racknode-net",
+    "name": "Racknode",
+    "url": "https://my.racknode.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-radonet-co-uk",
+    "name": "radonet",
+    "url": "https://radonet.co.uk/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "ramnode",
+    "name": "RamNode",
+    "url": "https://ramnode.com/",
+    "category": "云平台",
+    "desc": "基于 OpenStack 的 Cloud VPS 产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://ramnode.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-rayip-io",
+    "name": "RayIP",
+    "url": "https://rayip.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-oneprovide-net",
+    "name": "ReCloud",
+    "url": "https://oneprovide.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-dedicated-redswitches-com",
+    "name": "RedSwitches",
+    "url": "https://dedicated.redswitches.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-renet-tw",
+    "name": "ReNet",
+    "url": "https://renet.tw/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-reprisehosting-com",
+    "name": "Reprise Hosting",
+    "url": "https://www.reprisehosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-robovps-biz",
+    "name": "Robovps",
+    "url": "https://www.robovps.biz/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "scaleway",
+    "name": "Scaleway",
+    "url": "https://www.scaleway.com/en/virtual-instances/",
+    "category": "云平台",
+    "desc": "Virtual Instances 云计算实例产品入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.scaleway.com/en/virtual-instances/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "secure-shore-cloud",
+    "name": "Secure Shore Cloud",
+    "url": "https://secureshore.cloud/offshore-vps-bahamas.html",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://secureshore.cloud/offshore-vps-bahamas.html"
+    ],
+    "countries": [
+      "BS"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-servarica-com",
+    "name": "ServaRICA",
+    "url": "https://clients.servarica.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-server-tw",
+    "name": "SERVER.TW",
+    "url": "http://www.server.tw/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-serverastra-com",
+    "name": "ServerAstra",
+    "url": "https://serverastra.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-serverfield-com-tw",
+    "name": "SERVERFIELD",
+    "url": "https://serverfield.com.tw/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-servergigabit-com",
+    "name": "ServerGigabit",
+    "url": "http://billing.servergigabit.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-vpshostingservice-co",
+    "name": "ServerHost",
+    "url": "https://vpshostingservice.co/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "serverscamp",
+    "name": "ServersCamp",
+    "url": "https://serverscamp.com/",
+    "category": "云平台",
+    "desc": "提供 Cloud VMs 和固定月付 Simple VPS。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://serverscamp.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-servitro-com",
+    "name": "Servitro",
+    "url": "https://my.servitro.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-servps-com",
+    "name": "Servps",
+    "url": "https://servps.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-shandun-net",
+    "name": "ShanDun",
+    "url": "https://www.shandun.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-sharedgrid-com",
+    "name": "SharedGrid",
+    "url": "https://my.sharedgrid.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-sharktech-net",
+    "name": "Sharktech",
+    "url": "https://portal.sharktech.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-shifthosting-com",
+    "name": "ShiftHosting",
+    "url": "https://billing.shifthosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "sive-host",
+    "name": "Sive.Host",
+    "url": "https://sive.co.ls/vps-server.php",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://sive.co.ls/vps-server.php"
+    ],
+    "countries": [
+      "SZ"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-skhron-com-ua",
+    "name": "Skhron",
+    "url": "https://skhron.com.ua/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-skunkfactory-cloud",
+    "name": "Skunkfactory",
+    "url": "https://www.skunkfactory.cloud/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "skyline",
+    "name": "Skyline Connect",
+    "url": "https://skylineconnect.io/en",
+    "category": "VPS",
+    "desc": "官网列出新加坡与东京 Cloud VPS 产品。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://skylineconnect.io/en"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-smokyhosts-com",
+    "name": "SmokyHosts",
+    "url": "https://members.smokyhosts.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-snakecrafthosting-com",
+    "name": "Snakecraft Hosting",
+    "url": "https://my.snakecrafthosting.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-softshellweb-com",
+    "name": "SoftShellWeb",
+    "url": "https://softshellweb.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-sparkedhost-com",
+    "name": "SparkedHost",
+    "url": "https://billing.sparkedhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "spartan",
+    "name": "Spartan Host 斯巴达",
+    "url": "https://spartanhost.org/",
+    "desc": "提供 VPS、独立服务器及托管产品。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://spartanhost.org/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-speedypage-com",
+    "name": "SPEEDYPAGE",
+    "url": "https://my.speedypage.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-spinservers-com",
+    "name": "spinservers",
+    "url": "https://www.spinservers.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "sputnik-vps",
+    "name": "SPUTNIK VPS",
+    "url": "https://sputnikvps.com/vps-seyshely.html",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://sputnikvps.com/vps-seyshely.html",
+      "https://sputnikvps.com/vps-beliz.html"
+    ],
+    "countries": [
+      "SC",
+      "BZ"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 2,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-stormhost-net",
+    "name": "StormHost",
+    "url": "https://billing.stormhost.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-strike-bz",
+    "name": "Strike",
+    "url": "https://clientarea.strike.bz/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-sudatech-store",
+    "name": "Suda速达云",
+    "url": "https://cloud.sudatech.store/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-support-swisslayer-com",
+    "name": "Swiss",
+    "url": "https://support.swisslayer.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-synexvm-com",
+    "name": "SynexVM",
+    "url": "https://www.synexvm.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-synthohosting-net",
+    "name": "Syntho",
+    "url": "https://my.synthohosting.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "telecel-liberia",
+    "name": "Telecel Liberia",
+    "url": "https://teleceliberia.com/vps-hosting/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://teleceliberia.com/vps-hosting/"
+    ],
+    "countries": [
+      "LR"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-terabit-io",
+    "name": "Terabit",
+    "url": "https://my.terabit.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "the-hosting",
+    "name": "THE.Hosting",
+    "url": "https://the.hosting/en/vps-vds-grenada-saint-georges",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://the.hosting/en/vps-vds-grenada-saint-georges",
+      "https://the.hosting/en/vps-vds-saint-lucia-castries"
+    ],
+    "countries": [
+      "GD",
+      "LC"
+    ],
+    "payments": [],
+    "plans": 2,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "time4vps",
+    "name": "Time4VPS",
+    "url": "https://www.time4vps.com/",
+    "category": "VPS",
+    "desc": "提供 Linux、Windows、容器和存储 VPS。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.time4vps.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-tmhhost-com",
+    "name": "TmhHost",
+    "url": "https://www.tmhhost.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "torchbyte",
+    "name": "Torchbyte",
+    "url": "https://torchbyte.com/",
+    "desc": "提供游戏 VPS 与 Enterprise VPS，官网列出罗马尼亚产品。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://torchbyte.com/",
+      "https://www.nodeseek.com/post-1034613-1"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-app-tradingvps-io",
+    "name": "TradingVPS",
+    "url": "https://app.tradingvps.io/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-tripodcloud-com",
+    "name": "TripodCloud",
+    "url": "https://clients.tripodcloud.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-tudcloud-com",
+    "name": "Tudcloud",
+    "url": "https://billing.tudcloud.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ufovps-com",
+    "name": "UFOVPS",
+    "url": "https://www.ufovps.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "ultahost",
+    "name": "UltaHost",
+    "url": "https://ultahost.com/grenada-vps",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://ultahost.com/grenada-vps"
+    ],
+    "countries": [
+      "GD"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "upcloud",
+    "name": "UpCloud",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "category": "云平台",
+    "desc": "Cloud Servers 提供 Linux 与 Windows 云服务器。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://upcloud.com/products/cloud-servers/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-upnet-vn",
+    "name": "UpNet",
+    "url": "https://upnet.vn/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-uqidc-com",
+    "name": "UQIDC",
+    "url": "https://www.uqidc.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "uzumaru-uzuma",
+    "name": "Uzumaru / Uzuma",
+    "url": "https://t.me/uzumaru_notify/869",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://t.me/uzumaru_notify/869",
+      "https://t.me/uzumaru_notify/623"
+    ],
+    "countries": [
+      "DO",
+      "HN"
+    ],
+    "payments": [
+      "支付宝"
+    ],
+    "plans": 2,
+    "nat": true,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "vps-x",
+    "name": "V.PS 小秘书",
+    "url": "https://v.ps/",
+    "desc": "提供 KVM VPS，可从官网按城市选择产品。",
+    "category": "VPS",
+    "status": "official",
+    "sources": [
+      "https://v.ps/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-viasky-co",
+    "name": "Viasky",
+    "url": "https://viasky.co/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-virtono-com",
+    "name": "Virtono",
+    "url": "https://www.virtono.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-virtualine-net",
+    "name": "Virtualine",
+    "url": "https://client.virtualine.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-virtvps-com",
+    "name": "VirtVPS",
+    "url": "https://my.virtvps.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-ggvision-net",
+    "name": "Vision Cloud",
+    "url": "https://cloud.ggvision.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "visual-web-vwt",
+    "name": "Visual Web (VWT)",
+    "url": "https://www.serversinasia.com/serverspalestine.html",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.serversinasia.com/serverspalestine.html",
+      "https://vwt.net/serversbf.html",
+      "https://vwt.net/serverscd.html",
+      "https://vwt.net/serversly.html"
+    ],
+    "countries": [
+      "PS",
+      "BF",
+      "CD",
+      "LY",
+      "SO",
+      "TD",
+      "TG",
+      "AD",
+      "HN",
+      "SR"
+    ],
+    "payments": [],
+    "plans": 10,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-vm6-co-uk",
+    "name": "VM6 Networks",
+    "url": "https://www.vm6.co.uk/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "vmiss",
+    "name": "VMISS",
+    "url": "https://www.vmiss.com/",
+    "category": "VPS",
+    "desc": "云服务器商家，官网提供产品控制台入口。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://www.vmiss.com/"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "volknode",
+    "name": "VolkNode",
+    "url": "https://volknode.com/vps/offshore-vps",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://volknode.com/vps/offshore-vps"
+    ],
+    "countries": [
+      "SC"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-voluri-net",
+    "name": "Voluri",
+    "url": "https://voluri.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-vpc-kr",
+    "name": "VPCKR",
+    "url": "https://vpc.kr/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-vps-cx",
+    "name": "VPS 促销",
+    "url": "https://vps.cx/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "vps-for-life",
+    "name": "VPS For Life",
+    "url": "https://vpsforlife.com/vps-hosting-in-iran",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://vpsforlife.com/vps-hosting-in-iran"
+    ],
+    "countries": [
+      "IR"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "vps-shell",
+    "name": "VPS Shell",
+    "url": "https://www.vpsshell.com/afghanistan-vps/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://www.vpsshell.com/afghanistan-vps/",
+      "https://www.vpsshell.com/uae-vps/",
+      "https://www.vpsshell.com/armenia-vps/",
+      "https://www.vpsshell.com/bangladesh-vps/"
+    ],
+    "countries": [
+      "AF",
+      "AE",
+      "AM",
+      "BD",
+      "BH",
+      "BN",
+      "BT",
+      "CN",
+      "GE",
+      "ID",
+      "IN",
+      "IQ",
+      "IL",
+      "JO",
+      "JP",
+      "KZ",
+      "KG",
+      "KH",
+      "KR",
+      "KW",
+      "LA",
+      "LB",
+      "LK",
+      "MV",
+      "MN",
+      "MY",
+      "NP",
+      "OM",
+      "PK",
+      "PH",
+      "QA",
+      "SA",
+      "SG",
+      "TH",
+      "TL",
+      "TR",
+      "UZ",
+      "VN",
+      "AO",
+      "BI",
+      "BJ",
+      "BF",
+      "BW",
+      "CF",
+      "CI",
+      "CM",
+      "CG",
+      "KM",
+      "CV",
+      "DJ",
+      "DZ",
+      "EG",
+      "ER",
+      "ET",
+      "GA",
+      "GH",
+      "GN",
+      "GM",
+      "GW",
+      "GQ",
+      "KE",
+      "LR",
+      "LY",
+      "LS",
+      "MA",
+      "MG",
+      "ML",
+      "MZ",
+      "MR",
+      "MU",
+      "MW",
+      "NA",
+      "NE",
+      "NG",
+      "RW",
+      "SN",
+      "SZ",
+      "SC",
+      "TD",
+      "TG",
+      "TN",
+      "TZ",
+      "UG",
+      "ZA",
+      "ZM",
+      "ZW",
+      "AL",
+      "AD",
+      "AT",
+      "BE",
+      "BG",
+      "BA",
+      "BY",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "MC",
+      "MD",
+      "MK",
+      "MT",
+      "ME",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "RU",
+      "SM",
+      "RS",
+      "SK",
+      "SI",
+      "SE",
+      "UA",
+      "AR",
+      "BS",
+      "BZ",
+      "BO",
+      "BR",
+      "BB",
+      "CA",
+      "CL",
+      "CO",
+      "CR",
+      "CU",
+      "DM",
+      "DO",
+      "EC",
+      "GD",
+      "GT",
+      "GY",
+      "HN",
+      "HT",
+      "JM",
+      "LC",
+      "MX",
+      "NI",
+      "PA",
+      "PE",
+      "PY",
+      "SV",
+      "TT",
+      "UY",
+      "US",
+      "AU",
+      "FJ",
+      "FM",
+      "KI",
+      "MH",
+      "NZ",
+      "PW",
+      "PG",
+      "TO",
+      "WS"
+    ],
+    "payments": [
+      "USDT"
+    ],
+    "plans": 170,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "vps-sy-nobalaa",
+    "name": "VPS.sy / Nobalaa",
+    "url": "https://vps.sy/en/pricing-faq/",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://vps.sy/en/pricing-faq/"
+    ],
+    "countries": [
+      "SY"
+    ],
+    "payments": [],
+    "plans": 1,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-vps-town",
+    "name": "VPS.Town",
+    "url": "https://vps.town/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "vpslayer",
+    "name": "VpsLayer",
+    "url": "https://www.vpslayer.net/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/s/vpslognet"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-vsys-host",
+    "name": "VSYS",
+    "url": "https://vsys.host/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "vultr",
+    "name": "Vultr",
+    "url": "https://www.vultr.com/products/cloud-compute/",
+    "category": "云平台",
+    "desc": "Cloud Compute 云计算产品；产品信息可参阅官方文档。",
+    "status": "official",
+    "nat": false,
+    "sources": [
+      "https://docs.vultr.com/product-overviews/cloud-compute?section=documentation"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-waicore-com",
+    "name": "WAlcore",
+    "url": "https://waicore.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "wap",
+    "name": "WAP",
+    "url": "https://wap.ac/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1733"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-wawanode-com",
+    "name": "WawaNode",
+    "url": "https://wawanode.com/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "wawo",
+    "name": "Wawo",
+    "url": "https://wawo.wiki/",
+    "category": "VPS",
+    "desc": "来自公开频道的商家线索，当前产品和库存待核。",
+    "status": "lead",
+    "sources": [
+      "https://t.me/vpslognet/1735"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-webhorizon-net",
+    "name": "WebHorizon",
+    "url": "https://clients.webhorizon.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-worldbus-ge",
+    "name": "WORLDBUS",
+    "url": "https://portal.worldbus.ge/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "wuyoucloud-无忧云",
+    "name": "WuYouCloud 无忧云",
+    "url": "https://wuyoucloud.de/index.php?rp=/store/ip-nat-tg",
+    "category": "VPS",
+    "status": "research",
+    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "sources": [
+      "https://wuyoucloud.de/index.php?rp=/store/ip-nat-tg"
+    ],
+    "countries": [
+      "TG"
+    ],
+    "payments": [
+      "支付宝",
+      "USDT"
+    ],
+    "plans": 1,
+    "nat": true,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-clientcp-net",
+    "name": "xHosts",
+    "url": "https://clientcp.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-xsx-net",
+    "name": "XSXNetwork",
+    "url": "https://www.xsx.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-zhnet-co-uk",
+    "name": "Zhnet",
+    "url": "https://cloud.zhnet.co.uk/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "lead-zlidc-net",
+    "name": "zlidc",
+    "url": "https://zlidc.net/",
+    "category": "商家线索",
+    "status": "lead",
+    "desc": "第三方目录收录的商家入口；当前 VPS 产品、支付方式、地点和库存尚待官网核实。",
+    "sources": [
+      "https://digvps.com/review"
+    ],
+    "countries": [],
+    "payments": [],
+    "plans": 0,
+    "nat": false,
+    "checkedAt": "2026-11-06"
+  }
+]
