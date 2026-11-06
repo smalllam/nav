@@ -387,8 +387,12 @@
       "sha256": "406a224f2294d77de6b5ddc23c34125a75e37d79792205a515fe6f7ec726d0d0"
     },
     "lead-asvm-net": {
-      "path": null,
-      "sourcePage": "https://asvm.net/"
+      "path": "/assets/merchants/baf8c21667b944b8.jpg",
+      "sourcePage": "https://t.me/ASVM_A",
+      "sourceUrl": "https://cdn1.telesco.pe/file/Kck0ELTNGGFXCQvexouLFAY6zIzc1Oi-C37bDMTendKqz5TNEpfLVSTTKkd9iNloZsosTxMQ9c4DAchvQsTkUxvKur6zud--aSyl0gbybQilfbiOtuDr98eLDAWYleRC4JHJNcNL2UekGbGpcXsEwzHghdPdUFR59nisf-Fv4U_ALJXWJfgNXGMbqo7BIqbMqwnIr_ZNR7dnMTE1YaKbEOJ1FTpg-u_akV2IF5Gmjd4qA-fTwal-QJawjM8CFgAL-OC2oM8m207E1z0xyrXwoNNWk1EyyaSFnI7OolUENXWTynQeShwyVPo6efgtpeinryU3TdGqrsdPJ3SCKuiBIw.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "481709fb48314ea621c512f08042d7f0c4ba29087045cb82de1945fb792359ed",
+      "note": "与原官网一致的 ASVM_News 官方频道当前使用的立方体头像；是频道身份图，不称为企业文字标志；官网停服状态保持。"
     },
     "atp-hosting": {
       "path": "/assets/merchants/78f1ff283e5c729c.webp",
@@ -1576,13 +1580,6 @@
       "sha256": "1f1f0712f6d93bdf4e8be0ffa297210c1a556cf91dd1f82f40e07abf26079e3e",
       "kind": "official-channel-avatar"
     },
-    "lead-console-po0-com": {
-      "path": "/assets/merchants/d69c2c2cdc0511ed.png",
-      "sourcePage": "https://console.po0.io/store/tencentcloud-hongkong",
-      "sourceUrl": "https://console.po0.io/templates/lagom2/assets/img/favicons/favicon-76.png",
-      "kind": "official-site-icon",
-      "sha256": "10f2db7f140c0f565f591d7c50f957113ca7ca35573d499655a13662e6744de8"
-    },
     "lead-ppnetworks-it": {
       "path": "/assets/merchants/be706a0f1c593dd8.png",
       "sourcePage": "https://billing.ppnetworks.it/index.php?rp=/login",
@@ -1782,8 +1779,12 @@
       "sha256": "23aab2cd342f41a1263a06fb649e542f19a00e8449a939d0c35999ba36fd44d2"
     },
     "lead-servps-com": {
-      "path": null,
-      "sourcePage": "https://servps.com/"
+      "path": "/assets/merchants/a840199c507f97cd.png",
+      "sourcePage": "https://servps.com/",
+      "sourceUrl": "https://web.archive.org/web/20251127081718id_/https://servps.com/assets/img/logo.png",
+      "kind": "archived-official-site-logo",
+      "sha256": "0cfc5caa8870c4cc974b2d6bbb243039a2616138b544897f8fb293403ee41747",
+      "note": "Internet Archive 2025-11-27 保存的原官网 Servps 品牌原图。当前官网转为基础设施 / 软件服务，历史标志不证明旧 VPS 业务仍售。"
     },
     "lead-shandun-net": {
       "path": "/assets/merchants/e032f8109480a680.ico",
@@ -2048,8 +2049,12 @@
       "sha256": "9669bda3ee6880d705d9e3b56362b7958444ca2b87f0105b3ba1bcfdcf7bcbd5"
     },
     "lead-viasky-co": {
-      "path": null,
-      "sourcePage": "https://www.viasky.co/vps"
+      "path": "/assets/merchants/af3ae9af1ac1232c.png",
+      "sourcePage": "https://viasky.co/",
+      "sourceUrl": "https://web.archive.org/web/20181103043838id_/https://viasky.co/wp-content/uploads/2018/08/logoi2viasky.png",
+      "kind": "archived-official-site-logo",
+      "sha256": "5302b89b2496076c6d4efc1962718931fd3be3de16d2eaf0a08af15b6c368a72",
+      "note": "Internet Archive 2018-11-03 保存的原官网 VIASKY COMPANY 标志。历史标志注明日期；同域 redo 模板中的 Redonet 图已识别并排除。"
     },
     "lead-virtono-com": {
       "path": "/assets/merchants/aa1f74d966bc4ba5.ico",
@@ -2074,8 +2079,12 @@
       "sha256": "fad363890f4bc84292fad7318dbd8a75541472fffa2c86ddc0a0f4f3a8bcaed2"
     },
     "lead-ggvision-net": {
-      "path": null,
-      "sourcePage": "https://cloud.ggvision.net/"
+      "path": "/assets/merchants/92b7918a45dca49d.jpg",
+      "sourcePage": "https://t.me/visioncloud_notification",
+      "sourceUrl": "https://cdn5.telesco.pe/file/bKNPWs1ltOpet-c0aoJ14nTmeqEP30EQmp-HpL2AvAzzd03ILqTG0Y6UNI8SQfNw0nJif9DoidsZpQcM--MilqSs6FYa5xndFTyTA9c34xKGn6CqPTiyeKUpw1jvXrxRN3qZSVW0I09h6zeIJlzkLo_9P1itRBOfCxVp6aBMKjWHoc5Ku4ivCo1QCHHUKOEK1FncNcWGJP_H8BnMcc5d178e3U0DcdJrKArNyCOt5FoyLsTkmLLu6yPzVEd-v5JQN4L_aPFYkzLoi2QjrgGeD4zfayWx6yswx9rElmQpkJY7Uu2eMyhUeWduhn7aGod4dkRu8t0pe1_DK6L49_JtSw.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "0ead251aaf707e1273c53c2f0a484810d8bf838a136335a6d8698e68cb125133",
+      "note": "频道明确链接 portal.ggvision.net，当前选用 V 字旗帜头像；是官方频道身份图，不据此确认当前商品、库存或支付。"
     },
     "visual-web-vwt": {
       "path": "/assets/merchants/4b6cefa15019ee95.gif",

@@ -11,10 +11,10 @@ const extra = JSON.parse(fs.readFileSync('data/merchants-extra.json'))
 const discovery = JSON.parse(fs.readFileSync('data/merchant-discovery.json'))
 assert.deepEqual(merchants, buildMerchants(db, extra, discovery, verification))
 const originalLeads = buildMerchants(db, extra, discovery).filter(m => m.status === 'lead')
-assert.equal(originalLeads.length, 237)
+assert.equal(originalLeads.length, 236)
 assert.deepEqual(new Set(verification.records.map(m => m.id)), new Set(originalLeads.map(m => m.id)))
 assert.equal(verification.records.filter(m => m.mergedInto).length, 2)
-assert.equal(merchants.length, 321)
+assert.equal(merchants.length, 320)
 assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
 assert.equal(merchants.reduce((n,m) => n + m.plans, 0), items.length)
 assert.equal(merchants.filter(m => m.name.includes('Uzumaru')).length, 1)
@@ -38,7 +38,7 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 219)
+assert.equal(reviewed.filter(m => m.review.product).length, 218)
 assert.equal(reviewed.filter(m => m.review.complete).length, 207)
 assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
@@ -58,7 +58,7 @@ assert(merchant('SynexVM').review.product && merchant('SynexVM').review.note.inc
 assert(merchant('RackGenius').aliases.includes('Snakecraft Hosting'))
 for (const name of ['Lain.sh', 'FxTransit', 'HKGserver', 'Host4Fun', 'RackGenius', 'SynexVM']) assert.equal(merchant(name).category, 'VPS')
 assert(merchant('Suda速达云').nat && merchant('Suda速达云').review.product && merchant('Suda速达云').review.note.includes('20 个预设端口'))
-assert(merchant('PortChannel Zero').review.product && merchant('PortChannel Zero').url.startsWith('https://console.po0.io/store/'))
+assert(!merchant('PortChannel Zero') && !merchants.some(m => [m.url, ...m.sources].some(u => /(?:^|\.)po0\.(?:io|com)$/.test(new URL(u).hostname)))) // Explicit user removal applies to every published entry.
 assert(merchant('MoonVM').payments.includes('USDT') && merchant('MoonVM').payments.includes('支付宝') && !merchant('MoonVM').payments.includes('信用卡 / 借记卡')) // Actual anonymous preview, not footer logos.
 assert.deepEqual(merchant('HostPapa').offeredRegions, ['美国 · 西部', '美国 · 东部', '加拿大', '欧洲（配置页未细分国家）']) // VPS selector, not billing country options.
 assert(!merchant('Terabit').payments.includes('USDT')) // Bitcoin and Ethereum do not imply every supported coin.

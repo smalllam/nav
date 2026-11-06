@@ -9070,44 +9070,6 @@
     "aliasIds": []
   },
   {
-    "id": "lead-console-po0-com",
-    "name": "PortChannel Zero(po0)",
-    "url": "https://console.po0.io/store/tencentcloud-hongkong",
-    "category": "VPS",
-    "status": "official",
-    "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
-    "sources": [
-      "https://console.po0.io/login",
-      "https://console.po0.com/",
-      "https://po0.io/",
-      "https://console.po0.io/store/tencentcloud-hongkong"
-    ],
-    "countries": [],
-    "payments": [],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [
-      "中国香港",
-      "美国"
-    ],
-    "review": {
-      "outcome": "partial",
-      "website": true,
-      "product": true,
-      "payments": false,
-      "regions": true,
-      "complete": false,
-      "pending": [
-        "支付方式"
-      ],
-      "note": "已从现用 po0.io 官网进入 console.po0.io 的公开商店：腾讯云 T1 香港 MICRO 为 2vCore / 2GB / 20GB SSD、100Mbps、300GB 单向流量、独立 IP，59.99 元/月。该 SKU 明确国际优化且不含国内优化。配置预览要求接受购买须知，未勾选、未提交；付款方式继续待核。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
     "id": "lead-ppnetworks-it",
     "name": "PP-Networks Solutions",
     "url": "https://billing.ppnetworks.it/",
