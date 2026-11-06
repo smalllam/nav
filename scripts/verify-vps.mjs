@@ -51,6 +51,8 @@ assert.equal(merchant('Contabo').payments.includes('USDT'), false)
 assert.equal(merchant('Casbay').payments.includes('USDT'), false) // Generic crypto is insufficient.
 assert(merchant('WebHorizon').offeredRegions.includes('马来西亚（新加坡线路）'))
 assert(!merchant('WebHorizon').offeredRegions.includes('新加坡'))
+assert(merchant('WebHorizon').sources.includes('https://clients.webhorizon.net/?/knowledgebase/article/9/payment-methods-and-paying-with-cryptocurrency/'))
+assert(!merchant('WebHorizon').sources.some(url => url.includes('/=')))
 assert(merchant('破云').aliases.includes('CNFaster'))
 assert(merchant('蛋云').aliases.some(n => n.includes('PIGYUN')))
 assert.equal(merchants.filter(m => m.name === 'CNFaster').length, 0)

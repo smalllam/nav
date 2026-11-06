@@ -2631,8 +2631,8 @@
     "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
     "sources": [
       "https://account.brainhost.ai/",
-      "https://account.brainhost.ai/index.php?/knowledgebase/=",
-      "https://account.brainhost.ai/index.php?/products/="
+      "https://account.brainhost.ai/index.php?/knowledgebase/",
+      "https://account.brainhost.ai/index.php?/products/"
     ],
     "countries": [],
     "payments": [],
@@ -10190,14 +10190,14 @@
     "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
     "sources": [
       "https://support.swisslayer.com/",
-      "https://support.swisslayer.com/index.php?/knowledgebase/=",
-      "https://support.swisslayer.com/index.php?/cart/collocation/=",
-      "https://support.swisslayer.com/index.php?/cart/enterprise-windows-virtual-servers/=",
-      "https://support.swisslayer.com/index.php?/cart/enterprise-linux-virtual-servers/=",
-      "https://support.swisslayer.com/index.php?/knowledgebase/category/8/virtual-private-servers/=",
-      "https://support.swisslayer.com/index.php?/knowledgebase/article/6/l2tp-ipsec-vpn-setup--native-on-mobile--amp--more-/=",
-      "https://support.swisslayer.com/index.php?/cart/enterprise-windows-virtual-servers/=&step=0",
-      "https://support.swisslayer.com/index.php?/cart/enterprise-linux-virtual-servers/=&step=0"
+      "https://support.swisslayer.com/index.php?/knowledgebase/",
+      "https://support.swisslayer.com/index.php?/cart/collocation/",
+      "https://support.swisslayer.com/index.php?/cart/enterprise-windows-virtual-servers/",
+      "https://support.swisslayer.com/index.php?/cart/enterprise-linux-virtual-servers/",
+      "https://support.swisslayer.com/index.php?/knowledgebase/category/8/virtual-private-servers/",
+      "https://support.swisslayer.com/index.php?/knowledgebase/article/6/l2tp-ipsec-vpn-setup--native-on-mobile--amp--more-/",
+      "https://support.swisslayer.com/index.php?/cart/enterprise-windows-virtual-servers/&step=0",
+      "https://support.swisslayer.com/index.php?/cart/enterprise-linux-virtual-servers/&step=0"
     ],
     "countries": [],
     "payments": [],
@@ -10268,7 +10268,7 @@
     "status": "official",
     "desc": "官网列有 VPS / 云服务器 产品。本轮官网、支付与所列地区均有公开依据。",
     "sources": [
-      "https://my.synthohosting.net/index.php?language=english&rp=/store/kvm-italia",
+      "https://my.synthohosting.net/index.php?language=english&rp=%2Fstore%2Fkvm-italia",
       "https://synthohosting.net/tos.pdf",
       "https://my.synthohosting.net/"
     ],
@@ -11995,16 +11995,16 @@
     "status": "official",
     "desc": "官网列有 VPS / 云服务器 产品。本轮官网、支付与所列地区均有公开依据。",
     "sources": [
-      "https://clients.webhorizon.net/?/knowledgebase/article/9/payment-methods-and-paying-with-cryptocurrency/=",
-      "https://clients.webhorizon.net/?/knowledgebase/article/14/locations-and-looking-glass/=",
+      "https://clients.webhorizon.net/?/knowledgebase/article/9/payment-methods-and-paying-with-cryptocurrency/",
+      "https://clients.webhorizon.net/?/knowledgebase/article/14/locations-and-looking-glass/",
       "https://clients.webhorizon.net/",
-      "https://clients.webhorizon.net/?/knowledgebase/=",
-      "https://clients.webhorizon.net/?/cart/performance-ryzen-vps/=",
-      "https://clients.webhorizon.net/?/cart/enterprise-epyc-vps/=",
-      "https://clients.webhorizon.net/?/cart/enterprise-epyc-vds/=",
-      "https://clients.webhorizon.net/?/knowledgebase/article/10/can-i-setup-automatic-payment-/=",
-      "https://clients.webhorizon.net/?/knowledgebase/category/1/vps/=",
-      "https://clients.webhorizon.net/?/knowledgebase/article/30/how-do-i-change-the-location-of-my-service-/="
+      "https://clients.webhorizon.net/?/knowledgebase/",
+      "https://clients.webhorizon.net/?/cart/performance-ryzen-vps/",
+      "https://clients.webhorizon.net/?/cart/enterprise-epyc-vps/",
+      "https://clients.webhorizon.net/?/cart/enterprise-epyc-vds/",
+      "https://clients.webhorizon.net/?/knowledgebase/article/10/can-i-setup-automatic-payment-/",
+      "https://clients.webhorizon.net/?/knowledgebase/category/1/vps/",
+      "https://clients.webhorizon.net/?/knowledgebase/article/30/how-do-i-change-the-location-of-my-service-/"
     ],
     "countries": [],
     "payments": [
