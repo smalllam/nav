@@ -8707,31 +8707,46 @@
       "sourceName": "Vision Cloud",
       "name": "Vision Cloud",
       "url": "https://cloud.ggvision.net/",
-      "category": "商家线索",
-      "status": "lead",
-      "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-      "payments": [],
-      "offeredRegions": [],
+      "category": "VPS",
+      "status": "official",
+      "desc": "官网列有明确 VPS 套餐；当前商品、所列地区及匿名结算付款选项已核对。",
+      "payments": [
+        "支付宝",
+        "微信支付",
+        "USDT"
+      ],
+      "offeredRegions": [
+        "中国香港",
+        "新加坡",
+        "日本 · 东京",
+        "美国 · 洛杉矶",
+        "美国 · 盐湖城",
+        "中国台湾 · 台北"
+      ],
       "nat": false,
       "checkedAt": "2026-11-07",
       "sources": [
         "https://cloud.ggvision.net/",
-        "https://t.me/s/visioncloud_notification"
+        "https://t.me/s/visioncloud_notification",
+        "https://cloud.ggvision.net/index.php?rp=/store/hkbgp-standard",
+        "https://cloud.ggvision.net/index.php?rp=/store/sg-standard-singapore",
+        "https://cloud.ggvision.net/index.php?rp=/store/jp-standard",
+        "https://cloud.ggvision.net/index.php?rp=/store/us2-lax-performance-epyc",
+        "https://cloud.ggvision.net/index.php?rp=/store/us-lax-performance",
+        "https://cloud.ggvision.net/index.php?rp=/store/twlite-taipei",
+        "https://cloud.ggvision.net/index.php?rp=/store/jp-standard/jp-std-3",
+        "https://cloud.ggvision.net/cart.php?a=checkout&e=false"
       ],
       "review": {
-        "outcome": "blocked",
+        "outcome": "complete",
         "website": true,
-        "product": false,
-        "payments": false,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "当前 VPS / NAT 产品",
-          "支付方式",
-          "售卖地区"
-        ],
-        "note": "当前原客户区仍返回浏览器安全验证页面，未完成验证；未取得当前产品、付款及地区依据，不将旧搜索缓存计为当前在售。 第十轮重读原入口：HTTP 403；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 403），仍未取得新的当前公开具体 VPS / NAT 商品依据。 已据官方公告频道确认商家身份；2026 年 VM 维护公告证明既有业务仍有运维，2025 年日本旧优惠不等于当前可下单目录，产品缺项保持。",
-        "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+        "product": true,
+        "payments": true,
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "用户手动完成浏览器安全验证后，已读取六个地区的具体 VPS 目录。日本 JP-Std-3 例为 1 个 Ryzen 9950X 核心、2GB DDR5 ECC、15GB NVMe、独立 IPv4 / IPv6，公开月付 10 USD；部分入门档读取时为 0 可用，不能概括全站库存。匿名结算明确列微信/支付宝1（自动开通）、USDT（自动开通）、微信/支付宝2（手动开通/无手续费）；仅据这些可见选项记录支付宝、微信和 USDT，币链及其他渠道未确认。产品声明不保证中国大陆路由/连通性；流媒体营销未作实测验收。未填写个人资料、接受条款、注册、提交订单或付款；临时购物车已清空。",
+        "sourceScope": "2026-11-07 用户协助通过网页验证后的当前官网商品目录、具体配置及匿名结算预览。地区依产品标题及型号，不取自账单国家列表；价格和库存仅对应读取时现场，不保证交付、实时库存或物理机房实测。"
       }
     },
     {

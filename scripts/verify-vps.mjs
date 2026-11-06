@@ -38,10 +38,14 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 218)
-assert.equal(reviewed.filter(m => m.review.complete).length, 211)
+assert.equal(reviewed.filter(m => m.review.product).length, 219)
+assert.equal(reviewed.filter(m => m.review.complete).length, 212)
 assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
+assert(merchant('Vision Cloud').review.complete)
+assert.deepEqual(merchant('Vision Cloud').payments, ['支付宝', '微信支付', 'USDT']) // Actual anonymous checkout radio options.
+assert.deepEqual(merchant('Vision Cloud').offeredRegions, ['中国香港', '新加坡', '日本 · 东京', '美国 · 洛杉矶', '美国 · 盐湖城', '中国台湾 · 台北']) // Concrete VPS titles; the legacy us-lax-performance slug now means Salt Lake City, not LAX.
+assert(!merchant('Vision Cloud').payments.includes('PayPal'))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
 assert.equal(merchant('EDGENAT').nat, false) // A brand name is not a NAT product.
 assert.equal(merchant('七牛').nat, false) // NAT Gateway is not NAT VPS.
