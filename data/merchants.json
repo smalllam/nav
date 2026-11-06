@@ -5962,7 +5962,7 @@
       "regions": true,
       "complete": true,
       "pending": [],
-      "note": "当前官网与公开商店均已可读取。SSD KVM 1 明确 2 个 AMD EPYC 7742 CPU、6GB 内存、50GB SSD、1 个独享 IPv4，10.69 欧元/月；商店标注 Crypto / Stripe，官网存储产品另列 PayPal / Crypto。官网明确 M247 布加勒斯特（罗马尼亚），不保证各种产品支付选项完全相同。",
+      "note": "当前官网与公开商店均已可读取。SSD KVM 1 明确 2 核 AMD EPYC 7742、6GB 内存、50GB SSD、1 个独享 IPv4，10.69 欧元/月；商店标注 Crypto / Stripe，官网存储产品另列 PayPal / Crypto。官网明确 M247 布加勒斯特（罗马尼亚），不保证各种产品支付选项完全相同。",
       "sourceScope": "2026-11-06 第四轮核查：官网产品、公开配置或结算预览、官方 FAQ / 知识库及条款；所列是有公开依据的部分，非穷举。历史文档日期、渠道限制和库存见说明。"
     },
     "aliases": [],
