@@ -788,41 +788,6 @@
     "aliasIds": []
   },
   {
-    "id": "lead-kooya-hk",
-    "name": "酷鸭数据",
-    "url": "https://www.kooya.hk/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-    "sources": [
-      "https://www.kooya.hk/"
-    ],
-    "countries": [],
-    "payments": [],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": false,
-      "product": false,
-      "payments": false,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "官网身份",
-        "当前 VPS / NAT 产品",
-        "支付方式",
-        "售卖地区"
-      ],
-      "note": "当前原官网仅返回 WWW.KOOYA.HK 页面，未取得可核实的当前 VPS / NAT 套餐，产品、付款及地区缺项继续保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
     "id": "lead-laoxuehost-com",
     "name": "老薛主机 LaoxueHost",
     "url": "https://my.laoxuehost.com/",
@@ -1417,41 +1382,6 @@
       "pending": [],
       "note": "当前官方充值文档明确渠道；非大陆 Visa/Mastercard 须绑定微信/支付宝扫码，云闪付需人工工单入账，跨境卡超过 200 元可能有渠道手续费。",
       "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
-    "id": "lead-nekoyun-com",
-    "name": "招财猫",
-    "url": "https://nekoyun.com/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
-    "sources": [
-      "https://nekoyun.com/"
-    ],
-    "countries": [],
-    "payments": [],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": false,
-      "product": false,
-      "payments": false,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "官网身份",
-        "当前 VPS / NAT 产品",
-        "支付方式",
-        "售卖地区"
-      ],
-      "note": "当前原入口为 NeKoYun 登录页面，未登录；未取得可公开核实的当前 VPS / NAT 套餐，既有待核项保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
     "aliasIds": []
@@ -4216,43 +4146,6 @@
     "checkedAt": "2026-11-06",
     "review": null,
     "offeredRegions": [],
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
-    "id": "lead-f4-network",
-    "name": "F4",
-    "url": "https://store.f4.network/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
-    "sources": [
-      "https://store.f4.network/",
-      "https://store.f4.network/index.php/plugin/support_manager/knowledgebase/",
-      "https://store.f4.network/index.php/order/main/packages/colocation/?group_id=55",
-      "https://store.f4.network/index.php/order/signup/index/colocation"
-    ],
-    "countries": [],
-    "payments": [],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": true,
-      "product": false,
-      "payments": false,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "当前 VPS / NAT 产品",
-        "支付方式",
-        "售卖地区"
-      ],
-      "note": "当前官网明确提供裸金属、托管和 IP Transit，尚未取得具体 VPS / NAT 套餐；仅有独立服务器不足以确认 VPS 产品。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
-    },
     "aliases": [],
     "aliasIds": []
   },
@@ -7256,56 +7149,6 @@
     "aliasIds": []
   },
   {
-    "id": "lead-maple-hosting-com",
-    "name": "Maple",
-    "url": "https://clients.maple-hosting.com/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查原目录入口与可取得的公开资料，当前 VPS 产品仍待补充核实。",
-    "sources": [
-      "https://clients.maple-hosting.com/knowledgebase/6/What-are-the-supported-payment-methods-How-can-I-pay.html",
-      "https://clients.maple-hosting.com/",
-      "https://clients.maple-hosting.com/knowledgebase/",
-      "https://clients.maple-hosting.com/store/netherlands-dedicated-servers",
-      "https://clients.maple-hosting.com/index.php",
-      "https://clients.maple-hosting.com/knowledgebase/10/The-Maple-Hosting-Story-and-FAQ",
-      "https://clients.maple-hosting.com/knowledgebase/11/Articles-For-Beginners"
-    ],
-    "countries": [],
-    "payments": [
-      "信用卡 / 借记卡",
-      "PayPal",
-      "Bitcoin",
-      "Bitcoin Cash",
-      "Ethereum",
-      "Dogecoin",
-      "USDC",
-      "GUSD",
-      "PAX",
-      "BUSD"
-    ],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": true,
-      "product": false,
-      "payments": true,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "当前 VPS / NAT 产品",
-        "售卖地区"
-      ],
-      "note": "当前官网与客户区主要为独立服务器，旧 Linux VPS 教程不是当前售卖套餐依据；产品待核，已有支付及地区资料保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 403），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
     "id": "lead-massivegrid-com",
     "name": "MassiveGRID",
     "url": "https://massivegrid.com/vps/",
@@ -7343,43 +7186,6 @@
       "pending": [],
       "note": "Cloud VPS 当前表单明确四个部署地区，不把 700+ 数据中心宣传当作可立即购买的 VPS 地区。",
       "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
-    "id": "lead-megalayer-net",
-    "name": "MEGALAYER",
-    "url": "https://account.megalayer.net/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-    "sources": [
-      "https://account.megalayer.net/",
-      "https://system.megalayer.net/",
-      "https://www.megalayer.net/"
-    ],
-    "countries": [],
-    "payments": [],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": false,
-      "product": false,
-      "payments": false,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "官网身份",
-        "当前 VPS / NAT 产品",
-        "支付方式",
-        "售卖地区"
-      ],
-      "note": "本轮原客户区及官方 system / www 入口均未取得可读取的当前商品；原入口读取超时，先前另有证书到期校验失败记录。未关闭 TLS 验证或绕过安全提示，产品、付款及地区继续待核。 第十轮重读原入口：ConnectTimeout: _ssl.c:993: The handshake operation timed out；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（ConnectTimeout: _ssl.c:993: The handshake operation timed out），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
     "aliasIds": []
@@ -7786,44 +7592,6 @@
       "pending": [],
       "note": "当前香港 HGC 100Mbps KVM 套餐匿名结算预览明确列 MoonVM Alipay、USDT-trc20。未接受条款、填写个人/付款资料或提交订单，临时预览购物车已清空。台湾及多档香港套餐仍显示缺货，所列地区不保证所有档位可购。",
       "sourceScope": "2026-11-06 第四轮核查：官网产品、公开配置或结算预览、官方 FAQ / 知识库及条款；所列是有公开依据的部分，非穷举。历史文档日期、渠道限制和库存见说明。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
-    "id": "mrvm",
-    "name": "MrVM",
-    "url": "https://mrvm.net/",
-    "category": "商家线索",
-    "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-    "status": "lead",
-    "sources": [
-      "https://mrvm.net/",
-      "https://clients.mrvm.net/plugin/support_manager/knowledgebase/view/198/payment-methods/"
-    ],
-    "countries": [],
-    "payments": [
-      "信用卡 / 借记卡",
-      "Bitcoin",
-      "Litecoin"
-    ],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": true,
-      "product": false,
-      "payments": true,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "当前 VPS / NAT 产品",
-        "售卖地区"
-      ],
-      "note": "当前主页显示 Updates Coming Soon / Legacy Client Portal，原 LXC 产品页返回 404；旧 NAT 端口知识库仍可读，但不能单凭历史端口说明确认当前在售 NAT 产品。支付资料保留，产品继续待核。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
     "aliasIds": []
@@ -8538,44 +8306,6 @@
       "pending": [],
       "note": "条款 Billing 明确 Stripe 银行卡及 NOWPayments 加密货币；联盟佣金 PayPal 提现未作为购买支付方式。",
       "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
-    "id": "lead-ocent-net",
-    "name": "Ocent",
-    "url": "https://ocent.net/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查官网公开资料，当前 VPS 产品仍待补充核实。",
-    "sources": [
-      "https://ocent.net/game/15/",
-      "https://ocent.net/game/4/",
-      "https://ocent.net/game/2/",
-      "https://ocent.net/shop/dedicated-server/",
-      "https://ocent.net/"
-    ],
-    "countries": [],
-    "payments": [],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": true,
-      "product": false,
-      "payments": false,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "当前 VPS / NAT 产品",
-        "支付方式",
-        "售卖地区"
-      ],
-      "note": "当前官网展示游戏云托管和独服，尚未取得明确的通用 VPS / NAT 套餐及对应开通条件；泛称云服务器或协议中的 VPS 字样不足以关闭产品待核项。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
     "aliasIds": []
@@ -9549,51 +9279,6 @@
       "complete": true,
       "pending": [],
       "note": "技术白 2025-01-25 的 ReCloud 新年具体 VPS 报价明确官网 oneprovide.net 及微信、支付宝、USDT；据注明日期的第三方报价补入。该来源含推广链接，未沿用历史促销折扣或保证本轮渠道、库存，不与 OneProvider 其他品牌混淆。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
-    "id": "lead-dedicated-redswitches-com",
-    "name": "RedSwitches",
-    "url": "https://dedicated.redswitches.com/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-    "sources": [
-      "https://www.redswitches.com/dedicated-servers/uk/",
-      "https://dedicated.redswitches.com/",
-      "https://dedicated.redswitches.com/index.php?rp=/store/rsv",
-      "https://dedicated.redswitches.com/index.php?rp=/store/rs-vpn-ams",
-      "https://dedicated.redswitches.com/index.php?rp=/store/rs-v",
-      "https://dedicated.redswitches.com/index.php?rp=/store/rs-us",
-      "https://dedicated.redswitches.com/index.php",
-      "https://www.redswitches.com/buy-dedicated-servers-with-bitcoin/"
-    ],
-    "countries": [],
-    "payments": [
-      "Bitcoin",
-      "Ethereum",
-      "USDT",
-      "加密货币"
-    ],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": true,
-      "product": false,
-      "payments": true,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "当前 VPS / NAT 产品",
-        "售卖地区"
-      ],
-      "note": "当前公开产品以独立服务器为主，仍无明确 VPS / NAT 套餐。官方独服付款页接受 Bitcoin、Ethereum、USDT 等加密货币，保留这些付款依据，但不扩展为 VPS 产品或地区确认。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
       "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
@@ -11560,7 +11245,8 @@
       "https://cloud.ggvision.net/index.php?rp=/store/us-lax-performance",
       "https://cloud.ggvision.net/index.php?rp=/store/twlite-taipei",
       "https://cloud.ggvision.net/index.php?rp=/store/jp-standard/jp-std-3",
-      "https://cloud.ggvision.net/cart.php?a=checkout&e=false"
+      "https://cloud.ggvision.net/cart.php?a=checkout&e=false",
+      "https://cloud.ggvision.net/index.php?rp=/store/hk-lite-plus"
     ],
     "countries": [],
     "payments": [
@@ -11587,7 +11273,7 @@
       "regions": true,
       "complete": true,
       "pending": [],
-      "note": "用户手动完成浏览器安全验证后，已读取六个地区的具体 VPS 目录。日本 JP-Std-3 例为 1 个 Ryzen 9950X 核心、2GB DDR5 ECC、15GB NVMe、独立 IPv4 / IPv6，公开月付 10 USD；部分入门档读取时为 0 可用，不能概括全站库存。匿名结算明确列微信/支付宝1（自动开通）、USDT（自动开通）、微信/支付宝2（手动开通/无手续费）；仅据这些可见选项记录支付宝、微信和 USDT，币链及其他渠道未确认。产品声明不保证中国大陆路由/连通性；流媒体营销未作实测验收。未填写个人资料、接受条款、注册、提交订单或付款；临时购物车已清空。",
+      "note": "用户手动完成浏览器安全验证后，已读取六个地区的具体 VPS 目录。日本 JP-Std-3 例为 1 个 Ryzen 9950X 核心、2GB DDR5 ECC、15GB NVMe、独立 IPv4 / IPv6，公开月付 10 USD；部分入门档读取时为 0 可用，不能概括全站库存。匿名结算明确列微信/支付宝1（自动开通）、USDT（自动开通）、微信/支付宝2（手动开通/无手续费）；仅据这些可见选项记录支付宝、微信和 USDT，币链及其他渠道未确认。产品声明不保证中国大陆路由/连通性；流媒体营销未作实测验收。未填写个人资料、接受条款、注册、提交订单或付款；临时购物车已清空。 用户补充的香港 Lite Plus 页面亦已读取，列独立 IPv4 / IPv6 与具体 HKLite-Plus 型号，入门款读取时缺货；香港地区依据得到补充。",
       "sourceScope": "2026-11-07 用户协助通过网页验证后的当前官网商品目录、具体配置及匿名结算预览。地区依产品标题及型号，不取自账单国家列表；价格和库存仅对应读取时现场，不保证交付、实时库存或物理机房实测。"
     },
     "aliases": [],
@@ -11792,41 +11478,6 @@
       "pending": [],
       "note": "现行条款第 3 章明确普通客户使用银行卡；韩国本地企业另可银行转账/虚拟账户，未写成所有客户通用。",
       "sourceScope": "2026-11-06 第二轮核查：官网、产品页、官方 FAQ / 知识库或现行条款；所列为已确认部分，实际渠道及库存以结账为准。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
-    "id": "lead-vps-cx",
-    "name": "VPS 促销",
-    "url": "https://vps.cx/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-    "sources": [
-      "https://vps.cx/"
-    ],
-    "countries": [],
-    "payments": [],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": false,
-      "product": false,
-      "payments": false,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "官网身份",
-        "当前 VPS / NAT 产品",
-        "支付方式",
-        "售卖地区"
-      ],
-      "note": "当前原入口严格 TLS 校验失败，证书已过期；未绕过安全提示，当前产品及缺项保留待核。 第十轮重读原入口：ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
     "aliasIds": []
@@ -12285,36 +11936,38 @@
   {
     "id": "lead-vps-town",
     "name": "VPS.Town",
-    "url": "https://vps.town/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
+    "url": "https://vps.town/#/purchase",
+    "category": "VPS",
+    "status": "official",
+    "desc": "用户协助登录后核对当前香港 VPS 目录、具体配置与付款渠道；所见资料分项展示。",
     "sources": [
       "https://vps.town/#/login",
       "https://docs.vps.town/kb/faq.html",
       "https://vps.town/",
-      "https://t.me/s/VPSTown_Notify"
+      "https://t.me/s/VPSTown_Notify",
+      "https://vps.town/#/purchase"
     ],
     "countries": [],
-    "payments": [],
+    "payments": [
+      "支付宝",
+      "微信支付"
+    ],
     "plans": 0,
     "nat": false,
     "checkedAt": "2026-11-07",
-    "offeredRegions": [],
+    "offeredRegions": [
+      "中国香港"
+    ],
     "review": {
-      "outcome": "blocked",
+      "outcome": "complete",
       "website": true,
-      "product": false,
-      "payments": false,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "当前 VPS / NAT 产品",
-        "支付方式",
-        "售卖地区"
-      ],
-      "note": "当前官网进入账户登录页，未登录。官方文档链接的公开公告频道有历史配置并曾公告逐步停止新开通，仍未取得当前可售套餐；NAT / PVE 教程不等于当前 NAT 商品，支付及地区缺项保留。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
+      "product": true,
+      "payments": true,
+      "regions": true,
+      "complete": true,
+      "pending": [],
+      "note": "经用户登录后的官方订购页核对，地区为中国香港，包含 HK Global 与 HK Global Premium 线路，目录提供标准型、存储型及固态存储型类别。4H16G.标准型.HKG-A5m 的所见基础配置为 4 vCPU、16GB 内存、60GB 系统盘、4096GB 月流量、1 个 IPv4，月付及续费均显示 65 元；其他资源选项会影响报价，页面称报价 5 分钟有效。部分型号售罄仅为读取时库存。配置页付款选项明确为支付宝、微信支付；未勾选配置付款确认，未点击立即支付并订购，也未创建订单或付款。旧 NAT 教程不作当前 NAT 商品依据。",
+      "sourceScope": "2026-11-07 用户授权的已登录浏览器会话中，读取官方订购目录、配置清单及付款选项。所列为该会话可见的商品信息，不保证所有账户一致、实时库存或实际交付。仅发布通用商品事实，账号、余额和私有资料不进入导航。"
     },
     "aliases": [],
     "aliasIds": []
@@ -12806,41 +12459,6 @@
       "pending": [],
       "note": "",
       "sourceScope": "本轮读取的官网、产品目录、官方知识库或条款；所列地区及支付为已确认部分，非穷举。"
-    },
-    "aliases": [],
-    "aliasIds": []
-  },
-  {
-    "id": "lead-zhnet-co-uk",
-    "name": "Zhnet",
-    "url": "https://cloud.zhnet.co.uk/",
-    "category": "商家线索",
-    "status": "lead",
-    "desc": "已检查官网及可取得的公开资料，当前 VPS / NAT 产品仍待核。",
-    "sources": [
-      "https://cloud.zhnet.co.uk/"
-    ],
-    "countries": [],
-    "payments": [],
-    "plans": 0,
-    "nat": false,
-    "checkedAt": "2026-11-07",
-    "offeredRegions": [],
-    "review": {
-      "outcome": "blocked",
-      "website": false,
-      "product": false,
-      "payments": false,
-      "regions": false,
-      "complete": false,
-      "pending": [
-        "官网身份",
-        "当前 VPS / NAT 产品",
-        "支付方式",
-        "售卖地区"
-      ],
-      "note": "当前原客户区显示 Critical Error / Could not connect to database，未取得可读取的当前 VPS / NAT 套餐及付款、地区依据，保留待核。 第十轮重读原入口：HTTP 200；仍无足够当前 VPS / NAT 商品依据，缺项保留。 第十一轮重新核对原入口（HTTP 200），仍未取得新的当前公开具体 VPS / NAT 商品依据。",
-      "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
     "aliasIds": []

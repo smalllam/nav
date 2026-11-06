@@ -561,17 +561,6 @@
     ]
   },
   {
-    "id": "mrvm",
-    "name": "MrVM",
-    "url": "https://mrvm.net/",
-    "category": "VPS",
-    "desc": "官网当前显示即将更新及旧客户入口，未核实新购 VPS。",
-    "status": "lead",
-    "sources": [
-      "https://mrvm.net/"
-    ]
-  },
-  {
     "id": "torchbyte",
     "name": "Torchbyte",
     "url": "https://torchbyte.com/",

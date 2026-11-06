@@ -136,13 +136,6 @@
       "kind": "official-site-icon",
       "sha256": "012fe5be62ac8f44c8ecbfca9082ff4b02df09b538d587baf80b5e9ae8e35c46"
     },
-    "lead-kooya-hk": {
-      "path": "/assets/merchants/f21c2dcb559986ce.png",
-      "sourcePage": "https://www.kooya.hk/",
-      "sourceUrl": "https://www.kooya.hk/favicon.ico",
-      "kind": "official-site-icon",
-      "sha256": "959754f54bc36c17eeee06eaf878fb5b094eed4137fb2f9fba9105bb9b9a29ec"
-    },
     "lead-laoxuehost-com": {
       "path": "/assets/merchants/c6aa113ff436ed75.png",
       "sourcePage": "https://my.laoxuehost.com/clientarea.php",
@@ -250,13 +243,6 @@
       "sourceUrl": "https://www.rainyun.com/favicon.ico",
       "kind": "official-site-icon",
       "sha256": "6f6fd24ae52c518ea34ed6aef485c3a14b98a96813f3ef95a87da252eae6068f"
-    },
-    "lead-nekoyun-com": {
-      "path": "/assets/merchants/cb315db5ca3f1413.ico",
-      "sourcePage": "https://www.nekoyun.com/login",
-      "sourceUrl": "https://www.nekoyun.com/themes/clientarea/yunyoo/assets/images/favicon.ico",
-      "kind": "official-site-icon",
-      "sha256": "9e3d6113a9a5ea49fffc9bcb0129b0aa38fd2852b1937dc9a386ef32fe8ba309"
     },
     "lead-aait-io": {
       "sourcePage": "https://www.aaitr.com/",
@@ -739,13 +725,6 @@
       "sourceUrl": "https://exact.gg/apple-icon",
       "kind": "official-site-icon",
       "sha256": "337b734f950b029f18fa32418421f7552b9aa51cbd78a360ade414d5cd661295"
-    },
-    "lead-f4-network": {
-      "path": "/assets/merchants/bfff83a02dff7120.png",
-      "sourcePage": "https://store.f4.network/",
-      "sourceUrl": "https://store.f4.network/app/views/client/ultrahost/images/favicon.png",
-      "kind": "official-site-icon",
-      "sha256": "1d2aa9bb1fef1f9881bbc6b9127b1b1d685d408825ff2ac3e122ee950278ae42"
     },
     "lead-fastmos-com": {
       "path": "/assets/merchants/77dd4fa5b1998449.png",
@@ -1276,26 +1255,12 @@
       "kind": "official-site-icon",
       "sha256": "73fe6841b52480e6d1c5018f4c47dc7f02a516fea2fd9ed8754a159cffae8ec9"
     },
-    "lead-maple-hosting-com": {
-      "path": "/assets/merchants/41d87d4fbb3ed4e5.png",
-      "sourcePage": "https://clients.maple-hosting.com/",
-      "sourceUrl": "https://clients.maple-hosting.com/templates/lagom2/assets/img/favicons/favicon-76.png",
-      "kind": "official-site-icon",
-      "sha256": "89e07e12390331e413ce56e4534b129552d1494074f45f9f556ddbc7b5f40a07"
-    },
     "lead-massivegrid-com": {
       "path": "/assets/merchants/20b61d419dabe80d.png",
       "sourcePage": "https://massivegrid.com/vps/",
       "sourceUrl": "https://massivegrid.com/favicon.png",
       "kind": "official-site-icon",
       "sha256": "c037cc645988ffa80a12deabad60f6668d2dd331520eb2d149bb0c00e574d9d7"
-    },
-    "lead-megalayer-net": {
-      "path": "/assets/merchants/4a409453ecc4f08c.png",
-      "sourcePage": "https://www.cloudflare.com/case-studies/megalayer/",
-      "sourceUrl": "https://images.ctfassets.net/slt3lc6tev37/46WgkGcc1M5DkCum7emF5K/8ba2f80221680f7be188eb6d99a13f2b/Megalayer_Logo.png",
-      "kind": "official-partner-case-study-logo",
-      "sha256": "d4552c041077696aff858f32dc83d4c1ffd763cb08e2c654002649124a62e1b9"
     },
     "lead-mejiro-io": {
       "path": "/assets/merchants/bf026bbdfdd8e81f.png",
@@ -1366,13 +1331,6 @@
       "sourceUrl": "https://store.moonvm.com/templates/hostify/images/favicon.png",
       "kind": "official-site-icon",
       "sha256": "f6dd32b8bcf8f73562db22cd70cf8b8495a18e614ecdab0684e7df0b0e8c9a9f"
-    },
-    "mrvm": {
-      "path": "/assets/merchants/07465cfc123f7d76.png",
-      "sourcePage": "https://mrvm.net/",
-      "sourceUrl": "https://mrvm.net/logo.png",
-      "kind": "official-site-logo",
-      "sha256": "4b4509f3a88100bf564d6c244c27ba5fb30235ffe1730051fdb556aa073c146a"
     },
     "myidc-莫涵云": {
       "path": "/assets/merchants/73fae70941f8e8fe.svg",
@@ -1480,13 +1438,6 @@
       "sourceUrl": "https://nuyek.com/images/favicon.png",
       "kind": "official-site-icon",
       "sha256": "3337b2b2232cad5ff7f55a2d62905eaa66e81dd9e63d460189ed20c82cd415ce"
-    },
-    "lead-ocent-net": {
-      "path": "/assets/merchants/3317de416ae20c32.ico",
-      "sourcePage": "https://ocent.net/",
-      "sourceUrl": "https://ocent.net/favicon.ico",
-      "kind": "official-site-icon",
-      "sha256": "8b12b4b865630b7da007480668c7d83cacbc5f83f24da4fcbcfd6d508dc435df"
     },
     "lead-offshorededi-com": {
       "path": "/assets/merchants/bab7bb896e7784d9.webp",
@@ -1670,13 +1621,6 @@
       "note": "官网当前页首实际品牌标识的原样屏幕截图；未重新绘制或替换字体。",
       "path": "/assets/merchants/615770e7580a6948.jpg",
       "sha256": "cd36074ff101b230f2b03198a567a8c9188061e7f18209cc596cbf8557af4421"
-    },
-    "lead-dedicated-redswitches-com": {
-      "path": "/assets/merchants/647acf289e77ae86.svg",
-      "sourcePage": "https://dedicated.redswitches.com/",
-      "sourceUrl": "https://dedicated.redswitches.com/templates/redswitches-v4/img/favicon.svg",
-      "kind": "official-site-icon",
-      "sha256": "00f5b45afdad2f9c827de880af85e5bcb5dbd8ebc60940091713558c62cc56cf"
     },
     "lead-renet-tw": {
       "path": "/assets/merchants/568da2271dfd17ff.png",
@@ -2097,14 +2041,6 @@
       "kind": "official-site-icon",
       "sha256": "73ff3ee9bec48dfc08d214ec3659c2cffc0e8fa339a951d232be7b39ddfd4d6e"
     },
-    "lead-vps-cx": {
-      "path": "/assets/merchants/ad7b7da2fd3a6105.png",
-      "sourcePage": "https://vps.cx/favicon.png",
-      "sourceUrl": "https://web.archive.org/web/20251229155709id_/https://vps.cx/favicon.png",
-      "kind": "archived-official-site-icon",
-      "sha256": "fe851417632c0c9d78ccedee2c1c45d2205656edc395dc445fdf87718426ae25",
-      "note": "Internet Archive 保存的原官网品牌图标，快照 20251229155709；历史身份图，不据此声称当前商品或经营恢复。"
-    },
     "vps-for-life": {
       "path": "/assets/merchants/75447e76e47df1b1.png",
       "sourcePage": "https://vpsforlife.com/vps-hosting-in-iran",
@@ -2223,14 +2159,6 @@
       "sourceUrl": "https://www.xsx.net/templates/Pzea/img/logo.svg",
       "kind": "official-site-logo",
       "sha256": "bd57f4d7d49890831907ce1f8736019e6f0c8df3126f39b3c8f96d9ff7966c94"
-    },
-    "lead-zhnet-co-uk": {
-      "path": "/assets/merchants/77db5a94d8f2b855.png",
-      "sourcePage": "https://cloud.zhnet.co.uk/",
-      "sourceUrl": "https://web.archive.org/web/20230516144121id_/https://cloud.zhnet.co.uk/assets/img/logo.png",
-      "kind": "archived-official-site-logo",
-      "sha256": "d1f915f84ab30bfa8a7c31dbbc49d3c01eb71efec7e9dfdfcf925ae727cf6c3e",
-      "note": "Internet Archive 2023-05-16 保存的官网 ZH NETWORK Internet Services 原始品牌图；历史标志，不证明当前商品恢复。"
     },
     "lead-zlidc-net": {
       "path": "/assets/merchants/30a71bafcc5eac1c.ico",

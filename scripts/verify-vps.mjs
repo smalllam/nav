@@ -11,10 +11,10 @@ const extra = JSON.parse(fs.readFileSync('data/merchants-extra.json'))
 const discovery = JSON.parse(fs.readFileSync('data/merchant-discovery.json'))
 assert.deepEqual(merchants, buildMerchants(db, extra, discovery, verification))
 const originalLeads = buildMerchants(db, extra, discovery).filter(m => m.status === 'lead')
-assert.equal(originalLeads.length, 232)
+assert.equal(originalLeads.length, 222)
 assert.deepEqual(new Set(verification.records.map(m => m.id)), new Set(originalLeads.map(m => m.id)))
 assert.equal(verification.records.filter(m => m.mergedInto).length, 2)
-assert.equal(merchants.length, 316)
+assert.equal(merchants.length, 306)
 assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
 assert.equal(merchants.reduce((n,m) => n + m.plans, 0), items.length)
 assert.equal(merchants.filter(m => m.name.includes('Uzumaru')).length, 1)
@@ -38,8 +38,8 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 219)
-assert.equal(reviewed.filter(m => m.review.complete).length, 212)
+assert.equal(reviewed.filter(m => m.review.product).length, 220)
+assert.equal(reviewed.filter(m => m.review.complete).length, 213)
 assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('Vision Cloud').review.complete)
@@ -54,7 +54,8 @@ assert.deepEqual(merchant('Nolimithost').offeredRegions, ['德国 · 法兰克�
 assert(merchant('Flapjacks').nat && merchant('Flapjacks').review.note.includes('IPv4 NAT 出站'))
 assert(!merchant('Datapasa').offeredRegions.some(r => /巴西/.test(r))) // Coming soon.
 assert(!merchant('Nuyek').payments.includes('USDT')) // A gateway's supported coins do not prove merchant acceptance.
-assert(!merchant('Maple').review.product) // Dedicated servers are not VPS.
+for (const name of ['招财猫', '酷鸭', 'MEGALAYER', 'VPS 促销', 'Zhnet', 'MrVM', 'F4', 'Maple', 'Ocent', 'RedSwitches']) assert(!merchant(name)) // Explicit user removal includes all source layers.
+assert.equal(merchants.filter(m => m.status === 'lead').length, 0)
 for (const name of ['ASVM', 'Virtualine', 'Servps', 'ServerSpan']) assert(!merchant(name)) // User requested removal; historical evidence stays in the local case.
 assert(merchant('Lain.sh').nat && merchant('Lain.sh').review.note.includes('仅 IPv6 入站'))
 assert(merchant('Blend Hosting').nat && merchant('Blend Hosting').review.note.includes('3 个自定义端口映射'))
@@ -71,7 +72,9 @@ assert.deepEqual(merchant('cloudafra').offeredRegions, ['日本 · 东京', '新
 assert.deepEqual(merchant('AaITR').payments, ['支付宝'])
 assert.deepEqual(merchant('Voluri').payments, ['支付宝', '加密货币'])
 assert(merchant('Datalix').payments.includes('PayPal') && !merchant('Datalix').payments.includes('USDT')) // Explicit Storage KVM payment section, not the gateway's supported coins.
-assert(!merchant('MrVM').review.product && merchant('MrVM').review.payments) // Payment documentation does not prove a current VPS SKU.
+assert(merchant('VPS.Town').review.complete)
+assert.deepEqual(merchant('VPS.Town').payments, ['支付宝', '微信支付'])
+assert.deepEqual(merchant('VPS.Town').offeredRegions, ['中国香港'])
 assert(merchant('SERVER.TW').review.product && merchant('SERVER.TW').offeredRegions.length === 4) // Concrete regional VPS rows.
 for (const name of ['Kvmla', 'LaLa Net', 'UQIDC']) assert(merchant(name).payments.includes('USDT'))
 assert(!merchant('UQIDC').payments.includes('PayPal') && !merchant('UQIDC').payments.includes('信用卡 / 借记卡')) // Actual preview takes priority over generic footer logos.

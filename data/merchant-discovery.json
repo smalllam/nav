@@ -225,11 +225,6 @@
     "url": "https://client.elixior.cloud/"
   },
   {
-    "name": "F4",
-    "source": "https://digvps.com/review",
-    "url": "https://store.f4.network/"
-  },
-  {
     "name": "FastMOS",
     "source": "https://digvps.com/review",
     "url": "https://www.fastmos.com/"
@@ -500,24 +495,9 @@
     "url": "https://www.loyalserver.com/"
   },
   {
-    "name": "Maple",
-    "source": "https://digvps.com/review",
-    "url": "https://clients.maple-hosting.com/"
-  },
-  {
-    "name": "Maple-Hosting",
-    "source": "https://digvps.com/review",
-    "url": "https://clients.maple-hosting.com/"
-  },
-  {
     "name": "MassiveGRID",
     "source": "https://digvps.com/review",
     "url": "https://portal.massivegrid.com/"
-  },
-  {
-    "name": "MEGALAYER",
-    "source": "https://digvps.com/review",
-    "url": "https://account.megalayer.net/"
   },
   {
     "name": "Mejiro",
@@ -610,11 +590,6 @@
     "url": "https://nuyek.com/"
   },
   {
-    "name": "Ocent",
-    "source": "https://digvps.com/review",
-    "url": "https://ocent.net/"
-  },
-  {
     "name": "OffshoreDedi",
     "source": "https://digvps.com/review",
     "url": "https://my.offshorededi.com/"
@@ -698,11 +673,6 @@
     "name": "ReCloud",
     "source": "https://digvps.com/review",
     "url": "https://oneprovide.net/"
-  },
-  {
-    "name": "RedSwitches",
-    "source": "https://digvps.com/review",
-    "url": "https://dedicated.redswitches.com/"
   },
   {
     "name": "ReNet",
@@ -920,11 +890,6 @@
     "url": "https://vpc.kr/"
   },
   {
-    "name": "VPS 促销",
-    "source": "https://digvps.com/review",
-    "url": "https://vps.cx/"
-  },
-  {
     "name": "VPS.Town",
     "source": "https://digvps.com/review",
     "url": "https://vps.town/"
@@ -963,11 +928,6 @@
     "name": "XSXNetwork",
     "source": "https://digvps.com/review",
     "url": "https://www.xsx.net/"
-  },
-  {
-    "name": "Zhnet",
-    "source": "https://digvps.com/review",
-    "url": "https://cloud.zhnet.co.uk/"
   },
   {
     "name": "zlidc",
@@ -1013,11 +973,6 @@
     "name": "恒创科技",
     "source": "https://digvps.com/review",
     "url": "http://my.henghost.com/"
-  },
-  {
-    "name": "招财猫",
-    "source": "https://digvps.com/review",
-    "url": "https://nekoyun.com/"
   },
   {
     "name": "易科云（OneTechCloud）",
@@ -1108,11 +1063,6 @@
     "name": "速科云",
     "source": "https://digvps.com/review",
     "url": "https://www.sukeyun.com/"
-  },
-  {
-    "name": "酷鸭数据",
-    "source": "https://digvps.com/review",
-    "url": "https://www.kooya.hk/"
   },
   {
     "name": "黑果云",
