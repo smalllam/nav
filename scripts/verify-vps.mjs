@@ -39,13 +39,13 @@ for (const m of merchants) {
 }
 const reviewed = merchants.filter(m => m.review)
 assert.equal(reviewed.filter(m => m.review.product).length, 219)
-assert.equal(reviewed.filter(m => m.review.complete).length, 154)
-assert.equal(reviewed.filter(m => m.nat).length, 20)
+assert.equal(reviewed.filter(m => m.review.complete).length, 182)
+assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
 assert.equal(merchant('EDGENAT').nat, false) // A brand name is not a NAT product.
 assert.equal(merchant('七牛').nat, false) // NAT Gateway is not NAT VPS.
-assert.equal(merchant('TripodCloud').payments.length, 0) // Future-dated announcement.
+assert.deepEqual(merchant('TripodCloud').payments, ['PayPal', '支付宝', '微信支付']) // Current VPS payment clauses; the future-dated announcement remains excluded.
 assert.deepEqual(merchant('Nolimithost').offeredRegions, ['德国 · 法兰克福', '美国 · 芝加哥', '荷兰 · Eygelshoven']) // Actual VPS product rows, not a registration country picker.
 assert(merchant('Flapjacks').nat && merchant('Flapjacks').review.note.includes('IPv4 NAT 出站'))
 assert(!merchant('Datapasa').offeredRegions.some(r => /巴西/.test(r))) // Coming soon.
@@ -71,7 +71,7 @@ assert(merchant('LevelOneServers').review.note.includes('0 Available') && mercha
 assert(!merchant('Q云').review.payments) // Selling a payment gateway does not establish purchase payment methods.
 assert(merchant('Braw Hosting').nat && merchant('Braw Hosting').review.note.includes('3 个自定义端口转发'))
 assert(merchant('Braw Hosting').offeredRegions.includes('马来西亚（住宅 IP 地区）')) // IP region is not independent physical-location verification.
-assert(merchant('cloudku').offeredRegions.includes('印度尼西亚') && !merchant('cloudku').review.payments)
+assert(merchant('cloudku').offeredRegions.includes('印度尼西亚') && merchant('cloudku').payments.includes('PayPal') && !merchant('cloudku').payments.includes('信用卡 / 借记卡')) // The official announcement explicitly disables cards.
 assert(merchant('EasyHeberg').payments.includes('PayPal') && merchant('EasyHeberg').payments.includes('信用卡 / 借记卡'))
 assert.deepEqual(merchant('PP-Networks').offeredRegions, ['欧洲（型号区域，具体国家待核）']) // Do not infer Germany from the legacy product URL slug.
 assert(merchant('Sharktech').payments.includes('USDT') && !merchant('Sharktech').payments.includes('支付宝')) // Current Coinbase guide vs archived Alipay news.

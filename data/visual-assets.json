@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06",
+  "checkedAt": "2026-11-07",
   "merchants": {
     "lead-99rdp-com": {
       "path": "/assets/merchants/87fba7166b7cf95e.png",
@@ -59,8 +59,11 @@
       "sha256": "4cb376c33c57659c8a0fa5083d02dc09fa1aa89e51d590d1d3d5bbcc4b67f1e5"
     },
     "lead-vps-idcfx-net": {
-      "path": null,
-      "sourcePage": "https://vps.idcfx.net/"
+      "path": "/assets/merchants/1a066554c8cc8862.png",
+      "sourcePage": "https://vps.idcfx.com",
+      "sourceUrl": "https://vps.idcfx.com/themes/web/www/upload/local6aeca75cd6ff3.png",
+      "kind": "official-site-logo",
+      "sha256": "f0d51e2563e6dfb85bc214e458d2f80050f57469a343900e5d03ed214f953d95"
     },
     "dogyun": {
       "path": "/assets/merchants/06a1879a56a99a1c.png",
@@ -164,12 +167,19 @@
       "sha256": "d58dcfaa2e076f18003dbbc85cfc1217532a368857080eb173a753e242329450"
     },
     "lead-miaoyun-link": {
-      "path": null,
-      "sourcePage": "https://miaoyun.link/"
+      "path": "/assets/merchants/f427f7d4c7320dca.jpg",
+      "sourcePage": "https://miaoyun.link/",
+      "sourceUrl": "https://cdn5.telesco.pe/file/UerpMd_gu01mp_nWwZuVTCMKssshF7Psbd6mt7Bp71bOXpwVQV-4zhoA5KTHJiP0KsKLSYAOaCzbLTvkgdGamGNOGH404FqMaI7hkLnwYTSt82hXz2_Aw57r1Ru5CCTJBv6gkKuwk2HMAtBXBRIV9LGF8qd4a0KrxRenDGs3edRljX1wgtNIHS8fXWn3wZo74Fo_ap4LYM8YzjCByspJBXQMENfE9iRhjwtLTtFEG66Cu94h9j2mm42_1VzTmE4uKfP4OBYFvWTVDUvABNLblaSEAwnsBVeRjAY5wCrWHHJOXBVpAkmp1CBROpY0y_7MrzdlQ9cmddE5po1BseaGLQ.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "05e10d12e0f5d2711889029e359c6c34c4d45967eecac80b39f0a1e985f1c6de"
     },
     "lead-iaclouds-com": {
-      "path": null,
-      "sourcePage": "https://brea.cloud/"
+      "path": "/assets/merchants/cb6732043398e936.jpg",
+      "sourcePage": "https://t.me/s/aiyunnetworkchannel",
+      "sourceUrl": "https://cdn5.telesco.pe/file/goY8jVwzYGkVtI7xC8oA-F8GF8tnGGP9DXyqS0DRlyaWTCc9VJdf_BqIe_N22v1MkqE6JjE4VayWHLfBEVS0rRQTuyni3EiCZP2ATRo9Rr6jlQtYaO_R9D3tkvE24PLTLbE3m_D-Kr-37f79MhlTE9NP1-VPpLn7CyGAL-awKIVsat8llJgGN4Mz4q66DBuGwD6BfMhnDWTNldDAuDz9hcHr4GUnG5hZXrCFY9hW3wCojmebGjalw_HLINkPQi0vjUfq5X3VVple16aMi1Qc6Mkb4wc-TdjiD9KmD1B9W42iV3M6spY1fbpYjCc6Vz7PoRnlYjlD-PbMEeiO1iJgDg.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "4dc445652ed9649001f610eb5546a071d5bec79fa71b327bf286b8b0784ad6f1",
+      "note": "原艾云官方频道仍使用旧品牌头像，迁移至 BreaCloud 的关联已由官方公告确认。"
     },
     "lead-s-qiniu-com": {
       "path": "/assets/merchants/6d667d28d2fe62a9.ico",
@@ -200,8 +210,11 @@
       "sha256": "5171df10b79863d76d591705e52b93b4c5295e64d874e41fca5ecac351f5f45e"
     },
     "lead-starshipcloud-net": {
-      "path": null,
-      "sourcePage": "https://www.starshipcloud.net/"
+      "path": "/assets/merchants/f7e275201cba7d6c.jpg",
+      "sourcePage": "https://www.starshipcloud.net/helpcontent/2.html",
+      "sourceUrl": "https://cdn5.telesco.pe/file/l3kst-RxRbseZpHXaZ-DyoHlSEgnzLaIeCsWOCnJZpMNOzfiML772QfL8zbQbqsb2GAcVDVI6sMBzlLk_rhpWmDNjnc3iiif4GMOc1rbrbNaK1-YjIcRc-ncnl7Zu2pLR7vO-TD40ljkPYWt-nX1kJQgbRr1E1Bn34eie2Maz7ApzrqqnAR-Y9TXXKv3SnYp7Hc7OruhKxxiw_JOc_DiDVPQNdW49QU5-KSmgKh83nMH2NwaxirtnoCTf-jLfI5_9dG4ojk4qVFnV0ke62kt9Ita9yZN7qDGW0R9JkHwkj5dmYKkPmdxjoXYavqEXZJojGabzdNYE4dy2Sg0NY9HoQ.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "e5a37efe2592d3862ffc1ae1d652717daa2bef026cc2cf2d9d7df5a027974bf8"
     },
     "lead-port-nomao-top": {
       "path": "/assets/merchants/e58279cc3b586a86.jpg",
@@ -250,8 +263,11 @@
       "sha256": "6a084c2e0e2783d366e30ba1de3c26ec04f10b1bacc993ac3c1ed501a59cfa18"
     },
     "acck": {
-      "path": null,
-      "sourcePage": "https://acck.io/"
+      "path": "/assets/merchants/20d259e6a5545949.jpg",
+      "sourcePage": "https://t.me/s/acck_notice",
+      "sourceUrl": "https://cdn5.telesco.pe/file/HYHkUI6IcEqeRhpAyAceEh0W4uYn5nNcWHa-TrVrW8zSebPd26gRt9grGdeJbgxaskILwVvSXUmbkUo4vFGcBFaQlqm5HyNh0lJ7XSbJz1vSMQKcuMv00swMO6NeyvV0GcDZl0QJMIOgRJovcGxq9nD_nfYEajxAekMFs6hkgrtYA2VFJuReL0wDoDke79339dFdV17exXo1xGjCsGdAcm51GwsSFlpD1TXmbmTo0HPRrYD_-7z9IEZRbnYrvztm1TgbzfUxEJWa1MbFGDldp_J7fS-3q6typfRTcSw9gVXIMB9qzvjeRXdoJ71l6M5W5ymJGnSqpBYRlF_i5Nx81g.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "34ff6599c6ade556bd43ad030d215951cc38ee05d427ce3067c2bf799befd48c"
     },
     "lead-acebgp-com": {
       "path": "/assets/merchants/0f5d26eb586f7a72.png",
@@ -537,12 +553,19 @@
       "sha256": "13e1bf297001093b8ca46150355e7d7253231748cac18e2a52b6313c445438f1"
     },
     "lead-cloudsilk-io": {
-      "path": null,
-      "sourcePage": "https://cloudsilk.io/"
+      "path": "/assets/merchants/bcc4239c37972d13.jpg",
+      "sourcePage": "https://t.me/bestidc",
+      "sourceUrl": "https://cdn5.telesco.pe/file/Zwsoz1dVMok_8B0-4IJzl954c8246CQRfxO-vWs1CLBy3BE-4Gq64g1mkWeCEIMoGGVeRD99aDXRUDEAcCHOyPtnHG68qrbCh-iDLTImzVk7ooVxMImbP_YuVCACImQFLzL_zSW5Ba2Vtf3Jk8SmxxyfnF2EoQgKJORqddrh8GgoeEEeOwz7yurJOLn2vUMflHTO8xMXdRlGFujbZ4zB9bgx-i8t3H8Ewa0rCMrRhRQP3qOD12Vo7rhPRqHui0pHd5Mt7lhy_44LC578uQ2_vmQD9C5eSfPDre9MzNKqeIp5lqlnOQDO3DqB7GSRdI7Ih3fGSWp2LSEluqJkZVtDGA.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "2cba6c91f682fe3887631dbf68ce47b633ce6e5433f7daffe1560ade6bf08898",
+      "note": "CloudSilk 官方通知频道当前选择的头像；是频道身份图，并非企业文字标志。"
     },
     "colocrossing": {
-      "path": null,
-      "sourcePage": "https://cloud.colocrossing.com/"
+      "path": "/assets/merchants/21cd678aacf6c69e.svg",
+      "sourcePage": "https://www.colocrossing.com/",
+      "sourceUrl": "https://www.colocrossing.com/wp-content/uploads/2026/10/ColoCrossing_website_logo-1.svg",
+      "kind": "official-site-logo",
+      "sha256": "971974c58b6b144ab3325ad859b394bcdf7bdde4efba39ef5b7979b1f2518eab"
     },
     "contabo": {
       "path": "/assets/merchants/645e3597571c5c8b.ico",
@@ -774,8 +797,12 @@
       "sourcePage": "https://getvps.africa/locations/"
     },
     "lead-gigsgigscloud-com": {
-      "path": null,
-      "sourcePage": "https://www.gigsgigscloud.com/"
+      "path": "/assets/merchants/4747cc98715a601c.png",
+      "sourcePage": "https://www.gigsgigscloud.com/",
+      "sourceUrl": "https://www.gigsgigscloud.com/wp-content/uploads/2020/12/logo_new.png",
+      "kind": "official-site-logo",
+      "sha256": "092bc7e57bacd90f6fe20cdd5bd136e1f0ec1e28b723567f867a564a195d296f",
+      "theme": "dark"
     },
     "globalvm": {
       "path": "/assets/merchants/fcd9cd1acc754eef.png",
@@ -974,8 +1001,11 @@
       "sha256": "fea10110f0daecf280dc7d78161f7cb3e8bfa72725f9326033dbc0c19e41b17f"
     },
     "lead-hostslim-eu": {
-      "path": null,
-      "sourcePage": "https://clients.hostslim.eu/"
+      "path": "/assets/merchants/1b9c5f322ddbbfbc.svg",
+      "sourcePage": "https://hostslim.net/",
+      "sourceUrl": "https://hostslim.net/favicon.svg",
+      "kind": "official-site-icon",
+      "sha256": "99c55b092f702202d493fea78a018f6cf0a33de6cb3b7ec31073e0e3fbcff0b1"
     },
     "hostwinds": {
       "path": "/assets/merchants/18674ab91b79ef93.png",
@@ -1041,8 +1071,11 @@
       "sha256": "bc89f8327dde397aa196f590251e3157bb86f1e147b21e5edbbf1210bb1da0dc"
     },
     "lead-itldc-com": {
-      "path": null,
-      "sourcePage": "https://itldc.com/"
+      "path": "/assets/merchants/24d33d583d3f1020.jpg",
+      "sourcePage": "https://itldc.com/en/lg",
+      "sourceUrl": "https://cdn4.telesco.pe/file/tiqXbwS5_gNKQY8piTSCbe68HNySsMl_YLIfPtzd4E5oV55q3IWxnQAxYW3iy008EIMPsDTyHDcUgUzFtlI2bQ7mwhFDvdYHH2GuEefycToDOPO7mw7nwIMO2RN1OKT2y3TJCzD6OBCmtaWpBg0WuNZVAKEnJ8j-WVvcCinbc2UX_YAEwnIJxgl1T6my6g0cOxEB8ARt2i_-alFx0_oO55G2TNmN-jOfF3n6cL4b8CLjUEMlre-KUXwUMFnYUIEWelLV5OM8aaBB1EgGDQ1xYaaBIpD8jFpKbo3E7I2ppdIO0GPvpyPD9bh0sBOR5vmmfEHvJJmrhOUcqO8lfjnnRA.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "8dbccc5af2b08a754f4a217f9af4579c874a5445553ea2592733848c0d9b8268"
     },
     "jafari-it-solutions": {
       "path": "/assets/merchants/4f9fe4f3658c0207.svg",
@@ -1144,8 +1177,11 @@
       "sha256": "641812304c100ffdb6a9d020392b97e0d3e37f4b8eedca87847e31f611e13aa2"
     },
     "lead-lala-gg": {
-      "path": null,
-      "sourcePage": "https://lala.gg/"
+      "path": "/assets/merchants/d452af783fb0c39f.jpg",
+      "sourcePage": "https://lala.gg/index.php/announcements/view/2025-02",
+      "sourceUrl": "https://cdn5.telesco.pe/file/sTzM-Eqz8gH7PFro-rOcL8NXbsUuH3kD7aP4BuBtOX0sH7VGLMeaS9RO7j8HLyEd0ltPmE7ReIQ2zzO4GSZDjotWPsivM-stCA_baK-VMRJCMsISdZJ0PjmIrxRCQAVRVMriLs1CNDJKDPh-sKwwKGzHS-EEVUGOlug63bJBLkjgXm5kbC458ghktt43W7TYDvG9OdcXEMq8hP9hNb_OzlNxdLZYhwRQwkqTwXxJQD5T0pR30KqrawpV9pI5XRZ_Nl0UC40KeeIxYTKgAqe7EoYuevFyuOBixJLdrvd8wQwG_26ytinHNH0iynhd81vuh8Ctmwg8ArN5HsxRrKgwZQ.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "b76e67c45370c434a4ebc03df2f80203455f065ee3d489d51ae3bd474d32f5cf"
     },
     "lamhosting": {
       "path": "/assets/merchants/5d547ac821f335ad.ico",
@@ -1232,8 +1268,11 @@
       "sha256": "c037cc645988ffa80a12deabad60f6668d2dd331520eb2d149bb0c00e574d9d7"
     },
     "lead-megalayer-net": {
-      "path": null,
-      "sourcePage": "https://account.megalayer.net/"
+      "path": "/assets/merchants/4a409453ecc4f08c.png",
+      "sourcePage": "https://www.cloudflare.com/case-studies/megalayer/",
+      "sourceUrl": "https://images.ctfassets.net/slt3lc6tev37/46WgkGcc1M5DkCum7emF5K/8ba2f80221680f7be188eb6d99a13f2b/Megalayer_Logo.png",
+      "kind": "official-partner-case-study-logo",
+      "sha256": "d4552c041077696aff858f32dc83d4c1ffd763cb08e2c654002649124a62e1b9"
     },
     "lead-mejiro-io": {
       "path": "/assets/merchants/bf026bbdfdd8e81f.png",
@@ -1401,8 +1440,12 @@
       "sha256": "6e6e778bcaf30c07b4db52ef58f895c8699900f2a3eb11bcf0aa4c50924990ee"
     },
     "lead-shop-novacloud-hosting-com": {
-      "path": null,
-      "sourcePage": "https://shop.novacloud-hosting.com/"
+      "path": "/assets/merchants/783007ac49a7f75a.png",
+      "sourcePage": "https://novacloud-hosting.com/",
+      "sourceUrl": "https://www.google.com/s2/favicons?domain=novacloud-hosting.com&sz=128",
+      "kind": "domain-icon-cache",
+      "sha256": "f1f8b7836a9a0e1246837ba86f289a85aa6abbc8094feb2a2ef3715ff06774c7",
+      "note": "域名图标缓存，与该域名的多处缓存图一致；当前官网资源受浏览器验证限制，未宣称是本轮从原站成功下载。"
     },
     "lead-nuyek-com": {
       "path": "/assets/merchants/4ca446f42e28fd0b.png",
@@ -1641,8 +1684,11 @@
       "theme": "dark"
     },
     "secure-shore-cloud": {
-      "path": null,
-      "sourcePage": "https://secureshore.cloud/offshore-vps-bahamas.html"
+      "path": "/assets/merchants/94db856521db173b.avif",
+      "sourcePage": "https://www.secureshores.com/",
+      "sourceUrl": "https://static.wixstatic.com/media/3668cf_d0bbbf5d6443ea915940a35abe334f39.jpg/v1/fill/w_441,h_242,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3668cf_d0bbbf5d6443ea915940a35abe334f39.jpg",
+      "kind": "official-site-logo",
+      "sha256": "21c94e9b0b8b579458f4de09c43d0eff4ee1ab1b988858bb4f3a73127a2c45dd"
     },
     "lead-servarica-com": {
       "path": "/assets/merchants/139607dc23584f04.png",
@@ -1768,8 +1814,12 @@
       "sha256": "ff940312bbe5a6abfeacbfc9567d41fb8788df01ccdd9e774c47aa683b0eda6b"
     },
     "lead-softshellweb-com": {
-      "path": null,
-      "sourcePage": "https://softshellweb.com/"
+      "path": "/assets/merchants/59a3961ab612b67e.png",
+      "sourcePage": "https://softshellweb.com/client/",
+      "sourceUrl": "https://softshellweb.com/client/assets/img/logo.png",
+      "kind": "official-site-logo",
+      "sha256": "1241a7cc9e432af67580f69fb8bec4ebacb82667df8cc9d9e714e299457d2732",
+      "theme": "dark"
     },
     "lead-sparkedhost-com": {
       "path": "/assets/merchants/1bd243dfac987e34.ico",
@@ -1832,12 +1882,19 @@
       "sha256": "13e1bf297001093b8ca46150355e7d7253231748cac18e2a52b6313c445438f1"
     },
     "lead-synexvm-com": {
-      "path": null,
-      "sourcePage": "https://www.synexvm.com/"
+      "path": "/assets/merchants/2b196a39a6b13863.svg",
+      "sourcePage": "https://www.synexvm.com/",
+      "sourceUrl": "https://www.synexvm.com/templates/SynexVM/img/logo.svg",
+      "kind": "official-site-logo",
+      "sha256": "fe381de8481453a9d4cd96f6b00826ba78aee18a196af5c069fc20ccb9171b79"
     },
     "lead-synthohosting-net": {
-      "path": null,
-      "sourcePage": "https://my.synthohosting.net/"
+      "path": "/assets/merchants/8b035baf6e27040e.png",
+      "sourcePage": "https://synthohosting.net/",
+      "sourceUrl": "https://synthohosting.net/logo-white.png",
+      "kind": "official-site-logo",
+      "sha256": "0aab628f0cf7680687357fd2b376f5518aa75082e8599cf5c9cf7c86e8224879",
+      "theme": "dark"
     },
     "telecel-liberia": {
       "path": "/assets/merchants/952c954edef598d5.png",
@@ -1861,8 +1918,11 @@
       "sha256": "c19261d8dd9eadd74d5e9948033254eb99512c39224cc046aa8de8d7dcb7f939"
     },
     "time4vps": {
-      "path": null,
-      "sourcePage": "https://www.time4vps.com/"
+      "path": "/assets/merchants/add7887d34b48ea0.png",
+      "sourcePage": "https://www.time4vps.com/",
+      "sourceUrl": "https://www.time4vps.com/#Cookiebot-logo",
+      "kind": "official-site-embedded-logo",
+      "sha256": "4ea8dfe5f5843cc51aa3845e440acda4a66d1a81aacb20259c65108cbeb9af5e"
     },
     "lead-tmhhost-com": {
       "path": "/assets/merchants/6a807b2df48bf523.png",
