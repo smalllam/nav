@@ -1,4 +1,3 @@
-*.css linguist-language=TypeScript
-*.scss linguist-language=TypeScript
-*.js linguist-language=TypeScript
-*.mjs linguist-language=TypeScript
+# Preserve downloaded brand artwork byte-for-byte, including SVG line endings.
+/public/assets/merchants/* -text
+/public/assets/resources/* -text
