@@ -6,7 +6,15 @@ const db = JSON.parse(fs.readFileSync('data/db.json'))
 const meta = JSON.parse(fs.readFileSync('data/vps-meta.json'))
 const items = db.flatMap(r => r.nav.flatMap(c => c.nav.flatMap(g => g.nav)))
 const merchants = JSON.parse(fs.readFileSync('data/merchants.json'))
-assert.deepEqual(merchants, buildMerchants(db, JSON.parse(fs.readFileSync('data/merchants-extra.json')), JSON.parse(fs.readFileSync('data/merchant-discovery.json'))))
+const verification = JSON.parse(fs.readFileSync('data/merchant-verification.json'))
+const extra = JSON.parse(fs.readFileSync('data/merchants-extra.json'))
+const discovery = JSON.parse(fs.readFileSync('data/merchant-discovery.json'))
+assert.deepEqual(merchants, buildMerchants(db, extra, discovery, verification))
+const originalLeads = buildMerchants(db, extra, discovery).filter(m => m.status === 'lead')
+assert.equal(originalLeads.length, 237)
+assert.deepEqual(new Set(verification.records.map(m => m.id)), new Set(originalLeads.map(m => m.id)))
+assert.equal(verification.records.filter(m => m.mergedInto).length, 2)
+assert.equal(merchants.length, 321)
 assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
 assert.equal(merchants.reduce((n,m) => n + m.plans, 0), items.length)
 assert.equal(merchants.filter(m => m.name.includes('Uzumaru')).length, 1)
@@ -19,13 +27,38 @@ for (const m of merchants) {
     assert(!/[?&](aff|ref|invite|affid|aff_code)=/i.test(link), `Referral link in new merchant index: ${link}`)
     assert(!link.includes('web.telegram.org') && !link.includes('t.me/c/'))
   }
-  if (m.status === 'lead') assert(!m.payments.length && !m.countries.length && !m.plans && !m.nat)
+  if (m.status === 'lead') assert(!m.plans && !m.countries.length && !m.review?.product)
   if (m.status === 'official') assert(m.sources.length > 0)
+  if (m.review) {
+    assert(m.sources.length > 0 && !m.plans && !m.countries.length)
+    assert.equal(m.review.payments, m.payments.length > 0)
+    assert.equal(m.review.regions, m.offeredRegions.length > 0)
+    assert.equal(m.review.complete, !!(m.review.website && m.review.product && m.review.payments && m.review.regions))
+    assert.equal(m.review.pending.length === 0, m.review.complete)
+  }
 }
+const reviewed = merchants.filter(m => m.review)
+assert.equal(reviewed.filter(m => m.review.product).length, 188)
+assert.equal(reviewed.filter(m => m.review.complete).length, 48)
+assert.equal(reviewed.filter(m => m.nat).length, 15)
+const merchant = text => merchants.find(m => m.name.includes(text))
+assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
+assert.equal(merchant('EDGENAT').nat, false) // A brand name is not a NAT product.
+assert.equal(merchant('七牛').nat, false) // NAT Gateway is not NAT VPS.
+assert.equal(merchant('TripodCloud').payments.length, 0) // Future-dated announcement.
+assert.equal(merchant('Nolimithost').offeredRegions.length, 0) // Registration country picker.
+assert.equal(merchant('Contabo').payments.includes('USDT'), false)
+assert.equal(merchant('Casbay').payments.includes('USDT'), false) // Generic crypto is insufficient.
+assert(merchant('WebHorizon').offeredRegions.includes('马来西亚（新加坡线路）'))
+assert(!merchant('WebHorizon').offeredRegions.includes('新加坡'))
+assert(merchant('破云').aliases.includes('CNFaster'))
+assert(merchant('蛋云').aliases.some(n => n.includes('PIGYUN')))
+assert.equal(merchants.filter(m => m.name === 'CNFaster').length, 0)
 assert.equal(merchants.find(m => m.id === 'aethertech').nat, true)
 assert.equal(meta.countries.length, 195)
 assert.equal(new Set(meta.countries.map(c => c.iso2)).size, 195)
 assert.equal(new Set(items.filter(i => i.vps.qualified).map(i => i.vps.country)).size, meta.coverage.qualified)
+assert.equal(meta.coverage.qualified, 149) // Merchant checks do not grant country-plan qualification.
 assert.equal(new Set(items.map(i => i.vps.country)).size, meta.coverage.countriesWithLeads)
 assert.equal(new Set(items.map(i => `${i.vps.country}:${i.name}:${i.url}`)).size, items.length)
 for (const item of items) {
