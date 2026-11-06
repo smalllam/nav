@@ -41,7 +41,7 @@ for (const m of merchants) {
 }
 const reviewed = merchants.filter(m => m.review)
 assert.equal(reviewed.filter(m => m.review.product).length, 221)
-assert.equal(reviewed.filter(m => m.review.complete).length, 215)
+assert.equal(reviewed.filter(m => m.review.complete).length, 218)
 assert.equal(reviewed.filter(m => m.nat).length, 22)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert.deepEqual(merchant('Suda速达云').payments, ['支付宝', '微信支付', '加密货币'])

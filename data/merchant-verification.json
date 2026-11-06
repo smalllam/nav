@@ -851,7 +851,7 @@
       "url": "https://miaoyun.link/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网列有 NAT / VPS 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "绍兴 NAT 云主机；匿名结账的自定义网关尚未明示具体支付渠道。",
       "payments": [],
       "offeredRegions": [
         "中国大陆 · 浙江绍兴"
@@ -867,7 +867,10 @@
         "https://miaoyun.link/cart.php?a=confproduct&i=0",
         "https://miaoyun.link/cart.php?a=confproduct&i=1",
         "https://miaoyun.link/cart.php?a=confproduct&i=2",
-        "https://miaoyun.link/cart.php?a=confproduct&i=3"
+        "https://miaoyun.link/cart.php?a=confproduct&i=3",
+        "https://miaoyun.link/store/zhe-jiang-shao-xing-natyun-zhu-ji/tao-can-yi-6",
+        "https://miaoyun.link/cart.php?a=checkout&e=false",
+        "https://miaoyun.link/announcements/2/服务使用条款TOS.html"
       ],
       "review": {
         "outcome": "partial",
@@ -879,8 +882,8 @@
         "pending": [
           "支付方式"
         ],
-        "note": "当前绍兴 NAT 产品资料保持：共享 IPv4、30 个固定映射端口。第十一轮公开官网及官方频道未取得明示付款渠道；购买配置要求接受条款，未接受或下单。未将同名机场的支付宝资料混入本商家。",
-        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
+        "note": "当前绍兴 NAT 产品为共享 IPv4、30 个固定映射端口。2026-11-07 经用户当次许可，仅为匿名付款预览勾选配置 TOS，结账实际只列“喵云互联(NAT云主机)”及“圈云支付(测试专用)”，未明示支付宝、微信或银行卡，因此具体支付方式继续待核，测试网关不作为可用渠道。最终服务条款未勾选，未填写个人资料、注册、提交订单或付款，临时购物车已清空。TOS 列退款限制及部分产品可能需实名审核，开通要求以具体产品为准。",
+        "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
       }
     },
     {
@@ -6265,7 +6268,7 @@
       "url": "https://otwa.cloud/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "官网列有 KVM 云服务器；伊斯坦布尔地区附具日期的原始实测依据。",
       "payments": [
         "USDT",
         "信用卡 / 借记卡",
@@ -6274,26 +6277,28 @@
         "支付宝",
         "PayPal"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "土耳其 · 伊斯坦布尔（2026-05 原始实测）"
+      ],
       "nat": false,
       "checkedAt": "2026-11-07",
       "sources": [
         "https://otwa.cloud/",
         "https://otwa.cloud/pricing",
-        "https://otwa.cloud/terms"
+        "https://otwa.cloud/terms",
+        "https://otwa.cloud/support",
+        "https://maobuni.com/2026/05/21/otwa-cloud/"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "售卖地区"
-        ],
-        "note": "当前付款说明保持。第十一轮官网产品、定价、关于与状态页未明确 VPS 部署国家；官方 regions API 文档要求账户权限和密钥，未尝试登录或无凭据调用。不从隐私数据存储国家、公司注册地址、ASN 或文档示例 IP 推定产品地区。",
-        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "2026-11-07 官网当前 KVM 定价与付款说明可读，部署目录及 regions API 需账户权限，本轮未登录或调用受限接口。地区补入猫不腻 2026-05-21 的 Otwa 原始 VPS 实测：文章明确标土耳其伊斯坦布尔，提供该样本的 YABS、当地低延迟路由与测试记录，并链接官方 otwa.cloud。这里仅确认这份历史样本的地区，不把它当作本轮新开地区、全部地区清单或库存保证；新开以账户目录或官方确认为准。未从公司地址、网站 IP 或隐私数据存储国推定机房，未注册或订购。",
+        "sourceScope": "当前官网确认产品与既有支付说明；地区采用 2026-05-21 猫不腻具完整测试数据的原始实测，日期直接显示于地区标签。历史样本地区不保证当前新开库存或完整部署范围，未冒称本轮结算或物理机房验收。"
       }
     },
     {
@@ -6385,7 +6390,7 @@
       "url": "https://my.phanes.cloud/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+      "desc": "原 Phanes 云服务器目录可读；当前迁移后的新开地区尚待确认。",
       "payments": [
         "PayPal",
         "信用卡 / 借记卡",
@@ -6408,7 +6413,10 @@
         "https://my.phanes.cloud/index.php?rp=%2Fannouncements%2F5%2FPayPal-payments-accepted-again.html",
         "https://my.phanes.cloud/index.php?rp=/store/cloud-servers/1gb",
         "https://my.phanes.cloud/cart.php?a=checkout&e=false",
-        "https://lowendtalk.com/discussion/199297/has-anyone-tried-the-phanes-cloud-server"
+        "https://lowendtalk.com/discussion/199297/has-anyone-tried-the-phanes-cloud-server",
+        "https://phanes.cloud/",
+        "https://secure.centrixpro.net/store/cloud-servers/compute-1gb",
+        "https://my.phanes.cloud/index.php?rp=/announcements/15/Phanes-Networks-B.V.-joins-SpectraIP-Group.html"
       ],
       "review": {
         "outcome": "partial",
@@ -6420,8 +6428,8 @@
         "pending": [
           "售卖地区"
         ],
-        "note": "已有匿名结算所列付款渠道保持，泛称加密货币不推定 USDT。当前 Compute Basic B1 型号仍列出；2024-11 LowEndTalk 一位用户曾称使用荷兰 B1，但单一旧用户文字不足以确认当前新开地区，历史线索附来源保留，地区继续待核。未从注册公司地址、账单国家或他人 IP 统计推定机房。",
-        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
+        "note": "2026-11-07 当前 B1 及 Cloud Servers 具体配置仍可读，但无部署国家选项；公开知识库的 location 搜索无有效机房说明，网络状态要求登录。官网主域当前提示将迁移至 CentrixPro，其公开 Compute 配置同样未列地区；2025-01-14 官方公告说明服务运营移交 SpectraIP，2025-02-28 公告说明云控制面板迁移。没有把企业地址、上游所有机房或迁移目标的其他产品地区套到旧 SKU。已有匿名结账付款依据保持；2024-11 一位荷兰 B1 用户文字仍属历史线索，不足以确认当前新开地区。",
+        "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
       }
     },
     {
@@ -6469,8 +6477,10 @@
       "url": "https://pokevm.com/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "香港与洛杉矶 KVM VPS；匿名结账当前明确列支付宝。",
+      "payments": [
+        "支付宝"
+      ],
       "offeredRegions": [
         "中国香港",
         "美国 · 洛杉矶"
@@ -6481,20 +6491,20 @@
         "https://pokevm.com/",
         "https://pokevm.com/store/ya-tai-vpsxiang-gang",
         "https://pokevm.com/store/mei-guo-vpsluo-shan-ji",
-        "https://pokevm.com/knowledgebase"
+        "https://pokevm.com/knowledgebase",
+        "https://pokevm.com/store/mei-guo-vpsluo-shan-ji/luo-shan-ji-vps-micro",
+        "https://pokevm.com/cart.php?a=checkout&e=false"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "当前香港 VPS 分类 HK-VPS 3T 至 40T 档位显示 0 可用，仅属该分类读取时库存。第十一轮美国配置可读但要求主机名、root 密码等字段才能继续；未填写凭据。官网与官方公告频道未取得明示付款渠道，继续待核。",
-        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
+        "complete": true,
+        "pending": [],
+        "note": "2026-11-07 用户亲自填写临时服务器配置后，洛杉矶 MICRO 的匿名结账只列“支付宝”；未把账单国家或网关通用能力当作产品地区及支付。MICRO 当前显示 1 核、1GB、40GB NVMe、6TB 双向流量、300Mbps 峰值带宽、50 元/月。香港 3T 至 40T 分类读取时显示 0 可用，不概括全部地区停售。最终服务条款未勾选，没有注册、提交订单或付款；临时购物车已清空。",
+        "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
       }
     },
     {
@@ -6504,7 +6514,7 @@
       "url": "https://billing.ppnetworks.it/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+      "desc": "欧洲 KVM / LXC VPS；匿名结账仅列 Link Payment，具体渠道待核。",
       "payments": [],
       "offeredRegions": [
         "欧洲（型号区域，具体国家待核）"
@@ -6520,7 +6530,10 @@
         "https://billing.ppnetworks.it/cart.php?a=confproduct&i=1",
         "https://billing.ppnetworks.it/cart.php?a=confproduct&i=2",
         "https://billing.ppnetworks.it/",
-        "https://billing.ppnetworks.it/index.php?rp=/store/kvm-vps/kvm-germany"
+        "https://billing.ppnetworks.it/index.php?rp=/store/kvm-vps/kvm-germany",
+        "https://ppnetworks.it/",
+        "https://billing.ppnetworks.it/index.php?rp=/store/lxc-vps/lxc-hungary-starter",
+        "https://billing.ppnetworks.it/cart.php?a=checkout&e=false"
       ],
       "review": {
         "outcome": "partial",
@@ -6532,8 +6545,8 @@
         "pending": [
           "支付方式"
         ],
-        "note": "当前 KVM-EUROPE 具体配置仅声明欧洲，未从旧 kvm-germany URL 推定德国。本轮此前的免费 GRE/SIT 匿名预览只显示自定义 Link Payment 名称，不能据此认定银行卡或 PayPal；临时购物车已清空。KVM 配置要求 root 密码，未填写凭据或下单，支付继续待核。",
-        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
+        "note": "2026-11-07 用户亲自填写 LXC EUROPE STARTER 临时配置后，实际匿名结账仍只列“Link Payment”，未明示银行卡、PayPal 或其他渠道，不按名称猜测支付品牌。LXC 当前月费 0.99 欧元、一次设置费 0.35 欧元，预览首期 1.34 欧元；产品只声明欧洲，不从 lxc-hungary 或旧 kvm-germany URL 推定国家。未填写个人账单资料、注册、提交订单或付款，临时购物车已清空。",
+        "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
       }
     },
     {
@@ -6756,8 +6769,10 @@
       "url": "https://rayip.io/",
       "category": "VPS",
       "status": "official",
-      "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
-      "payments": [],
+      "desc": "官网列有 VDS 产品；菲律宾 VDS 匿名结账明确支持 USDT（TRC20）。",
+      "payments": [
+        "USDT"
+      ],
       "offeredRegions": [
         "菲律宾",
         "德国",
@@ -6774,20 +6789,20 @@
         "https://rayip.io/index.php?rp=/store/ph-dedicated-bandwidth-vds",
         "https://rayip.io/index.php?rp=/store/my-vds",
         "https://rayip.io/index.php",
-        "https://rayip.io/cart.php?a=view"
+        "https://rayip.io/cart.php?a=view",
+        "https://rayip.io/index.php?rp=/store/philippines-bgp-ip-vds/ph-a-size",
+        "https://rayip.io/cart.php?a=checkout&e=false"
       ],
       "review": {
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
-        "payments": false,
+        "payments": true,
         "regions": true,
-        "complete": false,
-        "pending": [
-          "支付方式"
-        ],
-        "note": "第十一轮公开地区分类仍有空商品组，既有 VDS 产品依据保持；未取得明示支付方式。RayIP 企业站介绍支付 API 集成业务不是其 VPS 商店接受付款的证据，不据此填入支付渠道。",
-        "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
+        "complete": true,
+        "pending": [],
+        "note": "2026-11-07 当前菲律宾 PH A Size 可配置，2 vCPU、2GB 内存、2TB 月流量、共享 1Gbps、IPv4 与 IPv6，26 美元/月。实际匿名结账付款选项明确为“USDT(TRC20)”，不扩展为其他币链或银行卡。地区仍按已核具体商品保持；分类名称不补造空商品的当前库存。流媒体与网络标签是商家声明，未实测。未填写个人资料、注册、提交订单或付款，临时购物车已清空。",
+        "sourceScope": "2026-11-07 当前官方商品及匿名付款预览；具日期的原始实测单独标注历史范围。所列渠道与地区非穷举，不承诺任意型号、地区和支付组合均可购买，非实购、实时库存或交付验收。"
       }
     },
     {
