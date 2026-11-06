@@ -885,7 +885,7 @@
       "sourceName": "七牛云",
       "name": "七牛云",
       "url": "https://s.qiniu.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -1058,7 +1058,7 @@
       "sourceName": "虚妄猫",
       "name": "虚妄猫",
       "url": "https://port.nomao.top/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -1981,7 +1981,7 @@
       "sourceName": "Blend Hosting",
       "name": "Blend Hosting",
       "url": "https://billing.blendhosting.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -2862,7 +2862,7 @@
       "sourceName": "DediRock",
       "name": "DediRock",
       "url": "https://dedirock.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -3043,7 +3043,7 @@
       "sourceName": "DigitalVM",
       "name": "DigitalVM",
       "url": "https://digital-vm.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [],
@@ -3359,7 +3359,7 @@
       "sourceName": "FlokiNET",
       "name": "FlokiNET",
       "url": "https://billing.flokinet.is/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -3546,7 +3546,7 @@
       "sourceName": "Friendhosting",
       "name": "Friendhosting",
       "url": "https://friendhosting.net/en",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -3628,7 +3628,7 @@
       "sourceName": "FxTransit",
       "name": "FxTransit",
       "url": "https://fxtransit.io/store?region=us-lax&network=TIER1",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [],
@@ -3742,7 +3742,7 @@
       "sourceName": "Gotmyhost",
       "name": "Gotmyhost",
       "url": "https://my.gotmyhost.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -3866,7 +3866,7 @@
       "sourceName": "HKGserver",
       "name": "HKGserver",
       "url": "https://www.hkgserver.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [],
@@ -3897,7 +3897,7 @@
       "sourceName": "Host4Fun",
       "name": "Host4Fun",
       "url": "https://www.host4fun.com/cheap-vps",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -4076,7 +4076,7 @@
       "sourceName": "HostHatch",
       "name": "HostHatch",
       "url": "https://hosthatch.com/products",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -4558,7 +4558,7 @@
       "sourceName": "IT-GARAGE",
       "name": "IT-GARAGE",
       "url": "https://it-garage.pro/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -4592,7 +4592,7 @@
       "sourceName": "ITLDC",
       "name": "ITLDC",
       "url": "https://itldc.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -4983,7 +4983,7 @@
       "sourceName": "Lain.sh",
       "name": "Lain.sh",
       "url": "https://dash.lain.sh/checkout/config/55",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -5289,7 +5289,7 @@
       "sourceName": "Linveo",
       "name": "Linveo",
       "url": "https://billing.linveo.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -5526,7 +5526,7 @@
       "sourceName": "metweb",
       "name": "metweb",
       "url": "https://client.metweb.co/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -5897,7 +5897,7 @@
       "sourceName": "narhost",
       "name": "narhost",
       "url": "https://narhost.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -6253,7 +6253,7 @@
       "sourceName": "OffshoreDedi",
       "name": "OffshoreDedi",
       "url": "https://my.offshorededi.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -6841,7 +6841,7 @@
       "sourceName": "radonet",
       "name": "radonet",
       "url": "https://radonet.co.uk/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -7485,7 +7485,7 @@
       "sourceName": "Sharktech",
       "name": "Sharktech",
       "url": "https://sharktech.net/smartvps/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -7526,7 +7526,7 @@
       "sourceName": "ShiftHosting",
       "name": "ShiftHosting",
       "url": "https://billing.shifthosting.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -7679,7 +7679,7 @@
       "sourceName": "Snakecraft Hosting",
       "name": "RackGenius（原 Snakecraft Hosting）",
       "url": "https://rackgenius.com/vps",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -7760,7 +7760,7 @@
       "sourceName": "SparkedHost",
       "name": "SparkedHost",
       "url": "https://billing.sparkedhost.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -7891,7 +7891,7 @@
       "sourceName": "StormHost",
       "name": "StormHost",
       "url": "https://billing.stormhost.net/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -8003,7 +8003,7 @@
       "sourceName": "Swiss",
       "name": "Swiss",
       "url": "https://support.swisslayer.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [
@@ -8049,7 +8049,7 @@
       "sourceName": "SynexVM",
       "name": "SynexVM",
       "url": "https://www.synexvm.com/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [],
@@ -8343,7 +8343,7 @@
       "sourceName": "UpNet",
       "name": "UpNet",
       "url": "https://upnet.vn/",
-      "category": "VPS 商家",
+      "category": "VPS",
       "status": "official",
       "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
       "payments": [

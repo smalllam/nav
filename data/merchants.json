@@ -1023,7 +1023,7 @@
     "id": "lead-s-qiniu-com",
     "name": "七牛云",
     "url": "https://s.qiniu.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -1228,7 +1228,7 @@
     "id": "lead-port-nomao-top",
     "name": "虚妄猫",
     "url": "https://port.nomao.top/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -2578,7 +2578,7 @@
     "id": "lead-blendhosting-com",
     "name": "Blend Hosting",
     "url": "https://billing.blendhosting.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -3670,7 +3670,7 @@
     "id": "dedirock",
     "name": "DediRock",
     "url": "https://dedirock.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "status": "official",
     "sources": [
@@ -3883,7 +3883,7 @@
     "id": "lead-digital-vm-com",
     "name": "DigitalVM",
     "url": "https://digital-vm.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -4256,7 +4256,7 @@
     "id": "lead-flokinet-is",
     "name": "FlokiNET",
     "url": "https://billing.flokinet.is/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -4455,7 +4455,7 @@
     "id": "lead-friendhosting-net",
     "name": "Friendhosting",
     "url": "https://friendhosting.net/en",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -4543,7 +4543,7 @@
     "id": "lead-fxtransit-io",
     "name": "FxTransit",
     "url": "https://fxtransit.io/store?region=us-lax&network=TIER1",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -4732,7 +4732,7 @@
     "id": "lead-gotmyhost-com",
     "name": "Gotmyhost",
     "url": "https://my.gotmyhost.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -4998,7 +4998,7 @@
     "id": "lead-hkgserver-com",
     "name": "HKGserver",
     "url": "https://www.hkgserver.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -5032,7 +5032,7 @@
     "id": "lead-host4fun-com",
     "name": "Host4Fun",
     "url": "https://www.host4fun.com/cheap-vps",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -5274,7 +5274,7 @@
     "id": "hosthatch",
     "name": "HostHatch",
     "url": "https://hosthatch.com/products",
-    "category": "VPS 商家",
+    "category": "VPS",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "status": "official",
     "sources": [
@@ -6003,7 +6003,7 @@
     "id": "lead-it-garage-pro",
     "name": "IT-GARAGE",
     "url": "https://it-garage.pro/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -6040,7 +6040,7 @@
     "id": "lead-itldc-com",
     "name": "ITLDC",
     "url": "https://itldc.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -6578,7 +6578,7 @@
     "id": "lead-lain-sh",
     "name": "Lain.sh",
     "url": "https://dash.lain.sh/checkout/config/55",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -6994,7 +6994,7 @@
     "id": "lead-linveo-com",
     "name": "Linveo",
     "url": "https://billing.linveo.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -7290,7 +7290,7 @@
     "id": "lead-metweb-co",
     "name": "metweb",
     "url": "https://client.metweb.co/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -7764,7 +7764,7 @@
     "id": "lead-narhost-com",
     "name": "narhost",
     "url": "https://narhost.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -8410,7 +8410,7 @@
     "id": "lead-offshorededi-com",
     "name": "OffshoreDedi",
     "url": "https://my.offshorededi.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -9143,7 +9143,7 @@
     "id": "lead-snakecrafthosting-com",
     "name": "RackGenius（原 Snakecraft Hosting）",
     "url": "https://rackgenius.com/vps",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -9241,7 +9241,7 @@
     "id": "lead-radonet-co-uk",
     "name": "radonet",
     "url": "https://radonet.co.uk/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -10032,7 +10032,7 @@
     "id": "lead-sharktech-net",
     "name": "Sharktech",
     "url": "https://sharktech.net/smartvps/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -10076,7 +10076,7 @@
     "id": "lead-shifthosting-com",
     "name": "ShiftHosting",
     "url": "https://billing.shifthosting.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -10332,7 +10332,7 @@
     "id": "lead-sparkedhost-com",
     "name": "SparkedHost",
     "url": "https://billing.sparkedhost.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -10518,7 +10518,7 @@
     "id": "lead-stormhost-net",
     "name": "StormHost",
     "url": "https://billing.stormhost.net/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -10639,7 +10639,7 @@
     "id": "lead-support-swisslayer-com",
     "name": "Swiss",
     "url": "https://support.swisslayer.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -10688,7 +10688,7 @@
     "id": "lead-synexvm-com",
     "name": "SynexVM",
     "url": "https://www.synexvm.com/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [
@@ -11137,7 +11137,7 @@
     "id": "lead-upnet-vn",
     "name": "UpNet",
     "url": "https://upnet.vn/",
-    "category": "VPS 商家",
+    "category": "VPS",
     "status": "official",
     "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
     "sources": [

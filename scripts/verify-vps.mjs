@@ -56,6 +56,7 @@ assert(merchant('Lain.sh').nat && merchant('Lain.sh').review.note.includes('仅 
 assert(merchant('Blend Hosting').nat && merchant('Blend Hosting').review.note.includes('3 个自定义端口映射'))
 assert(merchant('SynexVM').review.product && merchant('SynexVM').review.note.includes('缺货'))
 assert(merchant('RackGenius').aliases.includes('Snakecraft Hosting'))
+for (const name of ['Lain.sh', 'FxTransit', 'HKGserver', 'Host4Fun', 'RackGenius', 'SynexVM']) assert.equal(merchant(name).category, 'VPS')
 assert(!merchant('MrVM').review.product && merchant('MrVM').review.payments) // Payment documentation does not prove a current VPS SKU.
 assert(merchant('Sharktech').payments.includes('USDT') && !merchant('Sharktech').payments.includes('支付宝')) // Current Coinbase guide vs archived Alipay news.
 assert(merchant('MoonVM').review.product && merchant('MoonVM').review.note.includes('缺货'))
