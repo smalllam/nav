@@ -39,7 +39,7 @@ for (const m of merchants) {
 }
 const reviewed = merchants.filter(m => m.review)
 assert.equal(reviewed.filter(m => m.review.product).length, 219)
-assert.equal(reviewed.filter(m => m.review.complete).length, 182)
+assert.equal(reviewed.filter(m => m.review.complete).length, 201)
 assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
@@ -62,7 +62,8 @@ assert(merchant('PortChannel Zero').review.product && merchant('PortChannel Zero
 assert(merchant('MoonVM').payments.includes('USDT') && merchant('MoonVM').payments.includes('支付宝') && !merchant('MoonVM').payments.includes('信用卡 / 借记卡')) // Actual anonymous preview, not footer logos.
 assert.deepEqual(merchant('HostPapa').offeredRegions, ['美国 · 西部', '美国 · 东部', '加拿大', '欧洲（配置页未细分国家）']) // VPS selector, not billing country options.
 assert(!merchant('Terabit').payments.includes('USDT')) // Bitcoin and Ethereum do not imply every supported coin.
-assert(!merchant('ServerSpan').review.product && !merchant('Datalix').review.payments) // Empty product groups and a payment processor policy do not close these gaps.
+assert(!merchant('ServerSpan').review.product) // Empty product groups do not prove a current VPS product.
+assert(merchant('Datalix').payments.includes('PayPal') && !merchant('Datalix').payments.includes('USDT')) // Explicit Storage KVM payment section, not the gateway's supported coins.
 assert(!merchant('MrVM').review.product && merchant('MrVM').review.payments) // Payment documentation does not prove a current VPS SKU.
 assert(merchant('SERVER.TW').review.product && merchant('SERVER.TW').offeredRegions.length === 4) // Concrete regional VPS rows.
 for (const name of ['Kvmla', 'LaLa Net', 'UQIDC']) assert(merchant(name).payments.includes('USDT'))

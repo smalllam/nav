@@ -102,8 +102,11 @@
       "sha256": "795fb8a47b2ec89ebca6ffb17b5598a8d0364e89219d866f855582a09b53fa3a"
     },
     "lead-huahost-com": {
-      "path": null,
-      "sourcePage": "https://www.huahost.com/"
+      "sourcePage": "https://www.huahost.com/",
+      "sourceUrl": "https://www.huahost.com/upload/banner/2025-05/03/174628705275900.png",
+      "kind": "official-site-logo",
+      "path": "/assets/merchants/eb15a4a8c32f1172.png",
+      "sha256": "cd1e71c9b9d2d62ec0e982516fa1a95467055a5fcfa6fc67e42984a63bef5b26"
     },
     "lead-jdidc-cn": {
       "path": "/assets/merchants/8182ebd006fa122c.png",
@@ -156,8 +159,12 @@
       "sha256": "e8ed59c90f6d168d7260cf9858962af780647429724aa3b1ceda8c6874d5ad8a"
     },
     "lead-lbxu-com": {
-      "path": null,
-      "sourcePage": "https://lbxu.com/"
+      "sourcePage": "https://www.zhujiceping.com/59898.html",
+      "sourceUrl": "https://www.zhujiceping.com/wp-content/uploads/2023/03/lbxu.png",
+      "kind": "historical-site-wordmark-capture",
+      "note": "2023 年原始评测所存官网页首的萝卜数据 / LBXU.COM 标志，历史标志、分辨率有限。当前官网标志链接 404，未制造替代图。",
+      "path": "/assets/merchants/8f3383908d4e0539.jpg",
+      "sha256": "030250a54d3bd95751c6e4a6ea6f5f9df786645dad101b44f37b0215742beb8f"
     },
     "lead-h0u-cn": {
       "path": "/assets/merchants/8f5f08c1bda47272.png",
@@ -252,8 +259,12 @@
       "sha256": "9e3d6113a9a5ea49fffc9bcb0129b0aa38fd2852b1937dc9a386ef32fe8ba309"
     },
     "lead-aait-io": {
-      "path": null,
-      "sourcePage": "https://www.aaitr.com/store/rbn"
+      "sourcePage": "https://www.aaitr.com/",
+      "sourceUrl": "https://www.aaitr.com/",
+      "kind": "official-site-brand-capture",
+      "note": "官网实际组合商标（房屋图形及 AaITR 字样）原样截图。",
+      "path": "/assets/merchants/cfd476c28c83467d.jpg",
+      "sha256": "f8dd135bdb7143f1584967481f5fdbf2289333e9958bdf7142e2e050f217ea8a"
     },
     "lead-acclouds-com": {
       "path": "/assets/merchants/588800e97003c24c.png",
@@ -277,8 +288,12 @@
       "sha256": "769b89853eceda93b668bb731034fc343607d80414a2597b87108d333bbd0386"
     },
     "aethertech": {
-      "path": null,
-      "sourcePage": "https://idc.aethertech.tn/index.php?rp=/store/jp-nat"
+      "sourcePage": "https://idc.aethertech.tn/",
+      "sourceUrl": "https://idc.aethertech.tn/",
+      "kind": "official-site-brand-capture",
+      "note": "官网当前页首实际品牌标识的原样屏幕截图；未重新绘制或替换字体。",
+      "path": "/assets/merchants/08546311c8d7705e.jpg",
+      "sha256": "48a753a3f9b675b0c45ec62709649cbff0fa5a5d40404b5092e20b9d39b618c0"
     },
     "air-link-communications": {
       "path": "/assets/merchants/90d36fab92d527cd.png",
@@ -701,8 +716,12 @@
       "sha256": "42edecd11a01ca7576e017a3b5bee008cdd2f71a54903a9a40d3fa53e74671cb"
     },
     "lead-elixior-cloud": {
-      "path": null,
-      "sourcePage": "https://client.elixior.cloud/"
+      "sourcePage": "https://uk.trustpilot.com/review/elixior.cloud",
+      "sourceUrl": "https://consumersiteimages.trustpilot.net/business-units/671ab259aa219e3aa849c9d4-198x149-1x.avif",
+      "kind": "claimed-company-profile-logo",
+      "note": "Trustpilot 上已认领的 Elixior 公司资料使用的标志；资料链接指向 elixior.cloud，不是当前官网直接下载。",
+      "path": "/assets/merchants/7dc96f07112f57e1.avif",
+      "sha256": "96be8c6241d921affade381e14acff51b447acbb069cb700ee648c93e3adcf05"
     },
     "eserver": {
       "path": "/assets/merchants/742c4d2af37fafc8.ico",
@@ -740,8 +759,12 @@
       "sha256": "a0ef224d7a7c87c0bcfb127f332014a8ef6a866ce04ebdb55f1f6ce6ba15ac0e"
     },
     "lead-flapjacks-it": {
-      "path": null,
-      "sourcePage": "https://my.flapjacks.it/"
+      "sourcePage": "https://flapjacks.it/",
+      "sourceUrl": "https://flapjacks.it/",
+      "kind": "official-site-brand-capture",
+      "note": "官网当前页首实际品牌标识的原样屏幕截图；未重新绘制或替换字体。",
+      "path": "/assets/merchants/213b2feca9883dc5.jpg",
+      "sha256": "4081d22aaffb348a372208f365fbf7b1b79fae615ca1d081f98db71afefccd45"
     },
     "lead-flokinet-is": {
       "path": "/assets/merchants/4e7a1c21d99b5712.jpg",
@@ -793,8 +816,12 @@
       "sha256": "530bdd9c03de3037fb170ccc8c66eccb5a5fbbc51fb7cefc08715549baa4befe"
     },
     "getvps-africa": {
-      "path": null,
-      "sourcePage": "https://getvps.africa/locations/"
+      "sourcePage": "https://getvps.africa/",
+      "sourceUrl": "https://getvps.africa/",
+      "kind": "official-site-brand-capture",
+      "note": "官网当前页首实际品牌标识的原样屏幕截图；未重新绘制或替换字体。",
+      "path": "/assets/merchants/1068cc0541c69969.jpg",
+      "sha256": "a9466fe801063fc00ca891609d5a1d6b69b98bef1211e8f294f74054c36731df"
     },
     "lead-gigsgigscloud-com": {
       "path": "/assets/merchants/4747cc98715a601c.png",
@@ -1422,8 +1449,12 @@
       "sha256": "1c55f4986372e103540e09e247461b09e59bf2ed262cd90172a71c12cd351ae4"
     },
     "lead-nnc-sh": {
-      "path": null,
-      "sourcePage": "https://nnc.sh/"
+      "sourcePage": "https://nnc.sh/",
+      "sourceUrl": "https://nnc.sh/",
+      "kind": "official-site-brand-capture",
+      "note": "官网当前页首实际品牌标识的原样屏幕截图；未重新绘制或替换字体。",
+      "path": "/assets/merchants/5672178c825d2bcc.jpg",
+      "sha256": "71173b9b24b53693cefd5a8f5ba2bf798f2e1d775eb833e24f8b270b503729bc"
     },
     "lead-nodemach-com": {
       "path": "/assets/merchants/19c9aad885e8db64.png",
@@ -1644,8 +1675,12 @@
       "sha256": "6a494c6d0d5a1382d35b51d00ec9a531e64c351c5a07844cb1b3811715babac6"
     },
     "lead-oneprovide-net": {
-      "path": null,
-      "sourcePage": "https://oneprovide.net/"
+      "sourcePage": "https://oneprovide.net/",
+      "sourceUrl": "https://oneprovide.net/",
+      "kind": "official-site-brand-capture",
+      "note": "官网当前页首实际品牌标识的原样屏幕截图；未重新绘制或替换字体。",
+      "path": "/assets/merchants/615770e7580a6948.jpg",
+      "sha256": "cd36074ff101b230f2b03198a567a8c9188061e7f18209cc596cbf8557af4421"
     },
     "lead-dedicated-redswitches-com": {
       "path": "/assets/merchants/647acf289e77ae86.svg",
