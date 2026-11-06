@@ -10396,14 +10396,19 @@
     "url": "https://cloud.sudatech.store/index.php?rp=%2Fstore%2Fsoftbank-nat",
     "category": "VPS",
     "status": "official",
-    "desc": "官网当前有明确 VPS / NAT 产品依据；支付和地区按公开资料逐项核实。",
+    "desc": "官网日本 SoftBank NAT 商品与匿名结账付款选项已核对；提供共享 IPv4 与预设端口。",
     "sources": [
       "https://cloud.sudatech.store/",
       "https://cloud.sudatech.store/index.php?rp=%2Fstore%2Fsoftbank-nat",
-      "https://cloud.sudatech.store/index.php?rp=/store/softbank-nat/softbank-nat"
+      "https://cloud.sudatech.store/index.php?rp=/store/softbank-nat/softbank-nat",
+      "https://cloud.sudatech.store/cart.php?a=view"
     ],
     "countries": [],
-    "payments": [],
+    "payments": [
+      "支付宝",
+      "微信支付",
+      "加密货币"
+    ],
     "plans": 0,
     "nat": true,
     "checkedAt": "2026-11-07",
@@ -10411,17 +10416,15 @@
       "日本"
     ],
     "review": {
-      "outcome": "partial",
+      "outcome": "complete",
       "website": true,
       "product": true,
-      "payments": false,
+      "payments": true,
       "regions": true,
-      "complete": false,
-      "pending": [
-        "支付方式"
-      ],
-      "note": "当前日本 SoftBank NAT 产品资料保持：共享 IPv4、20 个预设端口、每日 04:00 换 IP、DDNS。第十一轮原入口受浏览器验证限制，官方公开公告亦未明示付款渠道；公告中的支付网站禁止用途、二手卖家的支付宝交易均不作为本商家付款依据，继续待核。",
-      "sourceScope": "2026-11-07 第十一轮：当前官方公开目录、声明及注明日期的原始用户测评。历史测评仅证明对应时间和型号的渠道或地区，非本轮结算实测、实时库存或交付保证；所列选项非穷举。"
+      "complete": true,
+      "pending": [],
+      "note": "日本 SoftBank NAT 合作款：共享 IPv4、20 个预设端口、每日 04:00 更换 IP、DDNS。基础配置 1 核 / 512MB / 3GB / 1TB，读取时月付 35 元、一次设置费 1 元，匿名预览首期合计 36 元。实际结账付款项为“虚拟货币(Cryptomus)”及“微信/支付宝”；虚拟货币未在该页列具体币种，不推定为 USDT。产品无 SLA、不保证中国大陆路由，页面列不退款、无原路退款及逾期滞纳金等限制；未实测流媒体或网络营销效果。临时购物车已清空，未注册、提交订单或付款。",
+      "sourceScope": "2026-11-07 用户协助通过浏览器验证后的当前官方商品、配置与匿名结账预览；保留日本 NAT 产品依据。所列支付为实际可见选项，不扩展支付网关的通用能力；价格、库存及开通仍以具体订单为准。"
     },
     "aliases": [],
     "aliasIds": []
@@ -12365,25 +12368,43 @@
   {
     "id": "wuyoucloud-无忧云",
     "name": "WuYouCloud 无忧云",
-    "url": "https://wuyoucloud.de/index.php?rp=/store/ip-nat-tg",
+    "url": "https://wuyoucloud.de/index.php?rp=/store/nat-hk-hkt",
     "category": "VPS",
-    "status": "research",
-    "desc": "已整理对应国家的产品、地点、支付和库存资料，可继续查看国家套餐。",
+    "status": "official",
+    "desc": "香港 HKT KVM NAT 套餐，支持计算型端口映射；另保留多哥 GeoIP 产品资料。",
     "sources": [
-      "https://wuyoucloud.de/index.php?rp=/store/ip-nat-tg"
+      "https://wuyoucloud.de/index.php?rp=/store/nat-hk-hkt",
+      "https://wuyoucloud.de/index.php?rp=/store/nat-hk-hkt/xiang-gang-hkt-1-mini-kvm",
+      "https://wuyoucloud.de/index.php?rp=/store/ip-nat-tg",
+      "https://wuyoucloud.de/cart.php?a=checkout"
     ],
     "countries": [
       "TG"
     ],
     "payments": [
       "支付宝",
+      "微信支付",
       "USDT"
     ],
     "plans": 1,
     "nat": true,
-    "checkedAt": "2026-11-06",
-    "review": null,
-    "offeredRegions": [],
+    "checkedAt": "2026-11-07",
+    "offeredRegions": [
+      "中国香港",
+      "多哥（GeoIP 产品，实体位置待核）"
+    ],
+    "review": {
+      "origin": "country-catalog",
+      "outcome": "complete",
+      "website": true,
+      "product": true,
+      "payments": true,
+      "regions": true,
+      "complete": true,
+      "pending": [],
+      "note": "本轮读取香港 HKT-KVM-① 具体商品：MINI 为 1 核 Ryzen 7950X、512MB、5GB、1TB 双向流量、2.5Gbps 标称带宽，月付 13.99 元并列 2 元初装费；含计算型端口映射，动态 IP 每日 04:00 刷新。供应商不提供 SLA 或中国大陆路由保证，退款受限；网络、住宅属性与流媒体未实测。付款依据沿用 2026-11-06 已完成的多哥 NAT 匿名结账：支付宝/微信当时标 6% 附加费，并实际列 USDT；币链及具体订单费率仍须核对。本轮香港商品未下单付款，不把历史多哥结账视为香港 SKU 实购。其他国家仅有分类名称的未追加到已核地区。",
+      "sourceScope": "2026-11-07 当前香港 HKT 商品页及 2026-11-06 已留存的多哥产品、GeoIP 与付款核查。商家级资料补充到既有同名商家；原 TG 国家套餐及其资格、价格与位置边界保留，香港地区仅加入商家售卖地区。所列渠道与地区不保证任意组合都可购买。"
+    },
     "aliases": [],
     "aliasIds": []
   },

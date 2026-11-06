@@ -12,7 +12,7 @@ const discovery = JSON.parse(fs.readFileSync('data/merchant-discovery.json'))
 assert.deepEqual(merchants, buildMerchants(db, extra, discovery, verification))
 const originalLeads = buildMerchants(db, extra, discovery).filter(m => m.status === 'lead')
 assert.equal(originalLeads.length, 222)
-assert.deepEqual(new Set(verification.records.map(m => m.id)), new Set(originalLeads.map(m => m.id)))
+assert.deepEqual(new Set(verification.records.filter(m => m.review?.origin !== 'country-catalog').map(m => m.id)), new Set(originalLeads.map(m => m.id)))
 assert.equal(verification.records.filter(m => m.mergedInto).length, 2)
 assert.equal(merchants.length, 306)
 assert.equal(new Set(merchants.map(m => m.id)).size, merchants.length)
@@ -30,7 +30,9 @@ for (const m of merchants) {
   if (m.status === 'lead') assert(!m.plans && !m.countries.length && !m.review?.product)
   if (m.status === 'official') assert(m.sources.length > 0)
   if (m.review) {
-    assert(m.sources.length > 0 && !m.plans && !m.countries.length)
+    assert(m.sources.length > 0)
+    if (m.review.origin === 'country-catalog') assert(m.plans > 0 && m.countries.length > 0)
+    else assert(!m.plans && !m.countries.length)
     assert.equal(m.review.payments, m.payments.length > 0)
     assert.equal(m.review.regions, m.offeredRegions.length > 0)
     assert.equal(m.review.complete, !!(m.review.website && m.review.product && m.review.payments && m.review.regions))
@@ -38,10 +40,17 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 220)
-assert.equal(reviewed.filter(m => m.review.complete).length, 213)
-assert.equal(reviewed.filter(m => m.nat).length, 21)
+assert.equal(reviewed.filter(m => m.review.product).length, 221)
+assert.equal(reviewed.filter(m => m.review.complete).length, 215)
+assert.equal(reviewed.filter(m => m.nat).length, 22)
 const merchant = text => merchants.find(m => m.name.includes(text))
+assert.deepEqual(merchant('Suda速达云').payments, ['支付宝', '微信支付', '加密货币'])
+assert(!merchant('Suda速达云').payments.includes('USDT')) // Generic Cryptomus label alone is insufficient.
+assert(merchant('WuYouCloud').review.complete && merchant('WuYouCloud').nat)
+assert.equal(merchant('WuYouCloud').plans, 1)
+assert.deepEqual(merchant('WuYouCloud').countries, ['TG']) // The HK merchant profile does not rewrite the TG country plan.
+assert(merchant('WuYouCloud').url.includes('/store/nat-hk-hkt') && merchant('WuYouCloud').offeredRegions.includes('中国香港'))
+assert.equal(merchants.filter(m => m.id === 'wuyoucloud-无忧云').length, 1)
 assert(merchant('Vision Cloud').review.complete)
 assert.deepEqual(merchant('Vision Cloud').payments, ['支付宝', '微信支付', 'USDT']) // Actual anonymous checkout radio options.
 assert.deepEqual(merchant('Vision Cloud').offeredRegions, ['中国香港', '新加坡', '日本 · 东京', '美国 · 洛杉矶', '美国 · 盐湖城', '中国台湾 · 台北']) // Concrete VPS titles; the legacy us-lax-performance slug now means Salt Lake City, not LAX.
