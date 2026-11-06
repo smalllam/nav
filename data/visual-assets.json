@@ -1906,8 +1906,12 @@
       "sha256": "3c4753c2063750ec5dc1d9d09a57d592e99e3ad5548328236e2dce014ec8c09d"
     },
     "lead-sudatech-store": {
-      "path": null,
-      "sourcePage": "https://cloud.sudatech.store/index.php?rp=%2Fstore%2Fsoftbank-nat"
+      "path": "/assets/merchants/2d4b3f5c24f2fb53.jpg",
+      "sourcePage": "https://t.me/sudavps",
+      "sourceUrl": "https://cdn5.telesco.pe/file/tidat9RcfZDXEXjki9gHrd9WwhB2hgBk7oHX-43qAdinZnpBnCIygFthWlS0FzR5IWfSkJD-b6Trx6no9CiCetC8TCtpxAHdFuZsjw7FuJQ95YIe4jG5IEK_H4QThXvhZ1sl4Ku9_PSqmOUp8AjrRIzHxbG4xkJkVks5NQiUXoFIdjR_dLCqTU_AIN44nJ8HZuvNJ-CrnbqJkc3Pul1P-H0cQdvsDkw8dBwlAs-qpbBAcVHHm5w_AnScOh5oKFDWa-RKc4eNQCW-Vc6kRrAT1-ZsfbljG40RFGhLsQQeRVY6eFlXFenAdDoY5P6pOMi4vt4WgQ34viGEGUJGlXkHEg.jpg",
+      "kind": "official-channel-avatar",
+      "sha256": "676589f831841a0befa6a9ca4250ab4c9c7dc1ff63ae905fdb198ad8078ba26e",
+      "note": "官网身份一致的 Suda 官方频道当前选用的 SudaVPN 火箭头像；是频道身份图，不称为现行企业文字标志。"
     },
     "lead-support-swisslayer-com": {
       "path": "/assets/merchants/59c69bafe145c9ea.png",
@@ -2055,8 +2059,12 @@
       "sha256": "533f46b2a1dc459a5b711e4c9c4b0994452e6da97c27b12c759f51ae33d60dd4"
     },
     "lead-virtualine-net": {
-      "path": null,
-      "sourcePage": "https://client.virtualine.net/"
+      "path": "/assets/merchants/725865b2c05da1a0.png",
+      "sourcePage": "https://virtualine.net/assets/img/favicon.png",
+      "sourceUrl": "https://web.archive.org/web/20241002111032id_/https://virtualine.net/assets/img/favicon.png",
+      "kind": "archived-official-site-icon",
+      "sha256": "e2680b800aeb17408cd4e1e316c42efebf0b21e24fac74b8e98f0eaa1fee6b30",
+      "note": "Internet Archive 保存的原官网品牌图标，快照 20241002111032；历史身份图，不据此声称当前商品或经营恢复。"
     },
     "lead-virtvps-com": {
       "path": "/assets/merchants/3183c046ca51d258.png",
@@ -2112,8 +2120,12 @@
       "sha256": "73ff3ee9bec48dfc08d214ec3659c2cffc0e8fa339a951d232be7b39ddfd4d6e"
     },
     "lead-vps-cx": {
-      "path": null,
-      "sourcePage": "https://vps.cx/"
+      "path": "/assets/merchants/ad7b7da2fd3a6105.png",
+      "sourcePage": "https://vps.cx/favicon.png",
+      "sourceUrl": "https://web.archive.org/web/20251229155709id_/https://vps.cx/favicon.png",
+      "kind": "archived-official-site-icon",
+      "sha256": "fe851417632c0c9d78ccedee2c1c45d2205656edc395dc445fdf87718426ae25",
+      "note": "Internet Archive 保存的原官网品牌图标，快照 20251229155709；历史身份图，不据此声称当前商品或经营恢复。"
     },
     "vps-for-life": {
       "path": "/assets/merchants/75447e76e47df1b1.png",
@@ -2235,8 +2247,12 @@
       "sha256": "bd57f4d7d49890831907ce1f8736019e6f0c8df3126f39b3c8f96d9ff7966c94"
     },
     "lead-zhnet-co-uk": {
-      "path": null,
-      "sourcePage": "https://cloud.zhnet.co.uk/"
+      "path": "/assets/merchants/77db5a94d8f2b855.png",
+      "sourcePage": "https://cloud.zhnet.co.uk/",
+      "sourceUrl": "https://web.archive.org/web/20230516144121id_/https://cloud.zhnet.co.uk/assets/img/logo.png",
+      "kind": "archived-official-site-logo",
+      "sha256": "d1f915f84ab30bfa8a7c31dbbc49d3c01eb71efec7e9dfdfcf925ae727cf6c3e",
+      "note": "Internet Archive 2023-05-16 保存的官网 ZH NETWORK Internet Services 原始品牌图；历史标志，不证明当前商品恢复。"
     },
     "lead-zlidc-net": {
       "path": "/assets/merchants/30a71bafcc5eac1c.ico",

@@ -103,15 +103,18 @@
     "url": "https://www.anmuyun.com/",
     "category": "VPS",
     "status": "official",
-    "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+    "desc": "官网列有 VPS / NAT 产品；支付及所列地区已有公开资料依据，来源日期与适用范围见核查说明。",
     "sources": [
       "https://www.anmuyun.com/",
       "https://www.anmuyun.com/clients.html",
       "https://www.anmuyun.com/cart",
-      "https://www.anmuyun.com"
+      "https://www.anmuyun.com",
+      "https://www.anmuyun.com/cart?action=viewcart"
     ],
     "countries": [],
-    "payments": [],
+    "payments": [
+      "微信支付"
+    ],
     "plans": 0,
     "nat": false,
     "checkedAt": "2026-11-07",
@@ -132,16 +135,14 @@
       "西班牙"
     ],
     "review": {
-      "outcome": "partial",
+      "outcome": "complete",
       "website": true,
       "product": true,
-      "payments": false,
+      "payments": true,
       "regions": true,
-      "complete": false,
-      "pending": [
-        "支付方式"
-      ],
-      "note": "",
+      "complete": true,
+      "pending": [],
+      "note": "当前官网公开购物车实际渲染微信扫码付款选项，表单对应 EpayWxpayQr，补入微信支付。此为本轮可见的已配置渠道，不是支付网关模板全能力；未创建账户、提交订单或付款，具体商品及账户限制仍以结算为准。",
       "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
@@ -200,7 +201,7 @@
     "url": "https://cb2.cn/",
     "category": "VPS",
     "status": "official",
-    "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+    "desc": "官网列有 VPS / NAT 产品；支付及所列地区已有公开资料依据，来源日期与适用范围见核查说明。",
     "sources": [
       "https://cb2.cn/",
       "https://cb2.cn/cart?fid=3&gid=82",
@@ -208,10 +209,13 @@
       "https://cb2.cn/cart?fid=2&gid=45",
       "https://cb2.cn/cart",
       "https://cb2.cn/help.html",
-      "https://cb2.cn/cart?fid=2&gid=23"
+      "https://cb2.cn/cart?fid=2&gid=23",
+      "https://cb2.cn/cart?action=viewcart"
     ],
     "countries": [],
-    "payments": [],
+    "payments": [
+      "支付宝"
+    ],
     "plans": 0,
     "nat": false,
     "checkedAt": "2026-11-07",
@@ -222,16 +226,14 @@
       "日本"
     ],
     "review": {
-      "outcome": "partial",
+      "outcome": "complete",
       "website": true,
       "product": true,
-      "payments": false,
+      "payments": true,
       "regions": true,
-      "complete": false,
-      "pending": [
-        "支付方式"
-      ],
-      "note": "",
+      "complete": true,
+      "pending": [],
+      "note": "当前官网购物车 HTML 返回两项支付宝配置：网页支付 AliPayH5 及扫码 AliPay，另有未细分渠道的线下支付。补入明确的支付宝，不推定线下支付为银行转账。空购物车时该区块未显示，故记录为官网返回的渠道配置，非已完成结算或付款验证。",
       "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
@@ -1228,16 +1230,20 @@
     "url": "https://www.starshipcloud.net/",
     "category": "VPS",
     "status": "official",
-    "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+    "desc": "官网列有 VPS / NAT 产品；支付及所列地区已有公开资料依据，来源日期与适用范围见核查说明。",
     "sources": [
       "https://www.starshipcloud.net/",
       "https://www.starshipcloud.net/cart",
       "https://www.starshipcloud.net/helpcontent/1.html",
       "https://www.starshipcloud.net/index.html",
-      "https://www.starshipcloud.net/helpcontent/index.html"
+      "https://www.starshipcloud.net/helpcontent/index.html",
+      "https://www.starshipcloud.net/cart?action=viewcart"
     ],
     "countries": [],
-    "payments": [],
+    "payments": [
+      "微信支付",
+      "支付宝"
+    ],
     "plans": 0,
     "nat": false,
     "checkedAt": "2026-11-07",
@@ -1245,16 +1251,14 @@
       "中国香港"
     ],
     "review": {
-      "outcome": "partial",
+      "outcome": "complete",
       "website": true,
       "product": true,
-      "payments": false,
+      "payments": true,
       "regions": true,
-      "complete": false,
-      "pending": [
-        "支付方式"
-      ],
-      "note": "",
+      "complete": true,
+      "pending": [],
+      "note": "当前官网公开购物车实际显示微信支付及支付宝两个已配置付款选项，对应 Wxpay / Alipay，补入这两项。页面另要求实名认证后付款，保留此限制；未注册、提供实名信息、提交订单或付款。",
       "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
@@ -5116,14 +5120,18 @@
     "url": "https://www.hkgserver.com/",
     "category": "VPS",
     "status": "official",
-    "desc": "当前已有具体 VPS / NAT 产品依据，尚缺资料按字段待核。",
+    "desc": "官网列有 VPS / NAT 产品；支付及所列地区已有公开资料依据，来源日期与适用范围见核查说明。",
     "sources": [
       "https://www.hkgserver.com/cart/goodsList.htm?fpg_id=144&spg_id=154",
       "https://www.hkgserver.com/",
-      "https://www.hkgserver.com/cart/goods.htm?id=794"
+      "https://www.hkgserver.com/cart/goods.htm?id=794",
+      "https://www.hkgserver.com/console/v1/gateway"
     ],
     "countries": [],
-    "payments": [],
+    "payments": [
+      "支付宝",
+      "微信支付"
+    ],
     "plans": 0,
     "nat": false,
     "checkedAt": "2026-11-07",
@@ -5135,16 +5143,14 @@
       "德国"
     ],
     "review": {
-      "outcome": "partial",
+      "outcome": "complete",
       "website": true,
       "product": true,
-      "payments": false,
+      "payments": true,
       "regions": true,
-      "complete": false,
-      "pending": [
-        "支付方式"
-      ],
-      "note": "当前新用户专享 SKU 794 配置明确区域选项为中国香港、美国、日本、韩国、德国，香港已选中且有具体 vCPU / 内存 / 公网 IP / 年付价格；据商品部署区域选项补入这些地区，非账单国家列表。未提交订单或填写凭据，支付方式继续待核，各地区库存以实际选配结果为准。",
+      "complete": true,
+      "pending": [],
+      "note": "当前新用户专享 SKU 794 配置明确区域选项为中国香港、美国、日本、韩国、德国，香港已选中且有具体 vCPU / 内存 / 公网 IP / 年付价格；据商品部署区域选项补入这些地区，非账单国家列表。未提交订单或填写凭据，支付方式继续待核，各地区库存以实际选配结果为准。 本轮官网商品页引用的公开支付组件使用 /console/v1/gateway，匿名读取返回启用的支付宝与微信支付列表，补入这两项明确配置；没有读取私人账户、创建支付意图或付款，所列不保证任何订单均可用。",
       "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
@@ -9302,16 +9308,19 @@
     "url": "https://www.qvps.top/",
     "category": "VPS",
     "status": "official",
-    "desc": "官网列有 NAT / VPS 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+    "desc": "官网列有 VPS / NAT 产品；支付及所列地区已有公开资料依据，来源日期与适用范围见核查说明。",
     "sources": [
       "https://www.qvps.top/",
       "https://www.qvps.top/nat/",
       "https://www.qvps.top/tcvm/",
       "https://www.qvps.top/cvm/",
-      "https://console.qvps.top/order/new?productType=NAT"
+      "https://console.qvps.top/order/new?productType=NAT",
+      "https://console.qvps.top/api/catalog/payment-gateways"
     ],
     "countries": [],
-    "payments": [],
+    "payments": [
+      "支付宝"
+    ],
     "plans": 0,
     "nat": true,
     "checkedAt": "2026-11-07",
@@ -9325,16 +9334,14 @@
       "美国 · 拉斯维加斯"
     ],
     "review": {
-      "outcome": "partial",
+      "outcome": "complete",
       "website": true,
       "product": true,
-      "payments": false,
+      "payments": true,
       "regions": true,
-      "complete": false,
-      "pending": [
-        "支付方式"
-      ],
-      "note": "现行官网明确香港、东京、新加坡、法兰克福、伦敦、洛杉矶与拉斯维加斯可用区域，按这些地区声明补入。既有 NAT 产品依据保持，但不保证每款 NAT SKU 都可选全部地区或实时有货。独立支付网关业务文档不能证明购机实际付款渠道，支付继续待核。",
+      "complete": true,
+      "pending": [],
+      "note": "现行官网明确香港、东京、新加坡、法兰克福、伦敦、洛杉矶与拉斯维加斯可用区域，按这些地区声明补入。既有 NAT 产品依据保持，但不保证每款 NAT SKU 都可选全部地区或实时有货。独立支付网关业务文档不能证明购机实际付款渠道，支付继续待核。 本轮从官网现用控制台页面的公开前端代码定位其 catalog/payment-gateways 目录接口，匿名 GET 只返回启用的支付宝，补入支付宝。只记录明确渠道名及启用状态，不从支付网关业务或协议能力推定其他方式；未读取私人账户或发起支付。",
       "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],
@@ -10192,13 +10199,18 @@
     "url": "https://www.shandun.net/",
     "category": "VPS",
     "status": "official",
-    "desc": "官网列有 VPS / 云服务器 产品。已核实信息分项展示，尚缺资料继续标注待核。",
+    "desc": "官网列有 VPS / NAT 产品；支付及所列地区已有公开资料依据，来源日期与适用范围见核查说明。",
     "sources": [
       "https://www.shandun.net/",
-      "https://www.shandun.net/product/cloud-servers.html"
+      "https://www.shandun.net/product/cloud-servers.html",
+      "https://www.shandun.net/cart/shoppingCar.htm",
+      "https://www.shandun.net/console/v1/gateway"
     ],
     "countries": [],
-    "payments": [],
+    "payments": [
+      "支付宝",
+      "信用卡 / 借记卡"
+    ],
     "plans": 0,
     "nat": false,
     "checkedAt": "2026-11-07",
@@ -10206,16 +10218,14 @@
       "中国香港"
     ],
     "review": {
-      "outcome": "partial",
+      "outcome": "complete",
       "website": true,
       "product": true,
-      "payments": false,
+      "payments": true,
       "regions": true,
-      "complete": false,
-      "pending": [
-        "支付方式"
-      ],
-      "note": "",
+      "complete": true,
+      "pending": [],
+      "note": "官网购物车所引用的公开支付组件使用 /console/v1/gateway，本轮匿名 GET 明确返回 Alipay 和 Cards 两项渠道，补入支付宝及银行卡。此为商家当前返回的配置，不将 Stripe 网关能力扩为其他钱包或币种；未访问账户、创建账单或付款。",
       "sourceScope": "2026-11-07 第十轮：当前官网入口、商品、文档、匿名配置 / 结算预览，及注明日期和来源类型的商家声明、投稿 / 第三方测评或报价。历史渠道和产品不代表本轮付款、实时库存或交付验收。"
     },
     "aliases": [],

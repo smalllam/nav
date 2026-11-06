@@ -39,7 +39,7 @@ for (const m of merchants) {
 }
 const reviewed = merchants.filter(m => m.review)
 assert.equal(reviewed.filter(m => m.review.product).length, 219)
-assert.equal(reviewed.filter(m => m.review.complete).length, 201)
+assert.equal(reviewed.filter(m => m.review.complete).length, 207)
 assert.equal(reviewed.filter(m => m.nat).length, 21)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
@@ -69,7 +69,7 @@ assert(merchant('SERVER.TW').review.product && merchant('SERVER.TW').offeredRegi
 for (const name of ['Kvmla', 'LaLa Net', 'UQIDC']) assert(merchant(name).payments.includes('USDT'))
 assert(!merchant('UQIDC').payments.includes('PayPal') && !merchant('UQIDC').payments.includes('信用卡 / 借记卡')) // Actual preview takes priority over generic footer logos.
 assert(merchant('LevelOneServers').review.note.includes('0 Available') && merchant('LevelOneServers').offeredRegions.length === 1)
-assert(!merchant('Q云').review.payments) // Selling a payment gateway does not establish purchase payment methods.
+assert.deepEqual(merchant('Q云').payments, ['支付宝']) // The current public catalog endpoint explicitly enables Alipay; gateway sales alone are insufficient.
 assert(merchant('Braw Hosting').nat && merchant('Braw Hosting').review.note.includes('3 个自定义端口转发'))
 assert(merchant('Braw Hosting').offeredRegions.includes('马来西亚（住宅 IP 地区）')) // IP region is not independent physical-location verification.
 assert(merchant('cloudku').offeredRegions.includes('印度尼西亚') && merchant('cloudku').payments.includes('PayPal') && !merchant('cloudku').payments.includes('信用卡 / 借记卡')) // The official announcement explicitly disables cards.
