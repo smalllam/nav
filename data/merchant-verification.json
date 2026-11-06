@@ -9207,34 +9207,36 @@
       "id": "alice-networks",
       "sourceName": "Alice Networks",
       "name": "Alice Networks",
-      "url": "https://alice.ws/products/",
+      "url": "https://alice.ws/",
       "category": "VPS",
       "status": "official",
-      "desc": "提供共享/独享 CPU 云服务器，当前新开地区待控制台进一步确认。",
+      "desc": "提供香港、东京、盐湖城云服务器，独享、共享 CPU 与大流量分类分别列示。",
       "payments": [
         "支付宝"
       ],
-      "offeredRegions": [],
+      "offeredRegions": [
+        "中国香港",
+        "日本 · 东京",
+        "美国 · 盐湖城"
+      ],
       "nat": false,
       "checkedAt": "2026-11-07",
       "sources": [
         "https://alice.ws/",
         "https://alice.ws/products/",
-        "https://console.alice.ws/"
+        "https://console.alice.ws/cloud/deploy"
       ],
       "review": {
         "origin": "official-catalog",
-        "outcome": "partial",
+        "outcome": "complete",
         "website": true,
         "product": true,
         "payments": true,
-        "regions": false,
-        "complete": false,
-        "pending": [
-          "当前新开地区待用户控制台核实"
-        ],
-        "note": "官网地区目录列香港、盐湖城、东京，但产品区返回 No products available，浏览器产品页出现连接中断；旧 app.alice.ws 公共入口转到新控制台登录。目录标签未当作当前可新开库存证明，地区仍待核。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。",
-        "sourceScope": "所列为本轮已核对的官网产品/地区部分；库存与付款限制以商家当前界面为准。支付宝由用户于 2026-11-07 明确确认；未为该渠道新建订单或付款。"
+        "regions": true,
+        "complete": true,
+        "pending": [],
+        "note": "用户登录后，只读新建实例配置页实际取得：香港独享 HK.Premium.E1、盐湖城独享 SLC.Premium.E1/A1，以及东京共享 TY.Basic.A1/A2 等具体规格与报价。东京独享和大流量分类当时无商品，不代表东京所有产品停售。未点击 Next Step、未创建实例、未充值。支付宝由用户于 2026-11-07 明确确认。",
+        "sourceScope": "官网身份与产品目录，以及用户登录后的通用部署地区/套餐选项；仅保存商品资料，不保存账户或实例信息。支付为用户明确确认；具体价格、库存及账户可开通资格以商家为准。"
       }
     },
     {

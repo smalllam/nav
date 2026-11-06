@@ -42,7 +42,7 @@ for (const m of merchants) {
 }
 const reviewed = merchants.filter(m => m.review)
 assert.equal(reviewed.filter(m => m.review.product).length, 229)
-assert.equal(reviewed.filter(m => m.review.complete).length, 228)
+assert.equal(reviewed.filter(m => m.review.complete).length, 229)
 assert.equal(reviewed.filter(m => m.nat).length, 24)
 const merchant = text => merchants.find(m => m.name.includes(text))
 for (const id of ['digitalvirt', 'xihuancloud', 'churros', 'ipraft', 'alice-networks', 'tothost', 'starrydns', 'digitalocean', 'cloudcone', 'greencloud', 'justhost', 'akile', 'lead-digirdp-com', 'lightnode', 'lead-hosteons-com']) assert(merchants.find(m => m.id === id).payments.includes('支付宝'))
@@ -57,7 +57,9 @@ assert(!merchant('DigitalOcean').payments.includes('USDT')) // Limited stablecoi
 assert.deepEqual(merchant('CloudCone').offeredRegions, ['美国 · 洛杉矶'])
 assert(merchant('GreenCloud').payments.includes('USDT') && merchant('GreenCloud').offeredRegions.includes('加拿大 · 多伦多'))
 assert(merchant('TOTHOST').offeredRegions.includes('瑞典') && merchant('TOTHOST').offeredRegions.includes('越南 · 河内'))
-assert(merchant('Alice Networks').review.product && !merchant('Alice Networks').review.complete && !merchant('Alice Networks').offeredRegions.length) // Public region tabs with no products do not establish new-deployment availability.
+assert(merchant('Alice Networks').review.complete)
+assert.deepEqual(merchant('Alice Networks').offeredRegions, ['中国香港', '日本 · 东京', '美国 · 盐湖城']) // Actual HK/SLC dedicated and Tokyo shared configurations after user login.
+assert(merchant('Alice Networks').review.note.includes('TY.Basic.A1')) // A region tab alone did not grant verification.
 assert.deepEqual(merchant('Suda速达云').payments, ['支付宝', '微信支付', '加密货币'])
 assert(!merchant('Suda速达云').payments.includes('USDT')) // Generic Cryptomus label alone is insufficient.
 assert(merchant('WuYouCloud').review.complete && merchant('WuYouCloud').nat)
