@@ -38,9 +38,9 @@ for (const m of merchants) {
   }
 }
 const reviewed = merchants.filter(m => m.review)
-assert.equal(reviewed.filter(m => m.review.product).length, 214)
-assert.equal(reviewed.filter(m => m.review.complete).length, 129)
-assert.equal(reviewed.filter(m => m.nat).length, 18)
+assert.equal(reviewed.filter(m => m.review.product).length, 218)
+assert.equal(reviewed.filter(m => m.review.complete).length, 144)
+assert.equal(reviewed.filter(m => m.nat).length, 19)
 const merchant = text => merchants.find(m => m.name.includes(text))
 assert(merchant('AaITR').nat && merchant('雨云').nat && merchant('喵云').nat)
 assert.equal(merchant('EDGENAT').nat, false) // A brand name is not a NAT product.
@@ -57,6 +57,12 @@ assert(merchant('Blend Hosting').nat && merchant('Blend Hosting').review.note.in
 assert(merchant('SynexVM').review.product && merchant('SynexVM').review.note.includes('缺货'))
 assert(merchant('RackGenius').aliases.includes('Snakecraft Hosting'))
 for (const name of ['Lain.sh', 'FxTransit', 'HKGserver', 'Host4Fun', 'RackGenius', 'SynexVM']) assert.equal(merchant(name).category, 'VPS')
+assert(merchant('Suda速达云').nat && merchant('Suda速达云').review.product && merchant('Suda速达云').review.note.includes('20 个预设端口'))
+assert(merchant('PortChannel Zero').review.product && merchant('PortChannel Zero').url.startsWith('https://console.po0.io/store/'))
+assert(merchant('MoonVM').payments.includes('USDT') && merchant('MoonVM').payments.includes('支付宝') && !merchant('MoonVM').payments.includes('信用卡 / 借记卡')) // Actual anonymous preview, not footer logos.
+assert.deepEqual(merchant('HostPapa').offeredRegions, ['美国 · 西部', '美国 · 东部', '加拿大', '欧洲（配置页未细分国家）']) // VPS selector, not billing country options.
+assert(!merchant('Terabit').payments.includes('USDT')) // Bitcoin and Ethereum do not imply every supported coin.
+assert(!merchant('ServerSpan').review.product && !merchant('Datalix').review.payments) // Empty product groups and a payment processor policy do not close these gaps.
 assert(!merchant('MrVM').review.product && merchant('MrVM').review.payments) // Payment documentation does not prove a current VPS SKU.
 assert(merchant('Sharktech').payments.includes('USDT') && !merchant('Sharktech').payments.includes('支付宝')) // Current Coinbase guide vs archived Alipay news.
 assert(merchant('MoonVM').review.product && merchant('MoonVM').review.note.includes('缺货'))
