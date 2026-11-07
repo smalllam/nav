@@ -1,0 +1,66 @@
+<div class="atlas">
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="Cecil VPS 导航首页"><img class="site-logo" src="/assets/branding/cecil-logo.png" alt="" width="42" height="42"><span>CECIL <b>VPS 导航</b></span></a>
+    <nav aria-label="页面导航"><a href="#directory">浏览目录</a><a href="#directory" (click)="switchView('resources')">测评社区</a><button (click)="favoritesOnly = !favoritesOnly; filter()" [class.active]="favoritesOnly" [attr.aria-pressed]="favoritesOnly">☆ 收藏 <span>{{ favorites.size }}</span></button></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <div><p class="eyebrow">VPS FIELD GUIDE / 全球服务器采购索引</p><h1 id="title">寻找下一站<span>服务器。</span></h1><p class="lede">先找商家，再挑地点。云平台、小众 VPS、NAT 与测评社区，一站浏览。</p></div>
+      <div class="index-note"><span class="tiny">商家目录</span><div class="coverage"><strong>{{ providerCount }}</strong><span>家云服务商<br>VPS · 云平台 · NAT</span></div><div class="rule"></div><p><b>{{ items.length }}</b> 个套餐入口 · <b>{{ countries.length }}</b> 个国家索引</p></div>
+    </section>
+    <nav class="view-tabs" aria-label="目录类型"><button [class.selected]="view === 'merchants'" (click)="switchView('merchants')" [attr.aria-pressed]="view === 'merchants'">商家导航 <span>{{ providerCount }}</span></button><button [class.selected]="view === 'countries'" (click)="switchView('countries')" [attr.aria-pressed]="view === 'countries'">按国家找 <span>{{ items.length }}</span></button><button [class.selected]="view === 'resources'" (click)="switchView('resources')" [attr.aria-pressed]="view === 'resources'">测评与社区 <span>{{ resources.length }}</span></button></nav>
+    <section id="directory" class="directory" [class.wide]="view !== 'countries'" aria-label="筛选服务器目录">
+      <aside *ngIf="view === 'countries'" class="rail"><p class="tiny">按大洲浏览</p><button [class.selected]="!region" (click)="selectRegion('')">全球目录 <span>↗</span></button><button *ngFor="let r of regions" [class.selected]="region === r" (click)="selectRegion(r)">{{ r }} <span>→</span></button></aside>
+      <div class="content">
+        <ng-container *ngIf="view === 'resources'; else directoryView"><div class="resultline"><h2>测评与社区</h2><span>发现商家 · 对比产品</span></div><div class="cards"><article *ngFor="let resource of resources" class="card resource"><div class="card-identity"><span class="brand-image" aria-hidden="true"><img *ngIf="logo(resource.id, 'resources') as image; else communityInitials" [src]="image" alt="" width="40" height="40" loading="lazy" decoding="async" (error)="imageFailed(image)"><ng-template #communityInitials><span class="brand-initials">{{ initials(resource.name) }}</span></ng-template></span><h3><a [href]="resource.url" target="_blank" rel="noopener noreferrer">{{ resource.name }} ↗</a></h3></div><p class="location">{{ resource.desc }}</p><div class="card-bottom"><span>外部资料</span><a [href]="resource.url" target="_blank" rel="noopener noreferrer">前往查看 ↗</a></div></article></div></ng-container>
+        <ng-template #directoryView>
+        <div class="searchbox"><span aria-hidden="true">⌕</span><input type="search" aria-label="搜索国家、商家或关键词" [placeholder]="view === 'countries' ? '搜索国家、商家或关键词，例如：摩纳哥、NAT…' : '搜索商家名称、域名或关键词，例如：DMIT、NAT…'" [(ngModel)]="q" (ngModelChange)="filter()"><kbd>/ INDEX</kbd></div>
+        <ng-container *ngIf="view !== 'countries'; else countryView">
+          <div class="merchant-tools">
+            <label>产品类型<select [(ngModel)]="merchantType" (ngModelChange)="filter()"><option value="">全部类型</option><option>VPS</option><option>云平台</option><option>NAT</option></select></label>
+            <label>售卖地区<select [(ngModel)]="merchantRegion" (ngModelChange)="filter()"><option value="">全部地区</option><option *ngFor="let r of saleRegions" [value]="r">{{ r }}</option></select></label>
+            <label>支付方式<select [(ngModel)]="payment" (ngModelChange)="filter()"><option value="">全部支付方式</option><option *ngFor="let p of merchantPayments" [value]="p">{{ p }}</option></select></label>
+            <button class="reset" (click)="reset()">重置 ↺</button>
+          </div>
+          <div class="resultline" aria-live="polite"><h2>{{ favoritesOnly ? '我的商家收藏' : '商家导航' }}</h2><span>{{ merchantResults.length }} 家结果</span></div>
+          <div class="cards"><article class="card merchant" *ngFor="let m of merchantResults | slice:0:limit; trackBy: track">
+            <div class="card-top"><span class="merchant-domain">{{ m.domain }}</span><button class="star" [class.saved]="favorites.has(m.key)" (click)="toggleFavorite(m)" [attr.aria-label]="(favorites.has(m.key) ? '取消收藏 ' : '收藏 ') + m.name" [attr.aria-pressed]="favorites.has(m.key)">{{ favorites.has(m.key) ? '★' : '☆' }}</button></div>
+            <div class="card-identity"><span class="brand-image" [class.brand-dark]="logoDark(m.id)" aria-hidden="true"><img *ngIf="logo(m.id) as image; else merchantInitials" [src]="image" alt="" width="40" height="40" loading="lazy" decoding="async" (error)="imageFailed(image)"><ng-template #merchantInitials><span class="brand-initials" title="暂未取得可靠图标，显示名称缩写">{{ initials(m.name) }}</span></ng-template></span><h3><a [href]="m.url" target="_blank" rel="noopener noreferrer">{{ m.name }} <span>↗</span></a></h3></div>
+            <div class="badges"><span>{{ m.category }}</span><span *ngIf="m.nat">NAT 产品</span></div>
+            <p class="location">{{ m.desc }}</p><p *ngIf="m.plans" class="merchant-summary">{{ m.countries.length }} 个国家索引 · {{ m.plans }} 条套餐资料</p>
+            <dl class="merchant-facts">
+              <div><dt>售卖地区</dt><dd [class.awaiting]="!m.offeredRegions.length"><ng-container *ngIf="m.offeredRegions.length; else regionPending"><span class="offered-region" *ngFor="let r of previewRegions(m.offeredRegions); last as last"><img *ngIf="regionFlag(r) as regionImage" class="region-flag" [src]="regionImage" alt="" width="18" height="14" loading="lazy" decoding="async" (error)="imageFailed(regionImage)">{{ r }}<ng-container *ngIf="!last">、</ng-container></span><span *ngIf="m.offeredRegions.length > 5"> 等 {{ m.offeredRegions.length }} 项</span></ng-container><ng-template #regionPending>前往官网查看</ng-template></dd></div>
+              <div><dt>支付方式</dt><dd [class.awaiting]="!m.payments.length">{{ m.payments.length ? preview(m.payments) : '前往官网查看' }}</dd></div>
+            </dl>
+            <details *ngIf="m.offeredRegions.length > 5 || m.payments.length > 5"><summary>全部产品信息 <span>＋</span></summary><p *ngIf="m.offeredRegions.length">服务地区：{{ m.offeredRegions.join('、') }}</p><p *ngIf="m.payments.length">支付方式：{{ m.payments.join('、') }}</p></details>
+            <div class="card-bottom"><button *ngIf="m.plans; else merchantWebsite" (click)="showPlans(m)">浏览套餐 →</button><ng-template #merchantWebsite><span>{{ m.domain }}</span></ng-template><a [href]="m.url" target="_blank" rel="noopener noreferrer">访问官网 ↗</a></div>
+          </article></div>
+          <div class="empty" *ngIf="!merchantResults.length"><h3>没有找到匹配商家</h3><p>试试商家英文名或域名，或清除筛选条件。</p><button (click)="reset()">清除筛选 →</button></div>
+          <div class="more" *ngIf="merchantResults.length > limit"><p>已显示 {{ limit }} / {{ merchantResults.length }} 家</p><button (click)="limit = limit + 24">继续浏览 ↓</button></div>
+        </ng-container>
+        <ng-template #countryView>
+        <div class="filters">
+          <label>国家<select [(ngModel)]="country" (ngModelChange)="filter()"><option value="">全部国家</option><ng-container *ngFor="let c of countries"><option *ngIf="!region || c.region === region" [value]="c.iso2">{{ c.zh }} · {{ c.iso2 }}</option></ng-container></select></label>
+          <label>支付<select [(ngModel)]="payment" (ngModelChange)="filter()"><option value="">全部支付方式</option><option>支付宝</option><option>USDT</option></select></label>
+          <label>类型<select [(ngModel)]="type" (ngModelChange)="filter()"><option value="">全部类型</option><option>VPS</option><option>GeoIP</option><option>NAT</option></select></label>
+          <button class="reset" (click)="reset()">重置 ↺</button>
+        </div>
+        <div class="resultline" aria-live="polite"><h2>{{ favoritesOnly ? '我的收藏' : region || '全球目录' }}</h2><span>{{ results.length }} 条结果 · {{ resultCountries }} 个国家</span></div>
+        <div class="cards">
+          <article *ngFor="let item of results | slice:0:limit; trackBy: track" class="card">
+            <div class="card-top"><span class="country"><img *ngIf="flag(item.place.iso2) as flagImage; else flagCode" class="country-flag" [src]="flagImage" alt="" width="24" height="18" loading="lazy" decoding="async" (error)="imageFailed(flagImage)"><ng-template #flagCode><span class="flag-code">{{ item.place.iso2 }}</span></ng-template>{{ item.place.zh }} <small>{{ item.place.iso2 }}</small></span><button class="star" [class.saved]="favorites.has(item.key)" (click)="toggleFavorite(item)" [attr.aria-label]="(favorites.has(item.key) ? '取消收藏 ' : '收藏 ') + item.name + ' ' + item.place.zh" [attr.aria-pressed]="favorites.has(item.key)">{{ favorites.has(item.key) ? '★' : '☆' }}</button></div>
+            <div class="card-identity"><span class="brand-image" [class.brand-dark]="logoDark(item.merchantId)" aria-hidden="true"><img *ngIf="logo(item.merchantId) as image; else planInitials" [src]="image" alt="" width="40" height="40" loading="lazy" decoding="async" (error)="imageFailed(image)"><ng-template #planInitials><span class="brand-initials">{{ initials(item.name) }}</span></ng-template></span><h3><a [href]="item.url" target="_blank" rel="noopener noreferrer">{{ item.name }} <span>↗</span></a></h3></div>
+            <div class="badges"><span>{{ item.vps.kind }}</span><span *ngIf="item.vps.nat && item.vps.kind !== 'NAT'">NAT / 共享出口</span><span *ngIf="item.vps.unavailable" class="pending">暂缺货</span></div>
+            <dl><div><dt>价格 / 配置</dt><dd>{{ item.vps.price }}</dd></div><div><dt>支付方式</dt><dd>{{ item.vps.payment }}</dd></div></dl>
+            <div class="card-bottom"><span>{{ item.place.name }}</span><a [href]="item.vps.buyUrl || item.url" target="_blank" rel="noopener noreferrer">查看套餐 <b>↗</b></a></div>
+          </article>
+        </div>
+        <div *ngIf="!results.length" class="empty"><span>◎</span><h3>没有找到匹配条目</h3><p>试试其他关键词，或选择其他国家和产品类型。</p><button (click)="reset()">查看全球目录 →</button></div>
+        <div class="more" *ngIf="results.length > limit"><p>已显示 {{ limit }} / {{ results.length }} 条</p><button (click)="limit = limit + 24">继续浏览 ↓</button></div>
+        </ng-template>
+        </ng-template>
+      </div>
+    </section>
+  </main>
+  <footer><span>CECIL VPS 导航</span><a href="https://github.com/smalllam/nav/tree/feat/cecil-vps-workers" target="_blank" rel="noopener noreferrer">基于 nav · 开源代码 ↗</a></footer>
+</div>

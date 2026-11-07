@@ -3,6 +3,7 @@
 // See https://github.com/xjh22222228/nav
 
 export type ThemeType =
+  | 'Vps'
   | 'Current'
   | 'Light'
   | 'Sim'

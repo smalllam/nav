@@ -8,6 +8,7 @@ import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc.js'
 import timezone from 'dayjs/plugin/timezone.js'
 import { writeSEO, writeTemplate, spiderWeb } from './util.mjs'
+import { writeDirectory } from './build-directory.mjs'
 
 dayjs.extend(utc)
 dayjs.extend(timezone)
@@ -19,7 +20,8 @@ const setPath = path.join('.', 'data', 'settings.json')
 const db = JSON.parse(fs.readFileSync(dbPath).toString())
 const settings = JSON.parse(fs.readFileSync(setPath).toString())
 
-const seoTemplate = writeSEO(db, { settings })
+const directory = settings.theme === 'Vps' ? writeDirectory() : null
+const seoTemplate = writeSEO(directory ? [...directory.db, { name: '商家导航', nav: directory.merchants }] : db, { settings })
 const htmlPath = path.join('.', 'src', 'main.html')
 const writePath = path.join('.', 'src', 'index.html')
 const html = writeTemplate({

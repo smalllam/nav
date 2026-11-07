@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cecil-vps-nav",
+  "compatibility_date": "2026-11-06",
+  "workers_dev": true,
+  "routes": [{ "pattern": "nav.iipa.cc", "custom_domain": true }],
+  "assets": {
+    "directory": "./dist/browser",
+    "not_found_handling": "single-page-application"
+  }
+}
